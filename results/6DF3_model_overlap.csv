@@ -1,0 +1,6 @@
+model,epitope_n,receptor_contact_n,overlap_n,jaccard,overlap_residues
+immunogen_blind_msa_confidence_representative_seed8.pdb,32,57,5,0.0595,78;91;92;94;99
+immunogen_blind_msa_consensus_representative_seed7.pdb,19,57,9,0.1343,107;110;113;114;116;117;119;120;124
+native_blind_msa_confidence_representative_seed4.pdb,28,57,4,0.0494,78;91;94;99
+native_blind_msa_consensus_representative_seed9.pdb,17,57,8,0.1212,110;112;113;114;116;117;120;124
+native_blind_msa_phase1_informed_representative_seed7.pdb,22,57,12,0.1791,104;107;110;112;113;114;115;116;117;119;120;124

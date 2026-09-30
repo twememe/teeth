@@ -1,0 +1,19 @@
+package,version,role,source,installed_in_record,notes
+Python,3.10.12,runtime,system,yes,Linux
+torch,2.6.0+cu124,GPU runtime,pytorch,yes,CUDA 12.4
+torchvision,0.21.0+cu124,GPU runtime,pytorch,yes,
+torchaudio,2.6.0+cu124,GPU runtime,pytorch,yes,
+numpy,1.26.4,numerics,PyPI,yes,
+pandas,2.3.2,tables,PyPI,yes,
+scipy,1.13.1,numerics,PyPI,yes,
+PyYAML,6.0.2,config,PyPI,yes,
+biopython,1.84,sequence/structure,PyPI,yes,
+ImmuneBuilder,1.2,antibody structure,Zenodo/PyPI,yes,
+boltz,2.2.1,complex prediction,GitHub/PyPI,yes,
+ANARCI,2026.2.13.2,numbering,PyPI,yes,
+OpenMM,8.6.0,relaxation,PyPI,yes,
+prodigy-prot,2.4.0,relative ranking,PyPI,yes,
+rdkit,2024.3.2,structure utilities,PyPI,yes,
+pdbfixer,1.12.0,structure cleanup,PyPI,yes,
+MDAnalysis,not installed,optional,none,no,not used by formal path
+openfold,not installed,optional,none,no,not used; Boltz-1 is the formal predictor

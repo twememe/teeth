@@ -1,0 +1,4 @@
+model,version,source,used_for_training,used_for_prediction,license,sha256,notes
+Boltz-1,2.2.1,https://github.com/jwohlwend/boltz,no,yes,MIT,MODEL_ASSETS.csv,checkpoint not bundled
+ImmuneBuilder ABodyBuilder2,1.2,https://zenodo.org/record/7258553,no,yes,BSD-3-Clause,MODEL_ASSETS.csv,weights not bundled by default
+PRODIGY,2.4.0,prodigy-prot,no,yes,see package license,docs/SOFTWARE_VERSIONS.csv,relative interface-energy ranking only

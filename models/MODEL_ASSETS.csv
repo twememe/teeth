@@ -1,0 +1,7 @@
+asset,group,size_bytes,sha256,primary_url,backup_url,required_for
+boltz1_conf.ckpt,boltz,3595352714,fea245d912c570ec117b2277c2719f312a6fc109c07b6f6ef741690ee775c2f5,https://model-gateway.boltz.bio/boltz1_conf.ckpt,https://huggingface.co/boltz-community/boltz-1/resolve/main/boltz1_conf.ckpt,full GPU recomputation
+ccd.pkl,boltz,345859128,2d3b2f03a3c5665944adba51e33263511e51b21c9cd05d902f9c4b7c1e58d2f4,https://huggingface.co/boltz-community/boltz-1/resolve/main/ccd.pkl,,full GPU recomputation
+antibody_model_1,immunebuilder,61050011,ecefff604457a105fe405dcca44a76b046609ff2ac3c355329974659f6881e09,https://zenodo.org/record/7258553/files/antibody_model_1?download=1,,ABodyBuilder2
+antibody_model_2,immunebuilder,214267291,91dd9f5ebca8cc68f292d3a40ccdbc8a86974e7cebc4853e19565ecb8a8d508b,https://zenodo.org/record/7258553/files/antibody_model_2?download=1,,ABodyBuilder2
+antibody_model_3,immunebuilder,214267291,33085a728cfb1059d9e817b785a21f1dda74eff8f083a0c2a033ae88bdbdcd45,https://zenodo.org/record/7258553/files/antibody_model_3?download=1,,ABodyBuilder2
+antibody_model_4,immunebuilder,214267291,e2d666a22b1f0a7219baec778e67f36e448ad0cd8eed8dae044af20eec163a04,https://zenodo.org/record/7258553/files/antibody_model_4?download=1,,ABodyBuilder2

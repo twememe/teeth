@@ -1,0 +1,8 @@
+# Full GPU structure recomputation (Python 3.10.12, CUDA 12.4)
+-r requirements.txt
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+torchaudio==2.6.0+cu124
+ImmuneBuilder==1.2
+ANARCI==2026.2.13.2
+boltz==2.2.1

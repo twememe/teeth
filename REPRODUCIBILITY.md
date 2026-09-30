@@ -1,0 +1,5 @@
+# Reproducibility record
+
+Environment: Linux, Python 3.10.12, CUDA 12.4, torch 2.6.0+cu124, NVIDIA RTX A6000. Boltz-1 2.2.1 formal settings are 3 recycling steps, 200 sampling steps, one diffusion sample, with seeds 1–15 per Native-Blind and Immunogen-Blind route. Both empty-MSA and formal ColabFold-MSA ensembles are recorded. Matched MSA sensitivity uses seeds 1–3 and 50 sampling steps. N74-NAG sensitivity uses seeds 1–3 and 200 sampling steps; it contains one core GlcNAc rather than a complete human glycan.
+
+Quick reconstruction is offline and runs `predict.py` from frozen rankings and attached structures. Full recomputation needs verified model assets, CUDA and the full dependency set, and writes to a new relative work directory. Contact mapping, PRODIGY ranking, quality assessment and restrained relaxation are computational analyses. PRODIGY is a relative ranking, not experimental KD; Phase-1 hotspots are priors; 6DF3 and ELISA are posterior consistency materials. Source HEAD is `832af53d02341379637544cac3900f840f763e36`; source work-tree cleanliness was not asserted.

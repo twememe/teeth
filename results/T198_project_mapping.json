@@ -1,0 +1,7 @@
+{
+  "literature_residue": "T198",
+  "structure_chain_C_auth_residue": 198,
+  "project_numbering": 173,
+  "mapping_basis": "6DF3/UniProt mature numbering 52-206 to project mature numbering 27-181 (offset -25)",
+  "status": "sequence-offset mapping; verify against exact project sequence"
+}

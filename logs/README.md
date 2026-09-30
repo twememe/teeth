@@ -1,0 +1,3 @@
+# Run logs
+
+Logs are copied from the source project's recorded successful runs. `formal_msa_driver.log` is the authoritative source for start/end timestamps of the 30 formal ColabFold-MSA jobs. Per-job logs record seed, GPU availability and the Boltz success marker (`Number of failed examples: 0`). MSA sensitivity covers matched seeds 1–3 for both routes; N74-NAG sensitivity covers seeds 1–3 for both routes. Empty-MSA formal logs are retained separately by their `boltz_formal_*` names. Missing timestamps are blank in `LOG_INDEX.csv`; file modification time is never used as a runtime claim. Failed download and empty batch logs are excluded from the success index.

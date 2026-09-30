@@ -1,0 +1,11 @@
+# Fast/offline result reconstruction and documented analysis environment
+numpy==1.26.4
+pandas==2.3.2
+scipy==1.13.1
+PyYAML==6.0.2
+biopython==1.84
+rdkit==2024.3.2
+prodigy-prot==2.4.0
+OpenMM==8.6.0
+pdbfixer==1.12.0
+torchmetrics==1.9.0
