@@ -1,0 +1,26 @@
+accession,species,taxid,reviewed,length,mammalian_order,gene_name,protein_name,annotation_score,source_url,retrieval_date,selection_reason
+A0A8C3VMJ9,Catagonus wagneri,51154,False,197,Artiodactyla,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C3VMJ9,2026-08-21,order_round_robin_quality_representative
+A0ACM7G4J4,Callorhinus ursinus,34884,False,183,Carnivora,IL24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0ACM7G4J4,2026-08-21,order_round_robin_quality_representative
+A0A671FWG8,Rhinolophus ferrumequinum,59479,False,203,Chiroptera,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A671FWG8,2026-08-21,order_round_robin_quality_representative
+G3X1M9,Sarcophilus harrisii,9305,False,207,Dasyuromorphia,IL24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/G3X1M9,2026-08-21,order_round_robin_quality_representative
+A0A6P5LQX5,Phascolarctos cinereus,38626,False,180,Diprotodontia,IL24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A6P5LQX5,2026-08-21,order_round_robin_quality_representative
+Q13007,Homo sapiens,9606,True,206,Primates,IL24,Interleukin-24,5.0,https://rest.uniprot.org/uniprotkb/Q13007,2026-08-21,order_round_robin_quality_representative
+G3TAL5,Loxodonta africana,9785,False,183,Proboscidea,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/G3TAL5,2026-08-21,order_round_robin_quality_representative
+Q9JI24,Rattus norvegicus,10116,True,183,Rodentia,Il24,Interleukin-24,5.0,https://rest.uniprot.org/uniprotkb/Q9JI24,2026-08-21,order_round_robin_quality_representative
+A0A2Y9DIL8,Trichechus manatus latirostris,127582,False,223,Sirenia,IL24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A2Y9DIL8,2026-08-21,order_round_robin_quality_representative
+A0A8B7AVS2,Orycteropus afer afer,1230840,False,183,Tubulidentata,IL24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A8B7AVS2,2026-08-21,order_round_robin_quality_representative
+F1MME8,Bos taurus,9913,False,190,Artiodactyla,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/F1MME8,2026-08-21,order_round_robin_quality_representative
+A0A8I3MIM1,Canis lupus familiaris,9615,False,140,Carnivora,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8I3MIM1,2026-08-21,order_round_robin_quality_representative
+G1PXI9,Myotis lucifugus,59463,False,206,Chiroptera,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/G1PXI9,2026-08-21,order_round_robin_quality_representative
+G3SKD9,Gorilla gorilla gorilla,9595,False,202,Primates,IL24,Interleukin-24,2.0,https://rest.uniprot.org/uniprotkb/G3SKD9,2026-08-21,order_round_robin_quality_representative
+Q925S4,Mus musculus,10090,True,220,Rodentia,Il24,Interleukin-24,5.0,https://rest.uniprot.org/uniprotkb/Q925S4,2026-08-21,order_round_robin_quality_representative
+A0A8C6FI12,Moschus moschiferus,68415,False,189,Artiodactyla,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C6FI12,2026-08-21,order_round_robin_quality_representative
+A0A8C9M8J4,Panthera tigris altaica,74533,False,155,Carnivora,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C9M8J4,2026-08-21,order_round_robin_quality_representative
+A0A6P6C2L7,Pteropus vampyrus,132908,False,183,Chiroptera,IL24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A6P6C2L7,2026-08-21,order_round_robin_quality_representative
+A0A2K5QSY6,Cebus imitator,2715852,False,206,Primates,IL24,Interleukin-24,2.0,https://rest.uniprot.org/uniprotkb/A0A2K5QSY6,2026-08-21,order_round_robin_quality_representative
+A0A6P5QL08,Mus caroli,10089,False,181,Rodentia,Il24,Interleukin-24,2.0,https://rest.uniprot.org/uniprotkb/A0A6P5QL08,2026-08-21,order_round_robin_quality_representative
+A0A6P5D0P2,Bos indicus,9915,False,182,Artiodactyla,IL24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A6P5D0P2,2026-08-21,order_round_robin_quality_representative
+A0A7J8CR82,Molossus molossus,27622,False,207,Chiroptera,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A7J8CR82,2026-08-21,order_round_robin_quality_representative
+A0A2K6PT46,Rhinopithecus roxellana,61622,False,207,Primates,IL24,Interleukin-24,2.0,https://rest.uniprot.org/uniprotkb/A0A2K6PT46,2026-08-21,order_round_robin_quality_representative
+A0A8C2W6C7,Chinchilla lanigera,34839,False,189,Rodentia,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C2W6C7,2026-08-21,order_round_robin_quality_representative
+A0A8C9CJG0,Phocoena sinus,42100,False,220,Artiodactyla,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C9CJG0,2026-08-21,order_round_robin_quality_representative

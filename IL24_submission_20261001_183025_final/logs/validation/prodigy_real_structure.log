@@ -1,0 +1,15 @@
+COMMAND ["/mnt/ws/teeth/phase2/venv/bin/python", "/mnt/ws/teeth/phase2/venv/bin/prodigy", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/phase2/results/12_complex_prediction/formal_msa/native_blind_seed4/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb", "--selection", "A", "H,L"]
+[+] Executing 1 task(s) in total
+##########################################
+[+] Processing structure native_blind_msa_model_0_model0
+[+] No. of intermolecular contacts: 115
+[+] No. of charged-charged contacts: 13.0
+[+] No. of charged-polar contacts: 19.0
+[+] No. of charged-apolar contacts: 14.0
+[+] No. of polar-polar contacts: 15.0
+[+] No. of apolar-polar contacts: 34.0
+[+] No. of apolar-apolar contacts: 20.0
+[+] Percentage of apolar NIS residues: 31.25
+[+] Percentage of charged NIS residues: 26.17
+[++] Predicted binding affinity (kcal.mol-1):    -13.9
+[++] Predicted dissociation constant (M) at 25.0˚C:  6.4e-11

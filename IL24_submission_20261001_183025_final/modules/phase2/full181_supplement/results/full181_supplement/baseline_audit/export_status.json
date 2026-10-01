@@ -1,0 +1,15 @@
+{
+  "full181_completed": 30,
+  "full181_planned": 30,
+  "baseline_saved_per_model_observations": 60,
+  "baseline_saved_by_condition": {
+    "empty": 30,
+    "formal_msa": 30
+  },
+  "baseline_verified_raw_bundles": 60,
+  "baseline_prodigy_numeric_observations": 60,
+  "baseline_pdb_files": 60,
+  "baseline_unique_pdb_models": 60,
+  "frozen_prior_status": "available",
+  "note": "90 planned keys are not 90 completed models. No hashes or prediction runs performed."
+}

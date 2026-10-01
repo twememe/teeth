@@ -1,0 +1,871 @@
+{
+  "audited_at_utc": "2026-09-21T08:56:33.567553+00:00",
+  "status": "passed",
+  "verification_method": "direct sequence equality and explicit coordinate checks; no digest computation",
+  "uploaded_header_metadata_only": "Q925S4: EV=143 SV=1",
+  "uploaded_sequence_line_lengths": [
+    60,
+    60,
+    60,
+    1
+  ],
+  "uploaded_length": 181,
+  "uploaded_equals_legacy_full": true,
+  "full181_sequence": "MSWGLQILPCLSLILLLWNQVPGLEGQEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+  "project_180": "H",
+  "project_181": "L",
+  "project_74_76": "NVS",
+  "native_equals_full_27_181": true,
+  "immunogen_equals_full_27_160": true,
+  "reference_chain_A": {
+    "label": "Full181",
+    "expected_length": 181,
+    "observed_length": 181,
+    "observed_sequence": "MSWGLQILPCLSLILLLWNQVPGLEGQEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+    "complete_sequence_match": true,
+    "missing_local_positions": [],
+    "has_insertion_codes": false,
+    "local_numbering_contiguous": true,
+    "mapping_basis": "exact_sequence"
+  },
+  "constructs": {
+    "Full181": {
+      "project_start": 1,
+      "project_end": 181,
+      "offset": 0,
+      "length": 181,
+      "filename": "IL24_full_1_181.fasta"
+    },
+    "Native155": {
+      "project_start": 27,
+      "project_end": 181,
+      "offset": 26,
+      "length": 155,
+      "filename": "IL24_native_27_181.fasta"
+    },
+    "Immunogen134": {
+      "project_start": 27,
+      "project_end": 160,
+      "offset": 26,
+      "length": 134,
+      "filename": "IL24_immunogen_27_160.fasta"
+    }
+  },
+  "antibody_checks": [
+    {
+      "chain": "H",
+      "length": 119,
+      "imgt_sequence_and_regions_match": true,
+      "cdr_coverage_complete": true
+    },
+    {
+      "chain": "L",
+      "length": 106,
+      "imgt_sequence_and_regions_match": true,
+      "cdr_coverage_complete": true
+    }
+  ],
+  "legacy_numbering_map_matches": true,
+  "legacy_representative_structures": [
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\immunogen_blind_msa_confidence_representative_seed8.pdb",
+      "size_bytes": 231011,
+      "mtime_ns": 1789131584000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata",
+      "construct": "Immunogen134",
+      "all_chain_sequences_match": true,
+      "chain_metadata": {
+        "A": {
+          "label": "Immunogen134",
+          "expected_length": 134,
+          "observed_length": 134,
+          "observed_sequence": "QEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVA",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "H": {
+          "label": "H",
+          "expected_length": 119,
+          "observed_length": 119,
+          "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "L": {
+          "label": "L",
+          "expected_length": 106,
+          "observed_length": 106,
+          "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\immunogen_blind_msa_consensus_representative_seed7.pdb",
+      "size_bytes": 231011,
+      "mtime_ns": 1789131584000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata",
+      "construct": "Immunogen134",
+      "all_chain_sequences_match": true,
+      "chain_metadata": {
+        "A": {
+          "label": "Immunogen134",
+          "expected_length": 134,
+          "observed_length": 134,
+          "observed_sequence": "QEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVA",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "H": {
+          "label": "H",
+          "expected_length": 119,
+          "observed_length": 119,
+          "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "L": {
+          "label": "L",
+          "expected_length": 106,
+          "observed_length": 106,
+          "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_msa_confidence_representative_seed4.pdb",
+      "size_bytes": 245591,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata",
+      "construct": "Native155",
+      "all_chain_sequences_match": true,
+      "chain_metadata": {
+        "A": {
+          "label": "Native155",
+          "expected_length": 155,
+          "observed_length": 155,
+          "observed_sequence": "QEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "H": {
+          "label": "H",
+          "expected_length": 119,
+          "observed_length": 119,
+          "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "L": {
+          "label": "L",
+          "expected_length": 106,
+          "observed_length": 106,
+          "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_msa_consensus_representative_seed9.pdb",
+      "size_bytes": 245591,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata",
+      "construct": "Native155",
+      "all_chain_sequences_match": true,
+      "chain_metadata": {
+        "A": {
+          "label": "Native155",
+          "expected_length": 155,
+          "observed_length": 155,
+          "observed_sequence": "QEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "H": {
+          "label": "H",
+          "expected_length": 119,
+          "observed_length": 119,
+          "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "L": {
+          "label": "L",
+          "expected_length": 106,
+          "observed_length": 106,
+          "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_msa_phase1_informed_representative_seed7.pdb",
+      "size_bytes": 245591,
+      "mtime_ns": 1789131584000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata",
+      "construct": "Native155",
+      "all_chain_sequences_match": true,
+      "chain_metadata": {
+        "A": {
+          "label": "Native155",
+          "expected_length": 155,
+          "observed_length": 155,
+          "observed_sequence": "QEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "H": {
+          "label": "H",
+          "expected_length": 119,
+          "observed_length": 119,
+          "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "L": {
+          "label": "L",
+          "expected_length": 106,
+          "observed_length": 106,
+          "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed11.pdb",
+      "size_bytes": 245591,
+      "mtime_ns": 1789131584000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata",
+      "construct": "Native155",
+      "all_chain_sequences_match": true,
+      "chain_metadata": {
+        "A": {
+          "label": "Native155",
+          "expected_length": 155,
+          "observed_length": 155,
+          "observed_sequence": "QEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "H": {
+          "label": "H",
+          "expected_length": 119,
+          "observed_length": 119,
+          "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "L": {
+          "label": "L",
+          "expected_length": 106,
+          "observed_length": 106,
+          "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed12.pdb",
+      "size_bytes": 245591,
+      "mtime_ns": 1789131584000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata",
+      "construct": "Native155",
+      "all_chain_sequences_match": true,
+      "chain_metadata": {
+        "A": {
+          "label": "Native155",
+          "expected_length": 155,
+          "observed_length": 155,
+          "observed_sequence": "QEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "H": {
+          "label": "H",
+          "expected_length": 119,
+          "observed_length": 119,
+          "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "L": {
+          "label": "L",
+          "expected_length": 106,
+          "observed_length": 106,
+          "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed13.pdb",
+      "size_bytes": 245591,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata",
+      "construct": "Native155",
+      "all_chain_sequences_match": true,
+      "chain_metadata": {
+        "A": {
+          "label": "Native155",
+          "expected_length": 155,
+          "observed_length": 155,
+          "observed_sequence": "QEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "H": {
+          "label": "H",
+          "expected_length": 119,
+          "observed_length": 119,
+          "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "L": {
+          "label": "L",
+          "expected_length": 106,
+          "observed_length": 106,
+          "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed14.pdb",
+      "size_bytes": 245591,
+      "mtime_ns": 1789131584000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata",
+      "construct": "Native155",
+      "all_chain_sequences_match": true,
+      "chain_metadata": {
+        "A": {
+          "label": "Native155",
+          "expected_length": 155,
+          "observed_length": 155,
+          "observed_sequence": "QEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "H": {
+          "label": "H",
+          "expected_length": 119,
+          "observed_length": 119,
+          "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "L": {
+          "label": "L",
+          "expected_length": 106,
+          "observed_length": 106,
+          "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed2.pdb",
+      "size_bytes": 245591,
+      "mtime_ns": 1789131584000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata",
+      "construct": "Native155",
+      "all_chain_sequences_match": true,
+      "chain_metadata": {
+        "A": {
+          "label": "Native155",
+          "expected_length": 155,
+          "observed_length": 155,
+          "observed_sequence": "QEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "H": {
+          "label": "H",
+          "expected_length": 119,
+          "observed_length": 119,
+          "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "L": {
+          "label": "L",
+          "expected_length": 106,
+          "observed_length": 106,
+          "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed3.pdb",
+      "size_bytes": 245591,
+      "mtime_ns": 1789131584000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata",
+      "construct": "Native155",
+      "all_chain_sequences_match": true,
+      "chain_metadata": {
+        "A": {
+          "label": "Native155",
+          "expected_length": 155,
+          "observed_length": 155,
+          "observed_sequence": "QEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "H": {
+          "label": "H",
+          "expected_length": 119,
+          "observed_length": 119,
+          "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "L": {
+          "label": "L",
+          "expected_length": 106,
+          "observed_length": 106,
+          "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed4.pdb",
+      "size_bytes": 245591,
+      "mtime_ns": 1789131584000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata",
+      "construct": "Native155",
+      "all_chain_sequences_match": true,
+      "chain_metadata": {
+        "A": {
+          "label": "Native155",
+          "expected_length": 155,
+          "observed_length": 155,
+          "observed_sequence": "QEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "H": {
+          "label": "H",
+          "expected_length": 119,
+          "observed_length": 119,
+          "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "L": {
+          "label": "L",
+          "expected_length": 106,
+          "observed_length": 106,
+          "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed5.pdb",
+      "size_bytes": 245591,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata",
+      "construct": "Native155",
+      "all_chain_sequences_match": true,
+      "chain_metadata": {
+        "A": {
+          "label": "Native155",
+          "expected_length": 155,
+          "observed_length": 155,
+          "observed_sequence": "QEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "H": {
+          "label": "H",
+          "expected_length": 119,
+          "observed_length": 119,
+          "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "L": {
+          "label": "L",
+          "expected_length": 106,
+          "observed_length": 106,
+          "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed7.pdb",
+      "size_bytes": 245591,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata",
+      "construct": "Native155",
+      "all_chain_sequences_match": true,
+      "chain_metadata": {
+        "A": {
+          "label": "Native155",
+          "expected_length": 155,
+          "observed_length": 155,
+          "observed_sequence": "QEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "H": {
+          "label": "H",
+          "expected_length": 119,
+          "observed_length": 119,
+          "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "L": {
+          "label": "L",
+          "expected_length": 106,
+          "observed_length": 106,
+          "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed8.pdb",
+      "size_bytes": 245591,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata",
+      "construct": "Native155",
+      "all_chain_sequences_match": true,
+      "chain_metadata": {
+        "A": {
+          "label": "Native155",
+          "expected_length": 155,
+          "observed_length": 155,
+          "observed_sequence": "QEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "H": {
+          "label": "H",
+          "expected_length": 119,
+          "observed_length": 119,
+          "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        },
+        "L": {
+          "label": "L",
+          "expected_length": 106,
+          "observed_length": 106,
+          "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+          "complete_sequence_match": true,
+          "missing_local_positions": [],
+          "has_insertion_codes": false,
+          "local_numbering_contiguous": true,
+          "mapping_basis": "exact_sequence"
+        }
+      }
+    }
+  ],
+  "legacy_representative_count": 15,
+  "deprecated_antibody_numbering_csv": {
+    "source_path": "D:\\IL-24(teeth）\\phase2_release\\data\\antibody_numbering.csv",
+    "used_for_analysis": false,
+    "reason": "Stored ranges do not consistently reproduce the frozen antibody sequence",
+    "mismatches": [
+      {
+        "chain": "VH",
+        "region": "CDR1",
+        "stored_sequence": "GYSFTDYN",
+        "sequence_at_stored_range": "CKASGYSF"
+      },
+      {
+        "chain": "VH",
+        "region": "FR2",
+        "stored_sequence": "YIYWVKQSHGKSLEWIG",
+        "sequence_at_stored_range": "TDYNIYWVKQSHGKSL"
+      },
+      {
+        "chain": "VH",
+        "region": "CDR2",
+        "stored_sequence": "IDPYNDDT",
+        "sequence_at_stored_range": "EWIGIDP"
+      },
+      {
+        "chain": "VH",
+        "region": "FR3",
+        "stored_sequence": "SYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYC",
+        "sequence_at_stored_range": "YNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYY"
+      },
+      {
+        "chain": "VH",
+        "region": "CDR3",
+        "stored_sequence": "TRWEITDPWYFDV",
+        "sequence_at_stored_range": "CTRWEITDPWY"
+      },
+      {
+        "chain": "VH",
+        "region": "FR4",
+        "stored_sequence": "WGAGTTVTVSS",
+        "sequence_at_stored_range": "FDVWGAGTTVTVSS"
+      },
+      {
+        "chain": "VL",
+        "region": "FR1",
+        "stored_sequence": "DIVMTQSHKFMSISVGDRASIM",
+        "sequence_at_stored_range": "DIVMTQSHKFMSISVGDRASI"
+      },
+      {
+        "chain": "VL",
+        "region": "CDR1",
+        "stored_sequence": "QDVGTA",
+        "sequence_at_stored_range": "MCKASQ"
+      },
+      {
+        "chain": "VL",
+        "region": "FR2",
+        "stored_sequence": "WYQQKPGQSPKALTY",
+        "sequence_at_stored_range": "DVGTAVSWYQQKP"
+      },
+      {
+        "chain": "VL",
+        "region": "CDR2",
+        "stored_sequence": "VS",
+        "sequence_at_stored_range": "GQ"
+      },
+      {
+        "chain": "VL",
+        "region": "FR3",
+        "stored_sequence": "WASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFC",
+        "sequence_at_stored_range": "SPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAA"
+      },
+      {
+        "chain": "VL",
+        "region": "CDR3",
+        "stored_sequence": "QQYSSYPYT",
+        "sequence_at_stored_range": "YFCQQY"
+      },
+      {
+        "chain": "VL",
+        "region": "FR4",
+        "stored_sequence": "FGGGTKLEIK",
+        "sequence_at_stored_range": "SSYPYTFGGGTKLEIK"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source_path": "D:\\Documents\\xwechat_files\\wxid_24f588iukmno12_d441\\temp\\RWTemp\\2026-09\\77c8d8e189e6ab28aa933721ea3ef0c2\\unisave-entries-download=true&format=fasta&uniqueSequences=true&versions=143(2).fasta",
+      "size_bytes": 206,
+      "mtime_ns": 1789734487914634800,
+      "verification_method": "direct sequence/content comparison; filesystem metadata"
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\data\\AF-Q925S4-F1-model_v6.pdb",
+      "size_bytes": 124010,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata"
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\data\\antibody_imgt_numbering.csv",
+      "size_bytes": 6025,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata"
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\data\\cdr_annotation.csv",
+      "size_bytes": 791,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata"
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\data\\il24_numbering_map.csv",
+      "size_bytes": 4578,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata"
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\data\\VH_VL_clean.fasta",
+      "size_bytes": 317,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata"
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\data\\VH_VL.fasta",
+      "size_bytes": 315,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata"
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\data\\antibody_numbering.csv",
+      "size_bytes": 607,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata"
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\data\\IL24_full_1_181.fasta",
+      "size_bytes": 223,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata"
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\data\\IL24_native_27_181.fasta",
+      "size_bytes": 200,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata"
+    },
+    {
+      "source_path": "D:\\IL-24(teeth）\\phase2_release\\data\\IL24_immunogen_27_160.fasta",
+      "size_bytes": 182,
+      "mtime_ns": 1789131585000000000,
+      "verification_method": "direct sequence/content comparison; filesystem metadata"
+    }
+  ],
+  "boundary_provenance": "Project positions 1-26 are a historical project definition, not SignalP/DeepSig output"
+}

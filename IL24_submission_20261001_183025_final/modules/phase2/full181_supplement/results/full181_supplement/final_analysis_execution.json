@@ -1,0 +1,47 @@
+[
+  {
+    "started_utc": "2026-09-21T12:02:52.227631+00:00",
+    "command": [
+      "/home/xinlab/home/ws/phase2/venv/bin/python",
+      "-B",
+      "/mnt/il24_full181_supplement_20260921/src/analyze_full181_supplement.py"
+    ],
+    "exit_code": 0,
+    "ended_utc": "2026-09-21T12:02:54.212785+00:00"
+  },
+  {
+    "started_utc": "2026-09-21T12:02:54.213024+00:00",
+    "command": [
+      "/home/xinlab/home/ws/phase2/venv/bin/python",
+      "-B",
+      "/mnt/il24_full181_supplement_20260921/src/run_full181_supplement.py",
+      "--prodigy",
+      "/home/xinlab/home/ws/phase2/venv/bin/prodigy"
+    ],
+    "exit_code": 0,
+    "ended_utc": "2026-09-21T12:02:59.404974+00:00"
+  },
+  {
+    "started_utc": "2026-09-21T12:02:59.405250+00:00",
+    "command": [
+      "/home/xinlab/home/ws/phase2/venv/bin/python",
+      "-B",
+      "/mnt/il24_full181_supplement_20260921/src/full181_ensemble.py",
+      "--prior",
+      "/mnt/il24_full181_supplement_20260921/results/full181_supplement/inputs/phase1_prior_deduplicated.csv"
+    ],
+    "exit_code": 0,
+    "ended_utc": "2026-09-21T12:02:59.821686+00:00"
+  },
+  {
+    "started_utc": "2026-09-21T12:02:59.822011+00:00",
+    "command": [
+      "/home/xinlab/home/ws/phase2/venv/bin/python",
+      "-B",
+      "/mnt/il24_full181_supplement_20260921/src/audit_full181_execution.py",
+      "--require-complete"
+    ],
+    "exit_code": 0,
+    "ended_utc": "2026-09-21T12:03:02.270398+00:00"
+  }
+]

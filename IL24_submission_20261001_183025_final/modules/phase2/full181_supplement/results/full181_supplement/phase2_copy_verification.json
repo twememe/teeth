@@ -1,0 +1,10 @@
+{
+  "audited_utc": "2026-09-21T11:56:22.534964+00:00",
+  "source": "/home/xinlab/home/ws/phase2",
+  "destination": "/mnt/pxh/teeth/phase2",
+  "files_checked": 29947,
+  "symlinks_checked": 4,
+  "differences": [],
+  "method": "file size/mtime and literal symlink targets; no hashes",
+  "status": "complete"
+}

@@ -1,0 +1,6 @@
+{
+  "release_version": "IL24_submission_20260930_223945",
+  "source_date": "2026-09-30",
+  "track": "赛道一，AI大分子与多肽药物设计",
+  "main_candidate_definition": "Existing formal-MSA top-10 poses of the same IA6-13-8 antibody, sorted by confidence_score then iptm descending; no new candidate-count rule."
+}

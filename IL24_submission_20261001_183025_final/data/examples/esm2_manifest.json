@@ -1,0 +1,17 @@
+{
+  "origin": "modules/inovate/data/validation.csv",
+  "selection": "first 8 rows whose source is abbench, original ordering",
+  "source_revision": "556fd6913aa231c0d342a8658818be8f963fd582",
+  "license": "CC-BY-4.0 (source README retained)",
+  "row_ids": [
+    "abbench:4fqi_h1_benchmarking_data:56355",
+    "abbench:4fqi_h3_benchmarking_data:9320",
+    "abbench:4fqi_h1_benchmarking_data:6075",
+    "abbench:5a12_vegf_benchmarking_data:29581",
+    "abbench:aayl49_benchmarking_data:970",
+    "abbench:4fqi_h3_benchmarking_data:4096",
+    "abbench:4fqi_h3_benchmarking_data:62665",
+    "abbench:4fqi_h3_benchmarking_data:35148"
+  ],
+  "purpose": "Loading/inference smoke example only; not a new performance evaluation"
+}

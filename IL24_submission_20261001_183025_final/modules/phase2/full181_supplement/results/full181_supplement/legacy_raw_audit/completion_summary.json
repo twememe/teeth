@@ -1,0 +1,74 @@
+{
+  "processed_models": 60,
+  "audit_complete": true,
+  "raw_artifact_validation_passed": 60,
+  "saved_comparison_matched": 60,
+  "group_counts": {
+    "Native155/empty": 15,
+    "Immunogen134/empty": 15,
+    "Native155/formal_msa": 15,
+    "Immunogen134/formal_msa": 15
+  },
+  "files": {
+    "legacy_model_summary.csv": {
+      "rows": 60,
+      "all_remote_sources_present": true
+    },
+    "legacy_geometry_qc.csv": {
+      "rows": 60,
+      "all_remote_sources_present": true
+    },
+    "legacy_cdr_participation.csv": {
+      "rows": 840,
+      "all_remote_sources_present": true
+    },
+    "legacy_interface_contacts.csv": {
+      "rows": 4459,
+      "all_remote_sources_present": true
+    },
+    "validation.csv": {
+      "rows": 60,
+      "all_remote_sources_present": true
+    }
+  },
+  "pae_shapes": {
+    "380x380": 30,
+    "359x359": 30
+  },
+  "rounded_3dp_distance_differences": 2,
+  "distance_outside_saved_precision": 0,
+  "maximum_distance_difference_A": 0.0005002896871051377,
+  "geometry_warning_models": 60,
+  "geometry_warning_by_group": {
+    "Native155/empty": 15,
+    "Immunogen134/empty": 15,
+    "Native155/formal_msa": 15,
+    "Immunogen134/formal_msa": 15
+  },
+  "chain_id_mappings": {
+    "{\"A\": \"0\", \"H\": \"1\", \"L\": \"2\"}": 60
+  },
+  "input_audit": {
+    "construct_lengths": {
+      "Full181": 181,
+      "Native155": 155,
+      "Immunogen134": 134
+    },
+    "antibody_lengths": {
+      "H": 119,
+      "L": 106
+    },
+    "annotations_valid": true,
+    "imgt_equals_release": true,
+    "cdr_equals_release": true,
+    "frozen_prior": {
+      "path": "D:\\IL-24(teeth）\\phase2_release\\results\\full181_supplement\\server_baseline_snapshot\\results\\12_complex_prediction\\phase1_prior_deduplicated.csv",
+      "remote_source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/phase1_prior_deduplicated.csv",
+      "inventory_bytes": 1177,
+      "current_bytes": 1177,
+      "bytes_match": true
+    }
+  },
+  "source_files_changed_by_audit": false,
+  "gpu_jobs_started": 0
+}

@@ -1,0 +1,13 @@
+{
+  "discotope_available": false,
+  "discotope_status": "MISSING_EXTERNAL_DEPENDENCY_FAILURE",
+  "primary_consensus": "available_evidence_equal_weight",
+  "evidence_groups": [
+    "BepiPred",
+    "RSA",
+    "Conservation"
+  ],
+  "formula": "(BepiPred_percentile + RSA_percentile + Conservation_percentile) / 3",
+  "pLDDT_role": "structure_confidence_flag_only",
+  "DSSP_role": "annotation_only"
+}

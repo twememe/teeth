@@ -1,0 +1,15 @@
+..E...
+======================================================================
+ERROR: test_lowercase_insertion_code (test_preprocess.PreprocessTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/pxh/teeth/inovate/tests/test_preprocess.py", line 16, in test_lowercase_insertion_code
+    self.assertEqual(mutate_sequence("ACDE","D321aW",{("319",""):0,("320",""):1,("321","a"):2,("322",""):3}),"ACWE")
+  File "/mnt/pxh/teeth/inovate/scripts/preprocess.py", line 20, in mutate_sequence
+    if not match:raise ValueError('invalid_mutation_notation')
+ValueError: invalid_mutation_notation
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (errors=1)

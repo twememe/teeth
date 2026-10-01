@@ -1,0 +1,5 @@
+2026-09-22T00:28:19.860951+00:00 rank=0 Start mode=evaluate world=2 deadline=2026-09-22T01:13:13.687400+00:00
+2026-09-22T00:28:19.977842+00:00 rank=1 Start mode=evaluate world=2 deadline=2026-09-22T01:13:13.687400+00:00
+NCCL version 2.21.5+cuda12.4
+2026-09-22T00:30:19.615762+00:00 rank=0 Finished mode=evaluate elapsed_seconds=120.02026-09-22T00:30:19.615753+00:00 rank=1 Finished mode=evaluate elapsed_seconds=119.9
+

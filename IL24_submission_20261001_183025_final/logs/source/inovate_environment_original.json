@@ -1,0 +1,15 @@
+{
+  "PIP_CACHE_DIR": "/mnt/pxh/teeth/inovate/cache/pip",
+  "TMPDIR": "/mnt/pxh/teeth/inovate/tmp",
+  "HF_HOME": "/mnt/pxh/teeth/inovate/cache/huggingface",
+  "TORCH_HOME": "/mnt/pxh/teeth/inovate/cache/torch",
+  "HF_HUB_DISABLE_XET": "1",
+  "http_proxy": "http://127.0.0.1:17890",
+  "https_proxy": "http://127.0.0.1:17890",
+  "MPLCONFIGDIR": "/mnt/pxh/teeth/inovate/cache/matplotlib",
+  "XDG_CACHE_HOME": "/mnt/pxh/teeth/inovate/cache",
+  "TRITON_CACHE_DIR": "/mnt/pxh/teeth/inovate/cache/triton",
+  "TORCH_EXTENSIONS_DIR": "/mnt/pxh/teeth/inovate/cache/torch_extensions",
+  "PYTHONDONTWRITEBYTECODE": "1",
+  "TOKENIZERS_PARALLELISM": "false"
+}

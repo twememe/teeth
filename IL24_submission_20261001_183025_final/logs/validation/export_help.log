@@ -1,0 +1,22 @@
+COMMAND ["python3", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/run.py", "--help"]
+usage: run.py [-h] [--module {export,phase1,phase2,esm2}] [--input INPUT]
+              [--source-root SOURCE_ROOT] [--output OUTPUT] [--config CONFIG]
+              [--model-dir MODEL_DIR] [--checkpoint CHECKPOINT]
+
+Release entry: real export, evidence fusion, structural contacts and saved-
+model inference.
+
+options:
+  -h, --help            show this help message and exit
+  --module {export,phase1,phase2,esm2}
+  --input INPUT         export: ranking CSV; phase1/phase2: module-shaped
+                        input directory; esm2: CSV containing
+                        model_sequence,label,source
+  --source-root SOURCE_ROOT
+                        export: matching Phase2 project root for a custom
+                        ranking CSV and its actual structures/data
+  --output OUTPUT       New, empty output directory; reference results are
+                        never overwritten
+  --config CONFIG
+  --model-dir MODEL_DIR
+  --checkpoint CHECKPOINT

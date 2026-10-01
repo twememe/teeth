@@ -1,0 +1,2 @@
+COMMAND ["/mnt/ws/teeth/inovate/.venv/bin/python", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/phase2/scripts/make_phase2_visualizations.py", "--out", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/_precheck/phase2/figures", "--mechanism", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/phase2/results/16_mechanism"]
+Wrote 4 SVG figures

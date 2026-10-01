@@ -1,0 +1,298 @@
+{
+  "construct": "Full181",
+  "condition": "formal_msa",
+  "seed": 9,
+  "source_path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/formal_msa/seed9",
+  "status": "complete",
+  "started_utc": "2026-09-21T11:49:27.544836+00:00",
+  "gpu": 1,
+  "provenance": {
+    "command": [
+      "/home/xinlab/home/ws/phase2/venv/bin/boltz",
+      "predict",
+      "/mnt/il24_full181_supplement_20260921/results/full181_supplement/inputs/full_blind_msa.yaml",
+      "--model",
+      "boltz1",
+      "--checkpoint",
+      "/home/xinlab/home/ws/phase2/models/boltz/boltz1_conf.ckpt",
+      "--cache",
+      "/home/xinlab/home/ws/phase2/models/boltz",
+      "--out_dir",
+      "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/formal_msa/seed9",
+      "--accelerator",
+      "gpu",
+      "--devices",
+      "1",
+      "--diffusion_samples",
+      "1",
+      "--recycling_steps",
+      "3",
+      "--sampling_steps",
+      "200",
+      "--no_kernels",
+      "--num_workers",
+      "0",
+      "--output_format",
+      "pdb",
+      "--write_full_pae",
+      "--seed",
+      "9"
+    ],
+    "input_text": "version: 1\nsequences:\n  - protein:\n      id: A\n      sequence: MSWGLQILPCLSLILLLWNQVPGLEGQEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL\n      msa: results/full181_supplement/msa/A.csv\n  - protein:\n      id: H\n      sequence: EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS\n      msa: results/full181_supplement/msa/H.csv\n  - protein:\n      id: L\n      sequence: DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK\n      msa: results/full181_supplement/msa/L.csv\n",
+    "input_file": {
+      "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/inputs/full_blind_msa.yaml",
+      "exists": true,
+      "bytes": 712,
+      "mtime_ns": 1789990451259959701,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    },
+    "boltz_executable": {
+      "path": "/home/xinlab/home/ws/phase2/venv/bin/boltz",
+      "exists": true,
+      "bytes": 234,
+      "mtime_ns": 1788349378286228759,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    },
+    "cache_path": "/home/xinlab/home/ws/phase2/models/boltz",
+    "sequences": {
+      "A": "MSWGLQILPCLSLILLLWNQVPGLEGQEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+      "H": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+      "L": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK"
+    },
+    "checkpoint": {
+      "path": "/home/xinlab/home/ws/phase2/models/boltz/boltz1_conf.ckpt",
+      "exists": true,
+      "bytes": 3595352714,
+      "mtime_ns": 1788351323232112831,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    },
+    "ccd": {
+      "path": "/home/xinlab/home/ws/phase2/models/boltz/ccd.pkl",
+      "exists": true,
+      "bytes": 345859128,
+      "mtime_ns": 1788350215485178858,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    },
+    "msa": [
+      {
+        "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/msa/A.csv",
+        "exists": true,
+        "bytes": 296817,
+        "mtime_ns": 1789990451262959666,
+        "fingerprint_method": "path_size_mtime_no_hash"
+      },
+      {
+        "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/msa/H.csv",
+        "exists": true,
+        "bytes": 1376619,
+        "mtime_ns": 1789990451271959560,
+        "fingerprint_method": "path_size_mtime_no_hash"
+      },
+      {
+        "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/msa/L.csv",
+        "exists": true,
+        "bytes": 1305903,
+        "mtime_ns": 1789990451279959466,
+        "fingerprint_method": "path_size_mtime_no_hash"
+      }
+    ],
+    "msa_replay": {
+      "status": "passed",
+      "pairing_scope": "single_Full181_A_H_L_batch",
+      "chains": [
+        {
+          "chain": "A",
+          "query_matches": true,
+          "csv_equals_a3m_replay": true,
+          "paired_raw_depth": 977,
+          "unpaired_raw_depth": 712,
+          "combined_csv_depth": 1588,
+          "current_csv_metadata": {
+            "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/msa/A.csv",
+            "exists": true,
+            "bytes": 296817,
+            "mtime_ns": 1789990451262959666,
+            "fingerprint_method": "path_size_mtime_no_hash"
+          },
+          "current_paired_metadata": {
+            "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/msa/colabfold_raw/A_paired.a3m",
+            "exists": true,
+            "bytes": 240344,
+            "mtime_ns": 1789990451280959454,
+            "fingerprint_method": "path_size_mtime_no_hash"
+          },
+          "current_unpaired_metadata": {
+            "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/msa/colabfold_raw/A_unpaired.a3m",
+            "exists": true,
+            "bytes": 176658,
+            "mtime_ns": 1789990451282959430,
+            "fingerprint_method": "path_size_mtime_no_hash"
+          }
+        },
+        {
+          "chain": "H",
+          "query_matches": true,
+          "csv_equals_a3m_replay": true,
+          "paired_raw_depth": 977,
+          "unpaired_raw_depth": 9978,
+          "combined_csv_depth": 10953,
+          "current_csv_metadata": {
+            "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/msa/H.csv",
+            "exists": true,
+            "bytes": 1376619,
+            "mtime_ns": 1789990451271959560,
+            "fingerprint_method": "path_size_mtime_no_hash"
+          },
+          "current_paired_metadata": {
+            "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/msa/colabfold_raw/H_paired.a3m",
+            "exists": true,
+            "bytes": 181513,
+            "mtime_ns": 1789990451283959419,
+            "fingerprint_method": "path_size_mtime_no_hash"
+          },
+          "current_unpaired_metadata": {
+            "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/msa/colabfold_raw/H_unpaired.a3m",
+            "exists": true,
+            "bytes": 1851854,
+            "mtime_ns": 1789990451293959301,
+            "fingerprint_method": "path_size_mtime_no_hash"
+          }
+        },
+        {
+          "chain": "L",
+          "query_matches": true,
+          "csv_equals_a3m_replay": true,
+          "paired_raw_depth": 977,
+          "unpaired_raw_depth": 10335,
+          "combined_csv_depth": 11310,
+          "current_csv_metadata": {
+            "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/msa/L.csv",
+            "exists": true,
+            "bytes": 1305903,
+            "mtime_ns": 1789990451279959466,
+            "fingerprint_method": "path_size_mtime_no_hash"
+          },
+          "current_paired_metadata": {
+            "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/msa/colabfold_raw/L_paired.a3m",
+            "exists": true,
+            "bytes": 171384,
+            "mtime_ns": 1789990451294959289,
+            "fingerprint_method": "path_size_mtime_no_hash"
+          },
+          "current_unpaired_metadata": {
+            "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/msa/colabfold_raw/L_unpaired.a3m",
+            "exists": true,
+            "bytes": 1805751,
+            "mtime_ns": 1789990451304959171,
+            "fingerprint_method": "path_size_mtime_no_hash"
+          }
+        }
+      ],
+      "current_batch_metadata": {
+        "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/msa/colabfold_raw/batch_query.json",
+        "exists": true,
+        "bytes": 984,
+        "mtime_ns": 1789990451282959430,
+        "fingerprint_method": "path_size_mtime_no_hash"
+      },
+      "comparison_method": "exact CSV key/sequence rows replayed from retained A3M; no hashes",
+      "acquisition_metadata_used_as_deployment_identity": false
+    },
+    "environment": {
+      "boltz": "2.2.1",
+      "torch": "2.6.0+cu124",
+      "python": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+      "executable": "/home/xinlab/home/ws/phase2/venv/bin/python"
+    }
+  },
+  "exit_code": 0,
+  "pdb_path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/formal_msa/seed9/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb",
+  "confidence_path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/formal_msa/seed9/boltz_results_full_blind_msa/predictions/full_blind_msa/confidence_full_blind_msa_model_0.json",
+  "pae_path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/formal_msa/seed9/boltz_results_full_blind_msa/predictions/full_blind_msa/pae_full_blind_msa_model_0.npz",
+  "chain_lengths": {
+    "A": 181,
+    "H": 119,
+    "L": 106
+  },
+  "validation": "passed",
+  "validated_utc": "2026-09-21T11:51:18.015896+00:00",
+  "sequence_validation": {
+    "A": {
+      "label": "Full181",
+      "expected_length": 181,
+      "observed_length": 181,
+      "observed_sequence": "MSWGLQILPCLSLILLLWNQVPGLEGQEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+      "complete_sequence_match": true,
+      "missing_local_positions": [],
+      "has_insertion_codes": false,
+      "local_numbering_contiguous": true,
+      "mapping_basis": "exact_sequence"
+    },
+    "H": {
+      "label": "H",
+      "expected_length": 119,
+      "observed_length": 119,
+      "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+      "complete_sequence_match": true,
+      "missing_local_positions": [],
+      "has_insertion_codes": false,
+      "local_numbering_contiguous": true,
+      "mapping_basis": "exact_sequence"
+    },
+    "L": {
+      "label": "L",
+      "expected_length": 106,
+      "observed_length": 106,
+      "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+      "complete_sequence_match": true,
+      "missing_local_positions": [],
+      "has_insertion_codes": false,
+      "local_numbering_contiguous": true,
+      "mapping_basis": "exact_sequence"
+    }
+  },
+  "pae_validation": {
+    "shape": [
+      406,
+      406
+    ],
+    "dtype": "float32",
+    "finite": true,
+    "minimum": 0.2513328492641449,
+    "maximum": 31.475936889648438,
+    "units": "angstrom"
+  },
+  "confidence_json_scale": "0-1",
+  "pdb_plddt_scale": "0-100 per frozen Boltz PDB writer",
+  "pdb_plddt_observed_range": [
+    35.95,
+    98.04
+  ],
+  "artifact_fingerprints": [
+    {
+      "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/formal_msa/seed9/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb",
+      "exists": true,
+      "bytes": 261953,
+      "mtime_ns": 1789991466735877006,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    },
+    {
+      "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/formal_msa/seed9/boltz_results_full_blind_msa/predictions/full_blind_msa/confidence_full_blind_msa_model_0.json",
+      "exists": true,
+      "bytes": 895,
+      "mtime_ns": 1789991466736877010,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    },
+    {
+      "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/formal_msa/seed9/boltz_results_full_blind_msa/predictions/full_blind_msa/pae_full_blind_msa_model_0.npz",
+      "exists": true,
+      "bytes": 585388,
+      "mtime_ns": 1789991466765877135,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    }
+  ],
+  "prediction_status": "complete",
+  "failure_reason": "",
+  "ended_utc": "2026-09-21T11:51:18.016585+00:00",
+  "wall_seconds": 110.46987672988325
+}

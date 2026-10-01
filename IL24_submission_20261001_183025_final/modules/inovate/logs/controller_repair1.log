@@ -1,0 +1,12 @@
+2026-09-22 05:29:07 Controller started; original 13-hour absolute budget retained
+2026-09-22 05:29:07 PRESERVE completed stage smoke_1000
+2026-09-22 05:29:07 PRESERVE completed stage frozen_embeddings
+2026-09-22 05:29:07 PRESERVE completed stage frozen_head
+2026-09-22 05:29:07 START lora_training; attempt=1; deadline=2026-09-22T12:37:56.557353
+2026-09-22 08:28:13 COMPLETE lora_training
+2026-09-22 08:28:13 START verify_saved_lora; attempt=0; deadline=2026-09-22T09:13:13.687400
+2026-09-22 08:30:23 COMPLETE verify_saved_lora
+2026-09-22 08:30:23 START verify_saved_frozen; attempt=0; deadline=2026-09-22T09:15:23.825171
+2026-09-22 08:32:33 COMPLETE verify_saved_frozen
+FINAL_REPORT_VERIFIED /mnt/pxh/teeth/inovate/output/final_report.md
+2026-09-22 08:32:38 COMPLETE experiment: saved-model verification, comparison, curves and final report available

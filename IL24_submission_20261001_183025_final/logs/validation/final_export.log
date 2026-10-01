@@ -1,0 +1,3 @@
+COMMAND ["python3", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/run.py", "--module", "export", "--output", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/_precheck/export_final"]
++ /usr/bin/python3 /mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/phase2/predict.py --ranking /mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/phase2/results/14_quality/model_ranking_formal_msa.csv --source-root /mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/phase2 --output /mnt/ws/teeth/releases/IL24_submission_20260930_223945/_precheck/export_final
+Exported 10 existing poses to /mnt/ws/teeth/releases/IL24_submission_20260930_223945/_precheck/export_final/results.csv

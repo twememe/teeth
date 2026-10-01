@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "reference_A": "Existing original formal base; reference captured before reconstruction B",
+  "reconstruction_B": "prepare_base.py --official-dir original official cached .pt files --output independent prepared_B",
+  "tensor_count": 568,
+  "keys_shapes_dtypes_values": "all exact",
+  "tensor_max_abs_difference": 0.0,
+  "config_and_tokenizer": "exact frozen fingerprints, special tokens and preprocessed token IDs",
+  "reference_tensor_sha256": "e5e09eaaac2360a2b6a440a671e90952b6cf363d3cc438d7b5436b368b83a90e",
+  "reference_config_sha256": "12bf54503882a74663ef3116ebca883e3654e894617f1b91243ffc0a6432ccec",
+  "reference_tokenizer_sha256": "af70dccd92257fc12b48ec61d7adefcd3c418c64a5e0709ccff85517e338e91f",
+  "project_weight_tensors": 66,
+  "project_checkpoint_sha256": "8610aba1f16f28c0393a1614a40bcd489d2933945a6848d3d105a5c9f6bd2a04",
+  "raw_logits_max_abs_difference": 0.0,
+  "probabilities_max_abs_difference": 0.0,
+  "labels_equal": true,
+  "final_prediction_csv_byte_equal": true,
+  "matches_previous_release_predictions": true,
+  "real_example_count": 8,
+  "precision": "FP32 stored tensors, CUDA bf16 autocast, identical original SDPA/eval/no_grad/bucketing/configuration/seed42",
+  "tolerance": {
+    "atol": 0,
+    "rtol": 0,
+    "reason": "Same tensor values, software, GPU, batch shape and eval kernels; exact equality required, not widened"
+  },
+  "A_serialized_sha256": "6996db5c5d08d98455e491dab3eaa4d82e299b27903341f83adac8ccae64fa43",
+  "B_serialized_sha256": "6996db5c5d08d98455e491dab3eaa4d82e299b27903341f83adac8ccae64fa43",
+  "serialization_hash_is_acceptance_criterion": false,
+  "changed_tensor_rejected": true,
+  "dependencies": {
+    "torch": "2.6.0+cu124",
+    "fair-esm": "2.0.0",
+    "transformers": "4.48.3",
+    "peft": "0.14.0",
+    "safetensors": "0.8.0",
+    "numpy": "1.26.4"
+  },
+  "gpu": "NVIDIA RTX A6000",
+  "commands": [
+    {
+      "name": "A",
+      "command": [
+        "/mnt/ws/teeth/inovate/.venv/bin/python",
+        "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/run.py",
+        "--module",
+        "esm2",
+        "--model-dir",
+        "/mnt/ws/teeth/inovate/cache/esm2_650m_hf",
+        "--output",
+        "/mnt/ws/teeth/releases/_base_externalization_20261001/inference_A"
+      ],
+      "seconds": 11.641,
+      "exit_code": 0
+    },
+    {
+      "name": "B",
+      "command": [
+        "/mnt/ws/teeth/inovate/.venv/bin/python",
+        "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/run.py",
+        "--module",
+        "esm2",
+        "--model-dir",
+        "/mnt/ws/teeth/releases/_base_externalization_20261001/prepared_B",
+        "--output",
+        "/mnt/ws/teeth/releases/_base_externalization_20261001/inference_B"
+      ],
+      "seconds": 11.957,
+      "exit_code": 0
+    }
+  ]
+}

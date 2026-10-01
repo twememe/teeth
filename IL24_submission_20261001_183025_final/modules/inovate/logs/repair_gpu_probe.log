@@ -1,0 +1,52 @@
+NCCL version 2.21.5+cuda12.4
+{
+  "status": "passed",
+  "source_step": 10000,
+  "source_checkpoint_sha256": "547046198775b2880214af4f47a7ee0fc49b6cac809a1ab0a6382bb898689dd3",
+  "world_size": 2,
+  "identical_length_validation_then_backward_cycles": 2,
+  "ranks": [
+    {
+      "rank": 0,
+      "steps": [
+        {
+          "iteration": 1,
+          "loss": 1.1761953830718994,
+          "grad_norm": 3.7241897583007812,
+          "sequence_tokens": 1006,
+          "per_device_batch_size": 16
+        },
+        {
+          "iteration": 2,
+          "loss": 1.1473777294158936,
+          "grad_norm": 3.673002243041992,
+          "sequence_tokens": 1006,
+          "per_device_batch_size": 16
+        }
+      ],
+      "trainable_sha256": "a869fcc043d7d0d6388fa330cd89d2bb637d89016860d8841e6e774bab904484",
+      "peak_memory_gb": 6.635876178741455
+    },
+    {
+      "rank": 1,
+      "steps": [
+        {
+          "iteration": 1,
+          "loss": 1.1761953830718994,
+          "grad_norm": 3.7241897583007812,
+          "sequence_tokens": 1006,
+          "per_device_batch_size": 16
+        },
+        {
+          "iteration": 2,
+          "loss": 1.1473777294158936,
+          "grad_norm": 3.673002243041992,
+          "sequence_tokens": 1006,
+          "per_device_batch_size": 16
+        }
+      ],
+      "trainable_sha256": "a869fcc043d7d0d6388fa330cd89d2bb637d89016860d8841e6e774bab904484",
+      "peak_memory_gb": 6.635876178741455
+    }
+  ]
+}

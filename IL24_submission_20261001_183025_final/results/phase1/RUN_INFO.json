@@ -1,0 +1,11 @@
+{
+  "mode": "real_fusion_window_analysis_and_ranking",
+  "upstream_reused": [
+    "official BepiPred residue outputs",
+    "official DiscoTope residue outputs",
+    "FreeSASA/DSSP",
+    "MAFFT conservation"
+  ],
+  "formula": "(((B+D)/2)+R+C)/3",
+  "bootstrap": "Historical uncertainty is supplied in the module reference results; no new bootstrap was run."
+}

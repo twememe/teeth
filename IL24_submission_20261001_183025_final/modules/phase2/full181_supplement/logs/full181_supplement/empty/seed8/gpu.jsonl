@@ -1,0 +1,9 @@
+{"time_utc": "2026-09-21T11:46:06.613904+00:00", "gpu": "0", "name": "NVIDIA RTX A6000", "memory_total_mib": 49140, "memory_used_mib": 15, "utilization_percent": 0}
+{"time_utc": "2026-09-21T11:46:16.653874+00:00", "gpu": "0", "name": "NVIDIA RTX A6000", "memory_total_mib": 49140, "memory_used_mib": 15, "utilization_percent": 0}
+{"time_utc": "2026-09-21T11:46:26.692885+00:00", "gpu": "0", "name": "NVIDIA RTX A6000", "memory_total_mib": 49140, "memory_used_mib": 15, "utilization_percent": 0}
+{"time_utc": "2026-09-21T11:46:36.733186+00:00", "gpu": "0", "name": "NVIDIA RTX A6000", "memory_total_mib": 49140, "memory_used_mib": 15, "utilization_percent": 0}
+{"time_utc": "2026-09-21T11:46:46.826447+00:00", "gpu": "0", "name": "NVIDIA RTX A6000", "memory_total_mib": 49140, "memory_used_mib": 15, "utilization_percent": 0}
+{"time_utc": "2026-09-21T11:46:56.867555+00:00", "gpu": "0", "name": "NVIDIA RTX A6000", "memory_total_mib": 49140, "memory_used_mib": 5337, "utilization_percent": 100}
+{"time_utc": "2026-09-21T11:47:06.908464+00:00", "gpu": "0", "name": "NVIDIA RTX A6000", "memory_total_mib": 49140, "memory_used_mib": 5337, "utilization_percent": 100}
+{"time_utc": "2026-09-21T11:47:16.943587+00:00", "gpu": "0", "name": "NVIDIA RTX A6000", "memory_total_mib": 49140, "memory_used_mib": 5375, "utilization_percent": 98}
+{"time_utc": "2026-09-21T11:47:26.981197+00:00", "gpu": "0", "name": "NVIDIA RTX A6000", "memory_total_mib": 49140, "memory_used_mib": 5379, "utilization_percent": 100}

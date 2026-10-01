@@ -1,0 +1,32 @@
+{
+  "model": "boltz1",
+  "boltz_version": "2.2.1",
+  "accelerator": "gpu",
+  "devices": 1,
+  "diffusion_samples": 1,
+  "recycling_steps": 3,
+  "sampling_steps": 200,
+  "no_kernels": true,
+  "num_workers": 0,
+  "output_format": "pdb",
+  "write_full_pae": true,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "hash_policy": "not_computed_per_direct_user_instruction",
+  "resume_policy": "exact input text and file metadata plus structure/confidence/PAE validation"
+}

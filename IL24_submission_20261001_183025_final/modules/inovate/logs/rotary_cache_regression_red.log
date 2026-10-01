@@ -1,0 +1,216 @@
+FF                                                                       [100%]
+=================================== FAILURES ===================================
+___________ test_validation_cache_can_be_reused_for_backward[False] ____________
+
+checkpointing = False
+
+    @pytest.mark.parametrize('checkpointing',[False,True])
+    def test_validation_cache_can_be_reused_for_backward(checkpointing):
+        torch.manual_seed(7)
+        base=EsmModel(EsmConfig(vocab_size=33,hidden_size=32,num_hidden_layers=2,num_attention_heads=4,intermediate_size=64,pad_token_id=1,mask_token_id=32,position_embedding_type='rotary',hidden_dropout_prob=0.,attention_probs_dropout_prob=0.,token_dropout=True),add_pooling_layer=False)
+        enable_sdpa(base)
+        encoder=add_lora(base,[0,1],2,4,0.)
+        if checkpointing:encoder.gradient_checkpointing_enable(gradient_checkpointing_kwargs={'use_reentrant':False})
+        model=SequenceClassifier(encoder)
+        x=torch.tensor([[0,5,6,7,8,9,2],[0,6,7,8,9,10,2]])
+        y=torch.tensor([0.,1.])
+        class Tokens:
+            lengths=[7,7]
+            def batch(self,idx):return x[idx],x[idx].ne(1),y[idx]
+        frame=pd.DataFrame({'label':[0,1]})
+        p=train.evaluate_model(model,Tokens(),frame,{'evaluation_batch_size':2,'seed':42},float('inf'))
+        assert np.isfinite(p).all()
+        model.train()
+>       loss=torch.nn.functional.binary_cross_entropy_with_logits(model(x,x.ne(1)),y)
+
+tests/test_eval_training_transition.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+scripts/modeling.py:41: in forward
+    features=self.features(input_ids,attention_mask)
+scripts/modeling.py:37: in features
+    hidden=self.backbone(input_ids=input_ids,attention_mask=attention_mask,return_dict=True).last_hidden_state
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+.venv/lib/python3.10/site-packages/peft/peft_model.py:849: in forward
+    return self.get_base_model()(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+.venv/lib/python3.10/site-packages/transformers/models/esm/modeling_esm.py:907: in forward
+    encoder_outputs = self.encoder(
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+.venv/lib/python3.10/site-packages/transformers/models/esm/modeling_esm.py:612: in forward
+    layer_outputs = layer_module(
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+.venv/lib/python3.10/site-packages/transformers/models/esm/modeling_esm.py:502: in forward
+    self_attention_outputs = self.attention(
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+.venv/lib/python3.10/site-packages/transformers/models/esm/modeling_esm.py:436: in forward
+    self_outputs = self.self(
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+scripts/modeling.py:19: in _sdpa_forward
+    if self.position_embedding_type=='rotary':q,k=self.rotary_embeddings(q,k)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+.venv/lib/python3.10/site-packages/transformers/models/esm/modeling_esm.py:118: in forward
+    apply_rotary_pos_emb(q, self._cos_cached, self._sin_cached),
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = tensor([[[[ 0.0430,  0.0497,  0.0845,  0.0015,  0.0342,  0.0679, -0.1029,
+           -0.0110],
+          [-0.0767, -0....        [ 0.0566, -0.0089, -0.0375, -0.0027, -0.0256, -0.0333, -0.0141,
+           -0.0381]]]], grad_fn=<MulBackward0>)
+cos = tensor([[[[ 1.0000,  1.0000,  1.0000,  1.0000,  1.0000,  1.0000,  1.0000,
+            1.0000],
+          [ 0.5403,  0....
+            1.0000],
+          [ 0.9602,  0.8253,  0.9982,  1.0000,  0.9602,  0.8253,  0.9982,
+            1.0000]]]])
+sin = tensor([[[[ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
+            0.0000],
+          [ 0.8415,  0....
+            0.0050],
+          [-0.2794,  0.5646,  0.0600,  0.0060, -0.2794,  0.5646,  0.0600,
+            0.0060]]]])
+
+    def apply_rotary_pos_emb(x, cos, sin):
+        cos = cos[:, :, : x.shape[-2], :]
+        sin = sin[:, :, : x.shape[-2], :]
+    
+>       return (x * cos) + (rotate_half(x) * sin)
+E       RuntimeError: Inference tensors cannot be saved for backward. To work around you can make a clone to get a normal tensor and use it in autograd.
+
+.venv/lib/python3.10/site-packages/transformers/models/esm/modeling_esm.py:53: RuntimeError
+____________ test_validation_cache_can_be_reused_for_backward[True] ____________
+
+checkpointing = True
+
+    @pytest.mark.parametrize('checkpointing',[False,True])
+    def test_validation_cache_can_be_reused_for_backward(checkpointing):
+        torch.manual_seed(7)
+        base=EsmModel(EsmConfig(vocab_size=33,hidden_size=32,num_hidden_layers=2,num_attention_heads=4,intermediate_size=64,pad_token_id=1,mask_token_id=32,position_embedding_type='rotary',hidden_dropout_prob=0.,attention_probs_dropout_prob=0.,token_dropout=True),add_pooling_layer=False)
+        enable_sdpa(base)
+        encoder=add_lora(base,[0,1],2,4,0.)
+        if checkpointing:encoder.gradient_checkpointing_enable(gradient_checkpointing_kwargs={'use_reentrant':False})
+        model=SequenceClassifier(encoder)
+        x=torch.tensor([[0,5,6,7,8,9,2],[0,6,7,8,9,10,2]])
+        y=torch.tensor([0.,1.])
+        class Tokens:
+            lengths=[7,7]
+            def batch(self,idx):return x[idx],x[idx].ne(1),y[idx]
+        frame=pd.DataFrame({'label':[0,1]})
+        p=train.evaluate_model(model,Tokens(),frame,{'evaluation_batch_size':2,'seed':42},float('inf'))
+        assert np.isfinite(p).all()
+        model.train()
+>       loss=torch.nn.functional.binary_cross_entropy_with_logits(model(x,x.ne(1)),y)
+
+tests/test_eval_training_transition.py:28: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+scripts/modeling.py:41: in forward
+    features=self.features(input_ids,attention_mask)
+scripts/modeling.py:37: in features
+    hidden=self.backbone(input_ids=input_ids,attention_mask=attention_mask,return_dict=True).last_hidden_state
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+.venv/lib/python3.10/site-packages/peft/peft_model.py:849: in forward
+    return self.get_base_model()(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+.venv/lib/python3.10/site-packages/transformers/models/esm/modeling_esm.py:907: in forward
+    encoder_outputs = self.encoder(
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+.venv/lib/python3.10/site-packages/transformers/models/esm/modeling_esm.py:601: in forward
+    layer_outputs = self._gradient_checkpointing_func(
+../phase2/venv/lib/python3.10/site-packages/torch/_compile.py:32: in inner
+    return disable_fn(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:745: in _fn
+    return fn(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:496: in checkpoint
+    ret = function(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+.venv/lib/python3.10/site-packages/transformers/models/esm/modeling_esm.py:502: in forward
+    self_attention_outputs = self.attention(
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+.venv/lib/python3.10/site-packages/transformers/models/esm/modeling_esm.py:436: in forward
+    self_outputs = self.self(
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+scripts/modeling.py:19: in _sdpa_forward
+    if self.position_embedding_type=='rotary':q,k=self.rotary_embeddings(q,k)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1739: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+../phase2/venv/lib/python3.10/site-packages/torch/nn/modules/module.py:1750: in _call_impl
+    return forward_call(*args, **kwargs)
+.venv/lib/python3.10/site-packages/transformers/models/esm/modeling_esm.py:118: in forward
+    apply_rotary_pos_emb(q, self._cos_cached, self._sin_cached),
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = tensor([[[[ 0.0430,  0.0497,  0.0845,  0.0015,  0.0342,  0.0679, -0.1029,
+           -0.0110],
+          [-0.0767, -0....        [ 0.0566, -0.0089, -0.0375, -0.0027, -0.0256, -0.0333, -0.0141,
+           -0.0381]]]], grad_fn=<MulBackward0>)
+cos = tensor([[[[ 1.0000,  1.0000,  1.0000,  1.0000,  1.0000,  1.0000,  1.0000,
+            1.0000],
+          [ 0.5403,  0....
+            1.0000],
+          [ 0.9602,  0.8253,  0.9982,  1.0000,  0.9602,  0.8253,  0.9982,
+            1.0000]]]])
+sin = tensor([[[[ 0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
+            0.0000],
+          [ 0.8415,  0....
+            0.0050],
+          [-0.2794,  0.5646,  0.0600,  0.0060, -0.2794,  0.5646,  0.0600,
+            0.0060]]]])
+
+    def apply_rotary_pos_emb(x, cos, sin):
+        cos = cos[:, :, : x.shape[-2], :]
+        sin = sin[:, :, : x.shape[-2], :]
+    
+>       return (x * cos) + (rotate_half(x) * sin)
+E       RuntimeError: Inference tensors cannot be saved for backward. To work around you can make a clone to get a normal tensor and use it in autograd.
+
+.venv/lib/python3.10/site-packages/transformers/models/esm/modeling_esm.py:53: RuntimeError
+=========================== short test summary info ============================
+FAILED tests/test_eval_training_transition.py::test_validation_cache_can_be_reused_for_backward[False]
+FAILED tests/test_eval_training_transition.py::test_validation_cache_can_be_reused_for_backward[True]
+2 failed in 8.91s

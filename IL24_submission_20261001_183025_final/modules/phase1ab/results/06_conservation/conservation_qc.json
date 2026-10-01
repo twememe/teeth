@@ -1,0 +1,13 @@
+{
+  "coordinate_system": "project_1_181",
+  "query_record_count": 116,
+  "selected_species_count": 25,
+  "selected_taxids_unique": true,
+  "selected_order_count": 10,
+  "reference_length": 181,
+  "alignment_sequence_count": 26,
+  "residue_rows": 181,
+  "bootstrap_replicates": 100,
+  "bootstrap_seed": 2406,
+  "mafft_version": "v7.526 (2024/Apr/26)"
+}

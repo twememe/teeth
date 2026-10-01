@@ -1,0 +1,1527 @@
+2026-09-21T21:29:14.067532+00:00 rank=1 Start mode=lora world=2 deadline=2026-09-22T04:37:56.557353+00:00
+2026-09-21T21:29:14.421494+00:00 rank=0 Start mode=lora world=2 deadline=2026-09-22T04:37:56.557353+00:00
+NCCL version 2.21.5+cuda12.4
+2026-09-21T21:32:16.243811+00:00 rank=1 LoRA trainable parameters=656641 training={'warm_start': 'Continued LoRA and head weights from the archived checkpoint; original run started from the frozen baseline head.', 'baseline_checkpoint': '/mnt/pxh/teeth/inovate/output/esm2_650m_frozen_best.pt', 'baseline_checkpoint_sha256': '96f464f20930d9558e24dfd4a88c7d7a9db6b36fa3cfb76bbd7d8de1a4ca2940', 'optimizer': 'AdamW', 'learning_rate': 0.0001, 'global_batch_size': 32, 'gradient_accumulation_steps': 1, 'per_device_batch_size': 16, 'world_size': 2, 'precision': 'fp32 parameters, bf16 autocast on CUDA', 'drop_last': True, 'initial_seed': 42, 'recovery': {'reason': 'Rotary inference-cache failure repaired by no_grad validation', 'checkpoint': '/mnt/pxh/teeth/inovate/output/recovery_20260922_0520/esm2_650m_lora_latest.pt', 'checkpoint_sha256': '547046198775b2880214af4f47a7ee0fc49b6cac809a1ab0a6382bb898689dd3', 'from_global_step': 10000, 'prior_epochs_completed': 1, 'skipped_batches_in_resumed_epoch': 3751, 'optimizer_state_restored': False, 'rng_state_restored': False, 'note': 'Original checkpoint contained adapter/head weights but no optimizer or RNG state. AdamW and RNG restart; deterministic batch order resumes after consumed batches. Resumed-epoch loss averages only post-recovery batches.'}, 'data_identity': {'train': {'path': '/mnt/pxh/teeth/inovate/data/train.csv', 'sha256': 'ba09e4b491349a9d4c9ff54757644f5a9b9f8a52716537b6bf2a79733e83de3e'}, 'validation': {'path': '/mnt/pxh/teeth/inovate/data/validation.csv', 'sha256': '2b2347b980e1ddc7176b50c2e4ffd2a930b25e7b841964c945a13763cdc51ec6'}}}
+2026-09-21T21:32:16.268361+00:00 rank=0 LoRA trainable parameters=656641 training={'warm_start': 'Continued LoRA and head weights from the archived checkpoint; original run started from the frozen baseline head.', 'baseline_checkpoint': '/mnt/pxh/teeth/inovate/output/esm2_650m_frozen_best.pt', 'baseline_checkpoint_sha256': '96f464f20930d9558e24dfd4a88c7d7a9db6b36fa3cfb76bbd7d8de1a4ca2940', 'optimizer': 'AdamW', 'learning_rate': 0.0001, 'global_batch_size': 32, 'gradient_accumulation_steps': 1, 'per_device_batch_size': 16, 'world_size': 2, 'precision': 'fp32 parameters, bf16 autocast on CUDA', 'drop_last': True, 'initial_seed': 42, 'recovery': {'reason': 'Rotary inference-cache failure repaired by no_grad validation', 'checkpoint': '/mnt/pxh/teeth/inovate/output/recovery_20260922_0520/esm2_650m_lora_latest.pt', 'checkpoint_sha256': '547046198775b2880214af4f47a7ee0fc49b6cac809a1ab0a6382bb898689dd3', 'from_global_step': 10000, 'prior_epochs_completed': 1, 'skipped_batches_in_resumed_epoch': 3751, 'optimizer_state_restored': False, 'rng_state_restored': False, 'note': 'Original checkpoint contained adapter/head weights but no optimizer or RNG state. AdamW and RNG restart; deterministic batch order resumes after consumed batches. Resumed-epoch loss averages only post-recovery batches.'}, 'data_identity': {'train': {'path': '/mnt/pxh/teeth/inovate/data/train.csv', 'sha256': 'ba09e4b491349a9d4c9ff54757644f5a9b9f8a52716537b6bf2a79733e83de3e'}, 'validation': {'path': '/mnt/pxh/teeth/inovate/data/validation.csv', 'sha256': '2b2347b980e1ddc7176b50c2e4ffd2a930b25e7b841964c945a13763cdc51ec6'}}}
+2026-09-21T21:32:37.952191+00:00 rank=1 lora epoch=2/15 batch=3771/6249 step=10020 loss=0.000441 grad_norm=0.0051
+2026-09-21T21:32:37.955057+00:00 rank=0 lora epoch=2/15 batch=3771/6249 step=10020 loss=0.000417 grad_norm=0.0051
+2026-09-21T21:32:57.184044+00:00 rank=1 lora epoch=2/15 batch=3791/6249 step=10040 loss=0.424858 grad_norm=1.2758
+2026-09-21T21:32:57.184582+00:00 rank=0 lora epoch=2/15 batch=3791/6249 step=10040 loss=0.489244 grad_norm=1.2758
+2026-09-21T21:33:17.034755+00:00 rank=1 lora epoch=2/15 batch=3811/6249 step=10060 loss=0.702801 grad_norm=1.1129
+2026-09-21T21:33:17.037892+00:00 rank=0 lora epoch=2/15 batch=3811/6249 step=10060 loss=0.607689 grad_norm=1.1129
+2026-09-21T21:33:35.015062+00:00 rank=1 lora epoch=2/15 batch=3831/6249 step=10080 loss=0.610496 grad_norm=1.0990
+2026-09-21T21:33:35.017108+00:00 rank=0 lora epoch=2/15 batch=3831/6249 step=10080 loss=0.356294 grad_norm=1.0990
+2026-09-21T21:33:52.704279+00:00 rank=1 lora epoch=2/15 batch=3851/6249 step=10100 loss=0.669579 grad_norm=2.4003
+2026-09-21T21:33:52.705940+00:00 rank=0 lora epoch=2/15 batch=3851/6249 step=10100 loss=0.457684 grad_norm=2.4003
+2026-09-21T21:34:11.332660+00:00 rank=1 lora epoch=2/15 batch=3871/6249 step=10120 loss=0.617422 grad_norm=0.6234
+2026-09-21T21:34:11.335662+00:00 rank=0 lora epoch=2/15 batch=3871/6249 step=10120 loss=0.550816 grad_norm=0.6234
+2026-09-21T21:34:30.543706+00:00 rank=1 lora epoch=2/15 batch=3891/6249 step=10140 loss=0.539272 grad_norm=0.2000
+2026-09-21T21:34:30.546703+00:00 rank=0 lora epoch=2/15 batch=3891/6249 step=10140 loss=0.667675 grad_norm=0.2000
+2026-09-21T21:34:51.101154+00:00 rank=1 lora epoch=2/15 batch=3911/6249 step=10160 loss=0.609729 grad_norm=0.3739
+2026-09-21T21:34:51.104114+00:00 rank=0 lora epoch=2/15 batch=3911/6249 step=10160 loss=0.685331 grad_norm=0.3739
+2026-09-21T21:35:10.873364+00:00 rank=1 lora epoch=2/15 batch=3931/6249 step=10180 loss=0.639717 grad_norm=0.4533
+2026-09-21T21:35:10.875473+00:00 rank=0 lora epoch=2/15 batch=3931/6249 step=10180 loss=0.683134 grad_norm=0.4533
+2026-09-21T21:35:28.923168+00:00 rank=1 lora epoch=2/15 batch=3951/6249 step=10200 loss=0.856751 grad_norm=0.8590
+2026-09-21T21:35:28.924596+00:00 rank=0 lora epoch=2/15 batch=3951/6249 step=10200 loss=0.605306 grad_norm=0.8590
+2026-09-21T21:35:47.128891+00:00 rank=1 lora epoch=2/15 batch=3971/6249 step=10220 loss=0.001037 grad_norm=0.0139
+2026-09-21T21:35:47.131888+00:00 rank=0 lora epoch=2/15 batch=3971/6249 step=10220 loss=0.000974 grad_norm=0.0139
+2026-09-21T21:36:07.214274+00:00 rank=1 lora epoch=2/15 batch=3991/6249 step=10240 loss=0.448738 grad_norm=0.4911
+2026-09-21T21:36:07.217358+00:00 rank=0 lora epoch=2/15 batch=3991/6249 step=10240 loss=0.002284 grad_norm=0.4911
+2026-09-21T21:36:25.100072+00:00 rank=1 lora epoch=2/15 batch=4011/6249 step=10260 loss=0.650161 grad_norm=0.8761
+2026-09-21T21:36:25.103100+00:00 rank=0 lora epoch=2/15 batch=4011/6249 step=10260 loss=0.649413 grad_norm=0.8761
+2026-09-21T21:36:44.330719+00:00 rank=1 lora epoch=2/15 batch=4031/6249 step=10280 loss=0.640798 grad_norm=0.7440
+2026-09-21T21:36:44.333843+00:00 rank=0 lora epoch=2/15 batch=4031/6249 step=10280 loss=0.655918 grad_norm=0.7440
+2026-09-21T21:37:05.877896+00:00 rank=1 lora epoch=2/15 batch=4051/6249 step=10300 loss=0.528207 grad_norm=0.2461
+2026-09-21T21:37:05.878931+00:00 rank=0 lora epoch=2/15 batch=4051/6249 step=10300 loss=0.708403 grad_norm=0.2461
+2026-09-21T21:37:27.093140+00:00 rank=1 lora epoch=2/15 batch=4071/6249 step=10320 loss=0.000540 grad_norm=0.0114
+2026-09-21T21:37:27.094263+00:00 rank=0 lora epoch=2/15 batch=4071/6249 step=10320 loss=0.001531 grad_norm=0.0114
+2026-09-21T21:37:45.958533+00:00 rank=1 lora epoch=2/15 batch=4091/6249 step=10340 loss=0.000521 grad_norm=0.0065
+2026-09-21T21:37:45.960036+00:00 rank=0 lora epoch=2/15 batch=4091/6249 step=10340 loss=0.000523 grad_norm=0.0065
+2026-09-21T21:38:03.759365+00:00 rank=1 lora epoch=2/15 batch=4111/6249 step=10360 loss=0.698972 grad_norm=0.3043
+2026-09-21T21:38:03.761572+00:00 rank=0 lora epoch=2/15 batch=4111/6249 step=10360 loss=0.692896 grad_norm=0.3043
+2026-09-21T21:38:20.373222+00:00 rank=1 lora epoch=2/15 batch=4131/6249 step=10380 loss=0.653410 grad_norm=1.0371
+2026-09-21T21:38:20.376291+00:00 rank=0 lora epoch=2/15 batch=4131/6249 step=10380 loss=0.621312 grad_norm=1.0371
+2026-09-21T21:38:40.182721+00:00 rank=1 lora epoch=2/15 batch=4151/6249 step=10400 loss=0.588822 grad_norm=0.3330
+2026-09-21T21:38:40.185783+00:00 rank=0 lora epoch=2/15 batch=4151/6249 step=10400 loss=0.605096 grad_norm=0.3330
+2026-09-21T21:39:00.503460+00:00 rank=1 lora epoch=2/15 batch=4171/6249 step=10420 loss=0.661644 grad_norm=0.9330
+2026-09-21T21:39:00.504733+00:00 rank=0 lora epoch=2/15 batch=4171/6249 step=10420 loss=0.708739 grad_norm=0.9330
+2026-09-21T21:39:23.032329+00:00 rank=1 lora epoch=2/15 batch=4191/6249 step=10440 loss=0.000606 grad_norm=0.0082
+2026-09-21T21:39:23.033995+00:00 rank=0 lora epoch=2/15 batch=4191/6249 step=10440 loss=0.000620 grad_norm=0.0082
+2026-09-21T21:39:42.918867+00:00 rank=1 lora epoch=2/15 batch=4211/6249 step=10460 loss=0.002760 grad_norm=0.0424
+2026-09-21T21:39:42.921058+00:00 rank=0 lora epoch=2/15 batch=4211/6249 step=10460 loss=0.000906 grad_norm=0.0424
+2026-09-21T21:40:00.784949+00:00 rank=1 lora epoch=2/15 batch=4231/6249 step=10480 loss=0.681519 grad_norm=0.7769
+2026-09-21T21:40:00.788000+00:00 rank=0 lora epoch=2/15 batch=4231/6249 step=10480 loss=0.688299 grad_norm=0.7769
+2026-09-21T21:40:21.969486+00:00 rank=1 lora epoch=2/15 batch=4251/6249 step=10500 loss=0.000552 grad_norm=0.0071
+2026-09-21T21:40:21.970788+00:00 rank=0 lora epoch=2/15 batch=4251/6249 step=10500 loss=0.000545 grad_norm=0.0071
+2026-09-21T21:40:41.974277+00:00 rank=1 lora epoch=2/15 batch=4271/6249 step=10520 loss=0.569361 grad_norm=2.2754
+2026-09-21T21:40:41.977410+00:00 rank=0 lora epoch=2/15 batch=4271/6249 step=10520 loss=0.692074 grad_norm=2.2754
+2026-09-21T21:40:59.908286+00:00 rank=1 lora epoch=2/15 batch=4291/6249 step=10540 loss=0.000702 grad_norm=0.0097
+2026-09-21T21:40:59.911137+00:00 rank=0 lora epoch=2/15 batch=4291/6249 step=10540 loss=0.000711 grad_norm=0.0097
+2026-09-21T21:41:19.431000+00:00 rank=1 lora epoch=2/15 batch=4311/6249 step=10560 loss=0.657465 grad_norm=0.3512
+2026-09-21T21:41:19.434090+00:00 rank=0 lora epoch=2/15 batch=4311/6249 step=10560 loss=0.644662 grad_norm=0.3512
+2026-09-21T21:41:38.741751+00:00 rank=1 lora epoch=2/15 batch=4331/6249 step=10580 loss=0.582252 grad_norm=0.8851
+2026-09-21T21:41:38.744900+00:00 rank=0 lora epoch=2/15 batch=4331/6249 step=10580 loss=0.644866 grad_norm=0.8851
+2026-09-21T21:41:57.831469+00:00 rank=1 lora epoch=2/15 batch=4351/6249 step=10600 loss=0.337526 grad_norm=0.4501
+2026-09-21T21:41:57.834554+00:00 rank=0 lora epoch=2/15 batch=4351/6249 step=10600 loss=0.158553 grad_norm=0.4501
+2026-09-21T21:42:20.469973+00:00 rank=1 lora epoch=2/15 batch=4371/6249 step=10620 loss=0.407776 grad_norm=1.5533
+2026-09-21T21:42:20.473057+00:00 rank=0 lora epoch=2/15 batch=4371/6249 step=10620 loss=0.515681 grad_norm=1.5533
+2026-09-21T21:42:43.188645+00:00 rank=1 lora epoch=2/15 batch=4391/6249 step=10640 loss=0.245870 grad_norm=1.3654
+2026-09-21T21:42:43.191475+00:00 rank=0 lora epoch=2/15 batch=4391/6249 step=10640 loss=0.879534 grad_norm=1.3654
+2026-09-21T21:43:04.190373+00:00 rank=1 lora epoch=2/15 batch=4411/6249 step=10660 loss=0.633581 grad_norm=0.8936
+2026-09-21T21:43:04.192555+00:00 rank=0 lora epoch=2/15 batch=4411/6249 step=10660 loss=0.597632 grad_norm=0.8936
+2026-09-21T21:43:23.970066+00:00 rank=1 lora epoch=2/15 batch=4431/6249 step=10680 loss=0.144107 grad_norm=0.2706
+2026-09-21T21:43:23.973145+00:00 rank=0 lora epoch=2/15 batch=4431/6249 step=10680 loss=0.000980 grad_norm=0.2706
+2026-09-21T21:43:43.363382+00:00 rank=1 lora epoch=2/15 batch=4451/6249 step=10700 loss=0.292521 grad_norm=0.6116
+2026-09-21T21:43:43.366546+00:00 rank=0 lora epoch=2/15 batch=4451/6249 step=10700 loss=0.162859 grad_norm=0.6116
+2026-09-21T21:44:05.527741+00:00 rank=1 lora epoch=2/15 batch=4471/6249 step=10720 loss=0.602347 grad_norm=1.0800
+2026-09-21T21:44:05.529722+00:00 rank=0 lora epoch=2/15 batch=4471/6249 step=10720 loss=0.377126 grad_norm=1.0800
+2026-09-21T21:44:28.174295+00:00 rank=1 lora epoch=2/15 batch=4491/6249 step=10740 loss=0.000517 grad_norm=0.0078
+2026-09-21T21:44:28.176417+00:00 rank=0 lora epoch=2/15 batch=4491/6249 step=10740 loss=0.000504 grad_norm=0.0078
+2026-09-21T21:44:47.532690+00:00 rank=1 lora epoch=2/15 batch=4511/6249 step=10760 loss=0.679818 grad_norm=0.9098
+2026-09-21T21:44:47.534978+00:00 rank=0 lora epoch=2/15 batch=4511/6249 step=10760 loss=0.678900 grad_norm=0.9098
+2026-09-21T21:45:08.587116+00:00 rank=1 lora epoch=2/15 batch=4531/6249 step=10780 loss=0.699872 grad_norm=0.5716
+2026-09-21T21:45:08.587880+00:00 rank=0 lora epoch=2/15 batch=4531/6249 step=10780 loss=0.623042 grad_norm=0.5716
+2026-09-21T21:45:27.001182+00:00 rank=1 lora epoch=2/15 batch=4551/6249 step=10800 loss=0.000512 grad_norm=0.0070
+2026-09-21T21:45:27.003188+00:00 rank=0 lora epoch=2/15 batch=4551/6249 step=10800 loss=0.000526 grad_norm=0.0070
+2026-09-21T21:45:46.690051+00:00 rank=1 lora epoch=2/15 batch=4571/6249 step=10820 loss=0.645172 grad_norm=0.4888
+2026-09-21T21:45:46.693108+00:00 rank=0 lora epoch=2/15 batch=4571/6249 step=10820 loss=0.555057 grad_norm=0.4888
+2026-09-21T21:46:04.044353+00:00 rank=1 lora epoch=2/15 batch=4591/6249 step=10840 loss=0.616486 grad_norm=1.5502
+2026-09-21T21:46:04.047368+00:00 rank=0 lora epoch=2/15 batch=4591/6249 step=10840 loss=0.725900 grad_norm=1.5502
+2026-09-21T21:46:22.631770+00:00 rank=1 lora epoch=2/15 batch=4611/6249 step=10860 loss=0.196833 grad_norm=0.4507
+2026-09-21T21:46:22.634910+00:00 rank=0 lora epoch=2/15 batch=4611/6249 step=10860 loss=0.193468 grad_norm=0.4507
+2026-09-21T21:46:44.189644+00:00 rank=1 lora epoch=2/15 batch=4631/6249 step=10880 loss=0.000652 grad_norm=0.0074
+2026-09-21T21:46:44.192689+00:00 rank=0 lora epoch=2/15 batch=4631/6249 step=10880 loss=0.000730 grad_norm=0.0074
+2026-09-21T21:47:04.471855+00:00 rank=1 lora epoch=2/15 batch=4651/6249 step=10900 loss=0.775435 grad_norm=0.7360
+2026-09-21T21:47:04.473705+00:00 rank=0 lora epoch=2/15 batch=4651/6249 step=10900 loss=0.656035 grad_norm=0.7360
+2026-09-21T21:47:24.799651+00:00 rank=1 lora epoch=2/15 batch=4671/6249 step=10920 loss=0.710702 grad_norm=0.6436
+2026-09-21T21:47:24.800564+00:00 rank=0 lora epoch=2/15 batch=4671/6249 step=10920 loss=0.485675 grad_norm=0.6436
+2026-09-21T21:47:45.035326+00:00 rank=1 lora epoch=2/15 batch=4691/6249 step=10940 loss=0.000545 grad_norm=0.0095
+2026-09-21T21:47:45.038321+00:00 rank=0 lora epoch=2/15 batch=4691/6249 step=10940 loss=0.000539 grad_norm=0.0095
+2026-09-21T21:48:02.622140+00:00 rank=0 lora epoch=2/15 batch=4711/6249 step=10960 loss=0.000472 grad_norm=0.00542026-09-21T21:48:02.622142+00:00 rank=1 lora epoch=2/15 batch=4711/6249 step=10960 loss=0.000438 grad_norm=0.0054
+
+2026-09-21T21:48:22.706844+00:00 rank=1 lora epoch=2/15 batch=4731/6249 step=10980 loss=0.000529 grad_norm=0.01172026-09-21T21:48:22.706865+00:00 rank=0 lora epoch=2/15 batch=4731/6249 step=10980 loss=0.000535 grad_norm=0.0117
+
+2026-09-21T21:48:39.937140+00:00 rank=1 lora epoch=2/15 batch=4751/6249 step=11000 loss=0.000540 grad_norm=0.0131
+2026-09-21T21:48:39.940204+00:00 rank=0 lora epoch=2/15 batch=4751/6249 step=11000 loss=0.000521 grad_norm=0.0131
+2026-09-21T21:48:58.387718+00:00 rank=1 lora epoch=2/15 batch=4771/6249 step=11020 loss=0.563013 grad_norm=0.8429
+2026-09-21T21:48:58.390211+00:00 rank=0 lora epoch=2/15 batch=4771/6249 step=11020 loss=0.711432 grad_norm=0.8429
+2026-09-21T21:49:19.015168+00:00 rank=1 lora epoch=2/15 batch=4791/6249 step=11040 loss=0.000458 grad_norm=0.0074
+2026-09-21T21:49:19.018098+00:00 rank=0 lora epoch=2/15 batch=4791/6249 step=11040 loss=0.000454 grad_norm=0.0074
+2026-09-21T21:49:38.526206+00:00 rank=1 lora epoch=2/15 batch=4811/6249 step=11060 loss=0.000619 grad_norm=0.0273
+2026-09-21T21:49:38.529117+00:00 rank=0 lora epoch=2/15 batch=4811/6249 step=11060 loss=0.005158 grad_norm=0.0273
+2026-09-21T21:49:59.284491+00:00 rank=1 lora epoch=2/15 batch=4831/6249 step=11080 loss=0.702666 grad_norm=0.5500
+2026-09-21T21:49:59.287532+00:00 rank=0 lora epoch=2/15 batch=4831/6249 step=11080 loss=0.617280 grad_norm=0.5500
+2026-09-21T21:50:17.627228+00:00 rank=1 lora epoch=2/15 batch=4851/6249 step=11100 loss=0.564078 grad_norm=1.1789
+2026-09-21T21:50:17.629666+00:00 rank=0 lora epoch=2/15 batch=4851/6249 step=11100 loss=0.607339 grad_norm=1.1789
+2026-09-21T21:50:38.328472+00:00 rank=1 lora epoch=2/15 batch=4871/6249 step=11120 loss=0.229487 grad_norm=0.8260
+2026-09-21T21:50:38.331607+00:00 rank=0 lora epoch=2/15 batch=4871/6249 step=11120 loss=0.089833 grad_norm=0.8260
+2026-09-21T21:51:01.520270+00:00 rank=1 lora epoch=2/15 batch=4891/6249 step=11140 loss=0.581000 grad_norm=0.2453
+2026-09-21T21:51:01.523682+00:00 rank=0 lora epoch=2/15 batch=4891/6249 step=11140 loss=0.450368 grad_norm=0.2453
+2026-09-21T21:51:19.906915+00:00 rank=1 lora epoch=2/15 batch=4911/6249 step=11160 loss=0.602949 grad_norm=1.2499
+2026-09-21T21:51:19.910003+00:00 rank=0 lora epoch=2/15 batch=4911/6249 step=11160 loss=0.624262 grad_norm=1.2499
+2026-09-21T21:51:38.064773+00:00 rank=1 lora epoch=2/15 batch=4931/6249 step=11180 loss=0.621327 grad_norm=0.3675
+2026-09-21T21:51:38.067842+00:00 rank=0 lora epoch=2/15 batch=4931/6249 step=11180 loss=0.575929 grad_norm=0.3675
+2026-09-21T21:51:54.887446+00:00 rank=1 lora epoch=2/15 batch=4951/6249 step=11200 loss=0.576155 grad_norm=0.7136
+2026-09-21T21:51:54.887620+00:00 rank=0 lora epoch=2/15 batch=4951/6249 step=11200 loss=0.623162 grad_norm=0.7136
+2026-09-21T21:52:14.969887+00:00 rank=1 lora epoch=2/15 batch=4971/6249 step=11220 loss=0.734880 grad_norm=0.8798
+2026-09-21T21:52:14.972772+00:00 rank=0 lora epoch=2/15 batch=4971/6249 step=11220 loss=0.517390 grad_norm=0.8798
+2026-09-21T21:52:38.340918+00:00 rank=1 lora epoch=2/15 batch=4991/6249 step=11240 loss=0.563034 grad_norm=0.9926
+2026-09-21T21:52:38.343961+00:00 rank=0 lora epoch=2/15 batch=4991/6249 step=11240 loss=0.583485 grad_norm=0.9926
+2026-09-21T21:52:58.237013+00:00 rank=0 lora epoch=2/15 batch=5011/6249 step=11260 loss=0.000553 grad_norm=0.00782026-09-21T21:52:58.237020+00:00 rank=1 lora epoch=2/15 batch=5011/6249 step=11260 loss=0.000528 grad_norm=0.0078
+
+2026-09-21T21:53:15.648995+00:00 rank=0 lora epoch=2/15 batch=5031/6249 step=11280 loss=0.456456 grad_norm=1.3685
+2026-09-21T21:53:15.649052+00:00 rank=1 lora epoch=2/15 batch=5031/6249 step=11280 loss=0.549780 grad_norm=1.3685
+2026-09-21T21:53:36.791290+00:00 rank=1 lora epoch=2/15 batch=5051/6249 step=11300 loss=0.596729 grad_norm=0.2592
+2026-09-21T21:53:36.794401+00:00 rank=0 lora epoch=2/15 batch=5051/6249 step=11300 loss=0.092256 grad_norm=0.2592
+2026-09-21T21:53:56.689968+00:00 rank=1 lora epoch=2/15 batch=5071/6249 step=11320 loss=0.000625 grad_norm=0.0150
+2026-09-21T21:53:56.692449+00:00 rank=0 lora epoch=2/15 batch=5071/6249 step=11320 loss=0.000553 grad_norm=0.0150
+2026-09-21T21:54:16.085155+00:00 rank=1 lora epoch=2/15 batch=5091/6249 step=11340 loss=0.600485 grad_norm=0.5732
+2026-09-21T21:54:16.088265+00:00 rank=0 lora epoch=2/15 batch=5091/6249 step=11340 loss=0.607088 grad_norm=0.5732
+2026-09-21T21:54:33.360757+00:00 rank=1 lora epoch=2/15 batch=5111/6249 step=11360 loss=0.678096 grad_norm=0.6958
+2026-09-21T21:54:33.363923+00:00 rank=0 lora epoch=2/15 batch=5111/6249 step=11360 loss=0.703424 grad_norm=0.6958
+2026-09-21T21:54:55.837613+00:00 rank=1 lora epoch=2/15 batch=5131/6249 step=11380 loss=0.735683 grad_norm=1.2631
+2026-09-21T21:54:55.840153+00:00 rank=0 lora epoch=2/15 batch=5131/6249 step=11380 loss=0.677143 grad_norm=1.2631
+2026-09-21T21:55:17.591318+00:00 rank=0 lora epoch=2/15 batch=5151/6249 step=11400 loss=0.000690 grad_norm=0.01092026-09-21T21:55:17.591318+00:00 rank=1 lora epoch=2/15 batch=5151/6249 step=11400 loss=0.000713 grad_norm=0.0109
+
+2026-09-21T21:55:36.001426+00:00 rank=0 lora epoch=2/15 batch=5171/6249 step=11420 loss=0.117451 grad_norm=0.73802026-09-21T21:55:36.001431+00:00 rank=1 lora epoch=2/15 batch=5171/6249 step=11420 loss=0.660554 grad_norm=0.7380
+
+2026-09-21T21:55:54.386989+00:00 rank=1 lora epoch=2/15 batch=5191/6249 step=11440 loss=0.720034 grad_norm=1.2924
+2026-09-21T21:55:54.389976+00:00 rank=0 lora epoch=2/15 batch=5191/6249 step=11440 loss=0.683362 grad_norm=1.2924
+2026-09-21T21:56:14.175658+00:00 rank=1 lora epoch=2/15 batch=5211/6249 step=11460 loss=0.002012 grad_norm=0.0381
+2026-09-21T21:56:14.178685+00:00 rank=0 lora epoch=2/15 batch=5211/6249 step=11460 loss=0.002169 grad_norm=0.0381
+2026-09-21T21:56:35.282395+00:00 rank=1 lora epoch=2/15 batch=5231/6249 step=11480 loss=0.554576 grad_norm=0.3809
+2026-09-21T21:56:35.285860+00:00 rank=0 lora epoch=2/15 batch=5231/6249 step=11480 loss=0.680457 grad_norm=0.3809
+2026-09-21T21:56:56.309634+00:00 rank=1 lora epoch=2/15 batch=5251/6249 step=11500 loss=0.623589 grad_norm=0.7257
+2026-09-21T21:56:56.311873+00:00 rank=0 lora epoch=2/15 batch=5251/6249 step=11500 loss=0.661379 grad_norm=0.7257
+2026-09-21T21:57:15.378830+00:00 rank=1 lora epoch=2/15 batch=5271/6249 step=11520 loss=0.000478 grad_norm=0.0072
+2026-09-21T21:57:15.381032+00:00 rank=0 lora epoch=2/15 batch=5271/6249 step=11520 loss=0.000501 grad_norm=0.0072
+2026-09-21T21:57:37.170210+00:00 rank=1 lora epoch=2/15 batch=5291/6249 step=11540 loss=0.000420 grad_norm=0.0044
+2026-09-21T21:57:37.173301+00:00 rank=0 lora epoch=2/15 batch=5291/6249 step=11540 loss=0.000431 grad_norm=0.0044
+2026-09-21T21:57:56.167646+00:00 rank=1 lora epoch=2/15 batch=5311/6249 step=11560 loss=0.724893 grad_norm=0.3828
+2026-09-21T21:57:56.168524+00:00 rank=0 lora epoch=2/15 batch=5311/6249 step=11560 loss=0.571512 grad_norm=0.3828
+2026-09-21T21:58:16.919973+00:00 rank=1 lora epoch=2/15 batch=5331/6249 step=11580 loss=0.000554 grad_norm=0.0077
+2026-09-21T21:58:16.923084+00:00 rank=0 lora epoch=2/15 batch=5331/6249 step=11580 loss=0.000551 grad_norm=0.0077
+2026-09-21T21:58:33.724368+00:00 rank=1 lora epoch=2/15 batch=5351/6249 step=11600 loss=0.000521 grad_norm=0.0067
+2026-09-21T21:58:33.726470+00:00 rank=0 lora epoch=2/15 batch=5351/6249 step=11600 loss=0.000507 grad_norm=0.0067
+2026-09-21T21:58:51.954178+00:00 rank=1 lora epoch=2/15 batch=5371/6249 step=11620 loss=0.000836 grad_norm=0.0192
+2026-09-21T21:58:51.956459+00:00 rank=0 lora epoch=2/15 batch=5371/6249 step=11620 loss=0.000839 grad_norm=0.0192
+2026-09-21T21:59:14.214691+00:00 rank=1 lora epoch=2/15 batch=5391/6249 step=11640 loss=0.000657 grad_norm=0.0107
+2026-09-21T21:59:14.217830+00:00 rank=0 lora epoch=2/15 batch=5391/6249 step=11640 loss=0.000656 grad_norm=0.0107
+2026-09-21T21:59:32.903852+00:00 rank=1 lora epoch=2/15 batch=5411/6249 step=11660 loss=0.691606 grad_norm=0.3553
+2026-09-21T21:59:32.905893+00:00 rank=0 lora epoch=2/15 batch=5411/6249 step=11660 loss=0.656199 grad_norm=0.3553
+2026-09-21T21:59:53.636769+00:00 rank=1 lora epoch=2/15 batch=5431/6249 step=11680 loss=0.607909 grad_norm=0.3042
+2026-09-21T21:59:53.639894+00:00 rank=0 lora epoch=2/15 batch=5431/6249 step=11680 loss=0.713862 grad_norm=0.3042
+2026-09-21T22:00:12.817921+00:00 rank=1 lora epoch=2/15 batch=5451/6249 step=11700 loss=0.424789 grad_norm=0.2943
+2026-09-21T22:00:12.821072+00:00 rank=0 lora epoch=2/15 batch=5451/6249 step=11700 loss=0.000890 grad_norm=0.2943
+2026-09-21T22:00:31.042447+00:00 rank=1 lora epoch=2/15 batch=5471/6249 step=11720 loss=0.398259 grad_norm=0.9198
+2026-09-21T22:00:31.042484+00:00 rank=0 lora epoch=2/15 batch=5471/6249 step=11720 loss=0.484328 grad_norm=0.9198
+2026-09-21T22:00:50.294797+00:00 rank=1 lora epoch=2/15 batch=5491/6249 step=11740 loss=0.000538 grad_norm=0.0093
+2026-09-21T22:00:50.297145+00:00 rank=0 lora epoch=2/15 batch=5491/6249 step=11740 loss=0.000549 grad_norm=0.0093
+2026-09-21T22:01:09.277810+00:00 rank=1 lora epoch=2/15 batch=5511/6249 step=11760 loss=0.651835 grad_norm=1.7241
+2026-09-21T22:01:09.281040+00:00 rank=0 lora epoch=2/15 batch=5511/6249 step=11760 loss=0.619856 grad_norm=1.7241
+2026-09-21T22:01:26.450248+00:00 rank=1 lora epoch=2/15 batch=5531/6249 step=11780 loss=0.618805 grad_norm=1.1300
+2026-09-21T22:01:26.453322+00:00 rank=0 lora epoch=2/15 batch=5531/6249 step=11780 loss=0.585467 grad_norm=1.1300
+2026-09-21T22:01:50.866500+00:00 rank=1 lora epoch=2/15 batch=5551/6249 step=11800 loss=0.350031 grad_norm=0.3789
+2026-09-21T22:01:50.869466+00:00 rank=0 lora epoch=2/15 batch=5551/6249 step=11800 loss=0.398937 grad_norm=0.3789
+2026-09-21T22:02:09.200796+00:00 rank=1 lora epoch=2/15 batch=5571/6249 step=11820 loss=0.000567 grad_norm=0.0082
+2026-09-21T22:02:09.203973+00:00 rank=0 lora epoch=2/15 batch=5571/6249 step=11820 loss=0.000576 grad_norm=0.0082
+2026-09-21T22:02:30.942688+00:00 rank=1 lora epoch=2/15 batch=5591/6249 step=11840 loss=0.000465 grad_norm=0.0056
+2026-09-21T22:02:30.945771+00:00 rank=0 lora epoch=2/15 batch=5591/6249 step=11840 loss=0.000467 grad_norm=0.0056
+2026-09-21T22:02:52.500655+00:00 rank=1 lora epoch=2/15 batch=5611/6249 step=11860 loss=0.566442 grad_norm=0.7445
+2026-09-21T22:02:52.506038+00:00 rank=0 lora epoch=2/15 batch=5611/6249 step=11860 loss=0.779377 grad_norm=0.7445
+2026-09-21T22:03:14.704733+00:00 rank=1 lora epoch=2/15 batch=5631/6249 step=11880 loss=0.572821 grad_norm=0.8862
+2026-09-21T22:03:14.705362+00:00 rank=0 lora epoch=2/15 batch=5631/6249 step=11880 loss=0.624834 grad_norm=0.8862
+2026-09-21T22:03:33.533113+00:00 rank=1 lora epoch=2/15 batch=5651/6249 step=11900 loss=0.002305 grad_norm=0.3163
+2026-09-21T22:03:33.533228+00:00 rank=0 lora epoch=2/15 batch=5651/6249 step=11900 loss=0.068919 grad_norm=0.3163
+2026-09-21T22:03:51.444212+00:00 rank=1 lora epoch=2/15 batch=5671/6249 step=11920 loss=0.638212 grad_norm=0.4772
+2026-09-21T22:03:51.447251+00:00 rank=0 lora epoch=2/15 batch=5671/6249 step=11920 loss=0.667295 grad_norm=0.4772
+2026-09-21T22:04:10.329994+00:00 rank=1 lora epoch=2/15 batch=5691/6249 step=11940 loss=0.648331 grad_norm=0.1899
+2026-09-21T22:04:10.331205+00:00 rank=0 lora epoch=2/15 batch=5691/6249 step=11940 loss=0.639323 grad_norm=0.1899
+2026-09-21T22:04:33.755440+00:00 rank=1 lora epoch=2/15 batch=5711/6249 step=11960 loss=0.537620 grad_norm=0.8833
+2026-09-21T22:04:33.758550+00:00 rank=0 lora epoch=2/15 batch=5711/6249 step=11960 loss=0.349265 grad_norm=0.8833
+2026-09-21T22:04:54.022863+00:00 rank=1 lora epoch=2/15 batch=5731/6249 step=11980 loss=0.142296 grad_norm=0.0233
+2026-09-21T22:04:54.025830+00:00 rank=0 lora epoch=2/15 batch=5731/6249 step=11980 loss=0.000591 grad_norm=0.0233
+2026-09-21T22:05:12.109721+00:00 rank=1 lora epoch=2/15 batch=5751/6249 step=12000 loss=0.558305 grad_norm=0.1823
+2026-09-21T22:05:12.110695+00:00 rank=0 lora epoch=2/15 batch=5751/6249 step=12000 loss=0.643474 grad_norm=0.1823
+2026-09-21T22:08:19.897846+00:00 rank=0 interval validation step=12000 metrics={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.45469279473125124, 'f1': 0.7186906777487045, 'spearman_probability_label': 0.5960845972882338, 'threshold': 0.5}
+2026-09-21T22:08:19.899925+00:00 rank=1 interval validation step=12000 metrics={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.45469279473125124, 'f1': 0.7186906777487045, 'spearman_probability_label': 0.5960845972882338, 'threshold': 0.5}
+2026-09-21T22:08:38.323678+00:00 rank=1 lora epoch=2/15 batch=5771/6249 step=12020 loss=0.604832 grad_norm=0.6955
+2026-09-21T22:08:38.324837+00:00 rank=0 lora epoch=2/15 batch=5771/6249 step=12020 loss=0.747056 grad_norm=0.6955
+2026-09-21T22:09:01.053672+00:00 rank=1 lora epoch=2/15 batch=5791/6249 step=12040 loss=0.000515 grad_norm=0.0084
+2026-09-21T22:09:01.056636+00:00 rank=0 lora epoch=2/15 batch=5791/6249 step=12040 loss=0.000492 grad_norm=0.0084
+2026-09-21T22:09:20.564865+00:00 rank=1 lora epoch=2/15 batch=5811/6249 step=12060 loss=0.613506 grad_norm=0.7964
+2026-09-21T22:09:20.567940+00:00 rank=0 lora epoch=2/15 batch=5811/6249 step=12060 loss=0.649252 grad_norm=0.7964
+2026-09-21T22:09:39.163368+00:00 rank=1 lora epoch=2/15 batch=5831/6249 step=12080 loss=0.000494 grad_norm=0.0072
+2026-09-21T22:09:39.165146+00:00 rank=0 lora epoch=2/15 batch=5831/6249 step=12080 loss=0.000487 grad_norm=0.0072
+2026-09-21T22:09:57.117712+00:00 rank=1 lora epoch=2/15 batch=5851/6249 step=12100 loss=0.641242 grad_norm=0.4381
+2026-09-21T22:09:57.120864+00:00 rank=0 lora epoch=2/15 batch=5851/6249 step=12100 loss=0.577428 grad_norm=0.4381
+2026-09-21T22:10:16.993036+00:00 rank=1 lora epoch=2/15 batch=5871/6249 step=12120 loss=0.537414 grad_norm=1.1597
+2026-09-21T22:10:16.994031+00:00 rank=0 lora epoch=2/15 batch=5871/6249 step=12120 loss=0.605672 grad_norm=1.1597
+2026-09-21T22:10:38.448992+00:00 rank=1 lora epoch=2/15 batch=5891/6249 step=12140 loss=0.688894 grad_norm=1.2328
+2026-09-21T22:10:38.452278+00:00 rank=0 lora epoch=2/15 batch=5891/6249 step=12140 loss=0.795250 grad_norm=1.2328
+2026-09-21T22:10:58.055891+00:00 rank=1 lora epoch=2/15 batch=5911/6249 step=12160 loss=0.671495 grad_norm=0.8322
+2026-09-21T22:10:58.057632+00:00 rank=0 lora epoch=2/15 batch=5911/6249 step=12160 loss=0.657481 grad_norm=0.8322
+2026-09-21T22:11:19.668421+00:00 rank=1 lora epoch=2/15 batch=5931/6249 step=12180 loss=0.557548 grad_norm=0.8543
+2026-09-21T22:11:19.671585+00:00 rank=0 lora epoch=2/15 batch=5931/6249 step=12180 loss=0.622005 grad_norm=0.8543
+2026-09-21T22:11:36.852666+00:00 rank=1 lora epoch=2/15 batch=5951/6249 step=12200 loss=0.660535 grad_norm=0.4225
+2026-09-21T22:11:36.855841+00:00 rank=0 lora epoch=2/15 batch=5951/6249 step=12200 loss=0.626093 grad_norm=0.4225
+2026-09-21T22:11:56.051439+00:00 rank=1 lora epoch=2/15 batch=5971/6249 step=12220 loss=0.000530 grad_norm=0.0101
+2026-09-21T22:11:56.053111+00:00 rank=0 lora epoch=2/15 batch=5971/6249 step=12220 loss=0.000561 grad_norm=0.0101
+2026-09-21T22:12:15.860347+00:00 rank=1 lora epoch=2/15 batch=5991/6249 step=12240 loss=0.634964 grad_norm=0.3462
+2026-09-21T22:12:15.863398+00:00 rank=0 lora epoch=2/15 batch=5991/6249 step=12240 loss=0.632279 grad_norm=0.3462
+2026-09-21T22:12:36.546691+00:00 rank=1 lora epoch=2/15 batch=6011/6249 step=12260 loss=0.649243 grad_norm=0.3564
+2026-09-21T22:12:36.549769+00:00 rank=0 lora epoch=2/15 batch=6011/6249 step=12260 loss=0.682070 grad_norm=0.3564
+2026-09-21T22:12:52.535439+00:00 rank=1 lora epoch=2/15 batch=6031/6249 step=12280 loss=0.693618 grad_norm=0.9751
+2026-09-21T22:12:52.536364+00:00 rank=0 lora epoch=2/15 batch=6031/6249 step=12280 loss=0.711565 grad_norm=0.9751
+2026-09-21T22:13:13.040752+00:00 rank=1 lora epoch=2/15 batch=6051/6249 step=12300 loss=0.000494 grad_norm=0.0088
+2026-09-21T22:13:13.043854+00:00 rank=0 lora epoch=2/15 batch=6051/6249 step=12300 loss=0.000485 grad_norm=0.0088
+2026-09-21T22:13:32.774037+00:00 rank=1 lora epoch=2/15 batch=6071/6249 step=12320 loss=0.614351 grad_norm=0.8234
+2026-09-21T22:13:32.776317+00:00 rank=0 lora epoch=2/15 batch=6071/6249 step=12320 loss=0.557526 grad_norm=0.8234
+2026-09-21T22:13:52.309283+00:00 rank=1 lora epoch=2/15 batch=6091/6249 step=12340 loss=0.415317 grad_norm=0.9611
+2026-09-21T22:13:52.312401+00:00 rank=0 lora epoch=2/15 batch=6091/6249 step=12340 loss=0.387356 grad_norm=0.9611
+2026-09-21T22:14:12.925183+00:00 rank=1 lora epoch=2/15 batch=6111/6249 step=12360 loss=0.001014 grad_norm=0.0117
+2026-09-21T22:14:12.928379+00:00 rank=0 lora epoch=2/15 batch=6111/6249 step=12360 loss=0.000798 grad_norm=0.0117
+2026-09-21T22:14:32.550991+00:00 rank=1 lora epoch=2/15 batch=6131/6249 step=12380 loss=0.000494 grad_norm=0.0069
+2026-09-21T22:14:32.551920+00:00 rank=0 lora epoch=2/15 batch=6131/6249 step=12380 loss=0.000468 grad_norm=0.0069
+2026-09-21T22:14:53.070890+00:00 rank=1 lora epoch=2/15 batch=6151/6249 step=12400 loss=0.683708 grad_norm=0.5680
+2026-09-21T22:14:53.074178+00:00 rank=0 lora epoch=2/15 batch=6151/6249 step=12400 loss=0.623710 grad_norm=0.5680
+2026-09-21T22:15:12.956953+00:00 rank=1 lora epoch=2/15 batch=6171/6249 step=12420 loss=0.000524 grad_norm=0.0086
+2026-09-21T22:15:12.960155+00:00 rank=0 lora epoch=2/15 batch=6171/6249 step=12420 loss=0.000522 grad_norm=0.0086
+2026-09-21T22:15:32.973953+00:00 rank=1 lora epoch=2/15 batch=6191/6249 step=12440 loss=0.716717 grad_norm=0.6763
+2026-09-21T22:15:32.977149+00:00 rank=0 lora epoch=2/15 batch=6191/6249 step=12440 loss=0.716313 grad_norm=0.6763
+2026-09-21T22:15:50.399675+00:00 rank=1 lora epoch=2/15 batch=6211/6249 step=12460 loss=0.581843 grad_norm=1.3979
+2026-09-21T22:15:50.402771+00:00 rank=0 lora epoch=2/15 batch=6211/6249 step=12460 loss=0.698386 grad_norm=1.3979
+2026-09-21T22:16:06.454797+00:00 rank=1 lora epoch=2/15 batch=6231/6249 step=12480 loss=0.756575 grad_norm=1.1373
+2026-09-21T22:16:06.456893+00:00 rank=0 lora epoch=2/15 batch=6231/6249 step=12480 loss=0.586598 grad_norm=1.1373
+2026-09-21T22:19:34.021892+00:00 rank=0 lora epoch=2 completed=True loss=0.4180933649049555 validation={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.47776162203184375, 'f1': 0.7435481629059908, 'spearman_probability_label': 0.59095009450364, 'threshold': 0.5}
+2026-09-21T22:19:34.022102+00:00 rank=1 lora epoch=2 completed=True loss=0.4180933649049555 validation={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.47776162203184375, 'f1': 0.7435481629059908, 'spearman_probability_label': 0.59095009450364, 'threshold': 0.5}
+2026-09-21T22:19:35.916777+00:00 rank=1 lora epoch=3/15 batch=2/6249 step=12500 loss=0.581267 grad_norm=0.3131
+2026-09-21T22:19:35.917589+00:00 rank=0 lora epoch=3/15 batch=2/6249 step=12500 loss=0.652674 grad_norm=0.3131
+2026-09-21T22:19:55.853121+00:00 rank=1 lora epoch=3/15 batch=22/6249 step=12520 loss=0.774299 grad_norm=1.2916
+2026-09-21T22:19:55.858580+00:00 rank=0 lora epoch=3/15 batch=22/6249 step=12520 loss=0.573896 grad_norm=1.2916
+2026-09-21T22:20:17.453088+00:00 rank=1 lora epoch=3/15 batch=42/6249 step=12540 loss=0.430629 grad_norm=1.0150
+2026-09-21T22:20:17.456147+00:00 rank=0 lora epoch=3/15 batch=42/6249 step=12540 loss=0.389089 grad_norm=1.0150
+2026-09-21T22:20:36.663829+00:00 rank=1 lora epoch=3/15 batch=62/6249 step=12560 loss=0.000392 grad_norm=0.0045
+2026-09-21T22:20:36.666720+00:00 rank=0 lora epoch=3/15 batch=62/6249 step=12560 loss=0.000385 grad_norm=0.0045
+2026-09-21T22:20:54.308157+00:00 rank=1 lora epoch=3/15 batch=82/6249 step=12580 loss=0.257168 grad_norm=0.3811
+2026-09-21T22:20:54.310382+00:00 rank=0 lora epoch=3/15 batch=82/6249 step=12580 loss=0.617262 grad_norm=0.3811
+2026-09-21T22:21:08.780792+00:00 rank=0 lora epoch=3/15 batch=102/6249 step=12600 loss=0.616350 grad_norm=0.31562026-09-21T22:21:08.780794+00:00 rank=1 lora epoch=3/15 batch=102/6249 step=12600 loss=0.562742 grad_norm=0.3156
+
+2026-09-21T22:21:20.681416+00:00 rank=1 lora epoch=3/15 batch=122/6249 step=12620 loss=0.609063 grad_norm=0.69862026-09-21T22:21:20.681433+00:00 rank=0 lora epoch=3/15 batch=122/6249 step=12620 loss=0.603034 grad_norm=0.6986
+
+2026-09-21T22:21:32.081660+00:00 rank=0 lora epoch=3/15 batch=142/6249 step=12640 loss=0.422303 grad_norm=1.0558
+2026-09-21T22:21:32.081690+00:00 rank=1 lora epoch=3/15 batch=142/6249 step=12640 loss=0.439153 grad_norm=1.0558
+2026-09-21T22:21:41.257922+00:00 rank=0 lora epoch=3/15 batch=162/6249 step=12660 loss=0.000524 grad_norm=0.0063
+2026-09-21T22:21:41.257983+00:00 rank=1 lora epoch=3/15 batch=162/6249 step=12660 loss=0.000466 grad_norm=0.0063
+2026-09-21T22:21:51.331089+00:00 rank=1 lora epoch=3/15 batch=182/6249 step=12680 loss=0.653816 grad_norm=0.3261
+2026-09-21T22:21:51.331244+00:00 rank=0 lora epoch=3/15 batch=182/6249 step=12680 loss=0.290627 grad_norm=0.3261
+2026-09-21T22:22:04.480656+00:00 rank=0 lora epoch=3/15 batch=202/6249 step=12700 loss=0.730723 grad_norm=1.00122026-09-21T22:22:04.480671+00:00 rank=1 lora epoch=3/15 batch=202/6249 step=12700 loss=0.626390 grad_norm=1.0012
+
+2026-09-21T22:22:16.262565+00:00 rank=0 lora epoch=3/15 batch=222/6249 step=12720 loss=0.659651 grad_norm=0.9690
+2026-09-21T22:22:16.262605+00:00 rank=1 lora epoch=3/15 batch=222/6249 step=12720 loss=0.704750 grad_norm=0.9690
+2026-09-21T22:22:25.687914+00:00 rank=0 lora epoch=3/15 batch=242/6249 step=12740 loss=0.612934 grad_norm=0.65762026-09-21T22:22:25.687934+00:00 rank=1 lora epoch=3/15 batch=242/6249 step=12740 loss=0.723233 grad_norm=0.6576
+
+2026-09-21T22:22:41.195773+00:00 rank=0 lora epoch=3/15 batch=262/6249 step=12760 loss=0.276563 grad_norm=0.8983
+2026-09-21T22:22:41.195834+00:00 rank=1 lora epoch=3/15 batch=262/6249 step=12760 loss=0.669983 grad_norm=0.8983
+2026-09-21T22:22:50.844625+00:00 rank=0 lora epoch=3/15 batch=282/6249 step=12780 loss=0.682910 grad_norm=0.63822026-09-21T22:22:50.844631+00:00 rank=1 lora epoch=3/15 batch=282/6249 step=12780 loss=0.663781 grad_norm=0.6382
+
+2026-09-21T22:23:00.751681+00:00 rank=0 lora epoch=3/15 batch=302/6249 step=12800 loss=0.000626 grad_norm=0.0110
+2026-09-21T22:23:00.751725+00:00 rank=1 lora epoch=3/15 batch=302/6249 step=12800 loss=0.000598 grad_norm=0.0110
+2026-09-21T22:23:12.483593+00:00 rank=0 lora epoch=3/15 batch=322/6249 step=12820 loss=0.600542 grad_norm=0.27062026-09-21T22:23:12.483616+00:00 rank=1 lora epoch=3/15 batch=322/6249 step=12820 loss=0.639419 grad_norm=0.2706
+
+2026-09-21T22:23:23.676208+00:00 rank=0 lora epoch=3/15 batch=342/6249 step=12840 loss=0.666769 grad_norm=0.4430
+2026-09-21T22:23:23.676235+00:00 rank=1 lora epoch=3/15 batch=342/6249 step=12840 loss=0.658462 grad_norm=0.4430
+2026-09-21T22:23:34.175572+00:00 rank=0 lora epoch=3/15 batch=362/6249 step=12860 loss=0.000507 grad_norm=0.00642026-09-21T22:23:34.175591+00:00 rank=1 lora epoch=3/15 batch=362/6249 step=12860 loss=0.000468 grad_norm=0.0064
+
+2026-09-21T22:23:47.380311+00:00 rank=0 lora epoch=3/15 batch=382/6249 step=12880 loss=0.651726 grad_norm=0.6214
+2026-09-21T22:23:47.380333+00:00 rank=1 lora epoch=3/15 batch=382/6249 step=12880 loss=0.606570 grad_norm=0.6214
+2026-09-21T22:23:58.051865+00:00 rank=0 lora epoch=3/15 batch=402/6249 step=12900 loss=0.559575 grad_norm=0.3614
+2026-09-21T22:23:58.051888+00:00 rank=1 lora epoch=3/15 batch=402/6249 step=12900 loss=0.610020 grad_norm=0.3614
+2026-09-21T22:24:07.858119+00:00 rank=0 lora epoch=3/15 batch=422/6249 step=12920 loss=0.000678 grad_norm=0.0210
+2026-09-21T22:24:07.858154+00:00 rank=1 lora epoch=3/15 batch=422/6249 step=12920 loss=0.000672 grad_norm=0.0210
+2026-09-21T22:24:20.411846+00:00 rank=0 lora epoch=3/15 batch=442/6249 step=12940 loss=0.000416 grad_norm=0.0085
+2026-09-21T22:24:20.411892+00:00 rank=1 lora epoch=3/15 batch=442/6249 step=12940 loss=0.000456 grad_norm=0.0085
+2026-09-21T22:24:30.164766+00:00 rank=0 lora epoch=3/15 batch=462/6249 step=12960 loss=0.086161 grad_norm=0.5020
+2026-09-21T22:24:30.164816+00:00 rank=1 lora epoch=3/15 batch=462/6249 step=12960 loss=0.631477 grad_norm=0.5020
+2026-09-21T22:24:39.899609+00:00 rank=0 lora epoch=3/15 batch=482/6249 step=12980 loss=0.271878 grad_norm=1.1447
+2026-09-21T22:24:39.899644+00:00 rank=1 lora epoch=3/15 batch=482/6249 step=12980 loss=0.260649 grad_norm=1.1447
+2026-09-21T22:24:50.892712+00:00 rank=0 lora epoch=3/15 batch=502/6249 step=13000 loss=0.515373 grad_norm=1.0018
+2026-09-21T22:24:50.892745+00:00 rank=1 lora epoch=3/15 batch=502/6249 step=13000 loss=0.334707 grad_norm=1.0018
+2026-09-21T22:25:00.550164+00:00 rank=0 lora epoch=3/15 batch=522/6249 step=13020 loss=0.707522 grad_norm=0.39802026-09-21T22:25:00.550181+00:00 rank=1 lora epoch=3/15 batch=522/6249 step=13020 loss=0.540367 grad_norm=0.3980
+
+2026-09-21T22:25:11.092624+00:00 rank=0 lora epoch=3/15 batch=542/6249 step=13040 loss=0.663354 grad_norm=1.3353
+2026-09-21T22:25:11.092747+00:00 rank=1 lora epoch=3/15 batch=542/6249 step=13040 loss=0.594796 grad_norm=1.3353
+2026-09-21T22:25:24.381431+00:00 rank=0 lora epoch=3/15 batch=562/6249 step=13060 loss=0.544593 grad_norm=0.1444
+2026-09-21T22:25:24.381459+00:00 rank=1 lora epoch=3/15 batch=562/6249 step=13060 loss=0.000453 grad_norm=0.1444
+2026-09-21T22:25:34.766736+00:00 rank=0 lora epoch=3/15 batch=582/6249 step=13080 loss=0.639505 grad_norm=1.0248
+2026-09-21T22:25:34.766764+00:00 rank=1 lora epoch=3/15 batch=582/6249 step=13080 loss=0.598064 grad_norm=1.0248
+2026-09-21T22:25:45.527669+00:00 rank=0 lora epoch=3/15 batch=602/6249 step=13100 loss=0.752582 grad_norm=1.38162026-09-21T22:25:45.527676+00:00 rank=1 lora epoch=3/15 batch=602/6249 step=13100 loss=0.704287 grad_norm=1.3816
+
+2026-09-21T22:25:55.829416+00:00 rank=0 lora epoch=3/15 batch=622/6249 step=13120 loss=0.000487 grad_norm=0.00642026-09-21T22:25:55.829437+00:00 rank=1 lora epoch=3/15 batch=622/6249 step=13120 loss=0.000478 grad_norm=0.0064
+
+2026-09-21T22:26:06.288961+00:00 rank=0 lora epoch=3/15 batch=642/6249 step=13140 loss=0.000725 grad_norm=0.4843
+2026-09-21T22:26:06.289023+00:00 rank=1 lora epoch=3/15 batch=642/6249 step=13140 loss=0.435500 grad_norm=0.4843
+2026-09-21T22:26:15.103028+00:00 rank=0 lora epoch=3/15 batch=662/6249 step=13160 loss=0.687810 grad_norm=0.16222026-09-21T22:26:15.103037+00:00 rank=1 lora epoch=3/15 batch=662/6249 step=13160 loss=0.695039 grad_norm=0.1622
+
+2026-09-21T22:26:26.585490+00:00 rank=1 lora epoch=3/15 batch=682/6249 step=13180 loss=0.001427 grad_norm=0.0252
+2026-09-21T22:26:26.585544+00:00 rank=0 lora epoch=3/15 batch=682/6249 step=13180 loss=0.001327 grad_norm=0.0252
+2026-09-21T22:26:37.548384+00:00 rank=0 lora epoch=3/15 batch=702/6249 step=13200 loss=0.626757 grad_norm=0.6724
+2026-09-21T22:26:37.548408+00:00 rank=1 lora epoch=3/15 batch=702/6249 step=13200 loss=0.632838 grad_norm=0.6724
+2026-09-21T22:26:48.490125+00:00 rank=0 lora epoch=3/15 batch=722/6249 step=13220 loss=0.588437 grad_norm=0.57692026-09-21T22:26:48.490149+00:00 rank=1 lora epoch=3/15 batch=722/6249 step=13220 loss=0.671792 grad_norm=0.5769
+
+2026-09-21T22:26:58.260795+00:00 rank=0 lora epoch=3/15 batch=742/6249 step=13240 loss=0.564948 grad_norm=0.9695
+2026-09-21T22:26:58.260860+00:00 rank=1 lora epoch=3/15 batch=742/6249 step=13240 loss=0.605655 grad_norm=0.9695
+2026-09-21T22:27:08.901949+00:00 rank=0 lora epoch=3/15 batch=762/6249 step=13260 loss=0.701611 grad_norm=0.75662026-09-21T22:27:08.901973+00:00 rank=1 lora epoch=3/15 batch=762/6249 step=13260 loss=0.682579 grad_norm=0.7566
+
+2026-09-21T22:27:20.238092+00:00 rank=0 lora epoch=3/15 batch=782/6249 step=13280 loss=0.603577 grad_norm=0.49592026-09-21T22:27:20.238095+00:00 rank=1 lora epoch=3/15 batch=782/6249 step=13280 loss=0.708680 grad_norm=0.4959
+
+2026-09-21T22:27:32.381182+00:00 rank=0 lora epoch=3/15 batch=802/6249 step=13300 loss=0.017967 grad_norm=0.7701
+2026-09-21T22:27:32.381228+00:00 rank=1 lora epoch=3/15 batch=802/6249 step=13300 loss=0.603749 grad_norm=0.7701
+2026-09-21T22:27:42.593610+00:00 rank=1 lora epoch=3/15 batch=822/6249 step=13320 loss=0.000504 grad_norm=0.0108
+2026-09-21T22:27:42.593648+00:00 rank=0 lora epoch=3/15 batch=822/6249 step=13320 loss=0.000523 grad_norm=0.0108
+2026-09-21T22:27:52.302021+00:00 rank=0 lora epoch=3/15 batch=842/6249 step=13340 loss=0.659373 grad_norm=0.5502
+2026-09-21T22:27:52.302099+00:00 rank=1 lora epoch=3/15 batch=842/6249 step=13340 loss=0.587548 grad_norm=0.5502
+2026-09-21T22:28:05.209897+00:00 rank=0 lora epoch=3/15 batch=862/6249 step=13360 loss=0.689975 grad_norm=0.3514
+2026-09-21T22:28:05.209921+00:00 rank=1 lora epoch=3/15 batch=862/6249 step=13360 loss=0.621491 grad_norm=0.3514
+2026-09-21T22:28:16.549893+00:00 rank=0 lora epoch=3/15 batch=882/6249 step=13380 loss=0.328314 grad_norm=1.1119
+2026-09-21T22:28:16.549916+00:00 rank=1 lora epoch=3/15 batch=882/6249 step=13380 loss=0.103341 grad_norm=1.1119
+2026-09-21T22:28:28.712400+00:00 rank=0 lora epoch=3/15 batch=902/6249 step=13400 loss=0.000386 grad_norm=0.00452026-09-21T22:28:28.712412+00:00 rank=1 lora epoch=3/15 batch=902/6249 step=13400 loss=0.000395 grad_norm=0.0045
+
+2026-09-21T22:28:38.493765+00:00 rank=1 lora epoch=3/15 batch=922/6249 step=13420 loss=0.694849 grad_norm=0.30252026-09-21T22:28:38.493765+00:00 rank=0 lora epoch=3/15 batch=922/6249 step=13420 loss=0.598286 grad_norm=0.3025
+
+2026-09-21T22:28:48.894782+00:00 rank=0 lora epoch=3/15 batch=942/6249 step=13440 loss=0.000398 grad_norm=0.0068
+2026-09-21T22:28:48.894864+00:00 rank=1 lora epoch=3/15 batch=942/6249 step=13440 loss=0.000388 grad_norm=0.0068
+2026-09-21T22:29:03.161980+00:00 rank=1 lora epoch=3/15 batch=962/6249 step=13460 loss=0.699371 grad_norm=1.03652026-09-21T22:29:03.161995+00:00 rank=0 lora epoch=3/15 batch=962/6249 step=13460 loss=0.648143 grad_norm=1.0365
+
+2026-09-21T22:29:12.894975+00:00 rank=1 lora epoch=3/15 batch=982/6249 step=13480 loss=0.000422 grad_norm=0.00482026-09-21T22:29:12.894980+00:00 rank=0 lora epoch=3/15 batch=982/6249 step=13480 loss=0.000396 grad_norm=0.0048
+
+2026-09-21T22:29:24.916831+00:00 rank=0 lora epoch=3/15 batch=1002/6249 step=13500 loss=0.000433 grad_norm=0.0061
+2026-09-21T22:29:24.916934+00:00 rank=1 lora epoch=3/15 batch=1002/6249 step=13500 loss=0.000440 grad_norm=0.0061
+2026-09-21T22:29:36.480205+00:00 rank=1 lora epoch=3/15 batch=1022/6249 step=13520 loss=0.665655 grad_norm=1.34702026-09-21T22:29:36.480209+00:00 rank=0 lora epoch=3/15 batch=1022/6249 step=13520 loss=0.673579 grad_norm=1.3470
+
+2026-09-21T22:29:45.993332+00:00 rank=0 lora epoch=3/15 batch=1042/6249 step=13540 loss=0.699813 grad_norm=0.61802026-09-21T22:29:45.993335+00:00 rank=1 lora epoch=3/15 batch=1042/6249 step=13540 loss=0.554561 grad_norm=0.6180
+
+2026-09-21T22:29:56.184944+00:00 rank=0 lora epoch=3/15 batch=1062/6249 step=13560 loss=0.001306 grad_norm=0.61622026-09-21T22:29:56.184972+00:00 rank=1 lora epoch=3/15 batch=1062/6249 step=13560 loss=0.120620 grad_norm=0.6162
+
+2026-09-21T22:30:06.291210+00:00 rank=0 lora epoch=3/15 batch=1082/6249 step=13580 loss=0.512955 grad_norm=0.96892026-09-21T22:30:06.291215+00:00 rank=1 lora epoch=3/15 batch=1082/6249 step=13580 loss=0.248033 grad_norm=0.9689
+
+2026-09-21T22:30:17.827672+00:00 rank=1 lora epoch=3/15 batch=1102/6249 step=13600 loss=0.000388 grad_norm=0.00432026-09-21T22:30:17.827679+00:00 rank=0 lora epoch=3/15 batch=1102/6249 step=13600 loss=0.000384 grad_norm=0.0043
+
+2026-09-21T22:30:26.937403+00:00 rank=0 lora epoch=3/15 batch=1122/6249 step=13620 loss=0.673755 grad_norm=0.3859
+2026-09-21T22:30:26.937440+00:00 rank=1 lora epoch=3/15 batch=1122/6249 step=13620 loss=0.669562 grad_norm=0.3859
+2026-09-21T22:30:39.295246+00:00 rank=0 lora epoch=3/15 batch=1142/6249 step=13640 loss=0.615654 grad_norm=1.01522026-09-21T22:30:39.295259+00:00 rank=1 lora epoch=3/15 batch=1142/6249 step=13640 loss=0.667506 grad_norm=1.0152
+
+2026-09-21T22:30:50.987525+00:00 rank=0 lora epoch=3/15 batch=1162/6249 step=13660 loss=0.000470 grad_norm=0.0081
+2026-09-21T22:30:50.987561+00:00 rank=1 lora epoch=3/15 batch=1162/6249 step=13660 loss=0.000487 grad_norm=0.0081
+2026-09-21T22:31:01.562871+00:00 rank=0 lora epoch=3/15 batch=1182/6249 step=13680 loss=0.000608 grad_norm=0.01322026-09-21T22:31:01.562876+00:00 rank=1 lora epoch=3/15 batch=1182/6249 step=13680 loss=0.000590 grad_norm=0.0132
+
+2026-09-21T22:31:12.466586+00:00 rank=1 lora epoch=3/15 batch=1202/6249 step=13700 loss=0.677264 grad_norm=0.2797
+2026-09-21T22:31:12.466613+00:00 rank=0 lora epoch=3/15 batch=1202/6249 step=13700 loss=0.634338 grad_norm=0.2797
+2026-09-21T22:31:23.284300+00:00 rank=1 lora epoch=3/15 batch=1222/6249 step=13720 loss=0.627408 grad_norm=1.06262026-09-21T22:31:23.284308+00:00 rank=0 lora epoch=3/15 batch=1222/6249 step=13720 loss=0.725520 grad_norm=1.0626
+
+2026-09-21T22:31:37.107660+00:00 rank=0 lora epoch=3/15 batch=1242/6249 step=13740 loss=0.001409 grad_norm=0.01742026-09-21T22:31:37.107667+00:00 rank=1 lora epoch=3/15 batch=1242/6249 step=13740 loss=0.000815 grad_norm=0.0174
+
+2026-09-21T22:31:46.325923+00:00 rank=1 lora epoch=3/15 batch=1262/6249 step=13760 loss=0.510496 grad_norm=1.2060
+2026-09-21T22:31:46.325964+00:00 rank=0 lora epoch=3/15 batch=1262/6249 step=13760 loss=0.714612 grad_norm=1.2060
+2026-09-21T22:31:55.608514+00:00 rank=1 lora epoch=3/15 batch=1282/6249 step=13780 loss=0.604455 grad_norm=0.4576
+2026-09-21T22:31:55.608596+00:00 rank=0 lora epoch=3/15 batch=1282/6249 step=13780 loss=0.595258 grad_norm=0.4576
+2026-09-21T22:32:06.676641+00:00 rank=0 lora epoch=3/15 batch=1302/6249 step=13800 loss=0.221109 grad_norm=0.4647
+2026-09-21T22:32:06.676676+00:00 rank=1 lora epoch=3/15 batch=1302/6249 step=13800 loss=0.309455 grad_norm=0.4647
+2026-09-21T22:32:18.080058+00:00 rank=0 lora epoch=3/15 batch=1322/6249 step=13820 loss=0.000386 grad_norm=0.00412026-09-21T22:32:18.080071+00:00 rank=1 lora epoch=3/15 batch=1322/6249 step=13820 loss=0.000393 grad_norm=0.0041
+
+2026-09-21T22:32:29.439023+00:00 rank=0 lora epoch=3/15 batch=1342/6249 step=13840 loss=0.472630 grad_norm=0.82672026-09-21T22:32:29.439027+00:00 rank=1 lora epoch=3/15 batch=1342/6249 step=13840 loss=0.631181 grad_norm=0.8267
+
+2026-09-21T22:32:41.928498+00:00 rank=1 lora epoch=3/15 batch=1362/6249 step=13860 loss=0.000410 grad_norm=0.00642026-09-21T22:32:41.928499+00:00 rank=0 lora epoch=3/15 batch=1362/6249 step=13860 loss=0.000403 grad_norm=0.0064
+
+2026-09-21T22:32:52.943527+00:00 rank=1 lora epoch=3/15 batch=1382/6249 step=13880 loss=0.645192 grad_norm=0.3679
+2026-09-21T22:32:52.943613+00:00 rank=0 lora epoch=3/15 batch=1382/6249 step=13880 loss=0.598599 grad_norm=0.3679
+2026-09-21T22:33:03.694541+00:00 rank=1 lora epoch=3/15 batch=1402/6249 step=13900 loss=0.594937 grad_norm=0.5023
+2026-09-21T22:33:03.694693+00:00 rank=0 lora epoch=3/15 batch=1402/6249 step=13900 loss=0.679539 grad_norm=0.5023
+2026-09-21T22:33:14.018318+00:00 rank=1 lora epoch=3/15 batch=1422/6249 step=13920 loss=0.620963 grad_norm=1.1262
+2026-09-21T22:33:14.018454+00:00 rank=0 lora epoch=3/15 batch=1422/6249 step=13920 loss=0.702025 grad_norm=1.1262
+2026-09-21T22:33:24.478576+00:00 rank=0 lora epoch=3/15 batch=1442/6249 step=13940 loss=0.598822 grad_norm=0.94072026-09-21T22:33:24.478616+00:00 rank=1 lora epoch=3/15 batch=1442/6249 step=13940 loss=0.603303 grad_norm=0.9407
+
+2026-09-21T22:33:36.312591+00:00 rank=0 lora epoch=3/15 batch=1462/6249 step=13960 loss=0.623348 grad_norm=0.18642026-09-21T22:33:36.312603+00:00 rank=1 lora epoch=3/15 batch=1462/6249 step=13960 loss=0.558355 grad_norm=0.1864
+
+2026-09-21T22:33:45.649939+00:00 rank=1 lora epoch=3/15 batch=1482/6249 step=13980 loss=0.730182 grad_norm=0.3185
+2026-09-21T22:33:45.650050+00:00 rank=0 lora epoch=3/15 batch=1482/6249 step=13980 loss=0.700365 grad_norm=0.3185
+2026-09-21T22:33:58.249137+00:00 rank=0 lora epoch=3/15 batch=1502/6249 step=14000 loss=0.001206 grad_norm=0.4476
+2026-09-21T22:33:58.249194+00:00 rank=1 lora epoch=3/15 batch=1502/6249 step=14000 loss=0.095807 grad_norm=0.4476
+2026-09-21T22:35:35.512904+00:00 rank=1 interval validation step=14000 metrics={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.49908265893815706, 'f1': 0.7543091899615969, 'spearman_probability_label': 0.5971478136869867, 'threshold': 0.5}
+2026-09-21T22:35:35.512970+00:00 rank=0 interval validation step=14000 metrics={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.49908265893815706, 'f1': 0.7543091899615969, 'spearman_probability_label': 0.5971478136869867, 'threshold': 0.5}
+2026-09-21T22:35:47.638656+00:00 rank=0 lora epoch=3/15 batch=1522/6249 step=14020 loss=0.000351 grad_norm=0.0073
+2026-09-21T22:35:47.638699+00:00 rank=1 lora epoch=3/15 batch=1522/6249 step=14020 loss=0.000384 grad_norm=0.0073
+2026-09-21T22:35:57.605003+00:00 rank=0 lora epoch=3/15 batch=1542/6249 step=14040 loss=0.300104 grad_norm=0.7262
+2026-09-21T22:35:57.605040+00:00 rank=1 lora epoch=3/15 batch=1542/6249 step=14040 loss=0.587597 grad_norm=0.7262
+2026-09-21T22:36:08.385718+00:00 rank=0 lora epoch=3/15 batch=1562/6249 step=14060 loss=0.556762 grad_norm=0.23312026-09-21T22:36:08.385724+00:00 rank=1 lora epoch=3/15 batch=1562/6249 step=14060 loss=0.628329 grad_norm=0.2331
+
+2026-09-21T22:36:20.415493+00:00 rank=0 lora epoch=3/15 batch=1582/6249 step=14080 loss=0.579780 grad_norm=0.93852026-09-21T22:36:20.415493+00:00 rank=1 lora epoch=3/15 batch=1582/6249 step=14080 loss=0.705132 grad_norm=0.9385
+
+2026-09-21T22:36:32.670239+00:00 rank=1 lora epoch=3/15 batch=1602/6249 step=14100 loss=0.000360 grad_norm=0.3981
+2026-09-21T22:36:32.670290+00:00 rank=0 lora epoch=3/15 batch=1602/6249 step=14100 loss=0.388135 grad_norm=0.3981
+2026-09-21T22:36:45.819858+00:00 rank=0 lora epoch=3/15 batch=1622/6249 step=14120 loss=0.012870 grad_norm=0.0618
+2026-09-21T22:36:45.819879+00:00 rank=1 lora epoch=3/15 batch=1622/6249 step=14120 loss=0.000672 grad_norm=0.0618
+2026-09-21T22:36:58.144066+00:00 rank=1 lora epoch=3/15 batch=1642/6249 step=14140 loss=0.380435 grad_norm=0.3855
+2026-09-21T22:36:58.144187+00:00 rank=0 lora epoch=3/15 batch=1642/6249 step=14140 loss=0.612551 grad_norm=0.3855
+2026-09-21T22:37:07.791122+00:00 rank=1 lora epoch=3/15 batch=1662/6249 step=14160 loss=0.573099 grad_norm=0.4681
+2026-09-21T22:37:07.791204+00:00 rank=0 lora epoch=3/15 batch=1662/6249 step=14160 loss=0.700454 grad_norm=0.4681
+2026-09-21T22:37:18.834392+00:00 rank=1 lora epoch=3/15 batch=1682/6249 step=14180 loss=0.008932 grad_norm=0.04012026-09-21T22:37:18.834406+00:00 rank=0 lora epoch=3/15 batch=1682/6249 step=14180 loss=0.000601 grad_norm=0.0401
+
+2026-09-21T22:37:28.233231+00:00 rank=1 lora epoch=3/15 batch=1702/6249 step=14200 loss=0.654291 grad_norm=0.46632026-09-21T22:37:28.233241+00:00 rank=0 lora epoch=3/15 batch=1702/6249 step=14200 loss=0.618506 grad_norm=0.4663
+
+2026-09-21T22:37:38.617580+00:00 rank=0 lora epoch=3/15 batch=1722/6249 step=14220 loss=0.586188 grad_norm=0.52102026-09-21T22:37:38.617585+00:00 rank=1 lora epoch=3/15 batch=1722/6249 step=14220 loss=0.655227 grad_norm=0.5210
+
+2026-09-21T22:37:49.164367+00:00 rank=0 lora epoch=3/15 batch=1742/6249 step=14240 loss=0.000717 grad_norm=0.0111
+2026-09-21T22:37:49.164417+00:00 rank=1 lora epoch=3/15 batch=1742/6249 step=14240 loss=0.000702 grad_norm=0.0111
+2026-09-21T22:38:00.371445+00:00 rank=1 lora epoch=3/15 batch=1762/6249 step=14260 loss=0.641037 grad_norm=0.94552026-09-21T22:38:00.371457+00:00 rank=0 lora epoch=3/15 batch=1762/6249 step=14260 loss=0.239279 grad_norm=0.9455
+
+2026-09-21T22:38:10.395660+00:00 rank=1 lora epoch=3/15 batch=1782/6249 step=14280 loss=0.000678 grad_norm=0.08972026-09-21T22:38:10.395667+00:00 rank=0 lora epoch=3/15 batch=1782/6249 step=14280 loss=0.004720 grad_norm=0.0897
+
+2026-09-21T22:38:20.324599+00:00 rank=0 lora epoch=3/15 batch=1802/6249 step=14300 loss=0.641671 grad_norm=0.57052026-09-21T22:38:20.324616+00:00 rank=1 lora epoch=3/15 batch=1802/6249 step=14300 loss=0.718748 grad_norm=0.5705
+
+2026-09-21T22:38:32.754606+00:00 rank=1 lora epoch=3/15 batch=1822/6249 step=14320 loss=0.673919 grad_norm=0.6497
+2026-09-21T22:38:32.754641+00:00 rank=0 lora epoch=3/15 batch=1822/6249 step=14320 loss=0.637284 grad_norm=0.6497
+2026-09-21T22:38:44.480260+00:00 rank=0 lora epoch=3/15 batch=1842/6249 step=14340 loss=0.614588 grad_norm=0.3596
+2026-09-21T22:38:44.480316+00:00 rank=1 lora epoch=3/15 batch=1842/6249 step=14340 loss=0.688193 grad_norm=0.3596
+2026-09-21T22:38:54.082317+00:00 rank=0 lora epoch=3/15 batch=1862/6249 step=14360 loss=0.528820 grad_norm=1.1451
+2026-09-21T22:38:54.082416+00:00 rank=1 lora epoch=3/15 batch=1862/6249 step=14360 loss=0.639761 grad_norm=1.1451
+2026-09-21T22:39:03.628912+00:00 rank=0 lora epoch=3/15 batch=1882/6249 step=14380 loss=0.000729 grad_norm=0.01032026-09-21T22:39:03.628924+00:00 rank=1 lora epoch=3/15 batch=1882/6249 step=14380 loss=0.000774 grad_norm=0.0103
+
+2026-09-21T22:39:13.532168+00:00 rank=0 lora epoch=3/15 batch=1902/6249 step=14400 loss=0.625258 grad_norm=0.6873
+2026-09-21T22:39:13.532193+00:00 rank=1 lora epoch=3/15 batch=1902/6249 step=14400 loss=0.663171 grad_norm=0.6873
+2026-09-21T22:39:25.755185+00:00 rank=1 lora epoch=3/15 batch=1922/6249 step=14420 loss=0.378059 grad_norm=2.3052
+2026-09-21T22:39:25.755255+00:00 rank=0 lora epoch=3/15 batch=1922/6249 step=14420 loss=0.694259 grad_norm=2.3052
+2026-09-21T22:39:37.338852+00:00 rank=0 lora epoch=3/15 batch=1942/6249 step=14440 loss=0.592770 grad_norm=0.3063
+2026-09-21T22:39:37.338921+00:00 rank=1 lora epoch=3/15 batch=1942/6249 step=14440 loss=0.574750 grad_norm=0.3063
+2026-09-21T22:39:54.569737+00:00 rank=0 lora epoch=3/15 batch=1962/6249 step=14460 loss=0.254631 grad_norm=0.3104
+2026-09-21T22:39:54.569785+00:00 rank=1 lora epoch=3/15 batch=1962/6249 step=14460 loss=0.375540 grad_norm=0.3104
+2026-09-21T22:40:04.597781+00:00 rank=0 lora epoch=3/15 batch=1982/6249 step=14480 loss=0.628077 grad_norm=0.8437
+2026-09-21T22:40:04.597812+00:00 rank=1 lora epoch=3/15 batch=1982/6249 step=14480 loss=0.806747 grad_norm=0.8437
+2026-09-21T22:40:16.230107+00:00 rank=0 lora epoch=3/15 batch=2002/6249 step=14500 loss=0.026986 grad_norm=0.2002
+2026-09-21T22:40:16.230141+00:00 rank=1 lora epoch=3/15 batch=2002/6249 step=14500 loss=0.620379 grad_norm=0.2002
+2026-09-21T22:40:26.435213+00:00 rank=1 lora epoch=3/15 batch=2022/6249 step=14520 loss=0.632566 grad_norm=0.4117
+2026-09-21T22:40:26.435305+00:00 rank=0 lora epoch=3/15 batch=2022/6249 step=14520 loss=0.677902 grad_norm=0.4117
+2026-09-21T22:40:38.980653+00:00 rank=0 lora epoch=3/15 batch=2042/6249 step=14540 loss=0.642706 grad_norm=0.4464
+2026-09-21T22:40:38.980693+00:00 rank=1 lora epoch=3/15 batch=2042/6249 step=14540 loss=0.580742 grad_norm=0.4464
+2026-09-21T22:40:49.333439+00:00 rank=0 lora epoch=3/15 batch=2062/6249 step=14560 loss=0.000501 grad_norm=0.0090
+2026-09-21T22:40:49.333486+00:00 rank=1 lora epoch=3/15 batch=2062/6249 step=14560 loss=0.000490 grad_norm=0.0090
+2026-09-21T22:41:00.648562+00:00 rank=1 lora epoch=3/15 batch=2082/6249 step=14580 loss=0.605422 grad_norm=0.18272026-09-21T22:41:00.648565+00:00 rank=0 lora epoch=3/15 batch=2082/6249 step=14580 loss=0.633606 grad_norm=0.1827
+
+2026-09-21T22:41:12.729864+00:00 rank=0 lora epoch=3/15 batch=2102/6249 step=14600 loss=0.000410 grad_norm=0.00482026-09-21T22:41:12.729879+00:00 rank=1 lora epoch=3/15 batch=2102/6249 step=14600 loss=0.000397 grad_norm=0.0048
+
+2026-09-21T22:41:25.396344+00:00 rank=1 lora epoch=3/15 batch=2122/6249 step=14620 loss=0.631433 grad_norm=0.26472026-09-21T22:41:25.396373+00:00 rank=0 lora epoch=3/15 batch=2122/6249 step=14620 loss=0.676908 grad_norm=0.2647
+
+2026-09-21T22:41:35.829561+00:00 rank=0 lora epoch=3/15 batch=2142/6249 step=14640 loss=0.558823 grad_norm=2.2471
+2026-09-21T22:41:35.829648+00:00 rank=1 lora epoch=3/15 batch=2142/6249 step=14640 loss=0.377480 grad_norm=2.2471
+2026-09-21T22:41:49.175984+00:00 rank=1 lora epoch=3/15 batch=2162/6249 step=14660 loss=0.664251 grad_norm=0.42552026-09-21T22:41:49.175996+00:00 rank=0 lora epoch=3/15 batch=2162/6249 step=14660 loss=0.671647 grad_norm=0.4255
+
+2026-09-21T22:42:01.172627+00:00 rank=1 lora epoch=3/15 batch=2182/6249 step=14680 loss=0.673248 grad_norm=0.2084
+2026-09-21T22:42:01.172689+00:00 rank=0 lora epoch=3/15 batch=2182/6249 step=14680 loss=0.610186 grad_norm=0.2084
+2026-09-21T22:42:13.413005+00:00 rank=0 lora epoch=3/15 batch=2202/6249 step=14700 loss=0.583566 grad_norm=0.40982026-09-21T22:42:13.413015+00:00 rank=1 lora epoch=3/15 batch=2202/6249 step=14700 loss=0.638916 grad_norm=0.4098
+
+2026-09-21T22:42:22.842675+00:00 rank=0 lora epoch=3/15 batch=2222/6249 step=14720 loss=0.000334 grad_norm=0.00342026-09-21T22:42:22.842681+00:00 rank=1 lora epoch=3/15 batch=2222/6249 step=14720 loss=0.000312 grad_norm=0.0034
+
+2026-09-21T22:42:37.218495+00:00 rank=1 lora epoch=3/15 batch=2242/6249 step=14740 loss=0.000413 grad_norm=0.0062
+2026-09-21T22:42:37.218546+00:00 rank=0 lora epoch=3/15 batch=2242/6249 step=14740 loss=0.000402 grad_norm=0.0062
+2026-09-21T22:42:48.947847+00:00 rank=1 lora epoch=3/15 batch=2262/6249 step=14760 loss=0.652950 grad_norm=0.2424
+2026-09-21T22:42:48.947973+00:00 rank=0 lora epoch=3/15 batch=2262/6249 step=14760 loss=0.698051 grad_norm=0.2424
+2026-09-21T22:42:59.794225+00:00 rank=0 lora epoch=3/15 batch=2282/6249 step=14780 loss=0.764946 grad_norm=1.0200
+2026-09-21T22:42:59.794252+00:00 rank=1 lora epoch=3/15 batch=2282/6249 step=14780 loss=0.618529 grad_norm=1.0200
+2026-09-21T22:43:12.917221+00:00 rank=0 lora epoch=3/15 batch=2302/6249 step=14800 loss=0.666741 grad_norm=0.2382
+2026-09-21T22:43:12.917259+00:00 rank=1 lora epoch=3/15 batch=2302/6249 step=14800 loss=0.711598 grad_norm=0.2382
+2026-09-21T22:43:23.856404+00:00 rank=0 lora epoch=3/15 batch=2322/6249 step=14820 loss=0.671512 grad_norm=0.3281
+2026-09-21T22:43:23.856455+00:00 rank=1 lora epoch=3/15 batch=2322/6249 step=14820 loss=0.538962 grad_norm=0.3281
+2026-09-21T22:43:34.673120+00:00 rank=1 lora epoch=3/15 batch=2342/6249 step=14840 loss=0.644285 grad_norm=0.80392026-09-21T22:43:34.673121+00:00 rank=0 lora epoch=3/15 batch=2342/6249 step=14840 loss=0.633077 grad_norm=0.8039
+
+2026-09-21T22:43:45.194022+00:00 rank=1 lora epoch=3/15 batch=2362/6249 step=14860 loss=0.589551 grad_norm=0.9486
+2026-09-21T22:43:45.194068+00:00 rank=0 lora epoch=3/15 batch=2362/6249 step=14860 loss=0.600968 grad_norm=0.9486
+2026-09-21T22:43:54.614072+00:00 rank=0 lora epoch=3/15 batch=2382/6249 step=14880 loss=0.000519 grad_norm=0.0087
+2026-09-21T22:43:54.614141+00:00 rank=1 lora epoch=3/15 batch=2382/6249 step=14880 loss=0.000672 grad_norm=0.0087
+2026-09-21T22:44:04.100644+00:00 rank=0 lora epoch=3/15 batch=2402/6249 step=14900 loss=0.045998 grad_norm=0.6478
+2026-09-21T22:44:04.100688+00:00 rank=1 lora epoch=3/15 batch=2402/6249 step=14900 loss=0.290907 grad_norm=0.6478
+2026-09-21T22:44:18.623512+00:00 rank=0 lora epoch=3/15 batch=2422/6249 step=14920 loss=0.717261 grad_norm=0.50722026-09-21T22:44:18.623524+00:00 rank=1 lora epoch=3/15 batch=2422/6249 step=14920 loss=0.618629 grad_norm=0.5072
+
+2026-09-21T22:44:30.157425+00:00 rank=0 lora epoch=3/15 batch=2442/6249 step=14940 loss=0.648899 grad_norm=1.03242026-09-21T22:44:30.157430+00:00 rank=1 lora epoch=3/15 batch=2442/6249 step=14940 loss=0.705242 grad_norm=1.0324
+
+2026-09-21T22:44:41.262929+00:00 rank=0 lora epoch=3/15 batch=2462/6249 step=14960 loss=0.702703 grad_norm=0.9641
+2026-09-21T22:44:41.262993+00:00 rank=1 lora epoch=3/15 batch=2462/6249 step=14960 loss=0.572173 grad_norm=0.9641
+2026-09-21T22:44:50.898574+00:00 rank=0 lora epoch=3/15 batch=2482/6249 step=14980 loss=0.805142 grad_norm=2.7758
+2026-09-21T22:44:50.898609+00:00 rank=1 lora epoch=3/15 batch=2482/6249 step=14980 loss=0.607982 grad_norm=2.7758
+2026-09-21T22:45:05.571232+00:00 rank=0 lora epoch=3/15 batch=2502/6249 step=15000 loss=0.000502 grad_norm=0.0173
+2026-09-21T22:45:05.571448+00:00 rank=1 lora epoch=3/15 batch=2502/6249 step=15000 loss=0.001394 grad_norm=0.0173
+2026-09-21T22:45:15.580402+00:00 rank=0 lora epoch=3/15 batch=2522/6249 step=15020 loss=0.000885 grad_norm=0.2144
+2026-09-21T22:45:15.580452+00:00 rank=1 lora epoch=3/15 batch=2522/6249 step=15020 loss=0.047031 grad_norm=0.2144
+2026-09-21T22:45:25.465767+00:00 rank=0 lora epoch=3/15 batch=2542/6249 step=15040 loss=0.722167 grad_norm=0.81002026-09-21T22:45:25.465779+00:00 rank=1 lora epoch=3/15 batch=2542/6249 step=15040 loss=0.665585 grad_norm=0.8100
+
+2026-09-21T22:45:36.571897+00:00 rank=0 lora epoch=3/15 batch=2562/6249 step=15060 loss=0.583992 grad_norm=1.10202026-09-21T22:45:36.571911+00:00 rank=1 lora epoch=3/15 batch=2562/6249 step=15060 loss=0.419647 grad_norm=1.1020
+
+2026-09-21T22:45:46.996911+00:00 rank=0 lora epoch=3/15 batch=2582/6249 step=15080 loss=0.514570 grad_norm=0.8405
+2026-09-21T22:45:46.996950+00:00 rank=1 lora epoch=3/15 batch=2582/6249 step=15080 loss=0.193383 grad_norm=0.8405
+2026-09-21T22:45:58.415192+00:00 rank=1 lora epoch=3/15 batch=2602/6249 step=15100 loss=0.717511 grad_norm=0.57032026-09-21T22:45:58.415190+00:00 rank=0 lora epoch=3/15 batch=2602/6249 step=15100 loss=0.661602 grad_norm=0.5703
+
+2026-09-21T22:46:08.761205+00:00 rank=0 lora epoch=3/15 batch=2622/6249 step=15120 loss=0.550328 grad_norm=0.3830
+2026-09-21T22:46:08.761236+00:00 rank=1 lora epoch=3/15 batch=2622/6249 step=15120 loss=0.557002 grad_norm=0.3830
+2026-09-21T22:46:21.255430+00:00 rank=0 lora epoch=3/15 batch=2642/6249 step=15140 loss=0.000372 grad_norm=0.0055
+2026-09-21T22:46:21.255509+00:00 rank=1 lora epoch=3/15 batch=2642/6249 step=15140 loss=0.000370 grad_norm=0.0055
+2026-09-21T22:46:32.970208+00:00 rank=1 lora epoch=3/15 batch=2662/6249 step=15160 loss=0.609891 grad_norm=0.5418
+2026-09-21T22:46:32.970229+00:00 rank=0 lora epoch=3/15 batch=2662/6249 step=15160 loss=0.504816 grad_norm=0.5418
+2026-09-21T22:46:42.796776+00:00 rank=0 lora epoch=3/15 batch=2682/6249 step=15180 loss=0.724188 grad_norm=0.63262026-09-21T22:46:42.796791+00:00 rank=1 lora epoch=3/15 batch=2682/6249 step=15180 loss=0.603988 grad_norm=0.6326
+
+2026-09-21T22:46:53.385426+00:00 rank=0 lora epoch=3/15 batch=2702/6249 step=15200 loss=0.560594 grad_norm=0.83972026-09-21T22:46:53.385428+00:00 rank=1 lora epoch=3/15 batch=2702/6249 step=15200 loss=0.625183 grad_norm=0.8397
+
+2026-09-21T22:47:03.471032+00:00 rank=0 lora epoch=3/15 batch=2722/6249 step=15220 loss=0.000688 grad_norm=0.0081
+2026-09-21T22:47:03.471058+00:00 rank=1 lora epoch=3/15 batch=2722/6249 step=15220 loss=0.000686 grad_norm=0.0081
+2026-09-21T22:47:14.072196+00:00 rank=0 lora epoch=3/15 batch=2742/6249 step=15240 loss=0.517151 grad_norm=1.2016
+2026-09-21T22:47:14.072306+00:00 rank=1 lora epoch=3/15 batch=2742/6249 step=15240 loss=0.449995 grad_norm=1.2016
+2026-09-21T22:47:25.117775+00:00 rank=0 lora epoch=3/15 batch=2762/6249 step=15260 loss=0.710411 grad_norm=0.8288
+2026-09-21T22:47:25.117799+00:00 rank=1 lora epoch=3/15 batch=2762/6249 step=15260 loss=0.658886 grad_norm=0.8288
+2026-09-21T22:47:36.431137+00:00 rank=1 lora epoch=3/15 batch=2782/6249 step=15280 loss=0.512217 grad_norm=0.40522026-09-21T22:47:36.431139+00:00 rank=0 lora epoch=3/15 batch=2782/6249 step=15280 loss=0.648701 grad_norm=0.4052
+
+2026-09-21T22:47:46.617087+00:00 rank=0 lora epoch=3/15 batch=2802/6249 step=15300 loss=0.713448 grad_norm=0.30032026-09-21T22:47:46.617090+00:00 rank=1 lora epoch=3/15 batch=2802/6249 step=15300 loss=0.640168 grad_norm=0.3003
+
+2026-09-21T22:47:58.844985+00:00 rank=0 lora epoch=3/15 batch=2822/6249 step=15320 loss=0.515992 grad_norm=0.1834
+2026-09-21T22:47:58.845044+00:00 rank=1 lora epoch=3/15 batch=2822/6249 step=15320 loss=0.687360 grad_norm=0.1834
+2026-09-21T22:48:08.570525+00:00 rank=0 lora epoch=3/15 batch=2842/6249 step=15340 loss=0.000334 grad_norm=0.0036
+2026-09-21T22:48:08.570621+00:00 rank=1 lora epoch=3/15 batch=2842/6249 step=15340 loss=0.000330 grad_norm=0.0036
+2026-09-21T22:48:18.965005+00:00 rank=0 lora epoch=3/15 batch=2862/6249 step=15360 loss=0.000927 grad_norm=0.02082026-09-21T22:48:18.965022+00:00 rank=1 lora epoch=3/15 batch=2862/6249 step=15360 loss=0.001051 grad_norm=0.0208
+
+2026-09-21T22:48:28.850431+00:00 rank=0 lora epoch=3/15 batch=2882/6249 step=15380 loss=0.650972 grad_norm=0.62412026-09-21T22:48:28.850435+00:00 rank=1 lora epoch=3/15 batch=2882/6249 step=15380 loss=0.653969 grad_norm=0.6241
+
+2026-09-21T22:48:39.362814+00:00 rank=0 lora epoch=3/15 batch=2902/6249 step=15400 loss=0.496361 grad_norm=0.1188
+2026-09-21T22:48:39.362858+00:00 rank=1 lora epoch=3/15 batch=2902/6249 step=15400 loss=0.624702 grad_norm=0.1188
+2026-09-21T22:48:50.335676+00:00 rank=0 lora epoch=3/15 batch=2922/6249 step=15420 loss=0.773750 grad_norm=1.08212026-09-21T22:48:50.335691+00:00 rank=1 lora epoch=3/15 batch=2922/6249 step=15420 loss=0.657580 grad_norm=1.0821
+
+2026-09-21T22:49:03.865655+00:00 rank=0 lora epoch=3/15 batch=2942/6249 step=15440 loss=0.298748 grad_norm=0.0756
+2026-09-21T22:49:03.865716+00:00 rank=1 lora epoch=3/15 batch=2942/6249 step=15440 loss=0.000295 grad_norm=0.0756
+2026-09-21T22:49:14.687639+00:00 rank=0 lora epoch=3/15 batch=2962/6249 step=15460 loss=0.693294 grad_norm=0.23952026-09-21T22:49:14.687653+00:00 rank=1 lora epoch=3/15 batch=2962/6249 step=15460 loss=0.601782 grad_norm=0.2395
+
+2026-09-21T22:49:26.339531+00:00 rank=0 lora epoch=3/15 batch=2982/6249 step=15480 loss=0.620017 grad_norm=0.71492026-09-21T22:49:26.339556+00:00 rank=1 lora epoch=3/15 batch=2982/6249 step=15480 loss=0.598202 grad_norm=0.7149
+
+2026-09-21T22:49:37.664206+00:00 rank=1 lora epoch=3/15 batch=3002/6249 step=15500 loss=0.000455 grad_norm=0.0070
+2026-09-21T22:49:37.664275+00:00 rank=0 lora epoch=3/15 batch=3002/6249 step=15500 loss=0.000458 grad_norm=0.0070
+2026-09-21T22:49:48.439700+00:00 rank=0 lora epoch=3/15 batch=3022/6249 step=15520 loss=0.000389 grad_norm=0.0055
+2026-09-21T22:49:48.439740+00:00 rank=1 lora epoch=3/15 batch=3022/6249 step=15520 loss=0.000387 grad_norm=0.0055
+2026-09-21T22:49:59.820074+00:00 rank=0 lora epoch=3/15 batch=3042/6249 step=15540 loss=0.793600 grad_norm=0.9599
+2026-09-21T22:49:59.820172+00:00 rank=1 lora epoch=3/15 batch=3042/6249 step=15540 loss=0.698111 grad_norm=0.9599
+2026-09-21T22:50:11.589474+00:00 rank=0 lora epoch=3/15 batch=3062/6249 step=15560 loss=0.664406 grad_norm=0.8393
+2026-09-21T22:50:11.589502+00:00 rank=1 lora epoch=3/15 batch=3062/6249 step=15560 loss=0.581752 grad_norm=0.8393
+2026-09-21T22:50:21.419704+00:00 rank=0 lora epoch=3/15 batch=3082/6249 step=15580 loss=0.711438 grad_norm=0.5703
+2026-09-21T22:50:21.419726+00:00 rank=1 lora epoch=3/15 batch=3082/6249 step=15580 loss=0.118907 grad_norm=0.5703
+2026-09-21T22:50:33.269406+00:00 rank=0 lora epoch=3/15 batch=3102/6249 step=15600 loss=0.550025 grad_norm=0.3654
+2026-09-21T22:50:33.269428+00:00 rank=1 lora epoch=3/15 batch=3102/6249 step=15600 loss=0.691798 grad_norm=0.3654
+2026-09-21T22:50:43.538399+00:00 rank=0 lora epoch=3/15 batch=3122/6249 step=15620 loss=0.000822 grad_norm=0.1132
+2026-09-21T22:50:43.538434+00:00 rank=1 lora epoch=3/15 batch=3122/6249 step=15620 loss=0.023285 grad_norm=0.1132
+2026-09-21T22:50:55.705772+00:00 rank=0 lora epoch=3/15 batch=3142/6249 step=15640 loss=0.000395 grad_norm=0.0058
+2026-09-21T22:50:55.705874+00:00 rank=1 lora epoch=3/15 batch=3142/6249 step=15640 loss=0.000403 grad_norm=0.0058
+2026-09-21T22:51:05.050221+00:00 rank=0 lora epoch=3/15 batch=3162/6249 step=15660 loss=0.667051 grad_norm=0.3332
+2026-09-21T22:51:05.050265+00:00 rank=1 lora epoch=3/15 batch=3162/6249 step=15660 loss=0.560660 grad_norm=0.3332
+2026-09-21T22:51:15.368148+00:00 rank=0 lora epoch=3/15 batch=3182/6249 step=15680 loss=0.001185 grad_norm=0.02182026-09-21T22:51:15.368154+00:00 rank=1 lora epoch=3/15 batch=3182/6249 step=15680 loss=0.001180 grad_norm=0.0218
+
+2026-09-21T22:51:26.744761+00:00 rank=0 lora epoch=3/15 batch=3202/6249 step=15700 loss=0.549475 grad_norm=0.8570
+2026-09-21T22:51:26.744836+00:00 rank=1 lora epoch=3/15 batch=3202/6249 step=15700 loss=0.390702 grad_norm=0.8570
+2026-09-21T22:51:36.531761+00:00 rank=0 lora epoch=3/15 batch=3222/6249 step=15720 loss=0.635697 grad_norm=0.9745
+2026-09-21T22:51:36.531788+00:00 rank=1 lora epoch=3/15 batch=3222/6249 step=15720 loss=0.655803 grad_norm=0.9745
+2026-09-21T22:51:46.406760+00:00 rank=0 lora epoch=3/15 batch=3242/6249 step=15740 loss=0.643254 grad_norm=1.3179
+2026-09-21T22:51:46.406813+00:00 rank=1 lora epoch=3/15 batch=3242/6249 step=15740 loss=0.745593 grad_norm=1.3179
+2026-09-21T22:51:56.949146+00:00 rank=0 lora epoch=3/15 batch=3262/6249 step=15760 loss=0.641614 grad_norm=0.5394
+2026-09-21T22:51:56.949183+00:00 rank=1 lora epoch=3/15 batch=3262/6249 step=15760 loss=0.635148 grad_norm=0.5394
+2026-09-21T22:52:07.510976+00:00 rank=0 lora epoch=3/15 batch=3282/6249 step=15780 loss=0.668104 grad_norm=0.4784
+2026-09-21T22:52:07.511034+00:00 rank=1 lora epoch=3/15 batch=3282/6249 step=15780 loss=0.720791 grad_norm=0.4784
+2026-09-21T22:52:19.899380+00:00 rank=0 lora epoch=3/15 batch=3302/6249 step=15800 loss=0.101254 grad_norm=0.39872026-09-21T22:52:19.899382+00:00 rank=1 lora epoch=3/15 batch=3302/6249 step=15800 loss=0.445502 grad_norm=0.3987
+
+2026-09-21T22:52:30.599911+00:00 rank=0 lora epoch=3/15 batch=3322/6249 step=15820 loss=0.000798 grad_norm=0.0111
+2026-09-21T22:52:30.599945+00:00 rank=1 lora epoch=3/15 batch=3322/6249 step=15820 loss=0.000582 grad_norm=0.0111
+2026-09-21T22:52:40.641896+00:00 rank=0 lora epoch=3/15 batch=3342/6249 step=15840 loss=0.562653 grad_norm=0.7281
+2026-09-21T22:52:40.641987+00:00 rank=1 lora epoch=3/15 batch=3342/6249 step=15840 loss=0.238011 grad_norm=0.7281
+2026-09-21T22:52:51.967632+00:00 rank=1 lora epoch=3/15 batch=3362/6249 step=15860 loss=0.000386 grad_norm=0.0052
+2026-09-21T22:52:51.967669+00:00 rank=0 lora epoch=3/15 batch=3362/6249 step=15860 loss=0.000376 grad_norm=0.0052
+2026-09-21T22:53:03.765634+00:00 rank=1 lora epoch=3/15 batch=3382/6249 step=15880 loss=0.659648 grad_norm=0.4232
+2026-09-21T22:53:03.765733+00:00 rank=0 lora epoch=3/15 batch=3382/6249 step=15880 loss=0.586879 grad_norm=0.4232
+2026-09-21T22:53:14.061897+00:00 rank=0 lora epoch=3/15 batch=3402/6249 step=15900 loss=0.000467 grad_norm=0.0164
+2026-09-21T22:53:14.061933+00:00 rank=1 lora epoch=3/15 batch=3402/6249 step=15900 loss=0.000537 grad_norm=0.0164
+2026-09-21T22:53:24.375707+00:00 rank=0 lora epoch=3/15 batch=3422/6249 step=15920 loss=0.370559 grad_norm=0.4528
+2026-09-21T22:53:24.375770+00:00 rank=1 lora epoch=3/15 batch=3422/6249 step=15920 loss=0.280460 grad_norm=0.4528
+2026-09-21T22:53:34.228784+00:00 rank=0 lora epoch=3/15 batch=3442/6249 step=15940 loss=0.567886 grad_norm=0.6282
+2026-09-21T22:53:34.228857+00:00 rank=1 lora epoch=3/15 batch=3442/6249 step=15940 loss=0.689317 grad_norm=0.6282
+2026-09-21T22:53:46.592406+00:00 rank=1 lora epoch=3/15 batch=3462/6249 step=15960 loss=0.000314 grad_norm=0.0062
+2026-09-21T22:53:46.592451+00:00 rank=0 lora epoch=3/15 batch=3462/6249 step=15960 loss=0.000325 grad_norm=0.0062
+2026-09-21T22:54:00.013191+00:00 rank=1 lora epoch=3/15 batch=3482/6249 step=15980 loss=0.000382 grad_norm=0.0055
+2026-09-21T22:54:00.013230+00:00 rank=0 lora epoch=3/15 batch=3482/6249 step=15980 loss=0.000382 grad_norm=0.0055
+2026-09-21T22:54:10.445788+00:00 rank=0 lora epoch=3/15 batch=3502/6249 step=16000 loss=0.629268 grad_norm=1.5170
+2026-09-21T22:54:10.445810+00:00 rank=1 lora epoch=3/15 batch=3502/6249 step=16000 loss=0.667237 grad_norm=1.5170
+2026-09-21T22:55:48.105977+00:00 rank=0 interval validation step=16000 metrics={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.4470833623634412, 'f1': 0.6859892312979723, 'spearman_probability_label': 0.5961609410229971, 'threshold': 0.5}
+2026-09-21T22:55:48.106810+00:00 rank=1 interval validation step=16000 metrics={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.4470833623634412, 'f1': 0.6859892312979723, 'spearman_probability_label': 0.5961609410229971, 'threshold': 0.5}
+2026-09-21T22:55:59.203911+00:00 rank=0 lora epoch=3/15 batch=3522/6249 step=16020 loss=0.000407 grad_norm=0.0057
+2026-09-21T22:55:59.204028+00:00 rank=1 lora epoch=3/15 batch=3522/6249 step=16020 loss=0.000388 grad_norm=0.0057
+2026-09-21T22:56:12.310484+00:00 rank=0 lora epoch=3/15 batch=3542/6249 step=16040 loss=0.642641 grad_norm=0.94032026-09-21T22:56:12.310488+00:00 rank=1 lora epoch=3/15 batch=3542/6249 step=16040 loss=0.585460 grad_norm=0.9403
+
+2026-09-21T22:56:22.991437+00:00 rank=1 lora epoch=3/15 batch=3562/6249 step=16060 loss=0.199383 grad_norm=0.1479
+2026-09-21T22:56:22.991500+00:00 rank=0 lora epoch=3/15 batch=3562/6249 step=16060 loss=0.000699 grad_norm=0.1479
+2026-09-21T22:56:33.842328+00:00 rank=0 lora epoch=3/15 batch=3582/6249 step=16080 loss=0.530197 grad_norm=0.4488
+2026-09-21T22:56:33.842378+00:00 rank=1 lora epoch=3/15 batch=3582/6249 step=16080 loss=0.000322 grad_norm=0.4488
+2026-09-21T22:56:46.976461+00:00 rank=0 lora epoch=3/15 batch=3602/6249 step=16100 loss=0.685824 grad_norm=1.03862026-09-21T22:56:46.976466+00:00 rank=1 lora epoch=3/15 batch=3602/6249 step=16100 loss=0.656211 grad_norm=1.0386
+
+2026-09-21T22:56:57.539125+00:00 rank=0 lora epoch=3/15 batch=3622/6249 step=16120 loss=0.663969 grad_norm=0.5267
+2026-09-21T22:56:57.539158+00:00 rank=1 lora epoch=3/15 batch=3622/6249 step=16120 loss=0.663743 grad_norm=0.5267
+2026-09-21T22:57:09.795680+00:00 rank=0 lora epoch=3/15 batch=3642/6249 step=16140 loss=0.000460 grad_norm=0.0130
+2026-09-21T22:57:09.795810+00:00 rank=1 lora epoch=3/15 batch=3642/6249 step=16140 loss=0.000438 grad_norm=0.0130
+2026-09-21T22:57:20.148563+00:00 rank=0 lora epoch=3/15 batch=3662/6249 step=16160 loss=0.630220 grad_norm=0.59152026-09-21T22:57:20.148571+00:00 rank=1 lora epoch=3/15 batch=3662/6249 step=16160 loss=0.618178 grad_norm=0.5915
+
+2026-09-21T22:57:29.261998+00:00 rank=0 lora epoch=3/15 batch=3682/6249 step=16180 loss=0.455943 grad_norm=0.8681
+2026-09-21T22:57:29.262030+00:00 rank=1 lora epoch=3/15 batch=3682/6249 step=16180 loss=0.000521 grad_norm=0.8681
+2026-09-21T22:57:40.577466+00:00 rank=0 lora epoch=3/15 batch=3702/6249 step=16200 loss=0.893614 grad_norm=1.2470
+2026-09-21T22:57:40.577488+00:00 rank=1 lora epoch=3/15 batch=3702/6249 step=16200 loss=0.588677 grad_norm=1.2470
+2026-09-21T22:57:50.885696+00:00 rank=0 lora epoch=3/15 batch=3722/6249 step=16220 loss=0.788222 grad_norm=0.6270
+2026-09-21T22:57:50.885747+00:00 rank=1 lora epoch=3/15 batch=3722/6249 step=16220 loss=0.588101 grad_norm=0.6270
+2026-09-21T22:58:00.840201+00:00 rank=0 lora epoch=3/15 batch=3742/6249 step=16240 loss=0.307223 grad_norm=0.40592026-09-21T22:58:00.840211+00:00 rank=1 lora epoch=3/15 batch=3742/6249 step=16240 loss=0.211446 grad_norm=0.4059
+
+2026-09-21T22:58:11.474507+00:00 rank=0 lora epoch=3/15 batch=3762/6249 step=16260 loss=0.655322 grad_norm=1.2123
+2026-09-21T22:58:11.474543+00:00 rank=1 lora epoch=3/15 batch=3762/6249 step=16260 loss=0.717738 grad_norm=1.2123
+2026-09-21T22:58:22.396511+00:00 rank=1 lora epoch=3/15 batch=3782/6249 step=16280 loss=0.604182 grad_norm=0.3585
+2026-09-21T22:58:22.396576+00:00 rank=0 lora epoch=3/15 batch=3782/6249 step=16280 loss=0.562004 grad_norm=0.3585
+2026-09-21T22:58:32.892463+00:00 rank=1 lora epoch=3/15 batch=3802/6249 step=16300 loss=0.657397 grad_norm=0.34852026-09-21T22:58:32.892466+00:00 rank=0 lora epoch=3/15 batch=3802/6249 step=16300 loss=0.668341 grad_norm=0.3485
+
+2026-09-21T22:58:44.068855+00:00 rank=0 lora epoch=3/15 batch=3822/6249 step=16320 loss=0.000836 grad_norm=0.01312026-09-21T22:58:44.068878+00:00 rank=1 lora epoch=3/15 batch=3822/6249 step=16320 loss=0.000831 grad_norm=0.0131
+
+2026-09-21T22:58:55.206189+00:00 rank=0 lora epoch=3/15 batch=3842/6249 step=16340 loss=0.678725 grad_norm=0.6896
+2026-09-21T22:58:55.206246+00:00 rank=1 lora epoch=3/15 batch=3842/6249 step=16340 loss=0.729606 grad_norm=0.6896
+2026-09-21T22:59:05.378365+00:00 rank=1 lora epoch=3/15 batch=3862/6249 step=16360 loss=0.641126 grad_norm=0.27512026-09-21T22:59:05.378371+00:00 rank=0 lora epoch=3/15 batch=3862/6249 step=16360 loss=0.697131 grad_norm=0.2751
+
+2026-09-21T22:59:15.404368+00:00 rank=1 lora epoch=3/15 batch=3882/6249 step=16380 loss=0.624799 grad_norm=1.51892026-09-21T22:59:15.404374+00:00 rank=0 lora epoch=3/15 batch=3882/6249 step=16380 loss=0.691849 grad_norm=1.5189
+
+2026-09-21T22:59:24.802316+00:00 rank=0 lora epoch=3/15 batch=3902/6249 step=16400 loss=0.681486 grad_norm=0.38172026-09-21T22:59:24.802325+00:00 rank=1 lora epoch=3/15 batch=3902/6249 step=16400 loss=0.638055 grad_norm=0.3817
+
+2026-09-21T22:59:35.599348+00:00 rank=1 lora epoch=3/15 batch=3922/6249 step=16420 loss=0.000371 grad_norm=0.0047
+2026-09-21T22:59:35.599376+00:00 rank=0 lora epoch=3/15 batch=3922/6249 step=16420 loss=0.000377 grad_norm=0.0047
+2026-09-21T22:59:47.535996+00:00 rank=0 lora epoch=3/15 batch=3942/6249 step=16440 loss=0.630401 grad_norm=0.2255
+2026-09-21T22:59:47.536025+00:00 rank=1 lora epoch=3/15 batch=3942/6249 step=16440 loss=0.684335 grad_norm=0.2255
+2026-09-21T22:59:58.211529+00:00 rank=0 lora epoch=3/15 batch=3962/6249 step=16460 loss=0.847874 grad_norm=0.6768
+2026-09-21T22:59:58.211572+00:00 rank=1 lora epoch=3/15 batch=3962/6249 step=16460 loss=0.602247 grad_norm=0.6768
+2026-09-21T23:00:10.648794+00:00 rank=0 lora epoch=3/15 batch=3982/6249 step=16480 loss=0.746922 grad_norm=0.8235
+2026-09-21T23:00:10.648820+00:00 rank=1 lora epoch=3/15 batch=3982/6249 step=16480 loss=0.649989 grad_norm=0.8235
+2026-09-21T23:00:20.600100+00:00 rank=0 lora epoch=3/15 batch=4002/6249 step=16500 loss=0.628382 grad_norm=0.3345
+2026-09-21T23:00:20.600133+00:00 rank=1 lora epoch=3/15 batch=4002/6249 step=16500 loss=0.711559 grad_norm=0.3345
+2026-09-21T23:00:31.541773+00:00 rank=0 lora epoch=3/15 batch=4022/6249 step=16520 loss=0.000337 grad_norm=0.0035
+2026-09-21T23:00:31.541885+00:00 rank=1 lora epoch=3/15 batch=4022/6249 step=16520 loss=0.000339 grad_norm=0.0035
+2026-09-21T23:00:42.609224+00:00 rank=0 lora epoch=3/15 batch=4042/6249 step=16540 loss=0.578650 grad_norm=0.1428
+2026-09-21T23:00:42.609336+00:00 rank=1 lora epoch=3/15 batch=4042/6249 step=16540 loss=0.688251 grad_norm=0.1428
+2026-09-21T23:00:53.301311+00:00 rank=1 lora epoch=3/15 batch=4062/6249 step=16560 loss=0.617051 grad_norm=0.30462026-09-21T23:00:53.301317+00:00 rank=0 lora epoch=3/15 batch=4062/6249 step=16560 loss=0.589552 grad_norm=0.3046
+
+2026-09-21T23:01:05.139784+00:00 rank=1 lora epoch=3/15 batch=4082/6249 step=16580 loss=0.000368 grad_norm=0.00432026-09-21T23:01:05.139791+00:00 rank=0 lora epoch=3/15 batch=4082/6249 step=16580 loss=0.000393 grad_norm=0.0043
+
+2026-09-21T23:01:14.767406+00:00 rank=0 lora epoch=3/15 batch=4102/6249 step=16600 loss=0.000768 grad_norm=0.2111
+2026-09-21T23:01:14.767453+00:00 rank=1 lora epoch=3/15 batch=4102/6249 step=16600 loss=0.565654 grad_norm=0.2111
+2026-09-21T23:01:25.301494+00:00 rank=0 lora epoch=3/15 batch=4122/6249 step=16620 loss=0.690700 grad_norm=0.34382026-09-21T23:01:25.301514+00:00 rank=1 lora epoch=3/15 batch=4122/6249 step=16620 loss=0.656824 grad_norm=0.3438
+
+2026-09-21T23:01:35.082089+00:00 rank=0 lora epoch=3/15 batch=4142/6249 step=16640 loss=0.000392 grad_norm=0.0054
+2026-09-21T23:01:35.082153+00:00 rank=1 lora epoch=3/15 batch=4142/6249 step=16640 loss=0.000395 grad_norm=0.0054
+2026-09-21T23:01:44.696432+00:00 rank=1 lora epoch=3/15 batch=4162/6249 step=16660 loss=0.000594 grad_norm=0.00792026-09-21T23:01:44.696462+00:00 rank=0 lora epoch=3/15 batch=4162/6249 step=16660 loss=0.000563 grad_norm=0.0079
+
+2026-09-21T23:01:57.377075+00:00 rank=1 lora epoch=3/15 batch=4182/6249 step=16680 loss=0.000287 grad_norm=0.0959
+2026-09-21T23:01:57.377148+00:00 rank=0 lora epoch=3/15 batch=4182/6249 step=16680 loss=0.036423 grad_norm=0.0959
+2026-09-21T23:02:06.310167+00:00 rank=0 lora epoch=3/15 batch=4202/6249 step=16700 loss=0.000656 grad_norm=0.0066
+2026-09-21T23:02:06.310208+00:00 rank=1 lora epoch=3/15 batch=4202/6249 step=16700 loss=0.000512 grad_norm=0.0066
+2026-09-21T23:02:16.496047+00:00 rank=0 lora epoch=3/15 batch=4222/6249 step=16720 loss=0.000348 grad_norm=0.0040
+2026-09-21T23:02:16.496079+00:00 rank=1 lora epoch=3/15 batch=4222/6249 step=16720 loss=0.000344 grad_norm=0.0040
+2026-09-21T23:02:28.303209+00:00 rank=1 lora epoch=3/15 batch=4242/6249 step=16740 loss=0.665788 grad_norm=0.73422026-09-21T23:02:28.303233+00:00 rank=0 lora epoch=3/15 batch=4242/6249 step=16740 loss=0.550596 grad_norm=0.7342
+
+2026-09-21T23:02:38.037359+00:00 rank=1 lora epoch=3/15 batch=4262/6249 step=16760 loss=0.606611 grad_norm=1.4920
+2026-09-21T23:02:38.037448+00:00 rank=0 lora epoch=3/15 batch=4262/6249 step=16760 loss=0.755283 grad_norm=1.4920
+2026-09-21T23:02:49.649284+00:00 rank=1 lora epoch=3/15 batch=4282/6249 step=16780 loss=0.614884 grad_norm=1.04902026-09-21T23:02:49.649291+00:00 rank=0 lora epoch=3/15 batch=4282/6249 step=16780 loss=0.556935 grad_norm=1.0490
+
+2026-09-21T23:03:02.410878+00:00 rank=0 lora epoch=3/15 batch=4302/6249 step=16800 loss=0.639060 grad_norm=0.3736
+2026-09-21T23:03:02.410931+00:00 rank=1 lora epoch=3/15 batch=4302/6249 step=16800 loss=0.654389 grad_norm=0.3736
+2026-09-21T23:03:13.396392+00:00 rank=0 lora epoch=3/15 batch=4322/6249 step=16820 loss=0.000553 grad_norm=0.0072
+2026-09-21T23:03:13.396425+00:00 rank=1 lora epoch=3/15 batch=4322/6249 step=16820 loss=0.000633 grad_norm=0.0072
+2026-09-21T23:03:24.241161+00:00 rank=0 lora epoch=3/15 batch=4342/6249 step=16840 loss=0.623126 grad_norm=0.8214
+2026-09-21T23:03:24.241193+00:00 rank=1 lora epoch=3/15 batch=4342/6249 step=16840 loss=0.703952 grad_norm=0.8214
+2026-09-21T23:03:34.571528+00:00 rank=1 lora epoch=3/15 batch=4362/6249 step=16860 loss=0.290442 grad_norm=1.2334
+2026-09-21T23:03:34.571596+00:00 rank=0 lora epoch=3/15 batch=4362/6249 step=16860 loss=0.504764 grad_norm=1.2334
+2026-09-21T23:03:46.506443+00:00 rank=0 lora epoch=3/15 batch=4382/6249 step=16880 loss=0.630162 grad_norm=1.25882026-09-21T23:03:46.506458+00:00 rank=1 lora epoch=3/15 batch=4382/6249 step=16880 loss=0.704204 grad_norm=1.2588
+
+2026-09-21T23:03:58.746501+00:00 rank=0 lora epoch=3/15 batch=4402/6249 step=16900 loss=0.000306 grad_norm=0.0042
+2026-09-21T23:03:58.746530+00:00 rank=1 lora epoch=3/15 batch=4402/6249 step=16900 loss=0.000294 grad_norm=0.0042
+2026-09-21T23:04:10.715202+00:00 rank=0 lora epoch=3/15 batch=4422/6249 step=16920 loss=0.000313 grad_norm=0.0042
+2026-09-21T23:04:10.715246+00:00 rank=1 lora epoch=3/15 batch=4422/6249 step=16920 loss=0.000308 grad_norm=0.0042
+2026-09-21T23:04:21.759533+00:00 rank=0 lora epoch=3/15 batch=4442/6249 step=16940 loss=0.626601 grad_norm=0.2505
+2026-09-21T23:04:21.759612+00:00 rank=1 lora epoch=3/15 batch=4442/6249 step=16940 loss=0.611078 grad_norm=0.2505
+2026-09-21T23:04:31.867533+00:00 rank=1 lora epoch=3/15 batch=4462/6249 step=16960 loss=0.734430 grad_norm=1.04942026-09-21T23:04:31.867535+00:00 rank=0 lora epoch=3/15 batch=4462/6249 step=16960 loss=0.623949 grad_norm=1.0494
+
+2026-09-21T23:04:42.725122+00:00 rank=0 lora epoch=3/15 batch=4482/6249 step=16980 loss=0.220532 grad_norm=0.4096
+2026-09-21T23:04:42.725210+00:00 rank=1 lora epoch=3/15 batch=4482/6249 step=16980 loss=0.625735 grad_norm=0.4096
+2026-09-21T23:04:54.879925+00:00 rank=0 lora epoch=3/15 batch=4502/6249 step=17000 loss=0.642582 grad_norm=0.3020
+2026-09-21T23:04:54.879998+00:00 rank=1 lora epoch=3/15 batch=4502/6249 step=17000 loss=0.642582 grad_norm=0.3020
+2026-09-21T23:05:06.155000+00:00 rank=0 lora epoch=3/15 batch=4522/6249 step=17020 loss=0.607451 grad_norm=0.2017
+2026-09-21T23:05:06.155085+00:00 rank=1 lora epoch=3/15 batch=4522/6249 step=17020 loss=0.682946 grad_norm=0.2017
+2026-09-21T23:05:16.561054+00:00 rank=0 lora epoch=3/15 batch=4542/6249 step=17040 loss=0.599445 grad_norm=0.3146
+2026-09-21T23:05:16.561115+00:00 rank=1 lora epoch=3/15 batch=4542/6249 step=17040 loss=0.677277 grad_norm=0.3146
+2026-09-21T23:05:26.150370+00:00 rank=0 lora epoch=3/15 batch=4562/6249 step=17060 loss=0.421881 grad_norm=0.3146
+2026-09-21T23:05:26.150467+00:00 rank=1 lora epoch=3/15 batch=4562/6249 step=17060 loss=0.527465 grad_norm=0.3146
+2026-09-21T23:05:37.317455+00:00 rank=0 lora epoch=3/15 batch=4582/6249 step=17080 loss=0.532117 grad_norm=0.7635
+2026-09-21T23:05:37.317529+00:00 rank=1 lora epoch=3/15 batch=4582/6249 step=17080 loss=0.857979 grad_norm=0.7635
+2026-09-21T23:05:47.031735+00:00 rank=0 lora epoch=3/15 batch=4602/6249 step=17100 loss=0.700453 grad_norm=0.5498
+2026-09-21T23:05:47.031787+00:00 rank=1 lora epoch=3/15 batch=4602/6249 step=17100 loss=0.570241 grad_norm=0.5498
+2026-09-21T23:05:56.898737+00:00 rank=0 lora epoch=3/15 batch=4622/6249 step=17120 loss=0.701994 grad_norm=1.2982
+2026-09-21T23:05:56.898803+00:00 rank=1 lora epoch=3/15 batch=4622/6249 step=17120 loss=0.553541 grad_norm=1.2982
+2026-09-21T23:06:07.613332+00:00 rank=0 lora epoch=3/15 batch=4642/6249 step=17140 loss=0.676988 grad_norm=0.15462026-09-21T23:06:07.613345+00:00 rank=1 lora epoch=3/15 batch=4642/6249 step=17140 loss=0.664397 grad_norm=0.1546
+
+2026-09-21T23:06:18.576579+00:00 rank=0 lora epoch=3/15 batch=4662/6249 step=17160 loss=0.600165 grad_norm=0.5994
+2026-09-21T23:06:18.576661+00:00 rank=1 lora epoch=3/15 batch=4662/6249 step=17160 loss=0.598016 grad_norm=0.5994
+2026-09-21T23:06:27.686972+00:00 rank=0 lora epoch=3/15 batch=4682/6249 step=17180 loss=0.241415 grad_norm=0.6957
+2026-09-21T23:06:27.687060+00:00 rank=1 lora epoch=3/15 batch=4682/6249 step=17180 loss=0.347923 grad_norm=0.6957
+2026-09-21T23:06:38.197679+00:00 rank=0 lora epoch=3/15 batch=4702/6249 step=17200 loss=0.000428 grad_norm=0.5131
+2026-09-21T23:06:38.197781+00:00 rank=1 lora epoch=3/15 batch=4702/6249 step=17200 loss=0.271685 grad_norm=0.5131
+2026-09-21T23:06:49.802526+00:00 rank=0 lora epoch=3/15 batch=4722/6249 step=17220 loss=0.614879 grad_norm=0.7911
+2026-09-21T23:06:49.802623+00:00 rank=1 lora epoch=3/15 batch=4722/6249 step=17220 loss=0.632471 grad_norm=0.7911
+2026-09-21T23:07:00.619393+00:00 rank=0 lora epoch=3/15 batch=4742/6249 step=17240 loss=0.615835 grad_norm=0.1756
+2026-09-21T23:07:00.619533+00:00 rank=1 lora epoch=3/15 batch=4742/6249 step=17240 loss=0.636577 grad_norm=0.1756
+2026-09-21T23:07:16.691349+00:00 rank=0 lora epoch=3/15 batch=4762/6249 step=17260 loss=0.649335 grad_norm=0.7031
+2026-09-21T23:07:16.691397+00:00 rank=1 lora epoch=3/15 batch=4762/6249 step=17260 loss=0.633313 grad_norm=0.7031
+2026-09-21T23:07:29.535249+00:00 rank=0 lora epoch=3/15 batch=4782/6249 step=17280 loss=0.795683 grad_norm=1.0470
+2026-09-21T23:07:29.535310+00:00 rank=1 lora epoch=3/15 batch=4782/6249 step=17280 loss=0.699334 grad_norm=1.0470
+2026-09-21T23:07:39.133713+00:00 rank=0 lora epoch=3/15 batch=4802/6249 step=17300 loss=0.636906 grad_norm=0.5986
+2026-09-21T23:07:39.133760+00:00 rank=1 lora epoch=3/15 batch=4802/6249 step=17300 loss=0.606333 grad_norm=0.5986
+2026-09-21T23:07:51.092869+00:00 rank=0 lora epoch=3/15 batch=4822/6249 step=17320 loss=0.615706 grad_norm=1.3266
+2026-09-21T23:07:51.092939+00:00 rank=1 lora epoch=3/15 batch=4822/6249 step=17320 loss=0.711426 grad_norm=1.3266
+2026-09-21T23:08:01.940473+00:00 rank=0 lora epoch=3/15 batch=4842/6249 step=17340 loss=0.003834 grad_norm=0.0947
+2026-09-21T23:08:01.940591+00:00 rank=1 lora epoch=3/15 batch=4842/6249 step=17340 loss=0.002777 grad_norm=0.0947
+2026-09-21T23:08:12.372902+00:00 rank=0 lora epoch=3/15 batch=4862/6249 step=17360 loss=0.644510 grad_norm=0.4481
+2026-09-21T23:08:12.372995+00:00 rank=1 lora epoch=3/15 batch=4862/6249 step=17360 loss=0.633359 grad_norm=0.4481
+2026-09-21T23:08:24.089065+00:00 rank=0 lora epoch=3/15 batch=4882/6249 step=17380 loss=0.643683 grad_norm=0.4853
+2026-09-21T23:08:24.089116+00:00 rank=1 lora epoch=3/15 batch=4882/6249 step=17380 loss=0.621744 grad_norm=0.4853
+2026-09-21T23:08:33.976189+00:00 rank=0 lora epoch=3/15 batch=4902/6249 step=17400 loss=0.000900 grad_norm=0.0179
+2026-09-21T23:08:33.976242+00:00 rank=1 lora epoch=3/15 batch=4902/6249 step=17400 loss=0.001043 grad_norm=0.0179
+2026-09-21T23:08:47.279077+00:00 rank=0 lora epoch=3/15 batch=4922/6249 step=17420 loss=0.533151 grad_norm=0.2195
+2026-09-21T23:08:47.279158+00:00 rank=1 lora epoch=3/15 batch=4922/6249 step=17420 loss=0.572563 grad_norm=0.2195
+2026-09-21T23:08:57.729272+00:00 rank=0 lora epoch=3/15 batch=4942/6249 step=17440 loss=0.000772 grad_norm=0.0163
+2026-09-21T23:08:57.729393+00:00 rank=1 lora epoch=3/15 batch=4942/6249 step=17440 loss=0.000776 grad_norm=0.0163
+2026-09-21T23:09:09.071091+00:00 rank=0 lora epoch=3/15 batch=4962/6249 step=17460 loss=0.696048 grad_norm=0.4334
+2026-09-21T23:09:09.071138+00:00 rank=1 lora epoch=3/15 batch=4962/6249 step=17460 loss=0.637319 grad_norm=0.4334
+2026-09-21T23:09:23.447245+00:00 rank=0 lora epoch=3/15 batch=4982/6249 step=17480 loss=0.567700 grad_norm=0.8659
+2026-09-21T23:09:23.447311+00:00 rank=1 lora epoch=3/15 batch=4982/6249 step=17480 loss=0.523593 grad_norm=0.8659
+2026-09-21T23:09:33.503698+00:00 rank=0 lora epoch=3/15 batch=5002/6249 step=17500 loss=0.000838 grad_norm=0.01242026-09-21T23:09:33.503699+00:00 rank=1 lora epoch=3/15 batch=5002/6249 step=17500 loss=0.000770 grad_norm=0.0124
+
+2026-09-21T23:09:43.433557+00:00 rank=1 lora epoch=3/15 batch=5022/6249 step=17520 loss=0.000369 grad_norm=0.0042
+2026-09-21T23:09:43.433581+00:00 rank=0 lora epoch=3/15 batch=5022/6249 step=17520 loss=0.000345 grad_norm=0.0042
+2026-09-21T23:09:52.801686+00:00 rank=0 lora epoch=3/15 batch=5042/6249 step=17540 loss=0.632881 grad_norm=0.5930
+2026-09-21T23:09:52.801729+00:00 rank=1 lora epoch=3/15 batch=5042/6249 step=17540 loss=0.597506 grad_norm=0.5930
+2026-09-21T23:10:03.300763+00:00 rank=0 lora epoch=3/15 batch=5062/6249 step=17560 loss=0.000728 grad_norm=0.0177
+2026-09-21T23:10:03.300859+00:00 rank=1 lora epoch=3/15 batch=5062/6249 step=17560 loss=0.000994 grad_norm=0.0177
+2026-09-21T23:10:15.591552+00:00 rank=0 lora epoch=3/15 batch=5082/6249 step=17580 loss=0.362087 grad_norm=0.2695
+2026-09-21T23:10:15.591615+00:00 rank=1 lora epoch=3/15 batch=5082/6249 step=17580 loss=0.000602 grad_norm=0.2695
+2026-09-21T23:10:29.276598+00:00 rank=0 lora epoch=3/15 batch=5102/6249 step=17600 loss=0.628484 grad_norm=0.4667
+2026-09-21T23:10:29.276683+00:00 rank=1 lora epoch=3/15 batch=5102/6249 step=17600 loss=0.613127 grad_norm=0.4667
+2026-09-21T23:10:41.397377+00:00 rank=0 lora epoch=3/15 batch=5122/6249 step=17620 loss=0.615505 grad_norm=0.4207
+2026-09-21T23:10:41.397409+00:00 rank=1 lora epoch=3/15 batch=5122/6249 step=17620 loss=0.567080 grad_norm=0.4207
+2026-09-21T23:10:51.591853+00:00 rank=0 lora epoch=3/15 batch=5142/6249 step=17640 loss=0.505272 grad_norm=0.8384
+2026-09-21T23:10:51.591934+00:00 rank=1 lora epoch=3/15 batch=5142/6249 step=17640 loss=0.161567 grad_norm=0.8384
+2026-09-21T23:11:02.513587+00:00 rank=0 lora epoch=3/15 batch=5162/6249 step=17660 loss=0.577804 grad_norm=0.4173
+2026-09-21T23:11:02.513738+00:00 rank=1 lora epoch=3/15 batch=5162/6249 step=17660 loss=0.685744 grad_norm=0.4173
+2026-09-21T23:11:11.737428+00:00 rank=0 lora epoch=3/15 batch=5182/6249 step=17680 loss=0.641105 grad_norm=0.4977
+2026-09-21T23:11:11.737497+00:00 rank=1 lora epoch=3/15 batch=5182/6249 step=17680 loss=0.669766 grad_norm=0.4977
+2026-09-21T23:11:23.085513+00:00 rank=0 lora epoch=3/15 batch=5202/6249 step=17700 loss=0.623913 grad_norm=0.9253
+2026-09-21T23:11:23.085580+00:00 rank=1 lora epoch=3/15 batch=5202/6249 step=17700 loss=0.723183 grad_norm=0.9253
+2026-09-21T23:11:35.077847+00:00 rank=0 lora epoch=3/15 batch=5222/6249 step=17720 loss=0.000408 grad_norm=0.0054
+2026-09-21T23:11:35.077932+00:00 rank=1 lora epoch=3/15 batch=5222/6249 step=17720 loss=0.000366 grad_norm=0.0054
+2026-09-21T23:11:44.573880+00:00 rank=0 lora epoch=3/15 batch=5242/6249 step=17740 loss=0.662847 grad_norm=0.1461
+2026-09-21T23:11:44.574023+00:00 rank=1 lora epoch=3/15 batch=5242/6249 step=17740 loss=0.657032 grad_norm=0.1461
+2026-09-21T23:11:55.857153+00:00 rank=0 lora epoch=3/15 batch=5262/6249 step=17760 loss=0.307449 grad_norm=1.3620
+2026-09-21T23:11:55.857249+00:00 rank=1 lora epoch=3/15 batch=5262/6249 step=17760 loss=0.167176 grad_norm=1.3620
+2026-09-21T23:12:05.491085+00:00 rank=0 lora epoch=3/15 batch=5282/6249 step=17780 loss=0.367178 grad_norm=0.2866
+2026-09-21T23:12:05.491155+00:00 rank=1 lora epoch=3/15 batch=5282/6249 step=17780 loss=0.246449 grad_norm=0.2866
+2026-09-21T23:12:18.420264+00:00 rank=0 lora epoch=3/15 batch=5302/6249 step=17800 loss=0.613471 grad_norm=0.3738
+2026-09-21T23:12:18.420330+00:00 rank=1 lora epoch=3/15 batch=5302/6249 step=17800 loss=0.574262 grad_norm=0.3738
+2026-09-21T23:12:27.668658+00:00 rank=0 lora epoch=3/15 batch=5322/6249 step=17820 loss=0.099089 grad_norm=0.4604
+2026-09-21T23:12:27.668736+00:00 rank=1 lora epoch=3/15 batch=5322/6249 step=17820 loss=0.003151 grad_norm=0.4604
+2026-09-21T23:12:38.473565+00:00 rank=0 lora epoch=3/15 batch=5342/6249 step=17840 loss=0.130233 grad_norm=0.4852
+2026-09-21T23:12:38.473643+00:00 rank=1 lora epoch=3/15 batch=5342/6249 step=17840 loss=0.501965 grad_norm=0.4852
+2026-09-21T23:12:47.927039+00:00 rank=0 lora epoch=3/15 batch=5362/6249 step=17860 loss=0.003935 grad_norm=0.0716
+2026-09-21T23:12:47.927128+00:00 rank=1 lora epoch=3/15 batch=5362/6249 step=17860 loss=0.000467 grad_norm=0.0716
+2026-09-21T23:12:57.414152+00:00 rank=0 lora epoch=3/15 batch=5382/6249 step=17880 loss=0.000348 grad_norm=0.0046
+2026-09-21T23:12:57.414220+00:00 rank=1 lora epoch=3/15 batch=5382/6249 step=17880 loss=0.000363 grad_norm=0.0046
+2026-09-21T23:13:09.181894+00:00 rank=0 lora epoch=3/15 batch=5402/6249 step=17900 loss=0.613403 grad_norm=0.3128
+2026-09-21T23:13:09.181968+00:00 rank=1 lora epoch=3/15 batch=5402/6249 step=17900 loss=0.696609 grad_norm=0.3128
+2026-09-21T23:13:18.449638+00:00 rank=0 lora epoch=3/15 batch=5422/6249 step=17920 loss=0.657436 grad_norm=0.5065
+2026-09-21T23:13:18.449712+00:00 rank=1 lora epoch=3/15 batch=5422/6249 step=17920 loss=0.558487 grad_norm=0.5065
+2026-09-21T23:13:32.488807+00:00 rank=0 lora epoch=3/15 batch=5442/6249 step=17940 loss=0.429317 grad_norm=1.3211
+2026-09-21T23:13:32.488947+00:00 rank=1 lora epoch=3/15 batch=5442/6249 step=17940 loss=0.407582 grad_norm=1.3211
+2026-09-21T23:13:42.584989+00:00 rank=0 lora epoch=3/15 batch=5462/6249 step=17960 loss=0.657304 grad_norm=0.1659
+2026-09-21T23:13:42.585135+00:00 rank=1 lora epoch=3/15 batch=5462/6249 step=17960 loss=0.131861 grad_norm=0.1659
+2026-09-21T23:13:52.351628+00:00 rank=0 lora epoch=3/15 batch=5482/6249 step=17980 loss=0.000297 grad_norm=0.0032
+2026-09-21T23:13:52.351684+00:00 rank=1 lora epoch=3/15 batch=5482/6249 step=17980 loss=0.000271 grad_norm=0.0032
+2026-09-21T23:14:02.862849+00:00 rank=0 lora epoch=3/15 batch=5502/6249 step=18000 loss=0.019952 grad_norm=0.1476
+2026-09-21T23:14:02.862937+00:00 rank=1 lora epoch=3/15 batch=5502/6249 step=18000 loss=0.562801 grad_norm=0.1476
+2026-09-21T23:15:40.225268+00:00 rank=0 interval validation step=18000 metrics={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.45366785328795584, 'f1': 0.7158572021585721, 'spearman_probability_label': 0.5967508959547265, 'threshold': 0.5}
+2026-09-21T23:15:40.226204+00:00 rank=1 interval validation step=18000 metrics={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.45366785328795584, 'f1': 0.7158572021585721, 'spearman_probability_label': 0.5967508959547265, 'threshold': 0.5}
+2026-09-21T23:15:53.729903+00:00 rank=0 lora epoch=3/15 batch=5522/6249 step=18020 loss=0.612527 grad_norm=0.2024
+2026-09-21T23:15:53.729983+00:00 rank=1 lora epoch=3/15 batch=5522/6249 step=18020 loss=0.704431 grad_norm=0.2024
+2026-09-21T23:16:03.918369+00:00 rank=0 lora epoch=3/15 batch=5542/6249 step=18040 loss=0.696004 grad_norm=0.2941
+2026-09-21T23:16:03.918439+00:00 rank=1 lora epoch=3/15 batch=5542/6249 step=18040 loss=0.677459 grad_norm=0.2941
+2026-09-21T23:16:14.468821+00:00 rank=0 lora epoch=3/15 batch=5562/6249 step=18060 loss=0.000827 grad_norm=0.0230
+2026-09-21T23:16:14.468893+00:00 rank=1 lora epoch=3/15 batch=5562/6249 step=18060 loss=0.000722 grad_norm=0.0230
+2026-09-21T23:16:24.883330+00:00 rank=0 lora epoch=3/15 batch=5582/6249 step=18080 loss=0.573702 grad_norm=0.5179
+2026-09-21T23:16:24.883365+00:00 rank=1 lora epoch=3/15 batch=5582/6249 step=18080 loss=0.620836 grad_norm=0.5179
+2026-09-21T23:16:36.082311+00:00 rank=0 lora epoch=3/15 batch=5602/6249 step=18100 loss=0.594908 grad_norm=1.0785
+2026-09-21T23:16:36.082387+00:00 rank=1 lora epoch=3/15 batch=5602/6249 step=18100 loss=0.646731 grad_norm=1.0785
+2026-09-21T23:16:48.627141+00:00 rank=0 lora epoch=3/15 batch=5622/6249 step=18120 loss=0.532671 grad_norm=0.2980
+2026-09-21T23:16:48.627251+00:00 rank=1 lora epoch=3/15 batch=5622/6249 step=18120 loss=0.497295 grad_norm=0.2980
+2026-09-21T23:17:01.249856+00:00 rank=0 lora epoch=3/15 batch=5642/6249 step=18140 loss=0.616474 grad_norm=0.7323
+2026-09-21T23:17:01.249920+00:00 rank=1 lora epoch=3/15 batch=5642/6249 step=18140 loss=0.638705 grad_norm=0.7323
+2026-09-21T23:17:11.190137+00:00 rank=1 lora epoch=3/15 batch=5662/6249 step=18160 loss=0.000525 grad_norm=0.01132026-09-21T23:17:11.190148+00:00 rank=0 lora epoch=3/15 batch=5662/6249 step=18160 loss=0.000506 grad_norm=0.0113
+
+2026-09-21T23:17:21.036332+00:00 rank=1 lora epoch=3/15 batch=5682/6249 step=18180 loss=0.605129 grad_norm=0.29192026-09-21T23:17:21.036334+00:00 rank=0 lora epoch=3/15 batch=5682/6249 step=18180 loss=0.582008 grad_norm=0.2919
+
+2026-09-21T23:17:32.767286+00:00 rank=0 lora epoch=3/15 batch=5702/6249 step=18200 loss=0.000401 grad_norm=0.00782026-09-21T23:17:32.767288+00:00 rank=1 lora epoch=3/15 batch=5702/6249 step=18200 loss=0.000408 grad_norm=0.0078
+
+2026-09-21T23:17:42.391856+00:00 rank=0 lora epoch=3/15 batch=5722/6249 step=18220 loss=0.567692 grad_norm=0.7979
+2026-09-21T23:17:42.391968+00:00 rank=1 lora epoch=3/15 batch=5722/6249 step=18220 loss=0.576362 grad_norm=0.7979
+2026-09-21T23:17:53.203636+00:00 rank=0 lora epoch=3/15 batch=5742/6249 step=18240 loss=0.683524 grad_norm=1.5619
+2026-09-21T23:17:53.203772+00:00 rank=1 lora epoch=3/15 batch=5742/6249 step=18240 loss=0.672476 grad_norm=1.5619
+2026-09-21T23:18:04.084773+00:00 rank=0 lora epoch=3/15 batch=5762/6249 step=18260 loss=0.597023 grad_norm=1.3111
+2026-09-21T23:18:04.084824+00:00 rank=1 lora epoch=3/15 batch=5762/6249 step=18260 loss=0.592590 grad_norm=1.3111
+2026-09-21T23:18:13.825306+00:00 rank=0 lora epoch=3/15 batch=5782/6249 step=18280 loss=0.599042 grad_norm=1.0914
+2026-09-21T23:18:13.825358+00:00 rank=1 lora epoch=3/15 batch=5782/6249 step=18280 loss=0.648882 grad_norm=1.0914
+2026-09-21T23:18:23.863412+00:00 rank=0 lora epoch=3/15 batch=5802/6249 step=18300 loss=0.659991 grad_norm=0.3115
+2026-09-21T23:18:23.863496+00:00 rank=1 lora epoch=3/15 batch=5802/6249 step=18300 loss=0.649848 grad_norm=0.3115
+2026-09-21T23:18:33.671115+00:00 rank=0 lora epoch=3/15 batch=5822/6249 step=18320 loss=0.638670 grad_norm=0.2812
+2026-09-21T23:18:33.671198+00:00 rank=1 lora epoch=3/15 batch=5822/6249 step=18320 loss=0.648368 grad_norm=0.2812
+2026-09-21T23:18:43.389318+00:00 rank=0 lora epoch=3/15 batch=5842/6249 step=18340 loss=0.608928 grad_norm=0.8701
+2026-09-21T23:18:43.389538+00:00 rank=1 lora epoch=3/15 batch=5842/6249 step=18340 loss=0.749924 grad_norm=0.8701
+2026-09-21T23:18:53.095903+00:00 rank=0 lora epoch=3/15 batch=5862/6249 step=18360 loss=0.000494 grad_norm=0.0058
+2026-09-21T23:18:53.096005+00:00 rank=1 lora epoch=3/15 batch=5862/6249 step=18360 loss=0.000482 grad_norm=0.0058
+2026-09-21T23:19:02.372975+00:00 rank=0 lora epoch=3/15 batch=5882/6249 step=18380 loss=0.604174 grad_norm=0.3276
+2026-09-21T23:19:02.373040+00:00 rank=1 lora epoch=3/15 batch=5882/6249 step=18380 loss=0.588828 grad_norm=0.3276
+2026-09-21T23:19:12.742873+00:00 rank=0 lora epoch=3/15 batch=5902/6249 step=18400 loss=0.055959 grad_norm=0.3313
+2026-09-21T23:19:12.742951+00:00 rank=1 lora epoch=3/15 batch=5902/6249 step=18400 loss=0.473069 grad_norm=0.3313
+2026-09-21T23:19:23.786937+00:00 rank=0 lora epoch=3/15 batch=5922/6249 step=18420 loss=0.002214 grad_norm=0.1042
+2026-09-21T23:19:23.787053+00:00 rank=1 lora epoch=3/15 batch=5922/6249 step=18420 loss=0.196679 grad_norm=0.1042
+2026-09-21T23:19:35.865671+00:00 rank=0 lora epoch=3/15 batch=5942/6249 step=18440 loss=0.670094 grad_norm=1.3031
+2026-09-21T23:19:35.865829+00:00 rank=1 lora epoch=3/15 batch=5942/6249 step=18440 loss=0.693252 grad_norm=1.3031
+2026-09-21T23:19:49.332249+00:00 rank=0 lora epoch=3/15 batch=5962/6249 step=18460 loss=0.641825 grad_norm=0.5319
+2026-09-21T23:19:49.332298+00:00 rank=1 lora epoch=3/15 batch=5962/6249 step=18460 loss=0.648677 grad_norm=0.5319
+2026-09-21T23:20:02.205517+00:00 rank=0 lora epoch=3/15 batch=5982/6249 step=18480 loss=0.000445 grad_norm=0.0042
+2026-09-21T23:20:02.205567+00:00 rank=1 lora epoch=3/15 batch=5982/6249 step=18480 loss=0.000410 grad_norm=0.0042
+2026-09-21T23:20:13.099585+00:00 rank=0 lora epoch=3/15 batch=6002/6249 step=18500 loss=0.233017 grad_norm=0.7408
+2026-09-21T23:20:13.099677+00:00 rank=1 lora epoch=3/15 batch=6002/6249 step=18500 loss=0.243876 grad_norm=0.7408
+2026-09-21T23:20:22.844377+00:00 rank=0 lora epoch=3/15 batch=6022/6249 step=18520 loss=0.000295 grad_norm=0.0041
+2026-09-21T23:20:22.844463+00:00 rank=1 lora epoch=3/15 batch=6022/6249 step=18520 loss=0.000288 grad_norm=0.0041
+2026-09-21T23:20:34.857344+00:00 rank=0 lora epoch=3/15 batch=6042/6249 step=18540 loss=0.000326 grad_norm=0.0049
+2026-09-21T23:20:34.857478+00:00 rank=1 lora epoch=3/15 batch=6042/6249 step=18540 loss=0.000317 grad_norm=0.0049
+2026-09-21T23:20:47.256860+00:00 rank=0 lora epoch=3/15 batch=6062/6249 step=18560 loss=0.688960 grad_norm=0.5326
+2026-09-21T23:20:47.256901+00:00 rank=1 lora epoch=3/15 batch=6062/6249 step=18560 loss=0.622474 grad_norm=0.5326
+2026-09-21T23:20:57.231038+00:00 rank=0 lora epoch=3/15 batch=6082/6249 step=18580 loss=0.000594 grad_norm=0.0070
+2026-09-21T23:20:57.231118+00:00 rank=1 lora epoch=3/15 batch=6082/6249 step=18580 loss=0.000564 grad_norm=0.0070
+2026-09-21T23:21:07.774499+00:00 rank=0 lora epoch=3/15 batch=6102/6249 step=18600 loss=0.000643 grad_norm=0.2629
+2026-09-21T23:21:07.774562+00:00 rank=1 lora epoch=3/15 batch=6102/6249 step=18600 loss=0.485575 grad_norm=0.2629
+2026-09-21T23:21:18.281624+00:00 rank=0 lora epoch=3/15 batch=6122/6249 step=18620 loss=0.629328 grad_norm=0.2913
+2026-09-21T23:21:18.281690+00:00 rank=1 lora epoch=3/15 batch=6122/6249 step=18620 loss=0.597755 grad_norm=0.2913
+2026-09-21T23:21:30.199356+00:00 rank=0 lora epoch=3/15 batch=6142/6249 step=18640 loss=0.627373 grad_norm=0.3077
+2026-09-21T23:21:30.199567+00:00 rank=1 lora epoch=3/15 batch=6142/6249 step=18640 loss=0.491429 grad_norm=0.3077
+2026-09-21T23:21:42.341556+00:00 rank=0 lora epoch=3/15 batch=6162/6249 step=18660 loss=0.605904 grad_norm=0.1710
+2026-09-21T23:21:42.341826+00:00 rank=1 lora epoch=3/15 batch=6162/6249 step=18660 loss=0.664322 grad_norm=0.1710
+2026-09-21T23:21:53.823654+00:00 rank=0 lora epoch=3/15 batch=6182/6249 step=18680 loss=0.657224 grad_norm=0.7161
+2026-09-21T23:21:53.823697+00:00 rank=1 lora epoch=3/15 batch=6182/6249 step=18680 loss=0.788824 grad_norm=0.7161
+2026-09-21T23:22:03.858872+00:00 rank=0 lora epoch=3/15 batch=6202/6249 step=18700 loss=0.564403 grad_norm=0.4549
+2026-09-21T23:22:03.858940+00:00 rank=1 lora epoch=3/15 batch=6202/6249 step=18700 loss=0.613356 grad_norm=0.4549
+2026-09-21T23:22:14.462031+00:00 rank=0 lora epoch=3/15 batch=6222/6249 step=18720 loss=0.666543 grad_norm=0.4344
+2026-09-21T23:22:14.462083+00:00 rank=1 lora epoch=3/15 batch=6222/6249 step=18720 loss=0.706602 grad_norm=0.4344
+2026-09-21T23:22:24.961163+00:00 rank=0 lora epoch=3/15 batch=6242/6249 step=18740 loss=0.689041 grad_norm=0.3526
+2026-09-21T23:22:24.961296+00:00 rank=1 lora epoch=3/15 batch=6242/6249 step=18740 loss=0.643924 grad_norm=0.3526
+2026-09-21T23:24:06.004907+00:00 rank=0 lora epoch=3 completed=True loss=0.41405898630706095 validation={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.4499191531617498, 'f1': 0.6788548586208923, 'spearman_probability_label': 0.5974324063557082, 'threshold': 0.5}
+2026-09-21T23:24:06.006622+00:00 rank=1 lora epoch=3 completed=True loss=0.41405898630706095 validation={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.4499191531617498, 'f1': 0.6788548586208923, 'spearman_probability_label': 0.5974324063557082, 'threshold': 0.5}
+2026-09-21T23:24:12.549946+00:00 rank=1 lora epoch=4/15 batch=13/6249 step=18760 loss=0.625908 grad_norm=1.1682
+2026-09-21T23:24:12.549987+00:00 rank=0 lora epoch=4/15 batch=13/6249 step=18760 loss=0.689038 grad_norm=1.1682
+2026-09-21T23:24:21.920860+00:00 rank=1 lora epoch=4/15 batch=33/6249 step=18780 loss=0.628698 grad_norm=0.47272026-09-21T23:24:21.920875+00:00 rank=0 lora epoch=4/15 batch=33/6249 step=18780 loss=0.603240 grad_norm=0.4727
+
+2026-09-21T23:24:35.725813+00:00 rank=0 lora epoch=4/15 batch=53/6249 step=18800 loss=0.675557 grad_norm=0.2935
+2026-09-21T23:24:35.725897+00:00 rank=1 lora epoch=4/15 batch=53/6249 step=18800 loss=0.679385 grad_norm=0.2935
+2026-09-21T23:24:46.146156+00:00 rank=1 lora epoch=4/15 batch=73/6249 step=18820 loss=0.585228 grad_norm=0.2026
+2026-09-21T23:24:46.146182+00:00 rank=0 lora epoch=4/15 batch=73/6249 step=18820 loss=0.625462 grad_norm=0.2026
+2026-09-21T23:24:56.928159+00:00 rank=1 lora epoch=4/15 batch=93/6249 step=18840 loss=0.662182 grad_norm=0.58582026-09-21T23:24:56.928164+00:00 rank=0 lora epoch=4/15 batch=93/6249 step=18840 loss=0.666149 grad_norm=0.5858
+
+2026-09-21T23:25:09.066242+00:00 rank=1 lora epoch=4/15 batch=113/6249 step=18860 loss=0.595839 grad_norm=0.8224
+2026-09-21T23:25:09.066278+00:00 rank=0 lora epoch=4/15 batch=113/6249 step=18860 loss=0.715019 grad_norm=0.8224
+2026-09-21T23:25:20.269389+00:00 rank=1 lora epoch=4/15 batch=133/6249 step=18880 loss=0.608566 grad_norm=0.6101
+2026-09-21T23:25:20.269431+00:00 rank=0 lora epoch=4/15 batch=133/6249 step=18880 loss=0.611465 grad_norm=0.6101
+2026-09-21T23:25:30.849754+00:00 rank=0 lora epoch=4/15 batch=153/6249 step=18900 loss=0.567449 grad_norm=0.4564
+2026-09-21T23:25:30.849907+00:00 rank=1 lora epoch=4/15 batch=153/6249 step=18900 loss=0.693873 grad_norm=0.4564
+2026-09-21T23:25:40.489342+00:00 rank=1 lora epoch=4/15 batch=173/6249 step=18920 loss=0.663771 grad_norm=0.4467
+2026-09-21T23:25:40.489436+00:00 rank=0 lora epoch=4/15 batch=173/6249 step=18920 loss=0.290163 grad_norm=0.4467
+2026-09-21T23:25:53.464061+00:00 rank=1 lora epoch=4/15 batch=193/6249 step=18940 loss=0.666682 grad_norm=0.2794
+2026-09-21T23:25:53.464097+00:00 rank=0 lora epoch=4/15 batch=193/6249 step=18940 loss=0.582581 grad_norm=0.2794
+2026-09-21T23:26:03.978781+00:00 rank=0 lora epoch=4/15 batch=213/6249 step=18960 loss=0.677076 grad_norm=0.3920
+2026-09-21T23:26:03.978839+00:00 rank=1 lora epoch=4/15 batch=213/6249 step=18960 loss=0.584612 grad_norm=0.3920
+2026-09-21T23:26:14.477181+00:00 rank=1 lora epoch=4/15 batch=233/6249 step=18980 loss=0.323300 grad_norm=0.2359
+2026-09-21T23:26:14.477214+00:00 rank=0 lora epoch=4/15 batch=233/6249 step=18980 loss=0.000560 grad_norm=0.2359
+2026-09-21T23:26:25.898279+00:00 rank=0 lora epoch=4/15 batch=253/6249 step=19000 loss=0.699889 grad_norm=0.8862
+2026-09-21T23:26:25.898320+00:00 rank=1 lora epoch=4/15 batch=253/6249 step=19000 loss=0.637603 grad_norm=0.8862
+2026-09-21T23:26:38.283739+00:00 rank=1 lora epoch=4/15 batch=273/6249 step=19020 loss=0.622946 grad_norm=0.4734
+2026-09-21T23:26:38.283762+00:00 rank=0 lora epoch=4/15 batch=273/6249 step=19020 loss=0.645864 grad_norm=0.4734
+2026-09-21T23:26:52.783981+00:00 rank=0 lora epoch=4/15 batch=293/6249 step=19040 loss=0.000353 grad_norm=0.00452026-09-21T23:26:52.783998+00:00 rank=1 lora epoch=4/15 batch=293/6249 step=19040 loss=0.000389 grad_norm=0.0045
+
+2026-09-21T23:27:02.452064+00:00 rank=0 lora epoch=4/15 batch=313/6249 step=19060 loss=0.128166 grad_norm=0.9540
+2026-09-21T23:27:02.452123+00:00 rank=1 lora epoch=4/15 batch=313/6249 step=19060 loss=0.530584 grad_norm=0.9540
+2026-09-21T23:27:14.023635+00:00 rank=1 lora epoch=4/15 batch=333/6249 step=19080 loss=0.627669 grad_norm=0.8769
+2026-09-21T23:27:14.023676+00:00 rank=0 lora epoch=4/15 batch=333/6249 step=19080 loss=0.674282 grad_norm=0.8769
+2026-09-21T23:27:27.752603+00:00 rank=0 lora epoch=4/15 batch=353/6249 step=19100 loss=0.356573 grad_norm=0.3567
+2026-09-21T23:27:27.752639+00:00 rank=1 lora epoch=4/15 batch=353/6249 step=19100 loss=0.411473 grad_norm=0.3567
+2026-09-21T23:27:41.000789+00:00 rank=0 lora epoch=4/15 batch=373/6249 step=19120 loss=0.645774 grad_norm=1.2353
+2026-09-21T23:27:41.000859+00:00 rank=1 lora epoch=4/15 batch=373/6249 step=19120 loss=0.603084 grad_norm=1.2353
+2026-09-21T23:27:51.464343+00:00 rank=1 lora epoch=4/15 batch=393/6249 step=19140 loss=0.000881 grad_norm=0.0180
+2026-09-21T23:27:51.464454+00:00 rank=0 lora epoch=4/15 batch=393/6249 step=19140 loss=0.000974 grad_norm=0.0180
+2026-09-21T23:28:01.431238+00:00 rank=1 lora epoch=4/15 batch=413/6249 step=19160 loss=0.651540 grad_norm=0.18942026-09-21T23:28:01.431250+00:00 rank=0 lora epoch=4/15 batch=413/6249 step=19160 loss=0.642236 grad_norm=0.1894
+
+2026-09-21T23:28:11.815866+00:00 rank=1 lora epoch=4/15 batch=433/6249 step=19180 loss=0.641140 grad_norm=0.9195
+2026-09-21T23:28:11.815909+00:00 rank=0 lora epoch=4/15 batch=433/6249 step=19180 loss=0.604894 grad_norm=0.9195
+2026-09-21T23:28:21.488295+00:00 rank=0 lora epoch=4/15 batch=453/6249 step=19200 loss=0.000363 grad_norm=0.0051
+2026-09-21T23:28:21.488372+00:00 rank=1 lora epoch=4/15 batch=453/6249 step=19200 loss=0.000368 grad_norm=0.0051
+2026-09-21T23:28:33.302659+00:00 rank=1 lora epoch=4/15 batch=473/6249 step=19220 loss=0.000662 grad_norm=0.0151
+2026-09-21T23:28:33.302687+00:00 rank=0 lora epoch=4/15 batch=473/6249 step=19220 loss=0.001059 grad_norm=0.0151
+2026-09-21T23:28:46.861202+00:00 rank=0 lora epoch=4/15 batch=493/6249 step=19240 loss=0.612539 grad_norm=0.3050
+2026-09-21T23:28:46.861274+00:00 rank=1 lora epoch=4/15 batch=493/6249 step=19240 loss=0.661638 grad_norm=0.3050
+2026-09-21T23:28:58.573337+00:00 rank=0 lora epoch=4/15 batch=513/6249 step=19260 loss=0.373888 grad_norm=0.99912026-09-21T23:28:58.573354+00:00 rank=1 lora epoch=4/15 batch=513/6249 step=19260 loss=0.001401 grad_norm=0.9991
+
+2026-09-21T23:29:09.988209+00:00 rank=0 lora epoch=4/15 batch=533/6249 step=19280 loss=0.000484 grad_norm=0.00672026-09-21T23:29:09.988229+00:00 rank=1 lora epoch=4/15 batch=533/6249 step=19280 loss=0.000476 grad_norm=0.0067
+
+2026-09-21T23:29:21.822994+00:00 rank=1 lora epoch=4/15 batch=553/6249 step=19300 loss=0.030857 grad_norm=0.1430
+2026-09-21T23:29:21.823079+00:00 rank=0 lora epoch=4/15 batch=553/6249 step=19300 loss=0.001337 grad_norm=0.1430
+2026-09-21T23:29:30.894653+00:00 rank=1 lora epoch=4/15 batch=573/6249 step=19320 loss=0.651373 grad_norm=0.5040
+2026-09-21T23:29:30.894690+00:00 rank=0 lora epoch=4/15 batch=573/6249 step=19320 loss=0.658934 grad_norm=0.5040
+2026-09-21T23:29:43.749540+00:00 rank=1 lora epoch=4/15 batch=593/6249 step=19340 loss=0.676313 grad_norm=0.3186
+2026-09-21T23:29:43.749572+00:00 rank=0 lora epoch=4/15 batch=593/6249 step=19340 loss=0.561484 grad_norm=0.3186
+2026-09-21T23:29:55.360257+00:00 rank=1 lora epoch=4/15 batch=613/6249 step=19360 loss=0.000314 grad_norm=0.0033
+2026-09-21T23:29:55.360322+00:00 rank=0 lora epoch=4/15 batch=613/6249 step=19360 loss=0.000277 grad_norm=0.0033
+2026-09-21T23:30:06.863939+00:00 rank=1 lora epoch=4/15 batch=633/6249 step=19380 loss=0.000273 grad_norm=0.0029
+2026-09-21T23:30:06.863972+00:00 rank=0 lora epoch=4/15 batch=633/6249 step=19380 loss=0.000271 grad_norm=0.0029
+2026-09-21T23:30:15.977851+00:00 rank=1 lora epoch=4/15 batch=653/6249 step=19400 loss=0.634909 grad_norm=0.75562026-09-21T23:30:15.977871+00:00 rank=0 lora epoch=4/15 batch=653/6249 step=19400 loss=0.687864 grad_norm=0.7556
+
+2026-09-21T23:30:27.461465+00:00 rank=1 lora epoch=4/15 batch=673/6249 step=19420 loss=0.000328 grad_norm=0.00362026-09-21T23:30:27.461486+00:00 rank=0 lora epoch=4/15 batch=673/6249 step=19420 loss=0.000301 grad_norm=0.0036
+
+2026-09-21T23:30:37.711414+00:00 rank=0 lora epoch=4/15 batch=693/6249 step=19440 loss=0.566164 grad_norm=0.5740
+2026-09-21T23:30:37.711460+00:00 rank=1 lora epoch=4/15 batch=693/6249 step=19440 loss=0.643666 grad_norm=0.5740
+2026-09-21T23:30:49.887623+00:00 rank=1 lora epoch=4/15 batch=713/6249 step=19460 loss=0.000347 grad_norm=0.0045
+2026-09-21T23:30:49.888103+00:00 rank=0 lora epoch=4/15 batch=713/6249 step=19460 loss=0.000345 grad_norm=0.0045
+2026-09-21T23:30:59.262814+00:00 rank=1 lora epoch=4/15 batch=733/6249 step=19480 loss=0.345655 grad_norm=0.4520
+2026-09-21T23:30:59.262843+00:00 rank=0 lora epoch=4/15 batch=733/6249 step=19480 loss=0.530051 grad_norm=0.4520
+2026-09-21T23:31:11.477714+00:00 rank=1 lora epoch=4/15 batch=753/6249 step=19500 loss=0.564678 grad_norm=0.8142
+2026-09-21T23:31:11.477751+00:00 rank=0 lora epoch=4/15 batch=753/6249 step=19500 loss=0.791284 grad_norm=0.8142
+2026-09-21T23:31:25.907526+00:00 rank=1 lora epoch=4/15 batch=773/6249 step=19520 loss=0.000642 grad_norm=0.0114
+2026-09-21T23:31:25.907571+00:00 rank=0 lora epoch=4/15 batch=773/6249 step=19520 loss=0.000942 grad_norm=0.0114
+2026-09-21T23:31:35.373469+00:00 rank=0 lora epoch=4/15 batch=793/6249 step=19540 loss=0.673134 grad_norm=0.71712026-09-21T23:31:35.373486+00:00 rank=1 lora epoch=4/15 batch=793/6249 step=19540 loss=0.647650 grad_norm=0.7171
+
+2026-09-21T23:31:46.205762+00:00 rank=1 lora epoch=4/15 batch=813/6249 step=19560 loss=0.671816 grad_norm=1.0796
+2026-09-21T23:31:46.205787+00:00 rank=0 lora epoch=4/15 batch=813/6249 step=19560 loss=0.563559 grad_norm=1.0796
+2026-09-21T23:31:59.800881+00:00 rank=1 lora epoch=4/15 batch=833/6249 step=19580 loss=0.000325 grad_norm=0.0034
+2026-09-21T23:31:59.800913+00:00 rank=0 lora epoch=4/15 batch=833/6249 step=19580 loss=0.000304 grad_norm=0.0034
+2026-09-21T23:32:12.721473+00:00 rank=1 lora epoch=4/15 batch=853/6249 step=19600 loss=0.648235 grad_norm=0.4142
+2026-09-21T23:32:12.721525+00:00 rank=0 lora epoch=4/15 batch=853/6249 step=19600 loss=0.637116 grad_norm=0.4142
+2026-09-21T23:32:24.260417+00:00 rank=1 lora epoch=4/15 batch=873/6249 step=19620 loss=0.000928 grad_norm=0.0129
+2026-09-21T23:32:24.260464+00:00 rank=0 lora epoch=4/15 batch=873/6249 step=19620 loss=0.000809 grad_norm=0.0129
+2026-09-21T23:32:35.286684+00:00 rank=0 lora epoch=4/15 batch=893/6249 step=19640 loss=0.000993 grad_norm=0.0674
+2026-09-21T23:32:35.286842+00:00 rank=1 lora epoch=4/15 batch=893/6249 step=19640 loss=0.167122 grad_norm=0.0674
+2026-09-21T23:32:47.374010+00:00 rank=1 lora epoch=4/15 batch=913/6249 step=19660 loss=0.660965 grad_norm=0.4611
+2026-09-21T23:32:47.374047+00:00 rank=0 lora epoch=4/15 batch=913/6249 step=19660 loss=0.592352 grad_norm=0.4611
+2026-09-21T23:32:57.202180+00:00 rank=1 lora epoch=4/15 batch=933/6249 step=19680 loss=0.676244 grad_norm=1.49092026-09-21T23:32:57.202195+00:00 rank=0 lora epoch=4/15 batch=933/6249 step=19680 loss=0.288653 grad_norm=1.4909
+
+2026-09-21T23:33:10.292806+00:00 rank=1 lora epoch=4/15 batch=953/6249 step=19700 loss=0.258522 grad_norm=0.6620
+2026-09-21T23:33:10.292836+00:00 rank=0 lora epoch=4/15 batch=953/6249 step=19700 loss=0.449808 grad_norm=0.6620
+2026-09-21T23:33:20.915199+00:00 rank=1 lora epoch=4/15 batch=973/6249 step=19720 loss=0.657975 grad_norm=0.4746
+2026-09-21T23:33:20.915231+00:00 rank=0 lora epoch=4/15 batch=973/6249 step=19720 loss=0.657041 grad_norm=0.4746
+2026-09-21T23:33:32.536632+00:00 rank=0 lora epoch=4/15 batch=993/6249 step=19740 loss=0.000376 grad_norm=0.0054
+2026-09-21T23:33:32.536663+00:00 rank=1 lora epoch=4/15 batch=993/6249 step=19740 loss=0.000384 grad_norm=0.0054
+2026-09-21T23:33:43.121034+00:00 rank=1 lora epoch=4/15 batch=1013/6249 step=19760 loss=0.626013 grad_norm=0.4504
+2026-09-21T23:33:43.121103+00:00 rank=0 lora epoch=4/15 batch=1013/6249 step=19760 loss=0.556691 grad_norm=0.4504
+2026-09-21T23:33:54.606762+00:00 rank=1 lora epoch=4/15 batch=1033/6249 step=19780 loss=0.000356 grad_norm=0.0069
+2026-09-21T23:33:54.606812+00:00 rank=0 lora epoch=4/15 batch=1033/6249 step=19780 loss=0.000367 grad_norm=0.0069
+2026-09-21T23:34:08.816462+00:00 rank=1 lora epoch=4/15 batch=1053/6249 step=19800 loss=0.000364 grad_norm=0.2075
+2026-09-21T23:34:08.816496+00:00 rank=0 lora epoch=4/15 batch=1053/6249 step=19800 loss=0.581407 grad_norm=0.2075
+2026-09-21T23:34:19.949306+00:00 rank=1 lora epoch=4/15 batch=1073/6249 step=19820 loss=0.617411 grad_norm=0.91142026-09-21T23:34:19.949328+00:00 rank=0 lora epoch=4/15 batch=1073/6249 step=19820 loss=0.289709 grad_norm=0.9114
+
+2026-09-21T23:34:30.678733+00:00 rank=0 lora epoch=4/15 batch=1093/6249 step=19840 loss=0.000444 grad_norm=0.01132026-09-21T23:34:30.678742+00:00 rank=1 lora epoch=4/15 batch=1093/6249 step=19840 loss=0.000404 grad_norm=0.0113
+
+2026-09-21T23:34:40.271885+00:00 rank=1 lora epoch=4/15 batch=1113/6249 step=19860 loss=0.000302 grad_norm=0.0034
+2026-09-21T23:34:40.271922+00:00 rank=0 lora epoch=4/15 batch=1113/6249 step=19860 loss=0.000291 grad_norm=0.0034
+2026-09-21T23:34:49.183587+00:00 rank=1 lora epoch=4/15 batch=1133/6249 step=19880 loss=0.665792 grad_norm=0.3180
+2026-09-21T23:34:49.183639+00:00 rank=0 lora epoch=4/15 batch=1133/6249 step=19880 loss=0.618627 grad_norm=0.3180
+2026-09-21T23:35:00.422088+00:00 rank=1 lora epoch=4/15 batch=1153/6249 step=19900 loss=0.644696 grad_norm=0.8367
+2026-09-21T23:35:00.422117+00:00 rank=0 lora epoch=4/15 batch=1153/6249 step=19900 loss=0.610556 grad_norm=0.8367
+2026-09-21T23:35:12.202347+00:00 rank=1 lora epoch=4/15 batch=1173/6249 step=19920 loss=0.287227 grad_norm=0.88492026-09-21T23:35:12.202364+00:00 rank=0 lora epoch=4/15 batch=1173/6249 step=19920 loss=0.348734 grad_norm=0.8849
+
+2026-09-21T23:35:24.222013+00:00 rank=0 lora epoch=4/15 batch=1193/6249 step=19940 loss=0.508046 grad_norm=0.7237
+2026-09-21T23:35:24.222049+00:00 rank=1 lora epoch=4/15 batch=1193/6249 step=19940 loss=0.563469 grad_norm=0.7237
+2026-09-21T23:35:35.982982+00:00 rank=0 lora epoch=4/15 batch=1213/6249 step=19960 loss=0.000384 grad_norm=0.0061
+2026-09-21T23:35:35.983056+00:00 rank=1 lora epoch=4/15 batch=1213/6249 step=19960 loss=0.000402 grad_norm=0.0061
+2026-09-21T23:35:46.644575+00:00 rank=1 lora epoch=4/15 batch=1233/6249 step=19980 loss=0.601889 grad_norm=0.58502026-09-21T23:35:46.644575+00:00 rank=0 lora epoch=4/15 batch=1233/6249 step=19980 loss=0.607582 grad_norm=0.5850
+
+2026-09-21T23:35:57.754635+00:00 rank=1 lora epoch=4/15 batch=1253/6249 step=20000 loss=0.000275 grad_norm=0.0029
+2026-09-21T23:35:57.754656+00:00 rank=0 lora epoch=4/15 batch=1253/6249 step=20000 loss=0.000287 grad_norm=0.0029
+2026-09-21T23:37:35.521004+00:00 rank=0 interval validation step=20000 metrics={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.4618858073312885, 'f1': 0.727968586907898, 'spearman_probability_label': 0.5967578163816524, 'threshold': 0.5}2026-09-21T23:37:35.521010+00:00 rank=1 interval validation step=20000 metrics={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.4618858073312885, 'f1': 0.727968586907898, 'spearman_probability_label': 0.5967578163816524, 'threshold': 0.5}
+
+2026-09-21T23:37:46.140321+00:00 rank=1 lora epoch=4/15 batch=1273/6249 step=20020 loss=0.695802 grad_norm=0.8826
+2026-09-21T23:37:46.140351+00:00 rank=0 lora epoch=4/15 batch=1273/6249 step=20020 loss=0.610116 grad_norm=0.8826
+2026-09-21T23:37:57.711685+00:00 rank=0 lora epoch=4/15 batch=1293/6249 step=20040 loss=0.588646 grad_norm=0.1775
+2026-09-21T23:37:57.711732+00:00 rank=1 lora epoch=4/15 batch=1293/6249 step=20040 loss=0.665923 grad_norm=0.1775
+2026-09-21T23:38:07.141414+00:00 rank=0 lora epoch=4/15 batch=1313/6249 step=20060 loss=0.559034 grad_norm=0.49552026-09-21T23:38:07.141431+00:00 rank=1 lora epoch=4/15 batch=1313/6249 step=20060 loss=0.639074 grad_norm=0.4955
+
+2026-09-21T23:38:16.800139+00:00 rank=0 lora epoch=4/15 batch=1333/6249 step=20080 loss=0.644674 grad_norm=0.2374
+2026-09-21T23:38:16.800235+00:00 rank=1 lora epoch=4/15 batch=1333/6249 step=20080 loss=0.581433 grad_norm=0.2374
+2026-09-21T23:38:26.875723+00:00 rank=0 lora epoch=4/15 batch=1353/6249 step=20100 loss=0.422314 grad_norm=1.5876
+2026-09-21T23:38:26.875781+00:00 rank=1 lora epoch=4/15 batch=1353/6249 step=20100 loss=0.568129 grad_norm=1.5876
+2026-09-21T23:38:37.371250+00:00 rank=0 lora epoch=4/15 batch=1373/6249 step=20120 loss=0.003511 grad_norm=0.0176
+2026-09-21T23:38:37.371281+00:00 rank=1 lora epoch=4/15 batch=1373/6249 step=20120 loss=0.000396 grad_norm=0.0176
+2026-09-21T23:38:47.584518+00:00 rank=1 lora epoch=4/15 batch=1393/6249 step=20140 loss=0.000535 grad_norm=0.00572026-09-21T23:38:47.584529+00:00 rank=0 lora epoch=4/15 batch=1393/6249 step=20140 loss=0.000432 grad_norm=0.0057
+
+2026-09-21T23:38:58.735115+00:00 rank=0 lora epoch=4/15 batch=1413/6249 step=20160 loss=0.334199 grad_norm=1.3651
+2026-09-21T23:38:58.735194+00:00 rank=1 lora epoch=4/15 batch=1413/6249 step=20160 loss=0.606863 grad_norm=1.3651
+2026-09-21T23:39:11.620640+00:00 rank=0 lora epoch=4/15 batch=1433/6249 step=20180 loss=0.000616 grad_norm=0.2174
+2026-09-21T23:39:11.620682+00:00 rank=1 lora epoch=4/15 batch=1433/6249 step=20180 loss=0.047636 grad_norm=0.2174
+2026-09-21T23:39:22.082202+00:00 rank=0 lora epoch=4/15 batch=1453/6249 step=20200 loss=0.689673 grad_norm=0.1887
+2026-09-21T23:39:22.082248+00:00 rank=1 lora epoch=4/15 batch=1453/6249 step=20200 loss=0.620567 grad_norm=0.1887
+2026-09-21T23:39:34.165444+00:00 rank=0 lora epoch=4/15 batch=1473/6249 step=20220 loss=0.000432 grad_norm=0.0071
+2026-09-21T23:39:34.165637+00:00 rank=1 lora epoch=4/15 batch=1473/6249 step=20220 loss=0.000430 grad_norm=0.0071
+2026-09-21T23:39:45.142604+00:00 rank=0 lora epoch=4/15 batch=1493/6249 step=20240 loss=0.273079 grad_norm=1.4744
+2026-09-21T23:39:45.142676+00:00 rank=1 lora epoch=4/15 batch=1493/6249 step=20240 loss=0.736850 grad_norm=1.4744
+2026-09-21T23:39:54.553815+00:00 rank=0 lora epoch=4/15 batch=1513/6249 step=20260 loss=0.539516 grad_norm=1.3668
+2026-09-21T23:39:54.553867+00:00 rank=1 lora epoch=4/15 batch=1513/6249 step=20260 loss=0.000553 grad_norm=1.3668
+2026-09-21T23:40:05.188022+00:00 rank=0 lora epoch=4/15 batch=1533/6249 step=20280 loss=0.653927 grad_norm=0.3182
+2026-09-21T23:40:05.188087+00:00 rank=1 lora epoch=4/15 batch=1533/6249 step=20280 loss=0.666795 grad_norm=0.3182
+2026-09-21T23:40:15.898664+00:00 rank=0 lora epoch=4/15 batch=1553/6249 step=20300 loss=0.501125 grad_norm=1.2596
+2026-09-21T23:40:15.898724+00:00 rank=1 lora epoch=4/15 batch=1553/6249 step=20300 loss=0.182893 grad_norm=1.2596
+2026-09-21T23:40:26.520635+00:00 rank=0 lora epoch=4/15 batch=1573/6249 step=20320 loss=0.556940 grad_norm=0.3611
+2026-09-21T23:40:26.520681+00:00 rank=1 lora epoch=4/15 batch=1573/6249 step=20320 loss=0.607014 grad_norm=0.3611
+2026-09-21T23:40:36.101029+00:00 rank=0 lora epoch=4/15 batch=1593/6249 step=20340 loss=0.666358 grad_norm=0.29422026-09-21T23:40:36.101043+00:00 rank=1 lora epoch=4/15 batch=1593/6249 step=20340 loss=0.683125 grad_norm=0.2942
+
+2026-09-21T23:40:45.744686+00:00 rank=0 lora epoch=4/15 batch=1613/6249 step=20360 loss=0.678036 grad_norm=1.1541
+2026-09-21T23:40:45.744732+00:00 rank=1 lora epoch=4/15 batch=1613/6249 step=20360 loss=0.050520 grad_norm=1.1541
+2026-09-21T23:40:55.602170+00:00 rank=0 lora epoch=4/15 batch=1633/6249 step=20380 loss=1.039546 grad_norm=1.9511
+2026-09-21T23:40:55.602238+00:00 rank=1 lora epoch=4/15 batch=1633/6249 step=20380 loss=0.023556 grad_norm=1.9511
+2026-09-21T23:41:05.969909+00:00 rank=0 lora epoch=4/15 batch=1653/6249 step=20400 loss=0.681158 grad_norm=0.8864
+2026-09-21T23:41:05.969951+00:00 rank=1 lora epoch=4/15 batch=1653/6249 step=20400 loss=0.533336 grad_norm=0.8864
+2026-09-21T23:41:17.186375+00:00 rank=0 lora epoch=4/15 batch=1673/6249 step=20420 loss=0.257279 grad_norm=0.8523
+2026-09-21T23:41:17.186435+00:00 rank=1 lora epoch=4/15 batch=1673/6249 step=20420 loss=0.663450 grad_norm=0.8523
+2026-09-21T23:41:27.358341+00:00 rank=0 lora epoch=4/15 batch=1693/6249 step=20440 loss=0.654226 grad_norm=0.8095
+2026-09-21T23:41:27.358434+00:00 rank=1 lora epoch=4/15 batch=1693/6249 step=20440 loss=0.646895 grad_norm=0.8095
+2026-09-21T23:41:38.329085+00:00 rank=0 lora epoch=4/15 batch=1713/6249 step=20460 loss=0.000853 grad_norm=0.0145
+2026-09-21T23:41:38.329127+00:00 rank=1 lora epoch=4/15 batch=1713/6249 step=20460 loss=0.000858 grad_norm=0.0145
+2026-09-21T23:41:48.811309+00:00 rank=0 lora epoch=4/15 batch=1733/6249 step=20480 loss=0.563579 grad_norm=0.4194
+2026-09-21T23:41:48.811367+00:00 rank=1 lora epoch=4/15 batch=1733/6249 step=20480 loss=0.678718 grad_norm=0.4194
+2026-09-21T23:41:58.591069+00:00 rank=0 lora epoch=4/15 batch=1753/6249 step=20500 loss=0.564512 grad_norm=0.2806
+2026-09-21T23:41:58.591170+00:00 rank=1 lora epoch=4/15 batch=1753/6249 step=20500 loss=0.698072 grad_norm=0.2806
+2026-09-21T23:42:09.353340+00:00 rank=0 lora epoch=4/15 batch=1773/6249 step=20520 loss=0.002232 grad_norm=0.0292
+2026-09-21T23:42:09.353403+00:00 rank=1 lora epoch=4/15 batch=1773/6249 step=20520 loss=0.000696 grad_norm=0.0292
+2026-09-21T23:42:19.563972+00:00 rank=0 lora epoch=4/15 batch=1793/6249 step=20540 loss=0.685638 grad_norm=0.2770
+2026-09-21T23:42:19.564070+00:00 rank=1 lora epoch=4/15 batch=1793/6249 step=20540 loss=0.467567 grad_norm=0.2770
+2026-09-21T23:42:30.001507+00:00 rank=0 lora epoch=4/15 batch=1813/6249 step=20560 loss=0.584906 grad_norm=0.3260
+2026-09-21T23:42:30.001558+00:00 rank=1 lora epoch=4/15 batch=1813/6249 step=20560 loss=0.661747 grad_norm=0.3260
+2026-09-21T23:42:44.246493+00:00 rank=0 lora epoch=4/15 batch=1833/6249 step=20580 loss=0.326141 grad_norm=0.0736
+2026-09-21T23:42:44.246565+00:00 rank=1 lora epoch=4/15 batch=1833/6249 step=20580 loss=0.623285 grad_norm=0.0736
+2026-09-21T23:42:53.619224+00:00 rank=0 lora epoch=4/15 batch=1853/6249 step=20600 loss=0.656912 grad_norm=0.4855
+2026-09-21T23:42:53.619263+00:00 rank=1 lora epoch=4/15 batch=1853/6249 step=20600 loss=0.603431 grad_norm=0.4855
+2026-09-21T23:43:03.179429+00:00 rank=0 lora epoch=4/15 batch=1873/6249 step=20620 loss=0.573254 grad_norm=0.4156
+2026-09-21T23:43:03.179504+00:00 rank=1 lora epoch=4/15 batch=1873/6249 step=20620 loss=0.624175 grad_norm=0.4156
+2026-09-21T23:43:13.790974+00:00 rank=0 lora epoch=4/15 batch=1893/6249 step=20640 loss=0.305461 grad_norm=1.1508
+2026-09-21T23:43:13.791055+00:00 rank=1 lora epoch=4/15 batch=1893/6249 step=20640 loss=0.422019 grad_norm=1.1508
+2026-09-21T23:43:23.423545+00:00 rank=0 lora epoch=4/15 batch=1913/6249 step=20660 loss=0.693458 grad_norm=0.6471
+2026-09-21T23:43:23.423592+00:00 rank=1 lora epoch=4/15 batch=1913/6249 step=20660 loss=0.556690 grad_norm=0.6471
+2026-09-21T23:43:33.366084+00:00 rank=0 lora epoch=4/15 batch=1933/6249 step=20680 loss=0.000826 grad_norm=0.2667
+2026-09-21T23:43:33.366183+00:00 rank=1 lora epoch=4/15 batch=1933/6249 step=20680 loss=0.284245 grad_norm=0.2667
+2026-09-21T23:43:46.375303+00:00 rank=0 lora epoch=4/15 batch=1953/6249 step=20700 loss=0.575019 grad_norm=0.3191
+2026-09-21T23:43:46.375373+00:00 rank=1 lora epoch=4/15 batch=1953/6249 step=20700 loss=0.613239 grad_norm=0.3191
+2026-09-21T23:43:57.144474+00:00 rank=0 lora epoch=4/15 batch=1973/6249 step=20720 loss=0.411585 grad_norm=1.6850
+2026-09-21T23:43:57.144549+00:00 rank=1 lora epoch=4/15 batch=1973/6249 step=20720 loss=0.000823 grad_norm=1.6850
+2026-09-21T23:44:08.164039+00:00 rank=0 lora epoch=4/15 batch=1993/6249 step=20740 loss=0.000283 grad_norm=0.0033
+2026-09-21T23:44:08.164133+00:00 rank=1 lora epoch=4/15 batch=1993/6249 step=20740 loss=0.000299 grad_norm=0.0033
+2026-09-21T23:44:20.411486+00:00 rank=0 lora epoch=4/15 batch=2013/6249 step=20760 loss=0.639910 grad_norm=0.5481
+2026-09-21T23:44:20.411510+00:00 rank=1 lora epoch=4/15 batch=2013/6249 step=20760 loss=0.686760 grad_norm=0.5481
+2026-09-21T23:44:29.995414+00:00 rank=0 lora epoch=4/15 batch=2033/6249 step=20780 loss=0.714426 grad_norm=0.5385
+2026-09-21T23:44:29.995459+00:00 rank=1 lora epoch=4/15 batch=2033/6249 step=20780 loss=0.628060 grad_norm=0.5385
+2026-09-21T23:44:39.240680+00:00 rank=0 lora epoch=4/15 batch=2053/6249 step=20800 loss=0.465101 grad_norm=3.0365
+2026-09-21T23:44:39.240857+00:00 rank=1 lora epoch=4/15 batch=2053/6249 step=20800 loss=0.430057 grad_norm=3.0365
+2026-09-21T23:44:50.548769+00:00 rank=0 lora epoch=4/15 batch=2073/6249 step=20820 loss=0.642610 grad_norm=1.4836
+2026-09-21T23:44:50.548834+00:00 rank=1 lora epoch=4/15 batch=2073/6249 step=20820 loss=0.624560 grad_norm=1.4836
+2026-09-21T23:45:00.243254+00:00 rank=0 lora epoch=4/15 batch=2093/6249 step=20840 loss=0.668846 grad_norm=0.7379
+2026-09-21T23:45:00.243358+00:00 rank=1 lora epoch=4/15 batch=2093/6249 step=20840 loss=0.904145 grad_norm=0.7379
+2026-09-21T23:45:13.455204+00:00 rank=0 lora epoch=4/15 batch=2113/6249 step=20860 loss=0.624132 grad_norm=0.9388
+2026-09-21T23:45:13.455261+00:00 rank=1 lora epoch=4/15 batch=2113/6249 step=20860 loss=0.731968 grad_norm=0.9388
+2026-09-21T23:45:24.255850+00:00 rank=0 lora epoch=4/15 batch=2133/6249 step=20880 loss=0.576121 grad_norm=0.9939
+2026-09-21T23:45:24.255952+00:00 rank=1 lora epoch=4/15 batch=2133/6249 step=20880 loss=0.690044 grad_norm=0.9939
+2026-09-21T23:45:35.567106+00:00 rank=0 lora epoch=4/15 batch=2153/6249 step=20900 loss=0.000281 grad_norm=0.0031
+2026-09-21T23:45:35.567153+00:00 rank=1 lora epoch=4/15 batch=2153/6249 step=20900 loss=0.000277 grad_norm=0.0031
+2026-09-21T23:45:46.608368+00:00 rank=0 lora epoch=4/15 batch=2173/6249 step=20920 loss=0.001270 grad_norm=0.0167
+2026-09-21T23:45:46.608416+00:00 rank=1 lora epoch=4/15 batch=2173/6249 step=20920 loss=0.000892 grad_norm=0.0167
+2026-09-21T23:45:58.105186+00:00 rank=0 lora epoch=4/15 batch=2193/6249 step=20940 loss=0.616995 grad_norm=0.2192
+2026-09-21T23:45:58.105288+00:00 rank=1 lora epoch=4/15 batch=2193/6249 step=20940 loss=0.675071 grad_norm=0.2192
+2026-09-21T23:46:08.320950+00:00 rank=0 lora epoch=4/15 batch=2213/6249 step=20960 loss=0.634632 grad_norm=0.7020
+2026-09-21T23:46:08.321015+00:00 rank=1 lora epoch=4/15 batch=2213/6249 step=20960 loss=0.680386 grad_norm=0.7020
+2026-09-21T23:46:23.645848+00:00 rank=0 lora epoch=4/15 batch=2233/6249 step=20980 loss=0.323295 grad_norm=0.8320
+2026-09-21T23:46:23.645892+00:00 rank=1 lora epoch=4/15 batch=2233/6249 step=20980 loss=0.567226 grad_norm=0.8320
+2026-09-21T23:46:33.281754+00:00 rank=0 lora epoch=4/15 batch=2253/6249 step=21000 loss=0.000751 grad_norm=0.0148
+2026-09-21T23:46:33.281801+00:00 rank=1 lora epoch=4/15 batch=2253/6249 step=21000 loss=0.000818 grad_norm=0.0148
+2026-09-21T23:46:43.666890+00:00 rank=0 lora epoch=4/15 batch=2273/6249 step=21020 loss=0.546023 grad_norm=3.0435
+2026-09-21T23:46:43.666952+00:00 rank=1 lora epoch=4/15 batch=2273/6249 step=21020 loss=0.397182 grad_norm=3.0435
+2026-09-21T23:46:53.850660+00:00 rank=0 lora epoch=4/15 batch=2293/6249 step=21040 loss=0.000363 grad_norm=0.0065
+2026-09-21T23:46:53.850689+00:00 rank=1 lora epoch=4/15 batch=2293/6249 step=21040 loss=0.000348 grad_norm=0.0065
+2026-09-21T23:47:07.063809+00:00 rank=0 lora epoch=4/15 batch=2313/6249 step=21060 loss=0.687934 grad_norm=0.4270
+2026-09-21T23:47:07.063857+00:00 rank=1 lora epoch=4/15 batch=2313/6249 step=21060 loss=0.584761 grad_norm=0.4270
+2026-09-21T23:47:16.976074+00:00 rank=0 lora epoch=4/15 batch=2333/6249 step=21080 loss=0.129477 grad_norm=0.4346
+2026-09-21T23:47:16.976128+00:00 rank=1 lora epoch=4/15 batch=2333/6249 step=21080 loss=0.590703 grad_norm=0.4346
+2026-09-21T23:47:30.093909+00:00 rank=0 lora epoch=4/15 batch=2353/6249 step=21100 loss=0.214149 grad_norm=0.2813
+2026-09-21T23:47:30.093983+00:00 rank=1 lora epoch=4/15 batch=2353/6249 step=21100 loss=0.003135 grad_norm=0.2813
+2026-09-21T23:47:42.509701+00:00 rank=0 lora epoch=4/15 batch=2373/6249 step=21120 loss=0.726852 grad_norm=0.5196
+2026-09-21T23:47:42.509756+00:00 rank=1 lora epoch=4/15 batch=2373/6249 step=21120 loss=0.528289 grad_norm=0.5196
+2026-09-21T23:47:52.878484+00:00 rank=0 lora epoch=4/15 batch=2393/6249 step=21140 loss=0.740017 grad_norm=0.8167
+2026-09-21T23:47:52.878586+00:00 rank=1 lora epoch=4/15 batch=2393/6249 step=21140 loss=0.679847 grad_norm=0.8167
+2026-09-21T23:48:03.119200+00:00 rank=0 lora epoch=4/15 batch=2413/6249 step=21160 loss=0.000262 grad_norm=0.0029
+2026-09-21T23:48:03.119253+00:00 rank=1 lora epoch=4/15 batch=2413/6249 step=21160 loss=0.000271 grad_norm=0.0029
+2026-09-21T23:48:12.444790+00:00 rank=0 lora epoch=4/15 batch=2433/6249 step=21180 loss=0.000275 grad_norm=0.00302026-09-21T23:48:12.444804+00:00 rank=1 lora epoch=4/15 batch=2433/6249 step=21180 loss=0.000282 grad_norm=0.0030
+
+2026-09-21T23:48:21.909631+00:00 rank=0 lora epoch=4/15 batch=2453/6249 step=21200 loss=0.000372 grad_norm=0.3410
+2026-09-21T23:48:21.909884+00:00 rank=1 lora epoch=4/15 batch=2453/6249 step=21200 loss=0.328261 grad_norm=0.3410
+2026-09-21T23:48:32.462127+00:00 rank=0 lora epoch=4/15 batch=2473/6249 step=21220 loss=0.637030 grad_norm=1.0238
+2026-09-21T23:48:32.462174+00:00 rank=1 lora epoch=4/15 batch=2473/6249 step=21220 loss=0.665772 grad_norm=1.0238
+2026-09-21T23:48:41.755083+00:00 rank=0 lora epoch=4/15 batch=2493/6249 step=21240 loss=0.673913 grad_norm=0.4839
+2026-09-21T23:48:41.755224+00:00 rank=1 lora epoch=4/15 batch=2493/6249 step=21240 loss=0.642337 grad_norm=0.4839
+2026-09-21T23:48:53.032159+00:00 rank=0 lora epoch=4/15 batch=2513/6249 step=21260 loss=0.682887 grad_norm=1.7880
+2026-09-21T23:48:53.032212+00:00 rank=1 lora epoch=4/15 batch=2513/6249 step=21260 loss=0.711131 grad_norm=1.7880
+2026-09-21T23:49:05.473059+00:00 rank=0 lora epoch=4/15 batch=2533/6249 step=21280 loss=0.619883 grad_norm=0.4782
+2026-09-21T23:49:05.473115+00:00 rank=1 lora epoch=4/15 batch=2533/6249 step=21280 loss=0.587083 grad_norm=0.4782
+2026-09-21T23:49:18.048416+00:00 rank=0 lora epoch=4/15 batch=2553/6249 step=21300 loss=0.632432 grad_norm=0.6460
+2026-09-21T23:49:18.048450+00:00 rank=1 lora epoch=4/15 batch=2553/6249 step=21300 loss=0.599452 grad_norm=0.6460
+2026-09-21T23:49:29.972896+00:00 rank=0 lora epoch=4/15 batch=2573/6249 step=21320 loss=0.596460 grad_norm=0.9687
+2026-09-21T23:49:29.972951+00:00 rank=1 lora epoch=4/15 batch=2573/6249 step=21320 loss=0.707031 grad_norm=0.9687
+2026-09-21T23:49:44.387842+00:00 rank=0 lora epoch=4/15 batch=2593/6249 step=21340 loss=0.280608 grad_norm=2.1611
+2026-09-21T23:49:44.387920+00:00 rank=1 lora epoch=4/15 batch=2593/6249 step=21340 loss=0.661177 grad_norm=2.1611
+2026-09-21T23:49:56.663013+00:00 rank=0 lora epoch=4/15 batch=2613/6249 step=21360 loss=0.687264 grad_norm=0.7391
+2026-09-21T23:49:56.663066+00:00 rank=1 lora epoch=4/15 batch=2613/6249 step=21360 loss=0.684205 grad_norm=0.7391
+2026-09-21T23:50:06.796201+00:00 rank=0 lora epoch=4/15 batch=2633/6249 step=21380 loss=0.267197 grad_norm=0.3323
+2026-09-21T23:50:06.796265+00:00 rank=1 lora epoch=4/15 batch=2633/6249 step=21380 loss=0.525015 grad_norm=0.3323
+2026-09-21T23:50:17.996864+00:00 rank=0 lora epoch=4/15 batch=2653/6249 step=21400 loss=0.000473 grad_norm=0.0079
+2026-09-21T23:50:17.996933+00:00 rank=1 lora epoch=4/15 batch=2653/6249 step=21400 loss=0.000461 grad_norm=0.0079
+2026-09-21T23:50:28.883599+00:00 rank=0 lora epoch=4/15 batch=2673/6249 step=21420 loss=0.602695 grad_norm=0.7036
+2026-09-21T23:50:28.883684+00:00 rank=1 lora epoch=4/15 batch=2673/6249 step=21420 loss=0.590780 grad_norm=0.7036
+2026-09-21T23:50:42.382628+00:00 rank=0 lora epoch=4/15 batch=2693/6249 step=21440 loss=0.649159 grad_norm=0.6043
+2026-09-21T23:50:42.382765+00:00 rank=1 lora epoch=4/15 batch=2693/6249 step=21440 loss=0.554524 grad_norm=0.6043
+2026-09-21T23:50:56.260977+00:00 rank=0 lora epoch=4/15 batch=2713/6249 step=21460 loss=0.631517 grad_norm=0.5979
+2026-09-21T23:50:56.261023+00:00 rank=1 lora epoch=4/15 batch=2713/6249 step=21460 loss=0.801189 grad_norm=0.5979
+2026-09-21T23:51:07.252950+00:00 rank=0 lora epoch=4/15 batch=2733/6249 step=21480 loss=0.000395 grad_norm=0.0038
+2026-09-21T23:51:07.253024+00:00 rank=1 lora epoch=4/15 batch=2733/6249 step=21480 loss=0.000407 grad_norm=0.0038
+2026-09-21T23:51:18.686676+00:00 rank=0 lora epoch=4/15 batch=2753/6249 step=21500 loss=0.579752 grad_norm=0.7946
+2026-09-21T23:51:18.686721+00:00 rank=1 lora epoch=4/15 batch=2753/6249 step=21500 loss=0.609038 grad_norm=0.7946
+2026-09-21T23:51:31.082158+00:00 rank=0 lora epoch=4/15 batch=2773/6249 step=21520 loss=0.000279 grad_norm=0.0032
+2026-09-21T23:51:31.082197+00:00 rank=1 lora epoch=4/15 batch=2773/6249 step=21520 loss=0.000288 grad_norm=0.0032
+2026-09-21T23:51:40.397735+00:00 rank=0 lora epoch=4/15 batch=2793/6249 step=21540 loss=0.000307 grad_norm=0.01092026-09-21T23:51:40.397746+00:00 rank=1 lora epoch=4/15 batch=2793/6249 step=21540 loss=0.001007 grad_norm=0.0109
+
+2026-09-21T23:51:50.479032+00:00 rank=0 lora epoch=4/15 batch=2813/6249 step=21560 loss=0.000529 grad_norm=0.0058
+2026-09-21T23:51:50.479093+00:00 rank=1 lora epoch=4/15 batch=2813/6249 step=21560 loss=0.000408 grad_norm=0.0058
+2026-09-21T23:52:00.464263+00:00 rank=0 lora epoch=4/15 batch=2833/6249 step=21580 loss=0.000280 grad_norm=0.0029
+2026-09-21T23:52:00.464308+00:00 rank=1 lora epoch=4/15 batch=2833/6249 step=21580 loss=0.000275 grad_norm=0.0029
+2026-09-21T23:52:10.692967+00:00 rank=0 lora epoch=4/15 batch=2853/6249 step=21600 loss=0.639808 grad_norm=0.1502
+2026-09-21T23:52:10.693024+00:00 rank=1 lora epoch=4/15 batch=2853/6249 step=21600 loss=0.569479 grad_norm=0.1502
+2026-09-21T23:52:20.707217+00:00 rank=0 lora epoch=4/15 batch=2873/6249 step=21620 loss=0.000560 grad_norm=0.0108
+2026-09-21T23:52:20.707266+00:00 rank=1 lora epoch=4/15 batch=2873/6249 step=21620 loss=0.000774 grad_norm=0.0108
+2026-09-21T23:52:30.833069+00:00 rank=0 lora epoch=4/15 batch=2893/6249 step=21640 loss=0.609046 grad_norm=0.1892
+2026-09-21T23:52:30.833169+00:00 rank=1 lora epoch=4/15 batch=2893/6249 step=21640 loss=0.651566 grad_norm=0.1892
+2026-09-21T23:52:40.116430+00:00 rank=0 lora epoch=4/15 batch=2913/6249 step=21660 loss=0.520581 grad_norm=0.7370
+2026-09-21T23:52:40.116475+00:00 rank=1 lora epoch=4/15 batch=2913/6249 step=21660 loss=0.087876 grad_norm=0.7370
+2026-09-21T23:52:50.709265+00:00 rank=0 lora epoch=4/15 batch=2933/6249 step=21680 loss=0.000270 grad_norm=0.0027
+2026-09-21T23:52:50.709319+00:00 rank=1 lora epoch=4/15 batch=2933/6249 step=21680 loss=0.000262 grad_norm=0.0027
+2026-09-21T23:53:01.762554+00:00 rank=0 lora epoch=4/15 batch=2953/6249 step=21700 loss=0.272071 grad_norm=0.8006
+2026-09-21T23:53:01.762603+00:00 rank=1 lora epoch=4/15 batch=2953/6249 step=21700 loss=0.256258 grad_norm=0.8006
+2026-09-21T23:53:12.243711+00:00 rank=0 lora epoch=4/15 batch=2973/6249 step=21720 loss=0.000260 grad_norm=0.0025
+2026-09-21T23:53:12.243767+00:00 rank=1 lora epoch=4/15 batch=2973/6249 step=21720 loss=0.000257 grad_norm=0.0025
+2026-09-21T23:53:26.327471+00:00 rank=0 lora epoch=4/15 batch=2993/6249 step=21740 loss=0.413277 grad_norm=1.1219
+2026-09-21T23:53:26.327520+00:00 rank=1 lora epoch=4/15 batch=2993/6249 step=21740 loss=0.119954 grad_norm=1.1219
+2026-09-21T23:53:35.618675+00:00 rank=0 lora epoch=4/15 batch=3013/6249 step=21760 loss=0.644542 grad_norm=0.7626
+2026-09-21T23:53:35.618828+00:00 rank=1 lora epoch=4/15 batch=3013/6249 step=21760 loss=0.659629 grad_norm=0.7626
+2026-09-21T23:53:45.715869+00:00 rank=0 lora epoch=4/15 batch=3033/6249 step=21780 loss=0.509095 grad_norm=0.1706
+2026-09-21T23:53:45.715946+00:00 rank=1 lora epoch=4/15 batch=3033/6249 step=21780 loss=0.350376 grad_norm=0.1706
+2026-09-21T23:53:58.400703+00:00 rank=0 lora epoch=4/15 batch=3053/6249 step=21800 loss=0.667406 grad_norm=3.9994
+2026-09-21T23:53:58.400772+00:00 rank=1 lora epoch=4/15 batch=3053/6249 step=21800 loss=0.709368 grad_norm=3.9994
+2026-09-21T23:54:09.289110+00:00 rank=0 lora epoch=4/15 batch=3073/6249 step=21820 loss=0.563728 grad_norm=0.2353
+2026-09-21T23:54:09.289158+00:00 rank=1 lora epoch=4/15 batch=3073/6249 step=21820 loss=0.626346 grad_norm=0.2353
+2026-09-21T23:54:21.776728+00:00 rank=0 lora epoch=4/15 batch=3093/6249 step=21840 loss=0.691106 grad_norm=0.7272
+2026-09-21T23:54:21.776840+00:00 rank=1 lora epoch=4/15 batch=3093/6249 step=21840 loss=0.660287 grad_norm=0.7272
+2026-09-21T23:54:32.833652+00:00 rank=0 lora epoch=4/15 batch=3113/6249 step=21860 loss=0.000439 grad_norm=0.3717
+2026-09-21T23:54:32.833692+00:00 rank=1 lora epoch=4/15 batch=3113/6249 step=21860 loss=0.429063 grad_norm=0.3717
+2026-09-21T23:54:42.990841+00:00 rank=0 lora epoch=4/15 batch=3133/6249 step=21880 loss=0.000460 grad_norm=0.0043
+2026-09-21T23:54:42.990908+00:00 rank=1 lora epoch=4/15 batch=3133/6249 step=21880 loss=0.000413 grad_norm=0.0043
+2026-09-21T23:54:53.231917+00:00 rank=0 lora epoch=4/15 batch=3153/6249 step=21900 loss=0.688168 grad_norm=0.7360
+2026-09-21T23:54:53.231967+00:00 rank=1 lora epoch=4/15 batch=3153/6249 step=21900 loss=0.650975 grad_norm=0.7360
+2026-09-21T23:55:04.220317+00:00 rank=0 lora epoch=4/15 batch=3173/6249 step=21920 loss=0.644628 grad_norm=2.6844
+2026-09-21T23:55:04.220375+00:00 rank=1 lora epoch=4/15 batch=3173/6249 step=21920 loss=0.248495 grad_norm=2.6844
+2026-09-21T23:55:15.620794+00:00 rank=0 lora epoch=4/15 batch=3193/6249 step=21940 loss=0.000333 grad_norm=0.0051
+2026-09-21T23:55:15.620907+00:00 rank=1 lora epoch=4/15 batch=3193/6249 step=21940 loss=0.000342 grad_norm=0.0051
+2026-09-21T23:55:27.050215+00:00 rank=0 lora epoch=4/15 batch=3213/6249 step=21960 loss=0.000232 grad_norm=0.0029
+2026-09-21T23:55:27.050284+00:00 rank=1 lora epoch=4/15 batch=3213/6249 step=21960 loss=0.000225 grad_norm=0.0029
+2026-09-21T23:55:37.006888+00:00 rank=0 lora epoch=4/15 batch=3233/6249 step=21980 loss=0.481926 grad_norm=1.4161
+2026-09-21T23:55:37.006967+00:00 rank=1 lora epoch=4/15 batch=3233/6249 step=21980 loss=0.414612 grad_norm=1.4161
+2026-09-21T23:55:47.099479+00:00 rank=0 lora epoch=4/15 batch=3253/6249 step=22000 loss=0.756320 grad_norm=0.65352026-09-21T23:55:47.099491+00:00 rank=1 lora epoch=4/15 batch=3253/6249 step=22000 loss=0.630653 grad_norm=0.6535
+
+2026-09-21T23:57:24.847816+00:00 rank=1 interval validation step=22000 metrics={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.47549309901196374, 'f1': 0.6226752996280479, 'spearman_probability_label': 0.5969075688016812, 'threshold': 0.5}
+2026-09-21T23:57:24.848245+00:00 rank=0 interval validation step=22000 metrics={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.47549309901196374, 'f1': 0.6226752996280479, 'spearman_probability_label': 0.5969075688016812, 'threshold': 0.5}
+2026-09-21T23:57:34.723676+00:00 rank=1 lora epoch=4/15 batch=3273/6249 step=22020 loss=0.711496 grad_norm=0.4354
+2026-09-21T23:57:34.723699+00:00 rank=0 lora epoch=4/15 batch=3273/6249 step=22020 loss=0.646275 grad_norm=0.4354
+2026-09-21T23:57:45.708441+00:00 rank=0 lora epoch=4/15 batch=3293/6249 step=22040 loss=0.629275 grad_norm=0.1468
+2026-09-21T23:57:45.708500+00:00 rank=1 lora epoch=4/15 batch=3293/6249 step=22040 loss=0.690536 grad_norm=0.1468
+2026-09-21T23:57:55.787850+00:00 rank=0 lora epoch=4/15 batch=3313/6249 step=22060 loss=0.000425 grad_norm=0.0058
+2026-09-21T23:57:55.787881+00:00 rank=1 lora epoch=4/15 batch=3313/6249 step=22060 loss=0.000566 grad_norm=0.0058
+2026-09-21T23:58:09.842316+00:00 rank=0 lora epoch=4/15 batch=3333/6249 step=22080 loss=0.685009 grad_norm=0.7237
+2026-09-21T23:58:09.842375+00:00 rank=1 lora epoch=4/15 batch=3333/6249 step=22080 loss=0.617375 grad_norm=0.7237
+2026-09-21T23:58:18.965144+00:00 rank=0 lora epoch=4/15 batch=3353/6249 step=22100 loss=0.000501 grad_norm=0.0313
+2026-09-21T23:58:18.965184+00:00 rank=1 lora epoch=4/15 batch=3353/6249 step=22100 loss=0.002160 grad_norm=0.0313
+2026-09-21T23:58:28.805679+00:00 rank=0 lora epoch=4/15 batch=3373/6249 step=22120 loss=0.641905 grad_norm=0.9796
+2026-09-21T23:58:28.805741+00:00 rank=1 lora epoch=4/15 batch=3373/6249 step=22120 loss=0.533779 grad_norm=0.9796
+2026-09-21T23:58:40.190140+00:00 rank=0 lora epoch=4/15 batch=3393/6249 step=22140 loss=0.624914 grad_norm=0.3177
+2026-09-21T23:58:40.190207+00:00 rank=1 lora epoch=4/15 batch=3393/6249 step=22140 loss=0.698802 grad_norm=0.3177
+2026-09-21T23:58:52.319647+00:00 rank=0 lora epoch=4/15 batch=3413/6249 step=22160 loss=0.001119 grad_norm=0.0297
+2026-09-21T23:58:52.319692+00:00 rank=1 lora epoch=4/15 batch=3413/6249 step=22160 loss=0.000913 grad_norm=0.0297
+2026-09-21T23:59:04.715691+00:00 rank=0 lora epoch=4/15 batch=3433/6249 step=22180 loss=0.001663 grad_norm=0.0222
+2026-09-21T23:59:04.715739+00:00 rank=1 lora epoch=4/15 batch=3433/6249 step=22180 loss=0.000511 grad_norm=0.0222
+2026-09-21T23:59:17.512233+00:00 rank=0 lora epoch=4/15 batch=3453/6249 step=22200 loss=0.000233 grad_norm=0.0034
+2026-09-21T23:59:17.512314+00:00 rank=1 lora epoch=4/15 batch=3453/6249 step=22200 loss=0.000240 grad_norm=0.0034
+2026-09-21T23:59:27.728932+00:00 rank=0 lora epoch=4/15 batch=3473/6249 step=22220 loss=0.560150 grad_norm=0.8619
+2026-09-21T23:59:27.728984+00:00 rank=1 lora epoch=4/15 batch=3473/6249 step=22220 loss=0.083208 grad_norm=0.8619
+2026-09-21T23:59:38.308287+00:00 rank=0 lora epoch=4/15 batch=3493/6249 step=22240 loss=0.001017 grad_norm=0.0461
+2026-09-21T23:59:38.308374+00:00 rank=1 lora epoch=4/15 batch=3493/6249 step=22240 loss=0.000998 grad_norm=0.0461
+2026-09-21T23:59:47.520462+00:00 rank=0 lora epoch=4/15 batch=3513/6249 step=22260 loss=0.649152 grad_norm=0.5863
+2026-09-21T23:59:47.520512+00:00 rank=1 lora epoch=4/15 batch=3513/6249 step=22260 loss=0.618877 grad_norm=0.5863
+2026-09-21T23:59:59.698211+00:00 rank=0 lora epoch=4/15 batch=3533/6249 step=22280 loss=0.379172 grad_norm=2.2786
+2026-09-21T23:59:59.698263+00:00 rank=1 lora epoch=4/15 batch=3533/6249 step=22280 loss=0.222753 grad_norm=2.2786
+2026-09-22T00:00:09.857727+00:00 rank=0 lora epoch=4/15 batch=3553/6249 step=22300 loss=0.000254 grad_norm=0.0028
+2026-09-22T00:00:09.857756+00:00 rank=1 lora epoch=4/15 batch=3553/6249 step=22300 loss=0.000253 grad_norm=0.0028
+2026-09-22T00:00:19.737670+00:00 rank=0 lora epoch=4/15 batch=3573/6249 step=22320 loss=0.636243 grad_norm=0.4723
+2026-09-22T00:00:19.737724+00:00 rank=1 lora epoch=4/15 batch=3573/6249 step=22320 loss=0.731152 grad_norm=0.4723
+2026-09-22T00:00:33.137754+00:00 rank=0 lora epoch=4/15 batch=3593/6249 step=22340 loss=0.000480 grad_norm=0.0077
+2026-09-22T00:00:33.137841+00:00 rank=1 lora epoch=4/15 batch=3593/6249 step=22340 loss=0.000470 grad_norm=0.0077
+2026-09-22T00:00:44.615658+00:00 rank=0 lora epoch=4/15 batch=3613/6249 step=22360 loss=0.000840 grad_norm=0.0097
+2026-09-22T00:00:44.615691+00:00 rank=1 lora epoch=4/15 batch=3613/6249 step=22360 loss=0.000610 grad_norm=0.0097
+2026-09-22T00:00:56.622334+00:00 rank=0 lora epoch=4/15 batch=3633/6249 step=22380 loss=0.624317 grad_norm=0.4220
+2026-09-22T00:00:56.622357+00:00 rank=1 lora epoch=4/15 batch=3633/6249 step=22380 loss=0.698995 grad_norm=0.4220
+2026-09-22T00:01:07.101378+00:00 rank=0 lora epoch=4/15 batch=3653/6249 step=22400 loss=0.000261 grad_norm=0.0029
+2026-09-22T00:01:07.101402+00:00 rank=1 lora epoch=4/15 batch=3653/6249 step=22400 loss=0.000259 grad_norm=0.0029
+2026-09-22T00:01:19.101713+00:00 rank=0 lora epoch=4/15 batch=3673/6249 step=22420 loss=0.000262 grad_norm=0.0035
+2026-09-22T00:01:19.101783+00:00 rank=1 lora epoch=4/15 batch=3673/6249 step=22420 loss=0.000251 grad_norm=0.0035
+2026-09-22T00:01:29.428290+00:00 rank=0 lora epoch=4/15 batch=3693/6249 step=22440 loss=0.000306 grad_norm=0.0438
+2026-09-22T00:01:29.428417+00:00 rank=1 lora epoch=4/15 batch=3693/6249 step=22440 loss=0.119343 grad_norm=0.0438
+2026-09-22T00:01:40.087367+00:00 rank=0 lora epoch=4/15 batch=3713/6249 step=22460 loss=0.000304 grad_norm=0.0070
+2026-09-22T00:01:40.087427+00:00 rank=1 lora epoch=4/15 batch=3713/6249 step=22460 loss=0.000301 grad_norm=0.0070
+2026-09-22T00:01:50.076785+00:00 rank=0 lora epoch=4/15 batch=3733/6249 step=22480 loss=0.618657 grad_norm=1.4020
+2026-09-22T00:01:50.076829+00:00 rank=1 lora epoch=4/15 batch=3733/6249 step=22480 loss=0.590730 grad_norm=1.4020
+2026-09-22T00:02:03.995636+00:00 rank=0 lora epoch=4/15 batch=3753/6249 step=22500 loss=0.649458 grad_norm=0.9847
+2026-09-22T00:02:03.995683+00:00 rank=1 lora epoch=4/15 batch=3753/6249 step=22500 loss=0.642226 grad_norm=0.9847
+2026-09-22T00:02:13.590649+00:00 rank=0 lora epoch=4/15 batch=3773/6249 step=22520 loss=0.604552 grad_norm=0.3764
+2026-09-22T00:02:13.590705+00:00 rank=1 lora epoch=4/15 batch=3773/6249 step=22520 loss=0.653665 grad_norm=0.3764
+2026-09-22T00:02:24.966967+00:00 rank=0 lora epoch=4/15 batch=3793/6249 step=22540 loss=0.650853 grad_norm=0.3293
+2026-09-22T00:02:24.967092+00:00 rank=1 lora epoch=4/15 batch=3793/6249 step=22540 loss=0.602046 grad_norm=0.3293
+2026-09-22T00:02:40.300673+00:00 rank=0 lora epoch=4/15 batch=3813/6249 step=22560 loss=0.630862 grad_norm=0.3650
+2026-09-22T00:02:40.300719+00:00 rank=1 lora epoch=4/15 batch=3813/6249 step=22560 loss=0.634791 grad_norm=0.3650
+2026-09-22T00:02:49.726617+00:00 rank=0 lora epoch=4/15 batch=3833/6249 step=22580 loss=0.000209 grad_norm=0.0021
+2026-09-22T00:02:49.726679+00:00 rank=1 lora epoch=4/15 batch=3833/6249 step=22580 loss=0.000211 grad_norm=0.0021
+2026-09-22T00:03:00.786167+00:00 rank=0 lora epoch=4/15 batch=3853/6249 step=22600 loss=0.363678 grad_norm=1.3660
+2026-09-22T00:03:00.786198+00:00 rank=1 lora epoch=4/15 batch=3853/6249 step=22600 loss=0.277277 grad_norm=1.3660
+2026-09-22T00:03:11.540596+00:00 rank=0 lora epoch=4/15 batch=3873/6249 step=22620 loss=0.634428 grad_norm=0.2480
+2026-09-22T00:03:11.540654+00:00 rank=1 lora epoch=4/15 batch=3873/6249 step=22620 loss=0.600119 grad_norm=0.2480
+2026-09-22T00:03:22.091592+00:00 rank=0 lora epoch=4/15 batch=3893/6249 step=22640 loss=0.679154 grad_norm=0.6131
+2026-09-22T00:03:22.091675+00:00 rank=1 lora epoch=4/15 batch=3893/6249 step=22640 loss=0.570950 grad_norm=0.6131
+2026-09-22T00:03:34.043553+00:00 rank=0 lora epoch=4/15 batch=3913/6249 step=22660 loss=0.161308 grad_norm=0.7979
+2026-09-22T00:03:34.043606+00:00 rank=1 lora epoch=4/15 batch=3913/6249 step=22660 loss=0.392431 grad_norm=0.7979
+2026-09-22T00:03:45.727683+00:00 rank=0 lora epoch=4/15 batch=3933/6249 step=22680 loss=0.000242 grad_norm=0.00762026-09-22T00:03:45.727724+00:00 rank=1 lora epoch=4/15 batch=3933/6249 step=22680 loss=0.000702 grad_norm=0.0076
+
+2026-09-22T00:03:57.543504+00:00 rank=0 lora epoch=4/15 batch=3953/6249 step=22700 loss=0.672884 grad_norm=0.1366
+2026-09-22T00:03:57.543550+00:00 rank=1 lora epoch=4/15 batch=3953/6249 step=22700 loss=0.687747 grad_norm=0.1366
+2026-09-22T00:04:10.436809+00:00 rank=0 lora epoch=4/15 batch=3973/6249 step=22720 loss=0.000408 grad_norm=0.0053
+2026-09-22T00:04:10.436865+00:00 rank=1 lora epoch=4/15 batch=3973/6249 step=22720 loss=0.000386 grad_norm=0.0053
+2026-09-22T00:04:22.193193+00:00 rank=0 lora epoch=4/15 batch=3993/6249 step=22740 loss=0.528872 grad_norm=1.4192
+2026-09-22T00:04:22.193287+00:00 rank=1 lora epoch=4/15 batch=3993/6249 step=22740 loss=0.537155 grad_norm=1.4192
+2026-09-22T00:04:34.338777+00:00 rank=0 lora epoch=4/15 batch=4013/6249 step=22760 loss=0.681883 grad_norm=0.31312026-09-22T00:04:34.338794+00:00 rank=1 lora epoch=4/15 batch=4013/6249 step=22760 loss=0.705150 grad_norm=0.3131
+
+2026-09-22T00:04:44.487776+00:00 rank=0 lora epoch=4/15 batch=4033/6249 step=22780 loss=0.658374 grad_norm=0.8424
+2026-09-22T00:04:44.487819+00:00 rank=1 lora epoch=4/15 batch=4033/6249 step=22780 loss=0.710051 grad_norm=0.8424
+2026-09-22T00:04:54.243841+00:00 rank=0 lora epoch=4/15 batch=4053/6249 step=22800 loss=0.000581 grad_norm=0.0132
+2026-09-22T00:04:54.243896+00:00 rank=1 lora epoch=4/15 batch=4053/6249 step=22800 loss=0.000794 grad_norm=0.0132
+2026-09-22T00:05:05.229625+00:00 rank=1 lora epoch=4/15 batch=4073/6249 step=22820 loss=0.000337 grad_norm=0.00482026-09-22T00:05:05.229634+00:00 rank=0 lora epoch=4/15 batch=4073/6249 step=22820 loss=0.000333 grad_norm=0.0048
+
+2026-09-22T00:05:15.088428+00:00 rank=0 lora epoch=4/15 batch=4093/6249 step=22840 loss=0.683374 grad_norm=1.4495
+2026-09-22T00:05:15.088542+00:00 rank=1 lora epoch=4/15 batch=4093/6249 step=22840 loss=0.653392 grad_norm=1.4495
+2026-09-22T00:05:25.816052+00:00 rank=0 lora epoch=4/15 batch=4113/6249 step=22860 loss=0.445503 grad_norm=0.4596
+2026-09-22T00:05:25.816127+00:00 rank=1 lora epoch=4/15 batch=4113/6249 step=22860 loss=0.284387 grad_norm=0.4596
+2026-09-22T00:05:37.252919+00:00 rank=0 lora epoch=4/15 batch=4133/6249 step=22880 loss=0.257965 grad_norm=1.4146
+2026-09-22T00:05:37.252992+00:00 rank=1 lora epoch=4/15 batch=4133/6249 step=22880 loss=0.219102 grad_norm=1.4146
+2026-09-22T00:05:47.120464+00:00 rank=0 lora epoch=4/15 batch=4153/6249 step=22900 loss=0.000284 grad_norm=0.0032
+2026-09-22T00:05:47.120512+00:00 rank=1 lora epoch=4/15 batch=4153/6249 step=22900 loss=0.000281 grad_norm=0.0032
+2026-09-22T00:05:57.844566+00:00 rank=0 lora epoch=4/15 batch=4173/6249 step=22920 loss=0.697706 grad_norm=0.74552026-09-22T00:05:57.844574+00:00 rank=1 lora epoch=4/15 batch=4173/6249 step=22920 loss=0.670270 grad_norm=0.7455
+
+2026-09-22T00:06:07.354581+00:00 rank=0 lora epoch=4/15 batch=4193/6249 step=22940 loss=0.169639 grad_norm=0.2034
+2026-09-22T00:06:07.354659+00:00 rank=1 lora epoch=4/15 batch=4193/6249 step=22940 loss=0.000292 grad_norm=0.2034
+2026-09-22T00:06:18.587346+00:00 rank=0 lora epoch=4/15 batch=4213/6249 step=22960 loss=0.317237 grad_norm=1.4553
+2026-09-22T00:06:18.587421+00:00 rank=1 lora epoch=4/15 batch=4213/6249 step=22960 loss=0.512011 grad_norm=1.4553
+2026-09-22T00:06:29.003631+00:00 rank=0 lora epoch=4/15 batch=4233/6249 step=22980 loss=0.604258 grad_norm=0.3697
+2026-09-22T00:06:29.003667+00:00 rank=1 lora epoch=4/15 batch=4233/6249 step=22980 loss=0.759663 grad_norm=0.3697
+2026-09-22T00:06:38.938123+00:00 rank=0 lora epoch=4/15 batch=4253/6249 step=23000 loss=0.623751 grad_norm=0.2171
+2026-09-22T00:06:38.938157+00:00 rank=1 lora epoch=4/15 batch=4253/6249 step=23000 loss=0.652038 grad_norm=0.2171
+2026-09-22T00:06:49.040580+00:00 rank=0 lora epoch=4/15 batch=4273/6249 step=23020 loss=0.018708 grad_norm=0.0906
+2026-09-22T00:06:49.040617+00:00 rank=1 lora epoch=4/15 batch=4273/6249 step=23020 loss=0.558495 grad_norm=0.0906
+2026-09-22T00:07:00.593926+00:00 rank=0 lora epoch=4/15 batch=4293/6249 step=23040 loss=0.577364 grad_norm=0.5673
+2026-09-22T00:07:00.594006+00:00 rank=1 lora epoch=4/15 batch=4293/6249 step=23040 loss=0.747764 grad_norm=0.5673
+2026-09-22T00:07:09.745753+00:00 rank=0 lora epoch=4/15 batch=4313/6249 step=23060 loss=0.000398 grad_norm=0.0104
+2026-09-22T00:07:09.745818+00:00 rank=1 lora epoch=4/15 batch=4313/6249 step=23060 loss=0.000379 grad_norm=0.0104
+2026-09-22T00:07:20.107137+00:00 rank=0 lora epoch=4/15 batch=4333/6249 step=23080 loss=0.583907 grad_norm=0.6465
+2026-09-22T00:07:20.107169+00:00 rank=1 lora epoch=4/15 batch=4333/6249 step=23080 loss=0.615339 grad_norm=0.6465
+2026-09-22T00:07:30.569425+00:00 rank=0 lora epoch=4/15 batch=4353/6249 step=23100 loss=0.676271 grad_norm=0.5860
+2026-09-22T00:07:30.569510+00:00 rank=1 lora epoch=4/15 batch=4353/6249 step=23100 loss=0.514655 grad_norm=0.5860
+2026-09-22T00:07:41.651218+00:00 rank=0 lora epoch=4/15 batch=4373/6249 step=23120 loss=0.000278 grad_norm=0.0036
+2026-09-22T00:07:41.651263+00:00 rank=1 lora epoch=4/15 batch=4373/6249 step=23120 loss=0.000271 grad_norm=0.0036
+2026-09-22T00:07:53.670285+00:00 rank=0 lora epoch=4/15 batch=4393/6249 step=23140 loss=0.808511 grad_norm=0.7567
+2026-09-22T00:07:53.670388+00:00 rank=1 lora epoch=4/15 batch=4393/6249 step=23140 loss=0.754500 grad_norm=0.7567
+2026-09-22T00:08:04.179546+00:00 rank=0 lora epoch=4/15 batch=4413/6249 step=23160 loss=0.470824 grad_norm=0.8137
+2026-09-22T00:08:04.179587+00:00 rank=1 lora epoch=4/15 batch=4413/6249 step=23160 loss=0.268272 grad_norm=0.8137
+2026-09-22T00:08:13.792583+00:00 rank=0 lora epoch=4/15 batch=4433/6249 step=23180 loss=0.000492 grad_norm=0.0070
+2026-09-22T00:08:13.792638+00:00 rank=1 lora epoch=4/15 batch=4433/6249 step=23180 loss=0.000604 grad_norm=0.0070
+2026-09-22T00:08:25.791518+00:00 rank=0 lora epoch=4/15 batch=4453/6249 step=23200 loss=0.562378 grad_norm=0.3605
+2026-09-22T00:08:25.791556+00:00 rank=1 lora epoch=4/15 batch=4453/6249 step=23200 loss=0.571383 grad_norm=0.3605
+2026-09-22T00:08:38.407510+00:00 rank=1 lora epoch=4/15 batch=4473/6249 step=23220 loss=0.317310 grad_norm=0.20382026-09-22T00:08:38.407527+00:00 rank=0 lora epoch=4/15 batch=4473/6249 step=23220 loss=0.607980 grad_norm=0.2038
+
+2026-09-22T00:08:47.972689+00:00 rank=0 lora epoch=4/15 batch=4493/6249 step=23240 loss=0.000868 grad_norm=0.1226
+2026-09-22T00:08:47.972805+00:00 rank=1 lora epoch=4/15 batch=4493/6249 step=23240 loss=0.160474 grad_norm=0.1226
+2026-09-22T00:08:57.861980+00:00 rank=0 lora epoch=4/15 batch=4513/6249 step=23260 loss=0.661347 grad_norm=0.1744
+2026-09-22T00:08:57.862047+00:00 rank=1 lora epoch=4/15 batch=4513/6249 step=23260 loss=0.597730 grad_norm=0.1744
+2026-09-22T00:09:07.110023+00:00 rank=0 lora epoch=4/15 batch=4533/6249 step=23280 loss=0.695309 grad_norm=1.12152026-09-22T00:09:07.110043+00:00 rank=1 lora epoch=4/15 batch=4533/6249 step=23280 loss=0.601156 grad_norm=1.1215
+
+2026-09-22T00:09:19.203320+00:00 rank=0 lora epoch=4/15 batch=4553/6249 step=23300 loss=0.640604 grad_norm=0.5085
+2026-09-22T00:09:19.203343+00:00 rank=1 lora epoch=4/15 batch=4553/6249 step=23300 loss=0.663240 grad_norm=0.5085
+2026-09-22T00:09:32.411287+00:00 rank=0 lora epoch=4/15 batch=4573/6249 step=23320 loss=0.000487 grad_norm=0.0081
+2026-09-22T00:09:32.411366+00:00 rank=1 lora epoch=4/15 batch=4573/6249 step=23320 loss=0.000466 grad_norm=0.0081
+2026-09-22T00:09:42.985048+00:00 rank=0 lora epoch=4/15 batch=4593/6249 step=23340 loss=0.000550 grad_norm=0.3013
+2026-09-22T00:09:42.985149+00:00 rank=1 lora epoch=4/15 batch=4593/6249 step=23340 loss=0.326363 grad_norm=0.3013
+2026-09-22T00:09:55.542513+00:00 rank=0 lora epoch=4/15 batch=4613/6249 step=23360 loss=0.362461 grad_norm=0.6060
+2026-09-22T00:09:55.542580+00:00 rank=1 lora epoch=4/15 batch=4613/6249 step=23360 loss=0.261463 grad_norm=0.6060
+2026-09-22T00:10:08.242153+00:00 rank=0 lora epoch=4/15 batch=4633/6249 step=23380 loss=0.000302 grad_norm=0.0032
+2026-09-22T00:10:08.242214+00:00 rank=1 lora epoch=4/15 batch=4633/6249 step=23380 loss=0.000275 grad_norm=0.0032
+2026-09-22T00:10:18.678781+00:00 rank=0 lora epoch=4/15 batch=4653/6249 step=23400 loss=0.268884 grad_norm=0.7953
+2026-09-22T00:10:18.678855+00:00 rank=1 lora epoch=4/15 batch=4653/6249 step=23400 loss=0.548734 grad_norm=0.7953
+2026-09-22T00:10:28.224979+00:00 rank=0 lora epoch=4/15 batch=4673/6249 step=23420 loss=0.347822 grad_norm=1.9807
+2026-09-22T00:10:28.225045+00:00 rank=1 lora epoch=4/15 batch=4673/6249 step=23420 loss=0.543753 grad_norm=1.9807
+2026-09-22T00:10:39.378608+00:00 rank=0 lora epoch=4/15 batch=4693/6249 step=23440 loss=0.680076 grad_norm=0.5137
+2026-09-22T00:10:39.378762+00:00 rank=1 lora epoch=4/15 batch=4693/6249 step=23440 loss=0.673741 grad_norm=0.5137
+2026-09-22T00:10:48.518404+00:00 rank=0 lora epoch=4/15 batch=4713/6249 step=23460 loss=0.643545 grad_norm=0.4395
+2026-09-22T00:10:48.518475+00:00 rank=1 lora epoch=4/15 batch=4713/6249 step=23460 loss=0.628962 grad_norm=0.4395
+2026-09-22T00:10:58.185141+00:00 rank=0 lora epoch=4/15 batch=4733/6249 step=23480 loss=0.676347 grad_norm=0.4702
+2026-09-22T00:10:58.185208+00:00 rank=1 lora epoch=4/15 batch=4733/6249 step=23480 loss=0.613296 grad_norm=0.4702
+2026-09-22T00:11:09.554565+00:00 rank=0 lora epoch=4/15 batch=4753/6249 step=23500 loss=0.553907 grad_norm=0.1326
+2026-09-22T00:11:09.554612+00:00 rank=1 lora epoch=4/15 batch=4753/6249 step=23500 loss=0.663102 grad_norm=0.1326
+2026-09-22T00:11:23.644837+00:00 rank=0 lora epoch=4/15 batch=4773/6249 step=23520 loss=0.000402 grad_norm=0.0123
+2026-09-22T00:11:23.644891+00:00 rank=1 lora epoch=4/15 batch=4773/6249 step=23520 loss=0.000395 grad_norm=0.0123
+2026-09-22T00:11:35.953170+00:00 rank=0 lora epoch=4/15 batch=4793/6249 step=23540 loss=0.664667 grad_norm=0.7916
+2026-09-22T00:11:35.953285+00:00 rank=1 lora epoch=4/15 batch=4793/6249 step=23540 loss=0.704642 grad_norm=0.7916
+2026-09-22T00:11:46.094283+00:00 rank=0 lora epoch=4/15 batch=4813/6249 step=23560 loss=0.686641 grad_norm=0.8384
+2026-09-22T00:11:46.094341+00:00 rank=1 lora epoch=4/15 batch=4813/6249 step=23560 loss=0.573553 grad_norm=0.8384
+2026-09-22T00:11:54.919400+00:00 rank=0 lora epoch=4/15 batch=4833/6249 step=23580 loss=0.564025 grad_norm=1.8887
+2026-09-22T00:11:54.919449+00:00 rank=1 lora epoch=4/15 batch=4833/6249 step=23580 loss=0.468130 grad_norm=1.8887
+2026-09-22T00:12:05.720708+00:00 rank=0 lora epoch=4/15 batch=4853/6249 step=23600 loss=0.648335 grad_norm=0.2777
+2026-09-22T00:12:05.720742+00:00 rank=1 lora epoch=4/15 batch=4853/6249 step=23600 loss=0.677729 grad_norm=0.2777
+2026-09-22T00:12:18.556712+00:00 rank=0 lora epoch=4/15 batch=4873/6249 step=23620 loss=0.000474 grad_norm=0.0149
+2026-09-22T00:12:18.556806+00:00 rank=1 lora epoch=4/15 batch=4873/6249 step=23620 loss=0.000442 grad_norm=0.0149
+2026-09-22T00:12:29.109244+00:00 rank=0 lora epoch=4/15 batch=4893/6249 step=23640 loss=0.602764 grad_norm=0.3269
+2026-09-22T00:12:29.109349+00:00 rank=1 lora epoch=4/15 batch=4893/6249 step=23640 loss=0.591680 grad_norm=0.3269
+2026-09-22T00:12:40.213429+00:00 rank=0 lora epoch=4/15 batch=4913/6249 step=23660 loss=0.459569 grad_norm=0.8937
+2026-09-22T00:12:40.213503+00:00 rank=1 lora epoch=4/15 batch=4913/6249 step=23660 loss=0.252324 grad_norm=0.8937
+2026-09-22T00:12:52.451181+00:00 rank=0 lora epoch=4/15 batch=4933/6249 step=23680 loss=0.488673 grad_norm=2.8185
+2026-09-22T00:12:52.451254+00:00 rank=1 lora epoch=4/15 batch=4933/6249 step=23680 loss=0.700383 grad_norm=2.8185
+2026-09-22T00:13:05.430855+00:00 rank=0 lora epoch=4/15 batch=4953/6249 step=23700 loss=0.652827 grad_norm=0.2628
+2026-09-22T00:13:05.430924+00:00 rank=1 lora epoch=4/15 batch=4953/6249 step=23700 loss=0.684381 grad_norm=0.2628
+2026-09-22T00:13:16.521800+00:00 rank=0 lora epoch=4/15 batch=4973/6249 step=23720 loss=0.730622 grad_norm=1.0545
+2026-09-22T00:13:16.521858+00:00 rank=1 lora epoch=4/15 batch=4973/6249 step=23720 loss=0.695861 grad_norm=1.0545
+2026-09-22T00:13:30.462084+00:00 rank=0 lora epoch=4/15 batch=4993/6249 step=23740 loss=0.000268 grad_norm=0.0038
+2026-09-22T00:13:30.462154+00:00 rank=1 lora epoch=4/15 batch=4993/6249 step=23740 loss=0.000258 grad_norm=0.0038
+2026-09-22T00:13:42.459645+00:00 rank=0 lora epoch=4/15 batch=5013/6249 step=23760 loss=0.702803 grad_norm=0.1965
+2026-09-22T00:13:42.459698+00:00 rank=1 lora epoch=4/15 batch=5013/6249 step=23760 loss=0.536556 grad_norm=0.1965
+2026-09-22T00:13:51.625240+00:00 rank=0 lora epoch=4/15 batch=5033/6249 step=23780 loss=0.629845 grad_norm=0.4938
+2026-09-22T00:13:51.625264+00:00 rank=1 lora epoch=4/15 batch=5033/6249 step=23780 loss=0.735320 grad_norm=0.4938
+2026-09-22T00:14:03.007723+00:00 rank=0 lora epoch=4/15 batch=5053/6249 step=23800 loss=0.212896 grad_norm=0.8739
+2026-09-22T00:14:03.007857+00:00 rank=1 lora epoch=4/15 batch=5053/6249 step=23800 loss=0.285491 grad_norm=0.8739
+2026-09-22T00:14:13.969585+00:00 rank=0 lora epoch=4/15 batch=5073/6249 step=23820 loss=0.626378 grad_norm=0.6082
+2026-09-22T00:14:13.969661+00:00 rank=1 lora epoch=4/15 batch=5073/6249 step=23820 loss=0.899480 grad_norm=0.6082
+2026-09-22T00:14:22.931039+00:00 rank=0 lora epoch=4/15 batch=5093/6249 step=23840 loss=0.000468 grad_norm=0.0058
+2026-09-22T00:14:22.931137+00:00 rank=1 lora epoch=4/15 batch=5093/6249 step=23840 loss=0.000521 grad_norm=0.0058
+2026-09-22T00:14:34.772287+00:00 rank=0 lora epoch=4/15 batch=5113/6249 step=23860 loss=0.621711 grad_norm=0.63882026-09-22T00:14:34.772307+00:00 rank=1 lora epoch=4/15 batch=5113/6249 step=23860 loss=0.533050 grad_norm=0.6388
+
+2026-09-22T00:14:44.976210+00:00 rank=0 lora epoch=4/15 batch=5133/6249 step=23880 loss=0.599542 grad_norm=0.5007
+2026-09-22T00:14:44.976261+00:00 rank=1 lora epoch=4/15 batch=5133/6249 step=23880 loss=0.665133 grad_norm=0.5007
+2026-09-22T00:14:57.646788+00:00 rank=0 lora epoch=4/15 batch=5153/6249 step=23900 loss=0.000284 grad_norm=0.0058
+2026-09-22T00:14:57.646835+00:00 rank=1 lora epoch=4/15 batch=5153/6249 step=23900 loss=0.000672 grad_norm=0.0058
+2026-09-22T00:15:07.142064+00:00 rank=0 lora epoch=4/15 batch=5173/6249 step=23920 loss=0.621361 grad_norm=0.4820
+2026-09-22T00:15:07.142111+00:00 rank=1 lora epoch=4/15 batch=5173/6249 step=23920 loss=0.619556 grad_norm=0.4820
+2026-09-22T00:15:23.009747+00:00 rank=0 lora epoch=4/15 batch=5193/6249 step=23940 loss=0.693320 grad_norm=0.7914
+2026-09-22T00:15:23.009862+00:00 rank=1 lora epoch=4/15 batch=5193/6249 step=23940 loss=0.645693 grad_norm=0.7914
+2026-09-22T00:15:33.314845+00:00 rank=0 lora epoch=4/15 batch=5213/6249 step=23960 loss=0.000274 grad_norm=0.0029
+2026-09-22T00:15:33.314888+00:00 rank=1 lora epoch=4/15 batch=5213/6249 step=23960 loss=0.000272 grad_norm=0.0029
+2026-09-22T00:15:44.156891+00:00 rank=0 lora epoch=4/15 batch=5233/6249 step=23980 loss=0.689364 grad_norm=0.2118
+2026-09-22T00:15:44.156946+00:00 rank=1 lora epoch=4/15 batch=5233/6249 step=23980 loss=0.302011 grad_norm=0.2118
+2026-09-22T00:15:54.942020+00:00 rank=0 lora epoch=4/15 batch=5253/6249 step=24000 loss=0.436881 grad_norm=0.0781
+2026-09-22T00:15:54.942062+00:00 rank=1 lora epoch=4/15 batch=5253/6249 step=24000 loss=0.000270 grad_norm=0.0781
+2026-09-22T00:17:32.709622+00:00 rank=0 interval validation step=24000 metrics={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.4621993792021617, 'f1': 0.6388633074595448, 'spearman_probability_label': 0.5961761845091084, 'threshold': 0.5}
+2026-09-22T00:17:32.709990+00:00 rank=1 interval validation step=24000 metrics={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.4621993792021617, 'f1': 0.6388633074595448, 'spearman_probability_label': 0.5961761845091084, 'threshold': 0.5}
+2026-09-22T00:17:45.187731+00:00 rank=0 lora epoch=4/15 batch=5273/6249 step=24020 loss=0.618219 grad_norm=0.3750
+2026-09-22T00:17:45.187794+00:00 rank=1 lora epoch=4/15 batch=5273/6249 step=24020 loss=0.641754 grad_norm=0.3750
+2026-09-22T00:17:53.916457+00:00 rank=0 lora epoch=4/15 batch=5293/6249 step=24040 loss=0.000239 grad_norm=0.0025
+2026-09-22T00:17:53.916488+00:00 rank=1 lora epoch=4/15 batch=5293/6249 step=24040 loss=0.000247 grad_norm=0.0025
+2026-09-22T00:18:03.052448+00:00 rank=0 lora epoch=4/15 batch=5313/6249 step=24060 loss=0.278222 grad_norm=1.1192
+2026-09-22T00:18:03.052509+00:00 rank=1 lora epoch=4/15 batch=5313/6249 step=24060 loss=0.315398 grad_norm=1.1192
+2026-09-22T00:18:13.740268+00:00 rank=0 lora epoch=4/15 batch=5333/6249 step=24080 loss=0.581455 grad_norm=0.2057
+2026-09-22T00:18:13.740295+00:00 rank=1 lora epoch=4/15 batch=5333/6249 step=24080 loss=0.661239 grad_norm=0.2057
+2026-09-22T00:18:27.512883+00:00 rank=0 lora epoch=4/15 batch=5353/6249 step=24100 loss=0.000489 grad_norm=0.0057
+2026-09-22T00:18:27.512942+00:00 rank=1 lora epoch=4/15 batch=5353/6249 step=24100 loss=0.000431 grad_norm=0.0057
+2026-09-22T00:18:38.042832+00:00 rank=0 lora epoch=4/15 batch=5373/6249 step=24120 loss=0.776291 grad_norm=1.3151
+2026-09-22T00:18:38.042906+00:00 rank=1 lora epoch=4/15 batch=5373/6249 step=24120 loss=0.654158 grad_norm=1.3151
+2026-09-22T00:18:48.294418+00:00 rank=0 lora epoch=4/15 batch=5393/6249 step=24140 loss=0.610148 grad_norm=0.1432
+2026-09-22T00:18:48.294460+00:00 rank=1 lora epoch=4/15 batch=5393/6249 step=24140 loss=0.616867 grad_norm=0.1432
+2026-09-22T00:18:58.695713+00:00 rank=0 lora epoch=4/15 batch=5413/6249 step=24160 loss=0.567669 grad_norm=0.6871
+2026-09-22T00:18:58.695754+00:00 rank=1 lora epoch=4/15 batch=5413/6249 step=24160 loss=0.564410 grad_norm=0.6871
+2026-09-22T00:19:09.780669+00:00 rank=0 lora epoch=4/15 batch=5433/6249 step=24180 loss=0.589165 grad_norm=0.3387
+2026-09-22T00:19:09.780742+00:00 rank=1 lora epoch=4/15 batch=5433/6249 step=24180 loss=0.699386 grad_norm=0.3387
+2026-09-22T00:19:20.329771+00:00 rank=1 lora epoch=4/15 batch=5453/6249 step=24200 loss=0.000248 grad_norm=0.0032
+2026-09-22T00:19:20.329790+00:00 rank=0 lora epoch=4/15 batch=5453/6249 step=24200 loss=0.000250 grad_norm=0.0032
+2026-09-22T00:19:31.174080+00:00 rank=0 lora epoch=4/15 batch=5473/6249 step=24220 loss=0.657885 grad_norm=0.7119
+2026-09-22T00:19:31.174236+00:00 rank=1 lora epoch=4/15 batch=5473/6249 step=24220 loss=0.698185 grad_norm=0.7119
+2026-09-22T00:19:43.222045+00:00 rank=1 lora epoch=4/15 batch=5493/6249 step=24240 loss=0.638005 grad_norm=0.25132026-09-22T00:19:43.222058+00:00 rank=0 lora epoch=4/15 batch=5493/6249 step=24240 loss=0.706812 grad_norm=0.2513
+
+2026-09-22T00:19:53.279098+00:00 rank=1 lora epoch=4/15 batch=5513/6249 step=24260 loss=0.644018 grad_norm=0.68142026-09-22T00:19:53.279105+00:00 rank=0 lora epoch=4/15 batch=5513/6249 step=24260 loss=0.673119 grad_norm=0.6814
+
+2026-09-22T00:20:06.078671+00:00 rank=0 lora epoch=4/15 batch=5533/6249 step=24280 loss=0.000260 grad_norm=0.3393
+2026-09-22T00:20:06.078718+00:00 rank=1 lora epoch=4/15 batch=5533/6249 step=24280 loss=0.083848 grad_norm=0.3393
+2026-09-22T00:20:15.623967+00:00 rank=0 lora epoch=4/15 batch=5553/6249 step=24300 loss=0.693255 grad_norm=0.2121
+2026-09-22T00:20:15.624010+00:00 rank=1 lora epoch=4/15 batch=5553/6249 step=24300 loss=0.620985 grad_norm=0.2121
+2026-09-22T00:20:25.617072+00:00 rank=0 lora epoch=4/15 batch=5573/6249 step=24320 loss=0.601487 grad_norm=0.8131
+2026-09-22T00:20:25.617125+00:00 rank=1 lora epoch=4/15 batch=5573/6249 step=24320 loss=0.763394 grad_norm=0.8131
+2026-09-22T00:20:36.276097+00:00 rank=0 lora epoch=4/15 batch=5593/6249 step=24340 loss=0.000360 grad_norm=0.0071
+2026-09-22T00:20:36.276225+00:00 rank=1 lora epoch=4/15 batch=5593/6249 step=24340 loss=0.000375 grad_norm=0.0071
+2026-09-22T00:20:47.433721+00:00 rank=0 lora epoch=4/15 batch=5613/6249 step=24360 loss=0.611904 grad_norm=1.1791
+2026-09-22T00:20:47.433754+00:00 rank=1 lora epoch=4/15 batch=5613/6249 step=24360 loss=0.720299 grad_norm=1.1791
+2026-09-22T00:20:58.859057+00:00 rank=0 lora epoch=4/15 batch=5633/6249 step=24380 loss=0.624697 grad_norm=0.9073
+2026-09-22T00:20:58.859107+00:00 rank=1 lora epoch=4/15 batch=5633/6249 step=24380 loss=0.599675 grad_norm=0.9073
+2026-09-22T00:21:09.940017+00:00 rank=0 lora epoch=4/15 batch=5653/6249 step=24400 loss=0.000223 grad_norm=0.0030
+2026-09-22T00:21:09.940058+00:00 rank=1 lora epoch=4/15 batch=5653/6249 step=24400 loss=0.000221 grad_norm=0.0030
+2026-09-22T00:21:19.762598+00:00 rank=0 lora epoch=4/15 batch=5673/6249 step=24420 loss=0.634829 grad_norm=0.7793
+2026-09-22T00:21:19.762664+00:00 rank=1 lora epoch=4/15 batch=5673/6249 step=24420 loss=0.681177 grad_norm=0.7793
+2026-09-22T00:21:31.780967+00:00 rank=0 lora epoch=4/15 batch=5693/6249 step=24440 loss=0.661893 grad_norm=0.2798
+2026-09-22T00:21:31.781057+00:00 rank=1 lora epoch=4/15 batch=5693/6249 step=24440 loss=0.643384 grad_norm=0.2798
+2026-09-22T00:21:41.781179+00:00 rank=1 lora epoch=4/15 batch=5713/6249 step=24460 loss=0.051979 grad_norm=0.2508
+2026-09-22T00:21:41.781209+00:00 rank=0 lora epoch=4/15 batch=5713/6249 step=24460 loss=0.180600 grad_norm=0.2508
+2026-09-22T00:21:53.705101+00:00 rank=0 lora epoch=4/15 batch=5733/6249 step=24480 loss=0.000272 grad_norm=0.0038
+2026-09-22T00:21:53.705153+00:00 rank=1 lora epoch=4/15 batch=5733/6249 step=24480 loss=0.000270 grad_norm=0.0038
+2026-09-22T00:22:03.403518+00:00 rank=0 lora epoch=4/15 batch=5753/6249 step=24500 loss=0.684979 grad_norm=0.7770
+2026-09-22T00:22:03.403565+00:00 rank=1 lora epoch=4/15 batch=5753/6249 step=24500 loss=0.640287 grad_norm=0.7770
+2026-09-22T00:22:14.945019+00:00 rank=0 lora epoch=4/15 batch=5773/6249 step=24520 loss=0.700953 grad_norm=1.0452
+2026-09-22T00:22:14.945074+00:00 rank=1 lora epoch=4/15 batch=5773/6249 step=24520 loss=0.628980 grad_norm=1.0452
+2026-09-22T00:22:26.566722+00:00 rank=0 lora epoch=4/15 batch=5793/6249 step=24540 loss=0.588021 grad_norm=0.7271
+2026-09-22T00:22:26.566833+00:00 rank=1 lora epoch=4/15 batch=5793/6249 step=24540 loss=0.668647 grad_norm=0.7271
+2026-09-22T00:22:35.923911+00:00 rank=0 lora epoch=4/15 batch=5813/6249 step=24560 loss=0.729905 grad_norm=0.7973
+2026-09-22T00:22:35.924071+00:00 rank=1 lora epoch=4/15 batch=5813/6249 step=24560 loss=0.666289 grad_norm=0.7973
+2026-09-22T00:22:45.736838+00:00 rank=0 lora epoch=4/15 batch=5833/6249 step=24580 loss=0.654247 grad_norm=1.0811
+2026-09-22T00:22:45.736874+00:00 rank=1 lora epoch=4/15 batch=5833/6249 step=24580 loss=0.651990 grad_norm=1.0811
+2026-09-22T00:22:55.417081+00:00 rank=0 lora epoch=4/15 batch=5853/6249 step=24600 loss=0.000243 grad_norm=0.0025
+2026-09-22T00:22:55.417153+00:00 rank=1 lora epoch=4/15 batch=5853/6249 step=24600 loss=0.000225 grad_norm=0.0025
+2026-09-22T00:23:06.791550+00:00 rank=0 lora epoch=4/15 batch=5873/6249 step=24620 loss=0.000380 grad_norm=0.0066
+2026-09-22T00:23:06.791613+00:00 rank=1 lora epoch=4/15 batch=5873/6249 step=24620 loss=0.000395 grad_norm=0.0066
+2026-09-22T00:23:16.687787+00:00 rank=0 lora epoch=4/15 batch=5893/6249 step=24640 loss=0.525802 grad_norm=0.6199
+2026-09-22T00:23:16.687864+00:00 rank=1 lora epoch=4/15 batch=5893/6249 step=24640 loss=0.689468 grad_norm=0.6199
+2026-09-22T00:23:26.737825+00:00 rank=0 lora epoch=4/15 batch=5913/6249 step=24660 loss=0.552196 grad_norm=0.1731
+2026-09-22T00:23:26.737877+00:00 rank=1 lora epoch=4/15 batch=5913/6249 step=24660 loss=0.628730 grad_norm=0.1731
+2026-09-22T00:23:36.876817+00:00 rank=0 lora epoch=4/15 batch=5933/6249 step=24680 loss=0.652072 grad_norm=0.7472
+2026-09-22T00:23:36.876878+00:00 rank=1 lora epoch=4/15 batch=5933/6249 step=24680 loss=0.642703 grad_norm=0.7472
+2026-09-22T00:23:49.850729+00:00 rank=0 lora epoch=4/15 batch=5953/6249 step=24700 loss=0.576422 grad_norm=0.4575
+2026-09-22T00:23:49.850758+00:00 rank=1 lora epoch=4/15 batch=5953/6249 step=24700 loss=0.703418 grad_norm=0.4575
+2026-09-22T00:24:00.195881+00:00 rank=0 lora epoch=4/15 batch=5973/6249 step=24720 loss=0.595526 grad_norm=0.2493
+2026-09-22T00:24:00.195953+00:00 rank=1 lora epoch=4/15 batch=5973/6249 step=24720 loss=0.588571 grad_norm=0.2493
+2026-09-22T00:24:10.409932+00:00 rank=0 lora epoch=4/15 batch=5993/6249 step=24740 loss=0.000209 grad_norm=0.0022
+2026-09-22T00:24:10.410023+00:00 rank=1 lora epoch=4/15 batch=5993/6249 step=24740 loss=0.000203 grad_norm=0.0022
+2026-09-22T00:24:21.149509+00:00 rank=0 lora epoch=4/15 batch=6013/6249 step=24760 loss=0.656191 grad_norm=0.2804
+2026-09-22T00:24:21.149558+00:00 rank=1 lora epoch=4/15 batch=6013/6249 step=24760 loss=0.608746 grad_norm=0.2804
+2026-09-22T00:24:35.263714+00:00 rank=0 lora epoch=4/15 batch=6033/6249 step=24780 loss=0.521533 grad_norm=0.1982
+2026-09-22T00:24:35.263755+00:00 rank=1 lora epoch=4/15 batch=6033/6249 step=24780 loss=0.604259 grad_norm=0.1982
+2026-09-22T00:24:48.282972+00:00 rank=0 lora epoch=4/15 batch=6053/6249 step=24800 loss=0.001588 grad_norm=0.1138
+2026-09-22T00:24:48.283040+00:00 rank=1 lora epoch=4/15 batch=6053/6249 step=24800 loss=0.001498 grad_norm=0.1138
+2026-09-22T00:24:59.206880+00:00 rank=0 lora epoch=4/15 batch=6073/6249 step=24820 loss=0.676541 grad_norm=0.3417
+2026-09-22T00:24:59.206923+00:00 rank=1 lora epoch=4/15 batch=6073/6249 step=24820 loss=0.605764 grad_norm=0.3417
+2026-09-22T00:25:09.727233+00:00 rank=0 lora epoch=4/15 batch=6093/6249 step=24840 loss=0.678288 grad_norm=1.1905
+2026-09-22T00:25:09.727328+00:00 rank=1 lora epoch=4/15 batch=6093/6249 step=24840 loss=0.710806 grad_norm=1.1905
+2026-09-22T00:25:21.713540+00:00 rank=0 lora epoch=4/15 batch=6113/6249 step=24860 loss=0.000228 grad_norm=0.0025
+2026-09-22T00:25:21.713571+00:00 rank=1 lora epoch=4/15 batch=6113/6249 step=24860 loss=0.000218 grad_norm=0.0025
+2026-09-22T00:25:31.645879+00:00 rank=0 lora epoch=4/15 batch=6133/6249 step=24880 loss=0.660228 grad_norm=0.4100
+2026-09-22T00:25:31.645928+00:00 rank=1 lora epoch=4/15 batch=6133/6249 step=24880 loss=0.532857 grad_norm=0.4100
+2026-09-22T00:25:40.938922+00:00 rank=0 lora epoch=4/15 batch=6153/6249 step=24900 loss=0.558179 grad_norm=0.7631
+2026-09-22T00:25:40.938974+00:00 rank=1 lora epoch=4/15 batch=6153/6249 step=24900 loss=0.634334 grad_norm=0.7631
+2026-09-22T00:25:52.037021+00:00 rank=0 lora epoch=4/15 batch=6173/6249 step=24920 loss=0.000334 grad_norm=0.00562026-09-22T00:25:52.037042+00:00 rank=1 lora epoch=4/15 batch=6173/6249 step=24920 loss=0.000357 grad_norm=0.0056
+
+2026-09-22T00:26:03.093783+00:00 rank=0 lora epoch=4/15 batch=6193/6249 step=24940 loss=0.762433 grad_norm=1.4830
+2026-09-22T00:26:03.093869+00:00 rank=1 lora epoch=4/15 batch=6193/6249 step=24940 loss=0.608824 grad_norm=1.4830
+2026-09-22T00:26:16.420737+00:00 rank=0 lora epoch=4/15 batch=6213/6249 step=24960 loss=0.000373 grad_norm=0.0547
+2026-09-22T00:26:16.420810+00:00 rank=1 lora epoch=4/15 batch=6213/6249 step=24960 loss=0.538496 grad_norm=0.0547
+2026-09-22T00:26:26.023775+00:00 rank=0 lora epoch=4/15 batch=6233/6249 step=24980 loss=0.914083 grad_norm=2.6141
+2026-09-22T00:26:26.023832+00:00 rank=1 lora epoch=4/15 batch=6233/6249 step=24980 loss=0.109515 grad_norm=2.6141
+2026-09-22T00:28:11.624371+00:00 rank=1 lora epoch=4 completed=True loss=0.41212138940269816 validation={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.4802565122806728, 'f1': 0.7441426304489872, 'spearman_probability_label': 0.5969115496033477, 'threshold': 0.5}
+2026-09-22T00:28:11.624553+00:00 rank=1 LoRA ended: completed_epochs=4 steps=24996 selected_checkpoint=True
+2026-09-22T00:28:11.625003+00:00 rank=0 lora epoch=4 completed=True loss=0.41212138940269816 validation={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.4802565122806728, 'f1': 0.7441426304489872, 'spearman_probability_label': 0.5969115496033477, 'threshold': 0.5}
+2026-09-22T00:28:11.625368+00:00 rank=0 LoRA ended: completed_epochs=4 steps=24996 selected_checkpoint=True
+2026-09-22T00:28:11.804597+00:00 rank=0 Finished mode=lora elapsed_seconds=10737.42026-09-22T00:28:11.804612+00:00 rank=1 Finished mode=lora elapsed_seconds=10738.0
+

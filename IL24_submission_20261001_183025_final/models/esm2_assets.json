@@ -1,0 +1,30 @@
+{
+  "base_name": "Meta ESM-2 esm2_t33_650M_UR50D (33 layers, 650M, UR50D)",
+  "base_distribution": "Externally prepared from pinned official native files; validate tensors/config/tokenizer against independent A reference, not converted file bytes",
+  "base_directory": "external_models/esm2_650m_hf",
+  "checkpoint": "modules/inovate/output/esm2_650m_lora_best.pt",
+  "checkpoint_sha256": "8610aba1f16f28c0393a1614a40bcd489d2933945a6848d3d105a5c9f6bd2a04",
+  "epoch": 3,
+  "global_step": 14000,
+  "trainable_tensors": 66,
+  "head_included": true,
+  "tokenizer_files": [
+    "vocab.txt",
+    "special_tokens_map.json",
+    "tokenizer_config.json"
+  ],
+  "original_download_date": "2026-08-22 (source logs); conversion 2026-09-22",
+  "original_model_url": "https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t33_650M_UR50D.pt",
+  "historical_converted_file_identity": {
+    "config_sha256": "2bc9912ff72f97b524de06ed717ede24892abe4a98d580ff7821e652bf944c69",
+    "weights": [
+      {
+        "filename": "model.safetensors",
+        "bytes": 2602926260,
+        "sha256": "6996db5c5d08d98455e491dab3eaa4d82e299b27903341f83adac8ccae64fa43"
+      }
+    ]
+  },
+  "base_manifest": "models/base_manifest.json",
+  "base_in_zip": false
+}

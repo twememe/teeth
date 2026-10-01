@@ -1,0 +1,255 @@
+{
+  "versions": {
+    "abbench": "556fd6913aa231c0d342a8658818be8f963fd582",
+    "il6": "f83d7fa0d08c143aefb4bb5b8a4e55ed0576c34f",
+    "abagym": "87af82ad68bb90921e15fb8b79c7bcb1d05b23d3"
+  },
+  "files": [
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/README.md",
+      "file": "data/raw/abbench/README.md",
+      "bytes": 385,
+      "sha256": "0d036ce99cd8f532a28b0d7828697f7caafc093eadfc3a07334c3021e7914c22"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/1mhp_LC_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/1mhp_LC_benchmarking_data.csv",
+      "bytes": 16942,
+      "sha256": "19609658bc63be90f67cd9ebef2d5118d1f7583393c072e7706f77cb7d4283a5"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/1mlc_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/1mlc_benchmarking_data.csv",
+      "bytes": 294963,
+      "sha256": "b7455794e73086dd5aba9536c75e7317b88349c5d0c7a36d39b91a98a8463407"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/1n8z_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/1n8z_benchmarking_data.csv",
+      "bytes": 104757,
+      "sha256": "2ca138b0c6324b3cfa074dfdaa9fced69d2777e7e90d384d1cfb2fb2bd720348"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/2fjg_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/2fjg_benchmarking_data.csv",
+      "bytes": 547464,
+      "sha256": "2e9827c1b6cedd282bd7674dae8017e3ffc1442309ffcbdd3eaef6e5be1bce2c"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/3gbn_h1_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/3gbn_h1_benchmarking_data.csv",
+      "bytes": 468404,
+      "sha256": "aa3071f443c19a916dbf206a7a2e6ec8c6fd792a55ed4cc32cb22cf33aa92206"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/3gbn_h9_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/3gbn_h9_benchmarking_data.csv",
+      "bytes": 454981,
+      "sha256": "34b58d003206555e717f341e2e08aee4cc0a320a327ab8d7fb0c00c695b3a22d"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/4d5_her2_benchmarking_data_trimmed.csv",
+      "file": "data/raw/abbench/binding_affinity/4d5_her2_benchmarking_data_trimmed.csv",
+      "bytes": 509099,
+      "sha256": "b76308178f61ed7f8d8fa84b7daa78aae86ca7cf146584e59e6dce6c6f27031d"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/4fqi_h1_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/4fqi_h1_benchmarking_data.csv",
+      "bytes": 16234561,
+      "sha256": "2c401c2056e4b035d07667e86f5bb5d47bae8db9b9539eb4f4cba8401c18cfac"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/4fqi_h3_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/4fqi_h3_benchmarking_data.csv",
+      "bytes": 15565895,
+      "sha256": "b7054a65c9816f08db962b3c926f1040ade98c8b02bdf9a66e332cb047fe7933"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/5a12_ang2_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/5a12_ang2_benchmarking_data.csv",
+      "bytes": 418048,
+      "sha256": "6a597b41c47e432710f7f6a8b9e1d58c6cff34e3305eacc74855e6450f239fd3"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/5a12_vegf_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/5a12_vegf_benchmarking_data.csv",
+      "bytes": 13139563,
+      "sha256": "d6fcb46ce73945ea4885e5926eae01925c540062563e233b81d1be688712bed7"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/aayl49_ML_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/aayl49_ML_benchmarking_data.csv",
+      "bytes": 2245998,
+      "sha256": "0b10ebfcba39006482448a6c67480023cc97dd34666692c0fe4e6abaf74a7bfd"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/aayl49_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/aayl49_benchmarking_data.csv",
+      "bytes": 1081437,
+      "sha256": "478d1f89d28dc862048721f3b3ecc9fec26fbecccc7880723c0fcc3da2bf54ef"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/aayl50_LC_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/aayl50_LC_benchmarking_data.csv",
+      "bytes": 2877358,
+      "sha256": "13362d984706b20a8f56af0d5bfca836e9704349644770c4cbf0b6f706d76f79"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/aayl51_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/aayl51_benchmarking_data.csv",
+      "bytes": 1096445,
+      "sha256": "fa24948a92ef968010e2ad8d7b41f96644e90893627140efd107eab710073abf"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/aayl52_LC_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/aayl52_LC_benchmarking_data.csv",
+      "bytes": 3261751,
+      "sha256": "60856de6b2d11d6fc7c6eac469c2416fde6d3d2097511aab2594799d4e9a05fb"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/binding_affinity/g6_LC_benchmarking_data.csv",
+      "file": "data/raw/abbench/binding_affinity/g6_LC_benchmarking_data.csv",
+      "bytes": 497811,
+      "sha256": "529c8d3e837b5c57fadbf757e9f03e210420b978c145a009e122182cf5d86285"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/complex_structure/1mhp.pdb",
+      "file": "data/raw/abbench/complex_structure/1mhp.pdb",
+      "bytes": 718389,
+      "sha256": "c5102bd972832a95e9035171578f974f78ecb3b0442351e64e282ba24a5ea9a1"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/complex_structure/1mhp_hla.pdb",
+      "file": "data/raw/abbench/complex_structure/1mhp_hla.pdb",
+      "bytes": 257478,
+      "sha256": "fcf5a1e70ce840b71d52e72247fd6eddd5bd52fef3198f36cb2627e74e581270"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/complex_structure/1mlc_bae.pdb",
+      "file": "data/raw/abbench/complex_structure/1mlc_bae.pdb",
+      "bytes": 221707,
+      "sha256": "7d792ecab8d9e5167ab44914bb434967838d94aa548940887b7b6378f08e5b9b"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/complex_structure/1n8z_bac.pdb",
+      "file": "data/raw/abbench/complex_structure/1n8z_bac.pdb",
+      "bytes": 507394,
+      "sha256": "09de02dbb5f9e6500d575689146e16588bf417b98702568995cf47dd61e9d496"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/complex_structure/2fjg_hlv.pdb",
+      "file": "data/raw/abbench/complex_structure/2fjg_hlv.pdb",
+      "bytes": 201867,
+      "sha256": "55afab057c7b2c9d9f43326247268243044b5929659cf4e79d83e7d6506c1d9a"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/complex_structure/3gbn_hlab.pdb",
+      "file": "data/raw/abbench/complex_structure/3gbn_hlab.pdb",
+      "bytes": 461683,
+      "sha256": "16701963540b4f24cd46d7dc9b7c6e3d7ba124c93325ef785b1feeebb7af28b0"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/complex_structure/4fqi_hlab.pdb",
+      "file": "data/raw/abbench/complex_structure/4fqi_hlab.pdb",
+      "bytes": 475816,
+      "sha256": "d3a23d95d5a2817cd1cee12a9cccb73884b1d1d74de2af03aa9dccc1b5679b76"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/complex_structure/4zff_hld.pdb",
+      "file": "data/raw/abbench/complex_structure/4zff_hld.pdb",
+      "bytes": 325144,
+      "sha256": "3189a78bcba7152734f0cc2363a7de2d78e7b11dae30f0804282c903e331b489"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/complex_structure/4zfg_hla.pdb",
+      "file": "data/raw/abbench/complex_structure/4zfg_hla.pdb",
+      "bytes": 407440,
+      "sha256": "e91684c81f5961d9582dc65875a7bbd749deba1ed24d408decdd5f5cd6cf0359"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/complex_structure/AAYL49_bca.pdb",
+      "file": "data/raw/abbench/complex_structure/AAYL49_bca.pdb",
+      "bytes": 149254,
+      "sha256": "9ac2d6c286de45c829d1a8c452004d738196d96a2562a94fa773118e05de3cf9"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/complex_structure/AAYL50_bca.pdb",
+      "file": "data/raw/abbench/complex_structure/AAYL50_bca.pdb",
+      "bytes": 149254,
+      "sha256": "9ac2d6c286de45c829d1a8c452004d738196d96a2562a94fa773118e05de3cf9"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/complex_structure/AAYL51_bca.pdb",
+      "file": "data/raw/abbench/complex_structure/AAYL51_bca.pdb",
+      "bytes": 150926,
+      "sha256": "b28c848c5d24015d5f6c41344f3f583aed01589cb1b07b1069f78e509929585a"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/complex_structure/AAYL52_bca.pdb",
+      "file": "data/raw/abbench/complex_structure/AAYL52_bca.pdb",
+      "bytes": 145496,
+      "sha256": "bae147c2150054ef3d99d5773a1102c36f6eb1ca36dee03143a6959ff8495f64"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/croissant.json",
+      "file": "data/raw/abbench/croissant.json",
+      "bytes": 2512,
+      "sha256": "fe15969055f9ad4daa2910a34950b056795d5aa7bdc181baff827a8bd200590a"
+    },
+    {
+      "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/resolve/556fd6913aa231c0d342a8658818be8f963fd582/metadata.json",
+      "file": "data/raw/abbench/metadata.json",
+      "bytes": 5982,
+      "sha256": "32d95c51193b496dd7c747820d008a628a19f7fe85f912dfc2eedb51bbda20e9"
+    },
+    {
+      "url": "https://huggingface.co/datasets/alchemab/il6-binding-prediction/resolve/f83d7fa0d08c143aefb4bb5b8a4e55ed0576c34f/README.md",
+      "file": "data/raw/il6/README.md",
+      "bytes": 1826,
+      "sha256": "bd1cb2bb75f8abcd545e7c029744ad9f45f6c9cddd326746a71b708fd2890da7"
+    },
+    {
+      "url": "https://huggingface.co/datasets/alchemab/il6-binding-prediction/resolve/f83d7fa0d08c143aefb4bb5b8a4e55ed0576c34f/data/eval-00000-of-00001-a40495c682708005.parquet",
+      "file": "data/raw/il6/data/eval-00000-of-00001-a40495c682708005.parquet",
+      "bytes": 8151,
+      "sha256": "54e3bb5829519608355570d50cc49e06dbc2482b1c5f5a674b619cacb2c3d438"
+    },
+    {
+      "url": "https://huggingface.co/datasets/alchemab/il6-binding-prediction/resolve/f83d7fa0d08c143aefb4bb5b8a4e55ed0576c34f/data/test-00000-of-00001-0517149654f6c6d0.parquet",
+      "file": "data/raw/il6/data/test-00000-of-00001-0517149654f6c6d0.parquet",
+      "bytes": 6843,
+      "sha256": "8236b0190d32ba5619dcf34d544d103564faa592f8b4f3439f49d676d45a00b2"
+    },
+    {
+      "url": "https://huggingface.co/datasets/alchemab/il6-binding-prediction/resolve/f83d7fa0d08c143aefb4bb5b8a4e55ed0576c34f/data/train-00000-of-00001-9e571e65dddec97a.parquet",
+      "file": "data/raw/il6/data/train-00000-of-00001-9e571e65dddec97a.parquet",
+      "bytes": 47695,
+      "sha256": "cefb31fd3faa8a1f059a1119222dbfff589e7b3711d50bc01145b10fccf62d10"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/3BioCompBio/AbAgym/87af82ad68bb90921e15fb8b79c7bcb1d05b23d3/AbAgym_data_non-redundant_interface.csv",
+      "file": "data/raw/abagym/AbAgym_data_non-redundant_interface.csv",
+      "bytes": 2911822,
+      "sha256": "11dab6eef78c8f429367d6f3f341088e0634633c0d3207106cd23b70c1de1d16"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/3BioCompBio/AbAgym/87af82ad68bb90921e15fb8b79c7bcb1d05b23d3/AbAgym_metadata.csv",
+      "file": "data/raw/abagym/AbAgym_metadata.csv",
+      "bytes": 9386,
+      "sha256": "43e31a096414f09c2c2c7e06104138cc2e0a337e91544ed4e2a43c8a37effc90"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/3BioCompBio/AbAgym/87af82ad68bb90921e15fb8b79c7bcb1d05b23d3/PDB_files.zip",
+      "file": "data/raw/abagym/PDB_files.zip",
+      "bytes": 17367091,
+      "sha256": "29c3ae6d5673a8b0f3d032ae1319408751625af87aebcfe65992fff09054196f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/3BioCompBio/AbAgym/87af82ad68bb90921e15fb8b79c7bcb1d05b23d3/README.md",
+      "file": "data/raw/abagym/README.md",
+      "bytes": 3740,
+      "sha256": "003e64a74651a0a00daf373140317e30d77e9ea9a54c8ee913d8dd99150d739a"
+    }
+  ]
+}

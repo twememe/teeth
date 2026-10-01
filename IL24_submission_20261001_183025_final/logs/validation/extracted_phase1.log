@@ -1,0 +1,3 @@
+FROM_EXTRACTED_PACKAGE /mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/IL24_submission_20260930_223945
+COMMAND ["/mnt/ws/teeth/inovate/.venv/bin/python", "/mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/IL24_submission_20260930_223945/run.py", "--module", "phase1", "--output", "/mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/generated_phase1"]
+Phase 1: 181 residues; 5 ranked region families

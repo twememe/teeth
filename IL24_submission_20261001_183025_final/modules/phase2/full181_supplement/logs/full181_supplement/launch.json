@@ -1,0 +1,50 @@
+[
+  {
+    "condition": "empty",
+    "gpu": 0,
+    "pid": 1572644,
+    "command": [
+      "/home/xinlab/home/ws/phase2/venv/bin/python",
+      "-B",
+      "-u",
+      "/mnt/il24_full181_supplement_20260921/src/run_full181_supplement.py",
+      "--condition",
+      "empty",
+      "--gpu",
+      "0",
+      "--boltz",
+      "/home/xinlab/home/ws/phase2/venv/bin/boltz",
+      "--checkpoint",
+      "/home/xinlab/home/ws/phase2/models/boltz/boltz1_conf.ckpt",
+      "--cache",
+      "/home/xinlab/home/ws/phase2/models/boltz",
+      "--prodigy",
+      "/home/xinlab/home/ws/phase2/venv/bin/prodigy"
+    ],
+    "launched_utc": "2026-09-21T11:35:41.726994+00:00"
+  },
+  {
+    "condition": "formal_msa",
+    "gpu": 1,
+    "pid": 1572645,
+    "command": [
+      "/home/xinlab/home/ws/phase2/venv/bin/python",
+      "-B",
+      "-u",
+      "/mnt/il24_full181_supplement_20260921/src/run_full181_supplement.py",
+      "--condition",
+      "formal_msa",
+      "--gpu",
+      "1",
+      "--boltz",
+      "/home/xinlab/home/ws/phase2/venv/bin/boltz",
+      "--checkpoint",
+      "/home/xinlab/home/ws/phase2/models/boltz/boltz1_conf.ckpt",
+      "--cache",
+      "/home/xinlab/home/ws/phase2/models/boltz",
+      "--prodigy",
+      "/home/xinlab/home/ws/phase2/venv/bin/prodigy"
+    ],
+    "launched_utc": "2026-09-21T11:35:41.728416+00:00"
+  }
+]

@@ -1,0 +1,110 @@
+IL-24 Phase 1 pre-unblinding environment record
+Recorded: 2026-08-21 Asia/Shanghai
+
+Scope and safeguards
+- Environment and reproducibility only; no biological result inspection or interpretation.
+- Historical antigen intervals were not opened, searched, or inferred.
+- Project-root JPG files were not opened.
+
+Host
+- OS: Microsoft Windows 11 Pro, version 10.0.26200, build 26200, 64-bit
+- CPU: 13th Gen Intel(R) Core(TM) i7-13650HX; 14 cores / 20 logical processors
+- RAM: 16,944,848,896 bytes (~15.78 GiB)
+- Windows Python: E:\Anaconda\python.exe, Python 3.13.5
+- Windows Conda: 25.5.1
+- Windows Git: 2.54.0.windows.1
+
+WSL2
+- Distro: Ubuntu 26.04 LTS (Resolute Raccoon)
+- WSL version: 2.6.3.0
+- Kernel: 6.6.87.2-microsoft-standard-WSL2
+- WSL user: administrator (UID 1000)
+- Native WSL Python before setup: /usr/bin/python3, Python 3.14.4
+- Native WSL Git: 2.53.0
+- WSL root filesystem at probe: 1007 GiB total, 953 GiB available
+- WSL memory at probe: 7.6 GiB total; swap 2.0 GiB
+- Decision: WSL2 selected, per protocol preference and successful GPU passthrough.
+
+GPU/CUDA probe
+- GPU: NVIDIA GeForce RTX 4050 Laptop GPU
+- Dedicated memory: 6141 MiB
+- NVIDIA driver: 581.08
+- Driver-advertised CUDA compatibility: 13.0
+- WSL nvidia-smi: /usr/lib/wsl/lib/nvidia-smi
+- WSL GPU query succeeded: NVIDIA GeForce RTX 4050 Laptop GPU, driver 581.08, 6141 MiB
+
+Conda bootstrap
+- Initial WSL state: no conda, mamba, or micromamba.
+- Official Miniforge 26.3.2-2 GitHub release download failed because release-assets.githubusercontent.com could not be resolved. No Miniforge environment was created.
+- Official fixed installer used: Miniconda3-py312_26.5.3-2-Linux-x86_64.sh
+- Source: https://repo.anaconda.com/miniconda/Miniconda3-py312_26.5.3-2-Linux-x86_64.sh
+- SHA256: 37606f9f03ced8ef60f4ffc76b21dda01728eac8a632dcab316c891cea4fe2f5
+- SHA256 matched the official repo.anaconda.com index.
+- First Miniconda install prefix on /mnt/c failed during extraction due CaseInsensitiveFileSystemError on Windows NTFS. The partial envs/miniforge3 directory is intentionally retained as a documented failed residue and is not callable.
+- Safe compatibility correction: install identical verified Miniconda to native WSL ext4.
+- Usable Conda: /home/administrator/.local/share/il24/miniconda3/bin/conda
+- Conda version: 26.5.3
+- Default Anaconda channels were not used or accepted; environment transactions use --override-channels -c conda-forge.
+
+il24-core status: GREEN
+- Prefix: /home/administrator/.conda/envs/il24-core
+- Exact Python invocation from PowerShell:
+  wsl.exe -d Ubuntu -- /home/administrator/.conda/envs/il24-core/bin/python <script.py>
+- Exact activation-free tool paths:
+  /home/administrator/.conda/envs/il24-core/bin/python
+  /home/administrator/.conda/envs/il24-core/bin/mkdssp
+  /home/administrator/.conda/envs/il24-core/bin/mafft
+- FreeSASA is installed as its Python binding; this conda-forge build has no freesasa CLI.
+- FreeSASA usage: /home/administrator/.conda/envs/il24-core/bin/python with `import freesasa`.
+
+Verified il24-core versions
+- Python 3.12.13
+- Biopython 1.88
+- NumPy 2.5.2
+- pandas 3.0.5
+- SciPy 1.18.0
+- scikit-learn 1.9.0
+- FreeSASA / freesasa-python 2.2.1 (Python import verified)
+- DSSP / mkdssp 4.6.1 (`mkdssp --version` verified)
+- libmcfp 2.0.1 build h171cf75_0 (exact compatibility pin)
+- MAFFT 7.526
+- pytest 9.1.1 (`python -m pytest --version` verified)
+
+Core compatibility correction
+- Initial dssp 4.6.1 solved with libmcfp 2.1.1 and failed at runtime with undefined symbol `_ZN4mcfp6config19get_last_option_refB5cxx11Ev`.
+- Broad pin libmcfp=2.0.* selected newly released 2.0.5 and retained the same error.
+- Official Anaconda API timestamps showed dssp 4.6.1 predates libmcfp 2.0.2+ rebuilds.
+- Exact pin libmcfp=2.0.1=h171cf75_0 restored the required ABI; `mkdssp --version` returned 4.6.1.
+
+Core reproducibility exports
+- envs/il24-core.yml (portable no-build export)
+- envs/il24-core-lock.yml (build-pinned export)
+- envs/il24-core-linux-64.explicit.txt (explicit package URLs/hashes)
+- envs/il24-core-packages.json (machine-readable package inventory)
+
+Official model repository registry at freeze time
+- BepiPred-3.0: https://github.com/UberClifford/BepiPred-3.0.git
+  branch main; commit 98bedf2471e04766c981585180c20da7961c6804
+- DiscoTope-3.0: https://github.com/Magnushhoie/DiscoTope-3.0.git
+  branch master; commit 35d9f2e55f97eaba2a7acefbc394db58fb9670bc
+- GitHub repository reads and dependency snapshots use only the official repositories/API.
+
+Model environment status
+- il24-bp3: GREEN after final Attempt 2 transport-timeout recovery.
+  - Prefix: /home/administrator/.conda/envs/il24-bp3
+  - Exact Python: /home/administrator/.conda/envs/il24-bp3/bin/python
+  - PowerShell CLI: wsl.exe -d Ubuntu -- /home/administrator/.conda/envs/il24-bp3/bin/python <workspace>/work/agent_a_environment/bepipred3_CLI-98bedf2.py
+  - Python 3.10.20
+  - torch 2.6.0+cu124; torch CUDA runtime 12.4
+  - torch.cuda.is_available(): True
+  - CUDA device: NVIDIA GeForce RTX 4050 Laptop GPU
+  - bp3 0.0.12.7
+  - fair-esm 1.0.3
+  - NumPy 1.22.0; pandas 1.4.3
+  - Ten BP3 model weight files present (five BP3C50IDFFNN folds and five BP3C50IDSeqLenFFNN folds).
+  - Installed weight Git blob hashes match official repository commit 98bedf2471e04766c981585180c20da7961c6804 for all ten fold files.
+  - Official fixed-commit CLI SHA256 (downloaded copy): 8523ed2d329b43b173bc03283ef3a271747cadc9267bf4a4947c8945ef3c970f.
+  - Attempt 1 log: logs/install_bp3_attempt1.log (local command timeout during CUDA wheel transfer).
+  - Final Attempt 2 log: logs/install_bp3_attempt2.log (success; no model/version/index changes).
+  - Exports: envs/il24-bp3.yml, envs/il24-bp3-lock.yml, envs/il24-bp3-linux-64.explicit.txt, envs/il24-bp3-conda-packages.json, envs/il24-bp3-pip-freeze.txt.
+- il24-dt3: official README Attempt 1 started; log logs/install_dt3_attempt1.log; target /home/administrator/.conda/envs/il24-dt3.

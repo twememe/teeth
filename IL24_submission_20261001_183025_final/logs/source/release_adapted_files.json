@@ -1,0 +1,11 @@
+[
+  "modules/inovate/scripts/convert_and_smoke.py",
+  "modules/inovate/scripts/download_data.py",
+  "modules/inovate/scripts/train.py",
+  "modules/phase1ab/highlevel_phase1a_construct_v2/scripts/structural_boundary.py",
+  "modules/phase2/scripts/analyze_boltz_complexes.py",
+  "modules/phase2/scripts/make_phase2_visualizations.py",
+  "modules/phase2/scripts/run_phase2_external_analysis.py",
+  "modules/phase2/scripts/run_prodigy_formal.py",
+  "modules/phase2/scripts/step11_antibody_structure.py"
+]

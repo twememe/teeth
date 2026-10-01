@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "original_source_files_unchanged": 3345,
+  "phase2_git_status_unchanged": true,
+  "final_checkpoint_byte_identical_to_original": true,
+  "final_checkpoint_sha256": "8610aba1f16f28c0393a1614a40bcd489d2933945a6848d3d105a5c9f6bd2a04"
+}

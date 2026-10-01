@@ -1,0 +1,41 @@
+{
+  "project": "IL24_phase1_preunblind",
+  "created_at": "2026-08-21T00:00:00+08:00",
+  "coordinate_system": "project_1_181",
+  "historical_region_allowed": false,
+  "allowed_inputs": [
+    {
+      "role": "frozen_project_reference",
+      "working_path": "inputs/reference_181.fasta",
+      "length_aa": 181,
+      "sequence_sha256": "3642351ae1bb5ca0788598425de59f455672266ed7f434d21ae1bfe654992374",
+      "status": "frozen"
+    },
+    {
+      "role": "alphafold_structure",
+      "source_path": "AF-Q925S4-F1-model_v6.pdb",
+      "working_path": "inputs/AF-Q925S4-F1-model_v6.pdb",
+      "size_bytes": 124010,
+      "sha256": "9d722f2c1fdb78c6534cad517a66fe6f7cdd142903d6364e05957ca7ca42a224",
+      "status": "copied_without_modification"
+    },
+    {
+      "role": "uniprot_external_annotation_and_mapping",
+      "source_path": "uniprotkb_accession_Q925S4_2026_08_20.fasta(1).gz",
+      "working_path": "inputs/uniprotkb_accession_Q925S4_2026_08_20.fasta.gz",
+      "size_bytes": 252,
+      "sha256": "45d2ce6b94f61c8c202f7b8a84631a4b02e5b87c6da066698968bdc8b1e721d8",
+      "status": "copied_without_modification",
+      "restriction": "mapping_annotation_provenance_only; never replaces project reference"
+    }
+  ],
+  "excluded_files": [
+    {
+      "path": "c9136e90539a3aef94cd1e9e1f22dde3.jpg",
+      "size_bytes": 59332,
+      "status": "not_opened_not_hashed_not_used",
+      "reason": "not an authorized Phase 1 input; isolated to prevent historical-answer leakage"
+    }
+  ]
+}
+

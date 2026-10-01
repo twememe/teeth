@@ -1,0 +1,48 @@
+COMMAND ["/mnt/ws/teeth/inovate/.venv/bin/python", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/tools/check_environment.py", "--module", "esm2"]
+{
+  "module": "esm2",
+  "python": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+  "imports": {
+    "torch": {
+      "version": "2.6.0+cu124",
+      "file": "/mnt/pxh/teeth/phase2/venv/lib/python3.10/site-packages/torch/__init__.py"
+    },
+    "transformers": {
+      "version": "4.48.3",
+      "file": "/mnt/ws/teeth/inovate/.venv/lib/python3.10/site-packages/transformers/__init__.py"
+    },
+    "peft": {
+      "version": "0.14.0",
+      "file": "/mnt/ws/teeth/inovate/.venv/lib/python3.10/site-packages/peft/__init__.py"
+    },
+    "safetensors": {
+      "version": "0.8.0",
+      "file": "/mnt/ws/teeth/inovate/.venv/lib/python3.10/site-packages/safetensors/__init__.py"
+    },
+    "numpy": {
+      "version": "1.26.4",
+      "file": "/mnt/pxh/teeth/phase2/venv/lib/python3.10/site-packages/numpy/__init__.py"
+    },
+    "pandas": {
+      "version": "2.3.2",
+      "file": "/mnt/pxh/teeth/phase2/venv/lib/python3.10/site-packages/pandas/__init__.py"
+    },
+    "scipy": {
+      "version": "1.13.1",
+      "file": "/mnt/pxh/teeth/phase2/venv/lib/python3.10/site-packages/scipy/__init__.py"
+    },
+    "sklearn": {
+      "version": "1.6.1",
+      "file": "/mnt/pxh/teeth/phase2/venv/lib/python3.10/site-packages/sklearn/__init__.py"
+    },
+    "yaml": {
+      "version": "6.0.2",
+      "file": "/mnt/pxh/teeth/phase2/venv/lib/python3.10/site-packages/yaml/__init__.py"
+    }
+  },
+  "torch_cuda": "12.4",
+  "cuda_available": true,
+  "gpu": "NVIDIA RTX A6000"
+}
+ENVIRONMENT_IMPORT_CHECK_PASSED

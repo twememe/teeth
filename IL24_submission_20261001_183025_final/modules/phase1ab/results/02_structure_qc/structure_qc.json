@@ -1,0 +1,33 @@
+{
+  "input_pdb": "/mnt/c/Users/Administrator/Desktop/IL-24(teeth）/inputs/AF-Q925S4-F1-model_v6.pdb",
+  "reference_length": 181,
+  "expected_reference_length": 181,
+  "model_count": 1,
+  "chain_ids": [
+    "A"
+  ],
+  "analyzed_chain": "A",
+  "biopython_version": "1.88",
+  "residue_count": 181,
+  "pdb_sequence": "MSWGLQILPCLSLILLLWNQVPGLEGQEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+  "sequence_exact_match": true,
+  "residue_id_continuous": true,
+  "residue_id_discontinuities": [],
+  "peptide_bond_discontinuities": [],
+  "abnormal_residue_ids": [],
+  "missing_backbone_atoms": [],
+  "plddt_summary": {
+    "minimum": 35.88,
+    "maximum": 98.69,
+    "mean": 86.9931,
+    "median": 93.69,
+    "category_counts": {
+      "high": 34,
+      "low": 21,
+      "very_high": 119,
+      "very_low": 7
+    },
+    "below_70_count": 28
+  },
+  "analysis_allowed": true
+}

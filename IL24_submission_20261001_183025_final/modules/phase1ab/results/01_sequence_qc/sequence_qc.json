@@ -1,0 +1,107 @@
+{
+  "coordinate_system": "project_1_181",
+  "reference_identifier": "IL24_project_reference_181",
+  "reference_length": 181,
+  "pdb_chain_ids": [
+    "A"
+  ],
+  "pdb_sequence_length": 181,
+  "pdb_residue_number_offsets": [
+    0
+  ],
+  "uniprot_identifier": "sp|Q925S4|IL24_MOUSE",
+  "uniprot_length": 220,
+  "checks": {
+    "reference_length_is_181": true,
+    "pdb_only_expected_chain": true,
+    "pdb_sequence_length_is_181": true,
+    "pdb_matches_reference": true,
+    "residue_ids_map_to_project_positions": true,
+    "no_missing_residues_or_backbone_atoms": true
+  },
+  "pdb_alignment": {
+    "subject": "pdb",
+    "reference_length": 181,
+    "subject_length": 181,
+    "alignment_score": 362.0,
+    "match_count": 181,
+    "substitution_count": 0,
+    "insertion_count": 0,
+    "deletion_count": 0,
+    "reference_match_fraction": 1.0,
+    "exact_match": true,
+    "numbering_offsets": [
+      0
+    ],
+    "substitution_project_positions": [],
+    "deleted_project_positions": [],
+    "inserted_subject_positions": []
+  },
+  "uniprot_alignment": {
+    "subject": "uniprot",
+    "reference_length": 181,
+    "subject_length": 220,
+    "alignment_score": 316.0,
+    "match_count": 180,
+    "substitution_count": 1,
+    "insertion_count": 39,
+    "deletion_count": 0,
+    "reference_match_fraction": 0.994475138121547,
+    "exact_match": false,
+    "numbering_offsets": [
+      39
+    ],
+    "substitution_project_positions": [
+      31
+    ],
+    "deleted_project_positions": [],
+    "inserted_subject_positions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  "pdb_missing_project_positions": [],
+  "pdb_missing_backbone_atoms": {},
+  "pdb_structure_linkage_allowed": true,
+  "software": {
+    "python": "3.12.13",
+    "biopython": "1.88"
+  }
+}

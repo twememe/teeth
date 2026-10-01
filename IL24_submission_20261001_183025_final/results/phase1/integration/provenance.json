@@ -1,0 +1,18 @@
+{
+  "DSSP_role": "annotation only",
+  "correlations": {
+    "pearson_percentile": 0.6426325056159312,
+    "pearson_raw": 0.6271452053787889,
+    "spearman_percentile": 0.642632505615931,
+    "spearman_raw": 0.642632505615931
+  },
+  "discoTope_percentile_source": "official DiscoTope-3.0_score",
+  "discotope_available": true,
+  "historical_region_still_blinded": true,
+  "pLDDT_role": "structure confidence flag only",
+  "percentile_method": "average ties; (rank-1)/(n-1)",
+  "phase": "Phase 1B post-freeze user-authorized restoration",
+  "phase1a_reproduction_max_abs_error": 8.326672684688674e-17,
+  "primary_formula": "(((B+D)/2)+R+C)/3",
+  "sensitivity_4way": "(B+D+R+C)/4; SENSITIVITY_ONLY"
+}

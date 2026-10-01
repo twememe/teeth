@@ -1,0 +1,6 @@
+2026-09-21T17:59:26.966147+00:00 rank=0 Start mode=baseline world=1 deadline=2026-09-21T18:29:21.150111+00:00
+2026-09-21T17:59:36.219448+00:00 rank=0 baseline epoch=1 loss=0.645112 validation={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.3858637125275409, 'f1': 0.7100100603621731, 'spearman_probability_label': 0.4849683703400439, 'threshold': 0.5}
+2026-09-21T17:59:37.044229+00:00 rank=0 baseline epoch=2 loss=0.597928 validation={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.3858637125275409, 'f1': 0.7100100603621731, 'spearman_probability_label': 0.5024214941538313, 'threshold': 0.5}
+2026-09-21T17:59:37.481829+00:00 rank=0 baseline epoch=3 loss=0.573061 validation={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.3772040467381351, 'f1': 0.7044019642230797, 'spearman_probability_label': 0.5009849273114407, 'threshold': 0.5}
+2026-09-21T17:59:37.917627+00:00 rank=0 baseline epoch=4 loss=0.555834 validation={'n': 20000, 'positive_fraction': 0.4633, 'mcc': 0.3616855338132968, 'f1': 0.6797133679268594, 'spearman_probability_label': 0.5017860747043346, 'threshold': 0.5}
+2026-09-21T17:59:38.055609+00:00 rank=0 Finished mode=baseline elapsed_seconds=11.3

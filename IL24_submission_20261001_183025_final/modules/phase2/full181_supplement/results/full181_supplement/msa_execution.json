@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-09-21T08:53:17.118198+00:00",
+  "command": [
+    "E:\\Anaconda\\python.exe",
+    "D:\\IL-24(teeth）\\phase2_release\\src\\prepare_full181_supplement.py",
+    "--msa-worker",
+    "--msa-source",
+    "D:\\IL-24(teeth）\\phase2_release\\results\\full181_supplement\\runtime_sources\\boltz_2_2_1\\boltz\\data\\msa\\mmseqs2.py"
+  ],
+  "timeout_seconds": 1800,
+  "exit_code": 0,
+  "status": "complete",
+  "ended_utc": "2026-09-21T08:54:35.943857+00:00"
+}

@@ -1,0 +1,8 @@
+COMMAND ["python3", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/tools/check_environment.py", "--module", "export"]
+{
+  "module": "export",
+  "python": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+  "imports": {}
+}
+ENVIRONMENT_IMPORT_CHECK_PASSED

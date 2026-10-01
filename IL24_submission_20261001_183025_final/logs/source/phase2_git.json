@@ -1,0 +1,4 @@
+{
+  "commit": "832af53d02341379637544cac3900f840f763e36",
+  "status": " M MODEL_CARD.md\n M README.md\n M REPRODUCIBILITY.md\n M phase2_release/figures/04_6df3_receptor_overlap.svg\n M phase2_release/figures/README.md\n M results/14_quality/structural_sensitivity_report.md\n M results/16_mechanism/6DF3_model_overlap.csv\n M results/16_mechanism/6DF3_receptor_contacts.json\n M results/16_mechanism/T198_project_mapping.json\n M results/16_mechanism/external_structure_analysis.md\n M results/16_mechanism/neutralization_mechanism.md\n M results/17_delivery/Phase2_summary.md\n M results/17_delivery/README_reproduce.md\n M scripts/analyze_pose_glyco_geometry.py\n M scripts/make_phase2_visualizations.py\n M scripts/run_phase2_external_analysis.py\n M scripts/summarize_phase2.py\n?? Full181_supplement_delivery_COMPLETE.zip.sftp_partial\n?? full181_supplement/\n?? full181_supplement_work\n"
+}

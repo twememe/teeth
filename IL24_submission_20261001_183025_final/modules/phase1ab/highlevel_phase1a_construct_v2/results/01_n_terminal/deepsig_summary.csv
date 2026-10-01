@@ -1,0 +1,2 @@
+id,prediction,signal_peptide_start,signal_peptide_end,signal_peptide_score,cleavage,chain_start,chain_end,reference_length,project_numbering,organism,mapped_to_project
+IL24_project_181,SP,1,26,1.0,26|27,27,181,181,1-181,euk,True

@@ -1,0 +1,5 @@
+FROM_EXTRACTED_PACKAGE /mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/IL24_submission_20260930_223945
+COMMAND ["/mnt/ws/teeth/inovate/.venv/bin/python", "/mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/IL24_submission_20260930_223945/run.py", "--module", "esm2", "--output", "/mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/generated_esm2"]
++ /mnt/ws/teeth/inovate/.venv/bin/python /mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/IL24_submission_20260930_223945/modules/inovate/scripts/train.py --mode evaluate --config /mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/generated_esm2/run_config.json --checkpoint /mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/IL24_submission_20260930_223945/modules/inovate/output/esm2_650m_lora_best.pt --split validation --max-seconds 600
+2026-09-30T15:23:19.137382+00:00 rank=0 Start mode=evaluate world=1 deadline=2026-09-30T15:33:19.077495+00:00
+2026-09-30T15:23:25.635567+00:00 rank=0 Finished mode=evaluate elapsed_seconds=6.6

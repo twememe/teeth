@@ -1,0 +1,18 @@
+COMMAND ["/mnt/ws/teeth/phase2/venv/bin/python", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/phase2/full181_supplement/src/run_full181_supplement.py", "--help"]
+usage: run_full181_supplement.py [-h] [--condition {empty,formal_msa}]
+                                 [--gpu GPU] [--boltz BOLTZ]
+                                 [--checkpoint CHECKPOINT] [--cache CACHE]
+                                 [--refresh-manifest]
+                                 [--block-reason BLOCK_REASON]
+                                 [--prodigy PRODIGY]
+
+options:
+  -h, --help            show this help message and exit
+  --condition {empty,formal_msa}
+  --gpu GPU
+  --boltz BOLTZ
+  --checkpoint CHECKPOINT
+  --cache CACHE
+  --refresh-manifest
+  --block-reason BLOCK_REASON
+  --prodigy PRODIGY

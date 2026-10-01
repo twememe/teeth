@@ -1,0 +1,20 @@
+{
+  "construct": "Full181",
+  "condition": "formal_msa",
+  "seed": 3,
+  "source_path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/formal_msa/seed3/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb",
+  "status": "complete",
+  "failure_reason": "",
+  "exit_code": 0,
+  "prodigy_dG_kcal_mol": -13.5,
+  "prodigy_Kd_M_25C": 1.2e-10,
+  "temperature_C": 25.0,
+  "configured_temperature_C": 25,
+  "intermolecular_contacts": 77,
+  "stdout_path": "/mnt/il24_full181_supplement_20260921/logs/full181_supplement/formal_msa/seed3/prodigy/stdout.log",
+  "stderr_path": "/mnt/il24_full181_supplement_20260921/logs/full181_supplement/formal_msa/seed3/prodigy/stderr.log",
+  "command_path": "/mnt/il24_full181_supplement_20260921/logs/full181_supplement/formal_msa/seed3/prodigy/command.json",
+  "started_utc": "2026-09-21T11:55:22.666973+00:00",
+  "ended_utc": "2026-09-21T11:55:23.781111+00:00",
+  "method_note": "computational proxy; original unrelaxed A versus H,L; not measured KD"
+}

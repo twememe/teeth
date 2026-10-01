@@ -1,0 +1,874 @@
+{
+  "name": "IL24_IA6-13-8_guided",
+  "modelSeeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "name": "IL24",
+        "sequence": "MSWGLQILPCLSLILLLWNQVPGLEGQEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL"
+      }
+    },
+    {
+      "protein": {
+        "name": "VH",
+        "sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS"
+      }
+    },
+    {
+      "protein": {
+        "name": "VL",
+        "sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK"
+      }
+    }
+  ],
+  "dialect": "alphafold",
+  "version": 1,
+  "restraints": [
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        52
+      ],
+      "label": "Phase1_C1-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        53
+      ],
+      "label": "Phase1_C1-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        54
+      ],
+      "label": "Phase1_C1-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        55
+      ],
+      "label": "Phase1_C1-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        56
+      ],
+      "label": "Phase1_C1-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        57
+      ],
+      "label": "Phase1_C1-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        58
+      ],
+      "label": "Phase1_C1-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        59
+      ],
+      "label": "Phase1_C1-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        60
+      ],
+      "label": "Phase1_C1-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        61
+      ],
+      "label": "Phase1_C1-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        62
+      ],
+      "label": "Phase1_C1-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        63
+      ],
+      "label": "Phase1_C1-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        64
+      ],
+      "label": "Phase1_C1-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        65
+      ],
+      "label": "Phase1_C1-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        66
+      ],
+      "label": "Phase1_C1-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        126
+      ],
+      "label": "Phase1_C2-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        127
+      ],
+      "label": "Phase1_C2-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        128
+      ],
+      "label": "Phase1_C2-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        129
+      ],
+      "label": "Phase1_C2-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        130
+      ],
+      "label": "Phase1_C2-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        131
+      ],
+      "label": "Phase1_C2-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        132
+      ],
+      "label": "Phase1_C2-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        133
+      ],
+      "label": "Phase1_C2-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        134
+      ],
+      "label": "Phase1_C2-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        135
+      ],
+      "label": "Phase1_C2-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        136
+      ],
+      "label": "Phase1_C2-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        137
+      ],
+      "label": "Phase1_C2-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        138
+      ],
+      "label": "Phase1_C2-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        139
+      ],
+      "label": "Phase1_C2-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        140
+      ],
+      "label": "Phase1_C2-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        60
+      ],
+      "label": "Phase1_C3-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        61
+      ],
+      "label": "Phase1_C3-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        62
+      ],
+      "label": "Phase1_C3-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        63
+      ],
+      "label": "Phase1_C3-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        64
+      ],
+      "label": "Phase1_C3-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        65
+      ],
+      "label": "Phase1_C3-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        66
+      ],
+      "label": "Phase1_C3-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        67
+      ],
+      "label": "Phase1_C3-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        68
+      ],
+      "label": "Phase1_C3-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        69
+      ],
+      "label": "Phase1_C3-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        70
+      ],
+      "label": "Phase1_C3-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        71
+      ],
+      "label": "Phase1_C3-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        72
+      ],
+      "label": "Phase1_C3-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        73
+      ],
+      "label": "Phase1_C3-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        74
+      ],
+      "label": "Phase1_C3-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        143
+      ],
+      "label": "Phase1_C4-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        144
+      ],
+      "label": "Phase1_C4-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        145
+      ],
+      "label": "Phase1_C4-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        146
+      ],
+      "label": "Phase1_C4-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        147
+      ],
+      "label": "Phase1_C4-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        148
+      ],
+      "label": "Phase1_C4-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        149
+      ],
+      "label": "Phase1_C4-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        150
+      ],
+      "label": "Phase1_C4-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        151
+      ],
+      "label": "Phase1_C4-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        152
+      ],
+      "label": "Phase1_C4-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        153
+      ],
+      "label": "Phase1_C4-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        154
+      ],
+      "label": "Phase1_C4-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        155
+      ],
+      "label": "Phase1_C4-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        156
+      ],
+      "label": "Phase1_C4-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        157
+      ],
+      "label": "Phase1_C4-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        117
+      ],
+      "label": "Phase1_C5-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        118
+      ],
+      "label": "Phase1_C5-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        119
+      ],
+      "label": "Phase1_C5-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        120
+      ],
+      "label": "Phase1_C5-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        121
+      ],
+      "label": "Phase1_C5-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        122
+      ],
+      "label": "Phase1_C5-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        123
+      ],
+      "label": "Phase1_C5-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        124
+      ],
+      "label": "Phase1_C5-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        125
+      ],
+      "label": "Phase1_C5-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        126
+      ],
+      "label": "Phase1_C5-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        127
+      ],
+      "label": "Phase1_C5-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        128
+      ],
+      "label": "Phase1_C5-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        129
+      ],
+      "label": "Phase1_C5-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        130
+      ],
+      "label": "Phase1_C5-B"
+    },
+    {
+      "type": "contact",
+      "weight": 0.3,
+      "chains": [
+        "A"
+      ],
+      "residueIndex": [
+        131
+      ],
+      "label": "Phase1_C5-B"
+    }
+  ]
+}

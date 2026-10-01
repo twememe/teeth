@@ -1,0 +1,6 @@
+candidate_id,setting,ranking,mean_score,region_overlap,matched_start,matched_end,matched_scale
+C1-B,4way-sensitivity,1,0.6294444444444445,1.0,52,66,15
+C2-B,4way-sensitivity,2,0.622175925925926,0.8,123,137,15
+C3-B,4way-sensitivity,5,0.5753703703703704,1.0,60,74,15
+C4-B,4way-sensitivity,6,0.5697222222222222,1.0,143,157,15
+C5-B,4way-sensitivity,8,0.5274166666666666,0.8666666666666667,105,129,25

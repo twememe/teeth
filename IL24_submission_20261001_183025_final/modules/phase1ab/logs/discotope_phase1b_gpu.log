@@ -1,0 +1,48 @@
+PHASE1B_DISCOTOPE_GPU_ATTEMPT
+OFFICIAL_COMMIT=35d9f2e55f97eaba2a7acefbc394db58fb9670bc
+INPUT=/mnt/d/IL-24(teeth）/inputs/AF-Q925S4-F1-model_v6.pdb
+STRUC_TYPE=alphafold
+CPU_ONLY=false
+TORCH_HOME=/mnt/d/il24_phase1b_torch_cache
+2026-08-22T12:27:39+08:00
+[2026-08-22 12:27:47,510] Predicting B-cell epitope propensity on input PDBs using Discotope-3.0
+[2026-08-22 12:27:47,579] Single-chain mode set, will predict PDBs as single chains
+[2026-08-22 12:27:47,589] Single PDB file input (AF-Q925S4-F1-model_v6), extracting single chains to /tmp/tmptuaf46jj
+[2026-08-22 12:27:47,630] Found 1 extracted single chains in /tmp/tmptuaf46jj
+[2026-08-22 12:27:47,630] Pre-processing PDBs using ESM-IF1
+[2026-08-22 12:27:47,631] Read 1 PDBs from /tmp/tmptuaf46jj
+[2026-08-22 12:28:25,956] 1 / 1: Embedding AF-Q925S4-F1-model_v6_A
+[2026-08-22 12:28:27,236] Processing 1 / 1: PDB AF-Q925S4-F1-model_v6_A
+[2026-08-22 12:28:27,844] Loading 100 / 100 XGBoost models from /mnt/d/IL-24(teeth）/work/agent_a_environment/repos/DiscoTope-3.0-35d9f2e/models
+[2026-08-22 12:28:32,897] Loading GAM model from /mnt/d/IL-24(teeth）/work/agent_a_environment/repos/DiscoTope-3.0-35d9f2e/models/gam_len_to_mean.pkl
+[2026-08-22 12:28:32,942] Loading GAM model from /mnt/d/IL-24(teeth）/work/agent_a_environment/repos/DiscoTope-3.0-35d9f2e/models/gam_surface_to_std.pkl
+[2026-08-22 12:28:32,951] Predicting PDBs with DiscoTope-3.0
+[2026-08-22 12:28:32,951] Predicting PDBs ...
+[2026-08-22 12:28:33,059] Saving predictions for AF-Q925S4-F1-model_v6_A.pdb to /mnt/d/IL-24(teeth）/results/05b_discotope_restored/raw/AF-Q925S4-F1-model_v6/AF-Q925S4-F1-model_v6_A_discotope3.csv
+[2026-08-22 12:28:33,129] Predicted 1 / 1 PDB chains extracted from 1 input PDBs, saved to /mnt/d/IL-24(teeth）/results/05b_discotope_restored/raw/AF-Q925S4-F1-model_v6
+[2026-08-22 12:28:33,164] Done!
+	Command being timed: "/home/administrator/.conda/envs/il24-dt3-phase1b/bin/python /mnt/d/IL-24(teeth）/work/agent_a_environment/repos/DiscoTope-3.0-35d9f2e/discotope3/main.py --pdb_or_zip_file /mnt/d/IL-24(teeth）/inputs/AF-Q925S4-F1-model_v6.pdb --struc_type alphafold --out_dir /mnt/d/IL-24(teeth）/results/05b_discotope_restored/raw --models_dir /mnt/d/IL-24(teeth）/work/agent_a_environment/repos/DiscoTope-3.0-35d9f2e/models --verbose 2"
+	User time (seconds): 31.86
+	System time (seconds): 6.16
+	Percent of CPU this job got: 68%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:55.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3053144
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 8208
+	Minor (reclaiming a frame) page faults: 771026
+	Voluntary context switches: 59681
+	Involuntary context switches: 252
+	Swaps: 0
+	File system inputs: 1832968
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+INFERENCE_EXIT_CODE=0
+2026-08-22T12:28:35+08:00

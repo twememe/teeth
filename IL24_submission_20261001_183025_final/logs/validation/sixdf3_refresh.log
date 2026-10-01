@@ -1,0 +1,4 @@
+COMMAND ["/mnt/ws/teeth/inovate/.venv/bin/python", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/phase2/scripts/run_phase2_external_analysis.py", "--out", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/phase2/results/16_mechanism"]
+R (IL-24 side of the 6DF3 receptor interface): 48 auth -> 48 project
+mapping: 155 aligned columns, 106/155 identical (0.684), project = 6DF3_auth - 25
+wrote /mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/phase2/results/16_mechanism/6DF3_receptor_contacts.json, 6DF3_model_overlap.csv (5 models), T198_project_mapping.json, external_structure_analysis.md, ELISA_external_consistency.json

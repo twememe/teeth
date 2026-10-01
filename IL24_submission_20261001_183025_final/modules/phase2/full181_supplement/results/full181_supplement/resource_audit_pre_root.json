@@ -1,0 +1,69 @@
+{
+  "audited_date": "2026-09-21",
+  "local_project_root": "D:/IL-24(teeth）/phase2_release",
+  "remote_ssh_alias": "gpu-server",
+  "remote_hostname": "xinlab-Super-Server",
+  "remote_address": "172.16.149.161",
+  "remote_account": "pxh",
+  "historical_project_path": "/home/xinlab/home/ws/phase2",
+  "historical_path_evidence": "docs/pip_freeze_final.txt",
+  "historical_path_verified_accessible": false,
+  "access_block": {
+    "directory": "/home/xinlab/home/ws",
+    "owner": "ws",
+    "group": "ws",
+    "mode": "0700",
+    "result": "Permission denied for /home/xinlab/home/ws/phase2, venv, models/boltz, and checkpoint",
+    "original_resource_presence": "unknown_because_parent_directory_is_inaccessible",
+    "privilege_or_permission_changes_attempted": false
+  },
+  "gpu_at_audit": [
+    {
+      "index": 0,
+      "name": "NVIDIA RTX A6000",
+      "memory_total_MiB": 49140,
+      "memory_used_MiB": 15,
+      "utilization_percent": 0
+    },
+    {
+      "index": 1,
+      "name": "NVIDIA RTX A6000",
+      "memory_total_MiB": 49140,
+      "memory_used_MiB": 15,
+      "utilization_percent": 0
+    }
+  ],
+  "disk_at_audit": {
+    "/home": {
+      "available_human": "770M",
+      "use_percent": "100%"
+    },
+    "/mnt": {
+      "available_human": "1.6T",
+      "use_percent": "56%"
+    },
+    "/mnt/pxh_writable_by_current_account": false
+  },
+  "remote_system_python": "3.10.12",
+  "remote_system_boltz_installed": false,
+  "remote_system_torch_installed": false,
+  "local_models_directory": "README only; no model cache in compact release",
+  "original_environment": "inaccessible; not replaced",
+  "checkpoint": {
+    "path": "/home/xinlab/home/ws/phase2/models/boltz/boltz1_conf.ckpt",
+    "current_size": null,
+    "current_mtime": null,
+    "current_hash": null,
+    "current_status": "inaccessible",
+    "historical_size_bytes": 3595352714,
+    "historical_sha256_not_reverified": "fea245d912c570ec117b2277c2719f312a6fc109c07b6f6ef741690ee775c2f5",
+    "historical_metadata_source": "src/build_final_delivery.py"
+  },
+  "formal_prediction_status": "blocked_original_resource_access",
+  "planned_count": 30,
+  "started_count": 0,
+  "completed_count": 0,
+  "failed_model_runs": 0,
+  "blocked_task_count": 30,
+  "hash_policy": "no hashes calculated per direct user instruction"
+}

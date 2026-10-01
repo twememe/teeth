@@ -1,0 +1,10 @@
+{
+  "validated_utc": "2026-09-21T12:08:19.479256+00:00",
+  "accepted_local_models": 30,
+  "artifact_mappings": 90,
+  "original_run_states_modified": false,
+  "remote_weight_checks_replaced_by_local_guess": false,
+  "remote_validation_source": "D:\\IL-24(teeth）\\phase2_release\\results\\full181_supplement\\server_artifact_validation.json",
+  "checks": "exact sequences; finite PDB/confidence/406x406 PAE; source path/size; exact command; confidence-summary linkage",
+  "hashes_computed": false
+}

@@ -1,0 +1,2 @@
+model,n,positive_fraction,mcc,f1,spearman_probability_label,threshold
+lora,8,0.375,0.4472135954999579,0.6666666666666666,0.39440531887330776,0.5

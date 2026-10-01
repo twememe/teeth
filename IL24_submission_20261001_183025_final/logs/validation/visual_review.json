@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "method": "rendered all four final SVGs to PNG and visually inspected combined image",
+  "checks": [
+    "all 15 confidence points inside view",
+    "labels and legends readable",
+    "bars on shared 0-1 scale",
+    "ELISA zero dose explicitly separated from log scale",
+    "corrected 6DF3 five model values and labels shown"
+  ],
+  "scientific_data_or_order_changed": false
+}

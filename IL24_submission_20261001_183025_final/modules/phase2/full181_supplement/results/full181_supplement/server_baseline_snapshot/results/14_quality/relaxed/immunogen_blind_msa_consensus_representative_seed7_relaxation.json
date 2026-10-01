@@ -1,0 +1,12 @@
+{
+  "source": "results/14_quality/representatives_msa/immunogen_blind_msa_consensus_representative_seed7.pdb",
+  "destination": "results/14_quality/relaxed/immunogen_blind_msa_consensus_representative_seed7_relaxed.pdb",
+  "restrained_backbone_atoms": 1436,
+  "initial_potential_energy_kj_mol": 4847496.0903127305,
+  "final_potential_energy_kj_mol": -39661.74324501525,
+  "platform": "CPU",
+  "forcefield": "amber14-all.xml + implicit/gbn2.xml",
+  "backbone_restraint_k_kj_mol_nm2": 1000.0,
+  "minimization_tolerance_kj_mol_nm": 100.0,
+  "max_iterations": 100
+}

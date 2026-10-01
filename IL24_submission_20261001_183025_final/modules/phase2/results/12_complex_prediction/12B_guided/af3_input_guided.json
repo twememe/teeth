@@ -1,0 +1,1022 @@
+{
+  "name": "IL24_IA6-13-8_complex_12B_guided",
+  "modelSeeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "name": "IL24",
+        "sequence": "MSWGLQILPCLSLILLLWNQVPGLEGQEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL"
+      }
+    },
+    {
+      "protein": {
+        "name": "VH",
+        "sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS"
+      }
+    },
+    {
+      "protein": {
+        "name": "VL",
+        "sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK"
+      }
+    }
+  ],
+  "restraints": [
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "52",
+        "end": "52",
+        "start": "52"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C1-B_52"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "53",
+        "end": "53",
+        "start": "53"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C1-B_53"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "54",
+        "end": "54",
+        "start": "54"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C1-B_54"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "55",
+        "end": "55",
+        "start": "55"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C1-B_55"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "56",
+        "end": "56",
+        "start": "56"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C1-B_56"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "57",
+        "end": "57",
+        "start": "57"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C1-B_57"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "58",
+        "end": "58",
+        "start": "58"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C1-B_58"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "59",
+        "end": "59",
+        "start": "59"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C1-B_59"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "60",
+        "end": "60",
+        "start": "60"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C1-B_60"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "61",
+        "end": "61",
+        "start": "61"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C1-B_61"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "62",
+        "end": "62",
+        "start": "62"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C1-B_62"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "63",
+        "end": "63",
+        "start": "63"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C1-B_63"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "64",
+        "end": "64",
+        "start": "64"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C1-B_64"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "65",
+        "end": "65",
+        "start": "65"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C1-B_65"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "66",
+        "end": "66",
+        "start": "66"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C1-B_66"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "126",
+        "end": "126",
+        "start": "126"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C2-B_126"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "127",
+        "end": "127",
+        "start": "127"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C2-B_127"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "128",
+        "end": "128",
+        "start": "128"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C2-B_128"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "129",
+        "end": "129",
+        "start": "129"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C2-B_129"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "130",
+        "end": "130",
+        "start": "130"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C2-B_130"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "131",
+        "end": "131",
+        "start": "131"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C2-B_131"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "132",
+        "end": "132",
+        "start": "132"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C2-B_132"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "133",
+        "end": "133",
+        "start": "133"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C2-B_133"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "134",
+        "end": "134",
+        "start": "134"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C2-B_134"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "135",
+        "end": "135",
+        "start": "135"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C2-B_135"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "136",
+        "end": "136",
+        "start": "136"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C2-B_136"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "137",
+        "end": "137",
+        "start": "137"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C2-B_137"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "138",
+        "end": "138",
+        "start": "138"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C2-B_138"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "139",
+        "end": "139",
+        "start": "139"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C2-B_139"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "140",
+        "end": "140",
+        "start": "140"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C2-B_140"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "60",
+        "end": "60",
+        "start": "60"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C3-B_60"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "61",
+        "end": "61",
+        "start": "61"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C3-B_61"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "62",
+        "end": "62",
+        "start": "62"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C3-B_62"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "63",
+        "end": "63",
+        "start": "63"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C3-B_63"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "64",
+        "end": "64",
+        "start": "64"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C3-B_64"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "65",
+        "end": "65",
+        "start": "65"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C3-B_65"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "66",
+        "end": "66",
+        "start": "66"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C3-B_66"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "67",
+        "end": "67",
+        "start": "67"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C3-B_67"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "68",
+        "end": "68",
+        "start": "68"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C3-B_68"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "69",
+        "end": "69",
+        "start": "69"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C3-B_69"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "70",
+        "end": "70",
+        "start": "70"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C3-B_70"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "71",
+        "end": "71",
+        "start": "71"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C3-B_71"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "72",
+        "end": "72",
+        "start": "72"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C3-B_72"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "73",
+        "end": "73",
+        "start": "73"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C3-B_73"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "74",
+        "end": "74",
+        "start": "74"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C3-B_74"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "143",
+        "end": "143",
+        "start": "143"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C4-B_143"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "144",
+        "end": "144",
+        "start": "144"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C4-B_144"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "145",
+        "end": "145",
+        "start": "145"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C4-B_145"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "146",
+        "end": "146",
+        "start": "146"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C4-B_146"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "147",
+        "end": "147",
+        "start": "147"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C4-B_147"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "148",
+        "end": "148",
+        "start": "148"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C4-B_148"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "149",
+        "end": "149",
+        "start": "149"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C4-B_149"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "150",
+        "end": "150",
+        "start": "150"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C4-B_150"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "151",
+        "end": "151",
+        "start": "151"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C4-B_151"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "152",
+        "end": "152",
+        "start": "152"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C4-B_152"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "153",
+        "end": "153",
+        "start": "153"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C4-B_153"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "154",
+        "end": "154",
+        "start": "154"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C4-B_154"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "155",
+        "end": "155",
+        "start": "155"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C4-B_155"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "156",
+        "end": "156",
+        "start": "156"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C4-B_156"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "157",
+        "end": "157",
+        "start": "157"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C4-B_157"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "117",
+        "end": "117",
+        "start": "117"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C5-B_117"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "118",
+        "end": "118",
+        "start": "118"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C5-B_118"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "119",
+        "end": "119",
+        "start": "119"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C5-B_119"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "120",
+        "end": "120",
+        "start": "120"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C5-B_120"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "121",
+        "end": "121",
+        "start": "121"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C5-B_121"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "122",
+        "end": "122",
+        "start": "122"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C5-B_122"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "123",
+        "end": "123",
+        "start": "123"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C5-B_123"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "124",
+        "end": "124",
+        "start": "124"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C5-B_124"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "125",
+        "end": "125",
+        "start": "125"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C5-B_125"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "126",
+        "end": "126",
+        "start": "126"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C5-B_126"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "127",
+        "end": "127",
+        "start": "127"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C5-B_127"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "128",
+        "end": "128",
+        "start": "128"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C5-B_128"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "129",
+        "end": "129",
+        "start": "129"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C5-B_129"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "130",
+        "end": "130",
+        "start": "130"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C5-B_130"
+    },
+    {
+      "type": "template",
+      "templateTemplate": "surface_exposure",
+      "weight": 1.0,
+      "strings": {
+        "pdbA": "A",
+        "authSeqId": "131",
+        "end": "131",
+        "start": "131"
+      },
+      "feature": "surface_exposure",
+      "label": "Phase1_C5-B_131"
+    }
+  ]
+}

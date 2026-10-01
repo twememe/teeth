@@ -1,0 +1,10 @@
+{
+  "paired_sequence_group_bootstrap_n": 500,
+  "delta_mcc_ci95": [
+    0.10372584141303304,
+    0.12490529983577146
+  ],
+  "seed": 42,
+  "interpretation": "Conditional on this validation set; selection on the same validation set is optimistic and this is not independent confirmatory inference.",
+  "delta_mcc": 0.11321894641061614
+}

@@ -1,0 +1,7 @@
+{
+  "audited_utc": "2026-09-21T12:03:02.219470+00:00",
+  "checked_files": 1166,
+  "changed_files": [],
+  "hash_verified": false,
+  "method": "path/size/mtime; not cryptographic equality"
+}

@@ -1,0 +1,222 @@
+# Overview
+
+DiscoTope-3.0 predicts epitopes on input protein structures, using inverse folding representations from the [ESM-IF1](https://github.com/facebookresearch/esm) model.
+The tool accepts both solved and predicted structures in the PDB format, and outputs per-residue epitope propensity scores in a CSV format.
+
+- Paper: [10.3389/fimmu.2024.1322712](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2024.1322712/full)
+- Datasets: [https://services.healthtech.dtu.dk/service.php?DiscoTope-3.0](https://services.healthtech.dtu.dk/service.php?DiscoTope-3.0)
+- Web server (DTU): [https://services.healthtech.dtu.dk/service.php?DiscoTope-3.0](https://services.healthtech.dtu.dk/services/DiscoTope-3.0/)
+- Web server (BioLib): [https://biolib.com/DTU/DiscoTope-3/](https://biolib.com/DTU/DiscoTope-3/)
+- Google Colab:  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sMmzzno5fAeGb-r0D7R6lqo9Tld9LYiq)
+
+# Webserver
+To try DiscoTope-3.0 without installing it, please see our [DTU Healthtech webserver](https://services.healthtech.dtu.dk/services/DiscoTope-3.0/)
+
+# Repo contents
+- [data](./data): Example input files, including test set
+- [discotope3](./discotope3): Source code
+- [output](./output): DiscoTope-3.0 output examples
+
+# Quickstart guide
+
+```bash
+git clone https://github.com/Magnushhoie/DiscoTope-3.0/ && cd DiscoTope-3.0/
+pip install -r requirements.txt
+pip install .
+
+# Unzip models to use
+unzip models.zip
+
+# Predict single PDB (solved structure)
+python discotope3/main.py --pdb_or_zip_file data/example_pdbs_solved/7c4s.pdb
+```
+
+# Installation guide
+
+We highly recommend using an Ubuntu OS and Conda ([miniconda](https://docs.conda.io/en/main/miniconda.html) or [anaconda](https://www.anaconda.com/products/distribution)) for installing required dependencies.
+
+Predictions are faster using a GPU and the recommended versions of pytorch, pytorch-geometric and cudatoolkit, but these exact versions are not required.
+
+```bash
+git clone https://github.com/Magnushhoie/DiscoTope-3.0/ && cd DiscoTope-3.0/
+pip install -r requirements.txt
+pip install .
+```
+
+### Recommended system requirements
+- GPU is optional. Recommended 16 GB ram, 2+ cores CPU.
+- Linux operating system (e.g. Ubuntu 18.04), but works on MacOS
+- [Python 3.14](https://www.python.org/downloads/)
+- [Pytorch 2.10](https://pytorch.org/get-started/locally/)
+- [Pytorch geometric 2.7.*](https://github.com/pyg-team/pytorch_geometric)
+- [Biopython 1.86](https://github.com/biopython/biopython)
+- [Biotite 1.6.*](https://github.com/biotite-dev/biotite)
+- [pandas <=3.0.1](https://github.com/pandas-dev/pandas)
+- [numpy <=2.4.3](https://github.com/numpy/numpy)
+- [py-xgboost-gpu <=3.1.2](https://xgboost.readthedocs.io/en/stable/install.html)
+
+
+## Running DiscoTope-3.0
+
+DiscoTope-3.0 can predict a single PDB, a folder or ZIP file of PDBs, or fetch PDBs using their IDs from RCSB or AlphafoldDB to predict them.
+
+On a common workstation with a GPU, predictions takes <1 second per PDB chain with ~ 15 seconds for loading needed libraries and model weight. 
+
+Set the --struc_type parameter to 'solved' for experimentally solved structures (default) or 'alphafold' for modelled structures.
+
+Note that DiscoTope-3.0 splits PDB structures into single chains before prediction, unless --multi_chain_mode is set.
+
+Predict single PDB (solved)
+```bash
+python discotope3/main.py --pdb_or_zip_file data/example_pdbs_solved/7c4s.pdb
+```
+
+Predict AlphaFold structure
+```bash
+python discotope3/main.py --pdb_or_zip_file data/example_pdbs_alphafold/7tdm_B.pdb --struc_type alphafold
+```
+
+Predict a folder of PDBs
+```bash
+python discotope3/main.py --pdb_dir data/example_pdbs_solved --out_dir output/example_pdbs_solved
+```
+
+More examples:
+```bash
+# 4. Predict a ZIP file of PDBs
+python discotope3/main.py --pdb_or_zip_file pdbs_in_zipfile.zip --out_dir output/pdbs_in_zipfile
+
+# 5. Fetch PDBs from RCSB
+python discotope3/main.py --list_file pdb_list_solved.txt --struc_type solved --out_dir output/pdb_list_solved
+
+# 6. Fetch PDBs from Alphafolddb
+python discotope3/main.py --list_file pdb_list_af2.txt --struc_type alphafold --out_dir output/pdb_list_af2
+```
+
+# DiscoTope-3.0 output
+
+DiscoTope-3.0 splits input PDBs into single-chain PDB files, then predict per-residue epitope propensity scores.
+Outputs are saved in both PDB and CSV format.
+
+The CSV output files contains per-residue outputs, with the following column headers:
+- PDB ID and chain name
+- Relative residue index (re-numbered from 1)
+- Amino-acid residue, 1-letter
+- DiscoTope-3.0 score (0.00 - 1.00)
+- Predicted epitope (True or False), based on calibrated_score_epi_threshold (default 0.90)
+- Relative surface accessibility (Shrake-Rupley, normalized using Sander scale)
+- AlphaFold pLDDT score (0-100, set to 100 for non-AlphaFold structures)
+- Chain length
+- A binary feature set to 0 for solved and 1 for AlphaFold structures.
+
+The PDB output files contain individual single chains with the B-factor column replaced with per-residue DiscoTope-3.0 scores (2nd right-most column). Note that the scores are multiplied by 100 as PDB files only allow 2 decimals of precision.
+
+Example input PDB (see [7c4s.pdb](./data/example_pdbs_solved/7c4s.pdb)):
+```bash
+python discotope3/main.py --pdb_or_zip_file data/example_pdbs_solved/7c4s.pdb
+```
+
+Example output CSV (see [7c4s_A_discotope3.csv](./output/7c4s/output/7c4s_A_discotope3.csv)):
+```text
+pdb,res_id,residue,DiscoTope-3.0_score,rsa,pLDDTs,length,alphafold_struc_flag
+7c4s_A,14,G,0.15186,0.80634,100,282,0
+7c4s_A,15,Q,0.13953,0.45077,100,282,0
+7c4s_A,16,E,0.23955,0.72919,100,282,0
+```
+
+Example output PDB (see [7c4s_A_discotope3.pdb](./output/7c4s/output/7c4s_A_discotope3.pdb)):
+(Note DiscoTope-3.0 scores in the B-factor column)
+```text
+ATOM      1  N   GLY A  14     -16.773 -32.069  23.105  1.00 15.19           N  
+ATOM      2  CA  GLY A  14     -15.595 -32.029  23.955  1.00 15.19           C  
+ATOM      3  C   GLY A  14     -14.287 -31.844  23.204  1.00 15.19           C  
+ATOM      4  O   GLY A  14     -13.284 -32.465  23.555  1.00 15.19           O  
+```
+
+# Documentation
+
+```bash
+Predict B-cell epitope propensity on input protein PDB structures
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f PDB_OR_ZIP_FILE, --pdb_or_zip_file PDB_OR_ZIP_FILE
+                        Input file, either single PDB or compressed zip file with multiple PDBs
+  --list_file LIST_FILE
+                        File with PDB or Uniprot IDs, fetched from RCSB/AlphaFolddb
+  --struc_type STRUC_TYPE
+                        Structure type from file (solved | alphafold)
+  --pdb_dir PDB_DIR     Directory with AF2 PDBs
+  --out_dir OUT_DIR     Job output directory
+  --models_dir MODELS_DIR
+                        Path for .json files containing trained XGBoost ensemble
+  --calibrated_score_epi_threshold CALIBRATED_SCORE_EPI_THRESHOLD
+                        Calibrated-score threshold for epitopes [low 0.40, moderate (0.90), higher 1.50]
+  --no_calibrated_normalization
+                        Skip Calibrated-normalization of PDBs
+  --check_existing_embeddings CHECK_EXISTING_EMBEDDINGS
+                        Check for existing embeddings to load in pdb_dir
+  --cpu_only            Use CPU even if GPU is available (default uses GPU if available)
+  --max_gpu_pdb_length MAX_GPU_PDB_LENGTH
+                        Maximum PDB length to embed on GPU (1000), otherwise CPU
+  --multichain_mode     Predicts entire complexes, unsupported and untested
+  --save_embeddings SAVE_EMBEDDINGS
+                        Save embeddings to pdb_dir
+  --web_server_mode     Flag for printing HTML output
+  -v VERBOSE, --verbose VERBOSE
+                        Verbose logging
+```
+
+## Reproduce test-set predictions (AlphaFold2 structures)
+
+```bash
+# Unzip AlphaFold2 test set
+unzip data/test_set_af2.zip -d data/
+
+# Run predictions on PDB folder
+python discotope3/main.py \
+--pdb_dir data/test_set_af2 \
+--struc_type alphafold \
+--out_dir output/test_set_af2
+```
+
+# Troubleshooting
+
+- **KeyError: "RESIDUE ILE DOES NOT CONAIN ATOM "CD"** - Some applications (e.g. in MD) use different PDB ATOM names than biotite.structure.sasa expects. Fixed by renaming ATOM names e.g. "CD  ILE" -> "CD1 ILE " or "OT1" -> "O  " and "OT2" -> "OTX"
+- **KeyError: "Residue 'CYS' does not contain an atom named 'OT1'"** - See above
+- **No valid amino-acid backbone found"** - DiscoTope-3.0 only predicts epitopes on amino-acids, not on non-amino acid entities like heteroatoms (e.g. water, solvents like dimethyl sulfoxide). These chains should not be specified as input. 
+- **PDBConstructionWarning regarding discontinuous chains** - Common issue with some PDB files (experimental structures only) missing co-ordinates for some atoms. As long as no backbone co-ordinates (C, Ca, N) are missing, it does not impact predictions.
+
+## Installation gcc or g++ errors, missing torch-scatter build ...
+```bash
+# Make sure gcc and g++ versions are updated, pybind11 is available
+# torch-scatter should be listed with 'conda list' or 'pip list'
+
+# With conda:
+conda install -c conda-forge pybind11 gcc cxx-compiler
+
+# With apt-get
+sudo apt-get install gcc g++
+pip install pybind11
+```
+
+## Citing this work
+
+The code and data in this package is based on the following paper <a href="https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2024.1322712/full">DiscoTope-3.0</a>. If you use it, please cite:
+
+```tex
+@ARTICLE{discotope3,
+        AUTHOR={Høie, Magnus Haraldson  and Gade, Frederik Steensgaard  and Johansen, Julie Maria  and Würtzen, Charlotte  and Winther, Ole  and Nielsen, Morten  and Marcatili, Paolo },
+        TITLE={DiscoTope-3.0: improved B-cell epitope prediction using inverse folding latent representations},
+        JOURNAL={Frontiers in Immunology},
+        VOLUME={15},
+        YEAR={2024},
+        URL={https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2024.1322712},
+        DOI={10.3389/fimmu.2024.1322712},
+        ISSN={1664-3224},
+}
+```
+
+# License
+
+This source code is licensed under the Creative Commons license found in the [LICENSE](./LICENSE) file in the root directory of this source tree.

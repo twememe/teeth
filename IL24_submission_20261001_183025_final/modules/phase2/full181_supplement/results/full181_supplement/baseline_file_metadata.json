@@ -1,0 +1,674 @@
+[
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\AF-Q925S4-F1-model_v6.pdb",
+    "exists": true,
+    "bytes": 124010,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\antibody_imgt_numbering.csv",
+    "exists": true,
+    "bytes": 6025,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\antibody_numbering.csv",
+    "exists": true,
+    "bytes": 607,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\cdr_annotation.csv",
+    "exists": true,
+    "bytes": 791,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\IL24_full_1_181.fasta",
+    "exists": true,
+    "bytes": 223,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\IL24_immunogen_27_160.fasta",
+    "exists": true,
+    "bytes": 182,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\IL24_native_27_181.fasta",
+    "exists": true,
+    "bytes": 200,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\il24_numbering_map.csv",
+    "exists": true,
+    "bytes": 4578,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\msa_manifest.json",
+    "exists": true,
+    "bytes": 1617,
+    "mtime_ns": 1789129207000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\phase2_input_manifest_sha256.csv",
+    "exists": true,
+    "bytes": 714,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\README.md",
+    "exists": true,
+    "bytes": 657,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\VH_VL.fasta",
+    "exists": true,
+    "bytes": 315,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\VH_VL_clean.fasta",
+    "exists": true,
+    "bytes": 317,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\external_materials\\6DF3.cif",
+    "exists": true,
+    "bytes": 899624,
+    "mtime_ns": 1789131589000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\external_materials\\6DF3.fasta",
+    "exists": true,
+    "bytes": 778,
+    "mtime_ns": 1789131589000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\external_materials\\6DF3.pdb",
+    "exists": true,
+    "bytes": 778410,
+    "mtime_ns": 1789131589000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\external_materials\\ELISA_competition_data.csv",
+    "exists": true,
+    "bytes": 179,
+    "mtime_ns": 1789131589000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\external_materials\\Flexible_regions_IL24_receptors.pdf",
+    "exists": true,
+    "bytes": 16980447,
+    "mtime_ns": 1789131589000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\external_materials\\Lubkowski_2018_6DF3_crystal_structure.pdf",
+    "exists": true,
+    "bytes": 1182609,
+    "mtime_ns": 1789131589000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\external_materials\\README.md",
+    "exists": true,
+    "bytes": 1992,
+    "mtime_ns": 1789131589000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\external_materials\\SHA256SUMS",
+    "exists": true,
+    "bytes": 606,
+    "mtime_ns": 1789131589000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\msa\\msa_manifest.json",
+    "exists": true,
+    "bytes": 1617,
+    "mtime_ns": 1789131590000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\msa\\immunogen\\A.csv",
+    "exists": true,
+    "bytes": 205825,
+    "mtime_ns": 1789131589000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\msa\\immunogen\\H.csv",
+    "exists": true,
+    "bytes": 1376493,
+    "mtime_ns": 1789131590000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\msa\\immunogen\\L.csv",
+    "exists": true,
+    "bytes": 1305903,
+    "mtime_ns": 1789131589000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\msa\\native\\A.csv",
+    "exists": true,
+    "bytes": 264086,
+    "mtime_ns": 1789131590000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\msa\\native\\H.csv",
+    "exists": true,
+    "bytes": 1376619,
+    "mtime_ns": 1789131590000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\data\\msa\\native\\L.csv",
+    "exists": true,
+    "bytes": 1305903,
+    "mtime_ns": 1789131590000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\6DF3_model_overlap.csv",
+    "exists": true,
+    "bytes": 569,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\6DF3_receptor_contacts.json",
+    "exists": true,
+    "bytes": 1543,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\complex_model_summary.csv",
+    "exists": true,
+    "bytes": 6444,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\ELISA_external_consistency.json",
+    "exists": true,
+    "bytes": 1558,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\external_structure_analysis.md",
+    "exists": true,
+    "bytes": 679,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\formal_msa_comparison.csv",
+    "exists": true,
+    "bytes": 1450,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\glyco_sensitivity_summary.csv",
+    "exists": true,
+    "bytes": 795,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\immunogen_blind_msa_confidence_representative_seed8.pdb",
+    "exists": true,
+    "bytes": 231011,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\immunogen_blind_msa_consensus_representative_seed7.pdb",
+    "exists": true,
+    "bytes": 231011,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\interface_contacts.csv",
+    "exists": true,
+    "bytes": 101439,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\model_ranking_formal_msa.csv",
+    "exists": true,
+    "bytes": 4190,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_msa_confidence_representative_seed4.pdb",
+    "exists": true,
+    "bytes": 245591,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_msa_consensus_representative_seed9.pdb",
+    "exists": true,
+    "bytes": 245591,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_msa_phase1_informed_representative_seed7.pdb",
+    "exists": true,
+    "bytes": 245591,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed11.pdb",
+    "exists": true,
+    "bytes": 245591,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed12.pdb",
+    "exists": true,
+    "bytes": 245591,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed13.pdb",
+    "exists": true,
+    "bytes": 245591,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed14.pdb",
+    "exists": true,
+    "bytes": 245591,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed2.pdb",
+    "exists": true,
+    "bytes": 245591,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed3.pdb",
+    "exists": true,
+    "bytes": 245591,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed4.pdb",
+    "exists": true,
+    "bytes": 245591,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed5.pdb",
+    "exists": true,
+    "bytes": 245591,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed7.pdb",
+    "exists": true,
+    "bytes": 245591,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\native_blind_seed8.pdb",
+    "exists": true,
+    "bytes": 245591,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\neutralization_mechanism.md",
+    "exists": true,
+    "bytes": 2944,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\prodigy_formal_msa.csv",
+    "exists": true,
+    "bytes": 2425,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\relaxed_geometry_qc.csv",
+    "exists": true,
+    "bytes": 1022,
+    "mtime_ns": 1789131585000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\results\\T198_project_mapping.json",
+    "exists": true,
+    "bytes": 288,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\analyze_boltz_complexes.py",
+    "exists": true,
+    "bytes": 3598,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\analyze_pose_glyco_geometry.py",
+    "exists": true,
+    "bytes": 10856,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\assess_relaxed_geometry.py",
+    "exists": true,
+    "bytes": 3380,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\build_final_delivery.py",
+    "exists": true,
+    "bytes": 3913,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\capture_final_environment.py",
+    "exists": true,
+    "bytes": 1176,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\generate_af3_input.py",
+    "exists": true,
+    "bytes": 2545,
+    "mtime_ns": 1789131583000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\generate_boltz_inputs.py",
+    "exists": true,
+    "bytes": 2384,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\generate_colabfold_msa.py",
+    "exists": true,
+    "bytes": 3982,
+    "mtime_ns": 1789131583000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\prepare_phase2_inputs.py",
+    "exists": true,
+    "bytes": 6239,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\rank_formal_models.py",
+    "exists": true,
+    "bytes": 1963,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\rank_formal_msa_models.py",
+    "exists": true,
+    "bytes": 2796,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\relax_representative_structures.py",
+    "exists": true,
+    "bytes": 3737,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\run_boltz_formal.sh",
+    "exists": true,
+    "bytes": 844,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\run_boltz_formal_msa.sh",
+    "exists": true,
+    "bytes": 1269,
+    "mtime_ns": 1789131583000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\run_boltz_glyco_sensitivity.sh",
+    "exists": true,
+    "bytes": 1215,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\run_boltz_msa_sensitivity.sh",
+    "exists": true,
+    "bytes": 1154,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\run_boltz_pilots.sh",
+    "exists": true,
+    "bytes": 813,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\run_imgt_numbering.py",
+    "exists": true,
+    "bytes": 4538,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\run_phase2_external_analysis.py",
+    "exists": true,
+    "bytes": 3955,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\run_pipeline.py",
+    "exists": true,
+    "bytes": 5696,
+    "mtime_ns": 1789131583000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\run_prodigy_formal.py",
+    "exists": true,
+    "bytes": 1321,
+    "mtime_ns": 1789131583000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\run_relax_empty_msa_representatives.sh",
+    "exists": true,
+    "bytes": 770,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\run_relax_msa_representatives.sh",
+    "exists": true,
+    "bytes": 725,
+    "mtime_ns": 1789131583000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\step10_numbering.py",
+    "exists": true,
+    "bytes": 8468,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\step11_antibody_structure.py",
+    "exists": true,
+    "bytes": 10223,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\step12_complex_prediction.py",
+    "exists": true,
+    "bytes": 18491,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\step13_contact_mapping.py",
+    "exists": true,
+    "bytes": 18237,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\step14_quality_assessment.py",
+    "exists": true,
+    "bytes": 21963,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\step15_affinity_estimation.py",
+    "exists": true,
+    "bytes": 17149,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\step16_competition_analysis.py",
+    "exists": true,
+    "bytes": 15381,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\summarize_formal_msa.py",
+    "exists": true,
+    "bytes": 2824,
+    "mtime_ns": 1789131583000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\summarize_glyco_sensitivity.py",
+    "exists": true,
+    "bytes": 3664,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\summarize_msa_sensitivity.py",
+    "exists": true,
+    "bytes": 3730,
+    "mtime_ns": 1789131583000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\src\\summarize_phase2.py",
+    "exists": true,
+    "bytes": 8859,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\docs\\environment_final.json",
+    "exists": true,
+    "bytes": 195,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\docs\\Phase2_summary.md",
+    "exists": true,
+    "bytes": 5320,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\docs\\pip_freeze_final.txt",
+    "exists": true,
+    "bytes": 11199,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\docs\\README_reproduce.md",
+    "exists": true,
+    "bytes": 1008,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\docs\\route_ensemble_summary.csv",
+    "exists": true,
+    "bytes": 1524,
+    "mtime_ns": 1789131582000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  {
+    "path": "D:\\IL-24(teeth）\\phase2_release\\models\\README.md",
+    "exists": true,
+    "bytes": 207,
+    "mtime_ns": 1789131584000000000,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  }
+]

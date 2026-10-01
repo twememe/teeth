@@ -1,0 +1,15 @@
+construct,condition,seed,source_path,status,failure_reason,antibody_chain,region,paratope_residues_4p5,participates_4p5,local_residues
+Full181,empty,1,results/full181_supplement/raw/empty/seed1/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb,complete,,H,FR1,0,0,
+Full181,empty,1,results/full181_supplement/raw/empty/seed1/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb,complete,,H,CDR1,4,1,30;31;32;33
+Full181,empty,1,results/full181_supplement/raw/empty/seed1/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb,complete,,H,FR2,1,1,35
+Full181,empty,1,results/full181_supplement/raw/empty/seed1/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb,complete,,H,CDR2,3,1,50;53;54
+Full181,empty,1,results/full181_supplement/raw/empty/seed1/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb,complete,,H,FR3,1,1,58
+Full181,empty,1,results/full181_supplement/raw/empty/seed1/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb,complete,,H,CDR3,5,1,98;100;101;102;104
+Full181,empty,1,results/full181_supplement/raw/empty/seed1/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb,complete,,H,FR4,0,0,
+Full181,empty,1,results/full181_supplement/raw/empty/seed1/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb,complete,,L,FR1,0,0,
+Full181,empty,1,results/full181_supplement/raw/empty/seed1/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb,complete,,L,CDR1,6,1,27;28;29;30;31;32
+Full181,empty,1,results/full181_supplement/raw/empty/seed1/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb,complete,,L,FR2,0,0,
+Full181,empty,1,results/full181_supplement/raw/empty/seed1/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb,complete,,L,CDR2,1,1,50
+Full181,empty,1,results/full181_supplement/raw/empty/seed1/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb,complete,,L,FR3,3,1,53;67;69
+Full181,empty,1,results/full181_supplement/raw/empty/seed1/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb,complete,,L,CDR3,5,1,90;91;92;93;95
+Full181,empty,1,results/full181_supplement/raw/empty/seed1/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb,complete,,L,FR4,0,0,

@@ -1,0 +1,16 @@
+PHASE1B_OFFICIAL_MODEL_LOAD_SMOKE
+TORCH_HOME=/mnt/d/il24_phase1b_torch_cache
+2026-08-22T12:25:16+08:00
+/home/administrator/.conda/envs/il24-dt3-phase1b/lib/python3.14/site-packages/discotope3/esm/pretrained.py:240: UserWarning: Regression weights not found, predicting contacts will not produce correct results.
+  warnings.warn(
+{
+  "esm_alphabet_size": 35,
+  "esm_if1_model_class": "GVPTransformerModel",
+  "esm_if1_parameter_count": 141662150,
+  "gam_len_model_class": "LinearGAM",
+  "gam_surface_model_class": "LinearGAM",
+  "models_dir": "/mnt/d/IL-24(teeth\uff09/work/agent_a_environment/repos/DiscoTope-3.0-35d9f2e/models",
+  "status": "PASS",
+  "xgboost_models_loaded": 100
+}
+2026-08-22T12:25:52+08:00

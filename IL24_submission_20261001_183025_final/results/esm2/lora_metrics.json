@@ -1,0 +1,44 @@
+{
+  "overall": {
+    "n": 8,
+    "positive_fraction": 0.375,
+    "mcc": 0.4472135954999579,
+    "f1": 0.6666666666666666,
+    "spearman_probability_label": 0.39440531887330776,
+    "threshold": 0.5
+  },
+  "by_source": {
+    "abbench": {
+      "n": 8,
+      "positive_fraction": 0.375,
+      "mcc": 0.4472135954999579,
+      "f1": 0.6666666666666666,
+      "spearman_probability_label": 0.39440531887330776,
+      "threshold": 0.5
+    }
+  },
+  "by_source_partner": {
+    "abbench/antibody": {
+      "n": 8,
+      "positive_fraction": 0.375,
+      "mcc": 0.4472135954999579,
+      "f1": 0.6666666666666666,
+      "spearman_probability_label": 0.39440531887330776,
+      "threshold": 0.5
+    }
+  },
+  "within_source_raw_score_spearman": {
+    "abbench": {
+      "n": 8,
+      "spearman": 0.48197897496024894,
+      "interpretation": "Numerical raw-score direction; heterogeneous assays may differ."
+    }
+  },
+  "checkpoint": "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/inovate/output/esm2_650m_lora_best.pt",
+  "split": "validation",
+  "checkpoint_sha256": "8610aba1f16f28c0393a1614a40bcd489d2933945a6848d3d105a5c9f6bd2a04",
+  "data": {
+    "path": "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/data/examples/esm2_sequences.csv",
+    "sha256": "74c229d023e9eee89a8aa69e8618802803c174a416f701936c3ab420b7f280c3"
+  }
+}

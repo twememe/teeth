@@ -1,0 +1,46 @@
+[
+  {
+    "asset": "ccd.pkl",
+    "bytes": 345859128,
+    "sha256": "2d3b2f03a3c5665944adba51e33263511e51b21c9cd05d902f9c4b7c1e58d2f4",
+    "group": "boltz",
+    "url": "https://huggingface.co/boltz-community/boltz-1/resolve/main/ccd.pkl",
+    "revision": "original project bytes pinned by SHA256; upstream URL may be mutable"
+  },
+  {
+    "asset": "boltz1_conf.ckpt",
+    "bytes": 3595352714,
+    "sha256": "fea245d912c570ec117b2277c2719f312a6fc109c07b6f6ef741690ee775c2f5",
+    "group": "boltz",
+    "url": "https://huggingface.co/boltz-community/boltz-1/resolve/main/boltz1_conf.ckpt",
+    "revision": "original project bytes pinned by SHA256; upstream URL may be mutable"
+  },
+  {
+    "asset": "antibody_model_3",
+    "bytes": 214267291,
+    "sha256": "33085a728cfb1059d9e817b785a21f1dda74eff8f083a0c2a033ae88bdbdcd45",
+    "group": "antibody",
+    "url": "https://zenodo.org/record/7258553/files/antibody_model_3?download=1"
+  },
+  {
+    "asset": "antibody_model_2",
+    "bytes": 214267291,
+    "sha256": "91dd9f5ebca8cc68f292d3a40ccdbc8a86974e7cebc4853e19565ecb8a8d508b",
+    "group": "antibody",
+    "url": "https://zenodo.org/record/7258553/files/antibody_model_2?download=1"
+  },
+  {
+    "asset": "antibody_model_1",
+    "bytes": 61050011,
+    "sha256": "ecefff604457a105fe405dcca44a76b046609ff2ac3c355329974659f6881e09",
+    "group": "antibody",
+    "url": "https://zenodo.org/record/7258553/files/antibody_model_1?download=1"
+  },
+  {
+    "asset": "antibody_model_4",
+    "bytes": 214267291,
+    "sha256": "e2d666a22b1f0a7219baec778e67f36e448ad0cd8eed8dae044af20eec163a04",
+    "group": "antibody",
+    "url": "https://zenodo.org/record/7258553/files/antibody_model_4?download=1"
+  }
+]

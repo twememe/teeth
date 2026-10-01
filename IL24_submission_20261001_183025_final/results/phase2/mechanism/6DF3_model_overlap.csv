@@ -1,0 +1,6 @@
+model,antigen_construct_project_range,antigen_length,epitope_n,il24_receptor_contact_n,overlap_n,jaccard,overlap_residues
+immunogen_blind_msa_confidence_representative_seed8.pdb,27-160,134,32,48,20,0.3333,27;38;40;43;92;93;96;97;100;101;106;109;110;113;114;116;117;118;120;121
+immunogen_blind_msa_consensus_representative_seed7.pdb,27-160,134,19,48,1,0.0152,73
+native_blind_msa_confidence_representative_seed4.pdb,27-181,155,28,48,16,0.2667,38;40;43;92;93;96;97;100;109;110;113;114;116;117;120;121
+native_blind_msa_consensus_representative_seed9.pdb,27-181,155,17,48,1,0.0156,73
+native_blind_msa_phase1_informed_representative_seed7.pdb,27-181,155,22,48,1,0.0145,27

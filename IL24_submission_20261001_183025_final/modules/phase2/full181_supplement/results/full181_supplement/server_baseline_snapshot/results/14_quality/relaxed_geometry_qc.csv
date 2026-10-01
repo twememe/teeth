@@ -1,0 +1,6 @@
+model,backbone_atom_count,backbone_coordinate_rmsd_A,before_chain_breaks,after_chain_breaks,before_peptide_cn_outliers,after_peptide_cn_outliers,before_interchain_clashes_lt1p8,after_interchain_clashes_lt1p8,before_nonlocal_intrachain_clashes_lt1p8,after_nonlocal_intrachain_clashes_lt1p8,initial_potential_energy_kj_mol,final_potential_energy_kj_mol
+immunogen_blind_blind_representative_seed1_relaxed,1436,0.1893465667963028,0,0,0,0,7,0,1,0,197516.48757219003,-42056.717972346014
+immunogen_blind_msa_consensus_representative_seed7_relaxed,1436,0.10827706754207611,0,0,0,0,7,0,1,0,4847496.0903127305,-39661.74324501525
+native_blind_blind_representative_seed14_relaxed,1520,0.13520506024360657,0,0,0,0,7,0,9,0,280432639.57853687,-35428.67049381761
+native_blind_msa_consensus_representative_seed9_relaxed,1520,0.1907639503479004,0,0,0,0,0,0,5,0,9397995.93655432,-46902.993623638235
+native_blind_phase1_informed_representative_seed3_relaxed,1520,0.1912354826927185,0,0,0,0,11,0,6,0,907078426.7152714,-42329.25666626848

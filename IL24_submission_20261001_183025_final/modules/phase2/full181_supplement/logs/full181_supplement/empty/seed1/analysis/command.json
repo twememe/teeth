@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/home/xinlab/home/ws/phase2/venv/bin/python",
+    "-B",
+    "/mnt/il24_full181_supplement_20260921/src/analyze_full181_supplement.py",
+    "--condition",
+    "empty",
+    "--seed",
+    "1",
+    "--output",
+    "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/empty/seed1/analysis"
+  ],
+  "script": {
+    "path": "/mnt/il24_full181_supplement_20260921/src/analyze_full181_supplement.py",
+    "exists": true,
+    "bytes": 16987,
+    "mtime_ns": 1789990451257959725,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  "construct": "Full181",
+  "condition": "empty",
+  "seed": 1,
+  "source_path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/empty/seed1/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb"
+}

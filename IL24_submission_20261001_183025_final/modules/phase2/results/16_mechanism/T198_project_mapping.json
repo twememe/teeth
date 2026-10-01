@@ -1,0 +1,8 @@
+{
+  "literature_residue": "T198",
+  "structure_chain_C_auth_residue": 198,
+  "project_numbering": 173,
+  "mapping_basis": "BLOSUM62 global alignment of 6DF3 chain C (human IL-24, Q13007 52-206) to the project reference 27-181; gap-free over all 155 columns, so project = 6DF3_auth - 25",
+  "cross_species_note": "human IL-24 vs mouse project reference; position identity is established by alignment, not by assuming equal numbering",
+  "status": "verified by sequence alignment"
+}

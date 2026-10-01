@@ -1,0 +1,14 @@
+COMMAND ["/mnt/ws/teeth/inovate/.venv/bin/python", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/inovate/scripts/train.py", "--help"]
+usage: train.py [-h] --mode {extract,baseline,lora,smoke,evaluate}
+                [--config CONFIG] [--max-seconds MAX_SECONDS]
+                [--deadline DEADLINE] [--checkpoint CHECKPOINT]
+                [--split {validation,test}]
+
+options:
+  -h, --help            show this help message and exit
+  --mode {extract,baseline,lora,smoke,evaluate}
+  --config CONFIG
+  --max-seconds MAX_SECONDS
+  --deadline DEADLINE   Absolute UTC ISO-8601 deadline
+  --checkpoint CHECKPOINT
+  --split {validation,test}

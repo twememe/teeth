@@ -1,0 +1,9 @@
+COMMAND ["/mnt/ws/teeth/inovate/.venv/bin/python", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/inovate/scripts/report.py", "--help"]
+usage: report.py [-h] [--output-dir OUTPUT_DIR] [--reuse-uncertainty]
+                 [--run-state RUN_STATE]
+
+options:
+  -h, --help            show this help message and exit
+  --output-dir OUTPUT_DIR
+  --reuse-uncertainty
+  --run-state RUN_STATE

@@ -1,0 +1,12 @@
+{
+  "actual_epochs": 4,
+  "global_steps": 196,
+  "early_stopped": true,
+  "deadline_reached": false,
+  "best_mcc": 0.3858637125275409,
+  "head_architecture": "Linear(1280,1)",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "max_epochs": 30,
+  "batch_size": 4096
+}

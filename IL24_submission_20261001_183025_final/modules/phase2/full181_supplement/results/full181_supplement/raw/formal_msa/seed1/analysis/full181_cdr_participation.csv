@@ -1,0 +1,15 @@
+construct,condition,seed,source_path,status,failure_reason,antibody_chain,region,paratope_residues_4p5,participates_4p5,local_residues
+Full181,formal_msa,1,results/full181_supplement/raw/formal_msa/seed1/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb,complete,,H,FR1,0,0,
+Full181,formal_msa,1,results/full181_supplement/raw/formal_msa/seed1/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb,complete,,H,CDR1,5,1,29;30;31;32;33
+Full181,formal_msa,1,results/full181_supplement/raw/formal_msa/seed1/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb,complete,,H,FR2,1,1,35
+Full181,formal_msa,1,results/full181_supplement/raw/formal_msa/seed1/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb,complete,,H,CDR2,5,1,51;52;53;54;56
+Full181,formal_msa,1,results/full181_supplement/raw/formal_msa/seed1/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb,complete,,H,FR3,1,1,58
+Full181,formal_msa,1,results/full181_supplement/raw/formal_msa/seed1/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb,complete,,H,CDR3,6,1,98;99;100;101;102;104
+Full181,formal_msa,1,results/full181_supplement/raw/formal_msa/seed1/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb,complete,,H,FR4,0,0,
+Full181,formal_msa,1,results/full181_supplement/raw/formal_msa/seed1/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb,complete,,L,FR1,0,0,
+Full181,formal_msa,1,results/full181_supplement/raw/formal_msa/seed1/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb,complete,,L,CDR1,2,1,27;28
+Full181,formal_msa,1,results/full181_supplement/raw/formal_msa/seed1/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb,complete,,L,FR2,0,0,
+Full181,formal_msa,1,results/full181_supplement/raw/formal_msa/seed1/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb,complete,,L,CDR2,1,1,50
+Full181,formal_msa,1,results/full181_supplement/raw/formal_msa/seed1/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb,complete,,L,FR3,1,1,53
+Full181,formal_msa,1,results/full181_supplement/raw/formal_msa/seed1/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb,complete,,L,CDR3,5,1,90;91;92;93;95
+Full181,formal_msa,1,results/full181_supplement/raw/formal_msa/seed1/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb,complete,,L,FR4,0,0,

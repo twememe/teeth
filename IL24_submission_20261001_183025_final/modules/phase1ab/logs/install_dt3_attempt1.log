@@ -1,0 +1,315 @@
+START 2026-08-21T18:53:41+08:00
+OFFICIAL_REPO https://github.com/Magnushhoie/DiscoTope-3.0 commit 35d9f2e55f97eaba2a7acefbc394db58fb9670bc
+README_ATTEMPT Python 3.14; pip install -r requirements.txt; pip install .; unzip models.zip
+Channels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+Solving environment: - \ done
+
+## Package Plan ##
+
+  environment location: /home/administrator/.conda/envs/il24-dt3
+
+  added / updated specs:
+    - pip
+    - python=3.14
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    libmpdec-4.0.0             |       hb03c661_2          91 KB  conda-forge
+    pip-26.2.1                 |     pyh145f28c_0         1.1 MB  conda-forge
+    python-3.14.7              |h399a421_100_cp314        35.3 MB  conda-forge
+    python_abi-3.14            |          8_cp314           7 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        36.6 MB
+
+The following NEW packages will be INSTALLED:
+
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-20_gnu 
+  bzip2              conda-forge/linux-64::bzip2-1.0.8-hda65f42_10 
+  ca-certificates    conda-forge/noarch::ca-certificates-2026.7.22-hbd8a1cb_0 
+  icu                conda-forge/linux-64::icu-78.3-py310h44b86e0_2 
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.46.1-default_hbd61a6d_102 
+  libexpat           conda-forge/linux-64::libexpat-2.8.1-hecca717_1 
+  libffi             conda-forge/linux-64::libffi-3.7.0-h3435931_0 
+  libgcc             conda-forge/linux-64::libgcc-16.1.0-ha9f2e26_2 
+  libgomp            conda-forge/linux-64::libgomp-16.1.0-he0feb66_2 
+  liblzma            conda-forge/linux-64::liblzma-5.8.3-hb03c661_1 
+  libmpdec           conda-forge/linux-64::libmpdec-4.0.0-hb03c661_2 
+  libsqlite          conda-forge/linux-64::libsqlite-3.53.4-h13e7031_1 
+  libstdcxx          conda-forge/linux-64::libstdcxx-16.1.0-h934c35e_2 
+  libuuid            conda-forge/linux-64::libuuid-2.42.2-h5347b49_0 
+  libzlib            conda-forge/linux-64::libzlib-1.3.2-h25fd6f3_3 
+  ncurses            conda-forge/linux-64::ncurses-6.6-hdb14827_1 
+  openssl            conda-forge/linux-64::openssl-3.6.3-h35e630c_1 
+  pip                conda-forge/noarch::pip-26.2.1-pyh145f28c_0 
+  python             conda-forge/linux-64::python-3.14.7-h399a421_100_cp314 
+  python_abi         conda-forge/noarch::python_abi-3.14-8_cp314 
+  readline           conda-forge/linux-64::readline-8.3-hd6e31c0_1 
+  tk                 conda-forge/linux-64::tk-8.6.13-noxft_h1df4ec4_4 
+  tzdata             conda-forge/noarch::tzdata-2026c-h151e31d_0 
+  zstd               conda-forge/linux-64::zstd-1.5.7-hb78ec9c_7 
+
+
+
+Downloading and Extracting Packages: ...working...python-3.14.7        | 35.3 MB   |            |   0% 
+pip-26.2.1           | 1.1 MB    |            |   0% [A
+
+libmpdec-4.0.0       | 91 KB     |            |   0% [A[A
+
+
+python_abi-3.14      | 7 KB      |            |   0% [A[A[A
+
+
+python_abi-3.14      | 7 KB      | ########## | 100% [A[A[A
+
+
+python_abi-3.14      | 7 KB      | ########## | 100% [A[A[A
+
+
+python_abi-3.14      | 7 KB      | ########## | 100% [A[A[A
+pip-26.2.1           | 1.1 MB    | 1          |   1% [A
+
+libmpdec-4.0.0       | 91 KB     | #7         |  18% [A[A
+pip-26.2.1           | 1.1 MB    | 5          |   5% [A
+
+libmpdec-4.0.0       | 91 KB     | ########8  |  88% [A[A
+
+libmpdec-4.0.0       | 91 KB     | ########## | 100% [A[A
+
+libmpdec-4.0.0       | 91 KB     | ########## | 100% [A[A
+pip-26.2.1           | 1.1 MB    | 6          |   7% [A
+pip-26.2.1           | 1.1 MB    | #          |  11% [Apython-3.14.7        | 35.3 MB   |            |   0% 
+pip-26.2.1           | 1.1 MB    | ##1        |  22% [Apython-3.14.7        | 35.3 MB   |            |   0% 
+pip-26.2.1           | 1.1 MB    | ###        |  30% [Apython-3.14.7        | 35.3 MB   |            |   0% 
+pip-26.2.1           | 1.1 MB    | ###4       |  34% [A
+pip-26.2.1           | 1.1 MB    | #####1     |  52% [Apython-3.14.7        | 35.3 MB   |            |   1% 
+pip-26.2.1           | 1.1 MB    | #####8     |  59% [A
+pip-26.2.1           | 1.1 MB    | ######5    |  66% [Apython-3.14.7        | 35.3 MB   |            |   1% 
+pip-26.2.1           | 1.1 MB    | ########8  |  89% [Apython-3.14.7        | 35.3 MB   |            |   1% python-3.14.7        | 35.3 MB   | 1          |   1% python-3.14.7        | 35.3 MB   | 1          |   1% python-3.14.7        | 35.3 MB   | 1          |   2% python-3.14.7        | 35.3 MB   | 2          |   2% python-3.14.7        | 35.3 MB   | 2          |   3% 
+pip-26.2.1           | 1.1 MB    | #########7 |  97% [A
+pip-26.2.1           | 1.1 MB    | ########## | 100% [A
+pip-26.2.1           | 1.1 MB    | ########## | 100% [Apython-3.14.7        | 35.3 MB   | 3          |   3% python-3.14.7        | 35.3 MB   | 3          |   4% python-3.14.7        | 35.3 MB   | 8          |   8% python-3.14.7        | 35.3 MB   | 8          |   9% python-3.14.7        | 35.3 MB   | 8          |   9% python-3.14.7        | 35.3 MB   | 9          |  10% python-3.14.7        | 35.3 MB   | #2         |  12% python-3.14.7        | 35.3 MB   | #4         |  15% python-3.14.7        | 35.3 MB   | #6         |  17% python-3.14.7        | 35.3 MB   | #9         |  20% python-3.14.7        | 35.3 MB   | ##         |  21% python-3.14.7        | 35.3 MB   | ##2        |  22% python-3.14.7        | 35.3 MB   | ##3        |  24% python-3.14.7        | 35.3 MB   | ##5        |  26% python-3.14.7        | 35.3 MB   | ##7        |  27% python-3.14.7        | 35.3 MB   | ##8        |  28% python-3.14.7        | 35.3 MB   | ##9        |  29% python-3.14.7        | 35.3 MB   | ###        |  30% python-3.14.7        | 35.3 MB   | ###2       |  32% python-3.14.7        | 35.3 MB   | ###6       |  37% python-3.14.7        | 35.3 MB   | ###7       |  37% python-3.14.7        | 35.3 MB   | ###8       |  39% python-3.14.7        | 35.3 MB   | ####       |  41% python-3.14.7        | 35.3 MB   | ####1      |  42% python-3.14.7        | 35.3 MB   | ####2      |  43% python-3.14.7        | 35.3 MB   | ####3      |  44% python-3.14.7        | 35.3 MB   | ####6      |  47% python-3.14.7        | 35.3 MB   | ####7      |  47% python-3.14.7        | 35.3 MB   | ####9      |  50% python-3.14.7        | 35.3 MB   | #####1     |  51% python-3.14.7        | 35.3 MB   | #####2     |  52% python-3.14.7        | 35.3 MB   | #####3     |  54% python-3.14.7        | 35.3 MB   | #####4     |  54% python-3.14.7        | 35.3 MB   | #####5     |  55% python-3.14.7        | 35.3 MB   | #####8     |  59% python-3.14.7        | 35.3 MB   | ######     |  61% python-3.14.7        | 35.3 MB   | ######1    |  61% python-3.14.7        | 35.3 MB   | ######9    |  69% python-3.14.7        | 35.3 MB   | #######    |  70% python-3.14.7        | 35.3 MB   | #######1   |  71% python-3.14.7        | 35.3 MB   | #######2   |  72% python-3.14.7        | 35.3 MB   | #######5   |  75% python-3.14.7        | 35.3 MB   | #######6   |  76% python-3.14.7        | 35.3 MB   | #######9   |  80% python-3.14.7        | 35.3 MB   | ########2  |  83% python-3.14.7        | 35.3 MB   | ########3  |  83% python-3.14.7        | 35.3 MB   | ########4  |  85% python-3.14.7        | 35.3 MB   | ########6  |  86% python-3.14.7        | 35.3 MB   | ########7  |  88% python-3.14.7        | 35.3 MB   | ########8  |  89% python-3.14.7        | 35.3 MB   | ########9  |  89% python-3.14.7        | 35.3 MB   | #########  |  90% python-3.14.7        | 35.3 MB   | #########1 |  92% python-3.14.7        | 35.3 MB   | #########2 |  92% python-3.14.7        | 35.3 MB   | #########3 |  94% python-3.14.7        | 35.3 MB   | #########5 |  95% python-3.14.7        | 35.3 MB   | #########6 |  96% python-3.14.7        | 35.3 MB   | #########6 |  97% python-3.14.7        | 35.3 MB   | ########## | 100% python-3.14.7        | 35.3 MB   | ########## | 100% python-3.14.7        | 35.3 MB   | ########## | 100%                                                      
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A done
+Preparing transaction: / - done
+Verifying transaction: | / - \ | / - \ | / - \ | / - done
+Executing transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+WARNING conda.conda_pypi.main:notify_externally_managed_future(156): 
+  Did you know? You can install many PyPI packages with conda
+  using the conda-pypi beta. Get started:
+    https://docs.conda.io/projects/conda/en/stable/new-features.html
+
+#
+# To activate this environment, use
+#
+#     $ conda activate /home/administrator/.conda/envs/il24-dt3
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Collecting torch_geometric==2.7.* (from -r requirements.txt (line 1))
+  Downloading torch_geometric-2.7.0-py3-none-any.whl.metadata (63 kB)
+Collecting torch==2.10.* (from -r requirements.txt (line 2))
+  Downloading torch-2.10.0-3-cp314-cp314-manylinux_2_28_x86_64.whl.metadata (31 kB)
+Collecting biopython==1.86 (from -r requirements.txt (line 3))
+  Downloading biopython-1.86-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (13 kB)
+Collecting biotite==1.6.* (from -r requirements.txt (line 4))
+  Downloading biotite-1.6.0-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (5.5 kB)
+Collecting xgboost<=3.1.2 (from -r requirements.txt (line 5))
+  Downloading xgboost-3.1.2-py3-none-manylinux_2_28_x86_64.whl.metadata (2.1 kB)
+Collecting pygam==0.12.* (from -r requirements.txt (line 6))
+  Downloading pygam-0.12.0-py3-none-any.whl.metadata (9.8 kB)
+Collecting numpy<=2.4.3 (from -r requirements.txt (line 7))
+  Downloading numpy-2.4.3-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting pandas<=3.0.1 (from -r requirements.txt (line 8))
+  Downloading pandas-3.0.1-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)
+Collecting joblib<=1.5.3 (from -r requirements.txt (line 9))
+  Downloading joblib-1.5.3-py3-none-any.whl.metadata (5.5 kB)
+Collecting scikit-learn==1.7.* (from -r requirements.txt (line 10))
+  Downloading scikit_learn-1.7.2-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (11 kB)
+Collecting aiohttp (from torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading aiohttp-3.14.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
+Collecting fsspec (from torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Using cached fsspec-2026.7.0-py3-none-any.whl.metadata (10 kB)
+Collecting jinja2 (from torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting psutil>=5.8.0 (from torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl.metadata (22 kB)
+Collecting pyparsing (from torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)
+Collecting requests (from torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting tqdm (from torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading tqdm-4.70.0-py3-none-any.whl.metadata (57 kB)
+Collecting xxhash (from torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading xxhash-4.0.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (17 kB)
+Collecting filelock (from torch==2.10.*->-r requirements.txt (line 2))
+  Using cached filelock-3.32.3-py3-none-any.whl.metadata (2.0 kB)
+Collecting typing-extensions>=4.10.0 (from torch==2.10.*->-r requirements.txt (line 2))
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting setuptools (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading setuptools-84.0.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting sympy>=1.13.3 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting networkx>=2.5.1 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading networkx-3.6.1-py3-none-any.whl.metadata (6.8 kB)
+Collecting cuda-bindings==12.9.4 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading cuda_bindings-12.9.4-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (2.6 kB)
+Collecting nvidia-cuda-nvrtc-cu12==12.8.93 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading nvidia_cuda_nvrtc_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cuda-runtime-cu12==12.8.90 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading nvidia_cuda_runtime_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cuda-cupti-cu12==12.8.90 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading nvidia_cuda_cupti_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cudnn-cu12==9.10.2.21 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading nvidia_cudnn_cu12-9.10.2.21-py3-none-manylinux_2_27_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-cublas-cu12==12.8.4.1 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cufft-cu12==11.3.3.83 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading nvidia_cufft_cu12-11.3.3.83-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-curand-cu12==10.3.9.90 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading nvidia_curand_cu12-10.3.9.90-py3-none-manylinux_2_27_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cusolver-cu12==11.7.3.90 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading nvidia_cusolver_cu12-11.7.3.90-py3-none-manylinux_2_27_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-cusparse-cu12==12.5.8.93 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading nvidia_cusparse_cu12-12.5.8.93-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-cusparselt-cu12==0.7.1 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading nvidia_cusparselt_cu12-0.7.1-py3-none-manylinux2014_x86_64.whl.metadata (7.0 kB)
+Collecting nvidia-nccl-cu12==2.27.5 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading nvidia_nccl_cu12-2.27.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.0 kB)
+Collecting nvidia-nvshmem-cu12==3.4.5 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading nvidia_nvshmem_cu12-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.1 kB)
+Collecting nvidia-nvtx-cu12==12.8.90 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading nvidia_nvtx_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-nvjitlink-cu12==12.8.93 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading nvidia_nvjitlink_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cufile-cu12==1.13.1.3 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading nvidia_cufile_cu12-1.13.1.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.7 kB)
+Collecting triton==3.6.0 (from torch==2.10.*->-r requirements.txt (line 2))
+  Downloading triton-3.6.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (1.7 kB)
+Collecting cuda-pathfinder~=1.1 (from cuda-bindings==12.9.4->torch==2.10.*->-r requirements.txt (line 2))
+  Downloading cuda_pathfinder-1.6.1-py3-none-any.whl.metadata (1.9 kB)
+Collecting biotraj<2.0,>=1.0 (from biotite==1.6.*->-r requirements.txt (line 4))
+  Downloading biotraj-1.2.2.tar.gz (3.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.9/3.9 MB 1.5 MB/s  0:00:02
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting msgpack>=0.5.6 (from biotite==1.6.*->-r requirements.txt (line 4))
+  Downloading msgpack-1.2.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
+Collecting packaging>=24.0 (from biotite==1.6.*->-r requirements.txt (line 4))
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting scipy (from xgboost<=3.1.2->-r requirements.txt (line 5))
+  Downloading scipy-1.18.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+Collecting progressbar2<5,>=4.2.0 (from pygam==0.12.*->-r requirements.txt (line 6))
+  Downloading progressbar2-4.6.0-py3-none-any.whl.metadata (10 kB)
+Collecting scipy (from xgboost<=3.1.2->-r requirements.txt (line 5))
+  Downloading scipy-1.16.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (62 kB)
+Collecting python-dateutil>=2.8.2 (from pandas<=3.0.1->-r requirements.txt (line 8))
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn==1.7.*->-r requirements.txt (line 10))
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Collecting python-utils>=3.8.1 (from progressbar2<5,>=4.2.0->pygam==0.12.*->-r requirements.txt (line 6))
+  Downloading python_utils-4.0.0-py3-none-any.whl.metadata (14 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas<=3.0.1->-r requirements.txt (line 8))
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting charset_normalizer<4,>=2 (from requests->torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading charset_normalizer-3.5.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (45 kB)
+Collecting idna<4,>=2.5 (from requests->torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading idna-3.19-py3-none-any.whl.metadata (9.2 kB)
+Collecting urllib3<3,>=1.26 (from requests->torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting certifi>=2023.5.7 (from requests->torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Using cached certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch==2.10.*->-r requirements.txt (line 2))
+  Using cached mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting aiohappyeyeballs>=2.5.0 (from aiohttp->torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl.metadata (5.9 kB)
+Collecting aiosignal>=1.4.0 (from aiohttp->torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading aiosignal-1.4.0-py3-none-any.whl.metadata (3.7 kB)
+Collecting attrs>=17.3.0 (from aiohttp->torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Using cached attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting frozenlist>=1.1.1 (from aiohttp->torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading frozenlist-1.8.0-cp314-cp314-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (20 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp->torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading multidict-6.7.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (5.3 kB)
+Collecting propcache>=0.2.0 (from aiohttp->torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading propcache-0.5.2-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (16 kB)
+Collecting yarl<2.0,>=1.17.0 (from aiohttp->torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading yarl-1.24.5-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (103 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->torch_geometric==2.7.*->-r requirements.txt (line 1))
+  Downloading markupsafe-3.0.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Downloading biopython-1.86-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (3.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 1.2 MB/s  0:00:02
+Downloading torch_geometric-2.7.0-py3-none-any.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 919.5 kB/s  0:00:01
+Downloading torch-2.10.0-3-cp314-cp314-manylinux_2_28_x86_64.whl (915.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━                  526.6/915.6 MB 1.7 MB/s eta 0:03:56
+WARNING: Connection interrupted while downloading.
+WARNING: Attempting to resume incomplete download (526.6 MB/915.6 MB, attempt 1)
+Resuming download torch-2.10.0-3-cp314-cp314-manylinux_2_28_x86_64.whl (526.6 MB/915.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━╸             630.2/915.6 MB 1.3 MB/s eta 0:03:42
+WARNING: Connection interrupted while downloading.
+WARNING: Attempting to resume incomplete download (630.2 MB/915.6 MB, attempt 2)
+Resuming download torch-2.10.0-3-cp314-cp314-manylinux_2_28_x86_64.whl (630.2 MB/915.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸    841.0/915.6 MB 1.3 MB/s eta 0:00:58
+WARNING: Connection interrupted while downloading.
+WARNING: Attempting to resume incomplete download (841.0 MB/915.6 MB, attempt 3)
+Resuming download torch-2.10.0-3-cp314-cp314-manylinux_2_28_x86_64.whl (841.0 MB/915.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 915.6/915.6 MB 1.2 MB/s  0:01:03
+Downloading cuda_bindings-12.9.4-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (11.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.9/11.9 MB 1.7 MB/s  0:00:07
+Downloading nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl (594.3 MB)
+   ━━╸                                      39.8/594.3 MB 2.2 MB/s eta 0:04:18
+WARNING: Connection interrupted while downloading.
+WARNING: Attempting to resume incomplete download (39.8 MB/594.3 MB, attempt 1)
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='files.pythonhosted.org', port=443): Failed to resolve 'files.pythonhosted.org' ([Errno -3] Temporary failure in name resolution)")': /packages/dc/61/e24b560ab2e2eaeb3c839129175fb330dfcfc29e5203196e5541a4c44682/nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl
+Resuming download nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl (39.8 MB/594.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━         480.8/594.3 MB 2.9 MB/s eta 0:00:39
+WARNING: Connection interrupted while downloading.
+WARNING: Attempting to resume incomplete download (480.8 MB/594.3 MB, attempt 2)
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPSConnection(host='files.pythonhosted.org', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable")': /packages/dc/61/e24b560ab2e2eaeb3c839129175fb330dfcfc29e5203196e5541a4c44682/nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl
+Resuming download nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl (480.8 MB/594.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸      514.6/594.3 MB 1.3 MB/s eta 0:01:04
+WARNING: Connection interrupted while downloading.
+WARNING: Attempting to resume incomplete download (514.6 MB/594.3 MB, attempt 3)
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='files.pythonhosted.org', port=443): Failed to resolve 'files.pythonhosted.org' ([Errno -3] Temporary failure in name resolution)")': /packages/dc/61/e24b560ab2e2eaeb3c839129175fb330dfcfc29e5203196e5541a4c44682/nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl
+Resuming download nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl (514.6 MB/594.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  586.4/594.3 MB 1.0 MB/s eta 0:00:08
+WARNING: Connection interrupted while downloading.
+WARNING: Attempting to resume incomplete download (586.4 MB/594.3 MB, attempt 4)
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='files.pythonhosted.org', port=443): Failed to resolve 'files.pythonhosted.org' ([Errno -3] Temporary failure in name resolution)")': /packages/dc/61/e24b560ab2e2eaeb3c839129175fb330dfcfc29e5203196e5541a4c44682/nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='files.pythonhosted.org', port=443): Failed to resolve 'files.pythonhosted.org' ([Errno -3] Temporary failure in name resolution)")': /packages/dc/61/e24b560ab2e2eaeb3c839129175fb330dfcfc29e5203196e5541a4c44682/nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='files.pythonhosted.org', port=443): Failed to resolve 'files.pythonhosted.org' ([Errno -3] Temporary failure in name resolution)")': /packages/dc/61/e24b560ab2e2eaeb3c839129175fb330dfcfc29e5203196e5541a4c44682/nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl
+Resuming download nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl (586.4 MB/594.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 594.3/594.3 MB 463.1 kB/s  0:00:17
+Downloading nvidia_cuda_cupti_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (10.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 512.8 kB/s  0:00:20
+Downloading nvidia_cuda_nvrtc_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (88.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━              60.0/88.0 MB 2.2 MB/s eta 0:00:13
+WARNING: Connection interrupted while downloading.
+WARNING: Attempting to resume incomplete download (60.0 MB/88.0 MB, attempt 1)
+Resuming download nvidia_cuda_nvrtc_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (60.0 MB/88.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.0/88.0 MB 959.7 kB/s  0:00:29
+Downloading nvidia_cuda_runtime_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (954 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 954.8/954.8 kB 521.3 kB/s  0:00:01
+Downloading nvidia_cudnn_cu12-9.10.2.21-py3-none-manylinux_2_27_x86_64.whl (706.8 MB)
+   ━━━━━━━                                  126.6/706.8 MB 1.8 MB/s eta 0:05:15
+WARNING: Connection interrupted while downloading.
+WARNING: Attempting to resume incomplete download (126.6 MB/706.8 MB, attempt 1)
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='files.pythonhosted.org', port=443): Failed to resolve 'files.pythonhosted.org' ([Errno -3] Temporary failure in name resolution)")': /packages/ba/51/e123d997aa098c61d029f76663dedbfb9bc8dcf8c60cbd6adbe42f76d049/nvidia_cudnn_cu12-9.10.2.21-py3-none-manylinux_2_27_x86_64.whl
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='files.pythonhosted.org', port=443): Failed to resolve 'files.pythonhosted.org' ([Errno -3] Temporary failure in name resolution)")': /packages/ba/51/e123d997aa098c61d029f76663dedbfb9bc8dcf8c60cbd6adbe42f76d049/nvidia_cudnn_cu12-9.10.2.21-py3-none-manylinux_2_27_x86_64.whl
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("HTTPSConnection(host='files.pythonhosted.org', port=443): Failed to resolve 'files.pythonhosted.org' ([Errno -3] Temporary failure in name resolution)")': /packages/ba/51/e123d997aa098c61d029f76663dedbfb9bc8dcf8c60cbd6adbe42f76d049/nvidia_cudnn_cu12-9.10.2.21-py3-none-manylinux_2_27_x86_64.whl

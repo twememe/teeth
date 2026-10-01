@@ -1,0 +1,22 @@
+utc_started=2026-08-21T17:12:02.961750+00:00
+official_repo=https://github.com/UberClifford/BepiPred-3.0
+command=/home/administrator/.conda/envs/il24-bp3/bin/python work/agent_a_environment/repos/BepiPred-3.0/bepipred3_CLI.py -i inputs/reference_181.fasta -o results/03_bepipred/raw -pred vt_pred -esm_dir results/03_bepipred/raw/esm_encodings
+model_mode=vt_pred
+official_default_threshold=0.1512
+official_default_rolling_window=9
+runtime_device=cuda
+inference_seconds=84.504
+
+=== ATTEMPT 1: CUDA-preferred official default ===
+returncode=0
+GPU device detected: cuda
+Directory for esm encodings already there. Saving encodings there.
+Number of sequences detected in fasta file: 1
+ESM-2 encoding sequences. Saving encodings to results/03_bepipred/raw/esm_encodings
+ESM-2 encoded sequence IL24_project_reference_181 numbering=project_1_181 frozen=true 1/1
+Generating BepiPred-3.0 scores
+Directory B-cell epitope predictions already there. Saving results there.
+Directory B-cell epitope predictions already there. Saving results there.
+Directory B-cell epitope predictions already there. Saving results there.
+Directory for saving plots already there. Saving results there.
+Creating figures

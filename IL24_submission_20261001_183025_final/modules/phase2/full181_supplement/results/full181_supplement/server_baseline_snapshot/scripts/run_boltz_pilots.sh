@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd /home/xinlab/home/ws/phase2
+for route in native_blind immunogen_blind; do
+  for seed in 1 2 3; do
+    out="results/12_complex_prediction/pilot/${route}_seed${seed}"
+    result="${out}/boltz_results_${route}/predictions/${route}/confidence_${route}_model_0.json"
+    if [[ -f "$result" ]]; then continue; fi
+    mkdir -p "$out"
+    venv/bin/boltz predict "results/12_complex_prediction/boltz_inputs/${route}.yaml" \
+      --model boltz1 --cache models/boltz --out_dir "$out" \
+      --checkpoint models/boltz/boltz1_conf.ckpt --seed "$seed" \
+      --accelerator gpu --devices 1 --diffusion_samples 1 \
+      --recycling_steps 3 --sampling_steps 50 --no_kernels \
+      --output_format pdb --write_full_pae \
+      > "logs/boltz_${route}_seed${seed}.log" 2>&1
+  done
+done
+echo PILOTS_DONE

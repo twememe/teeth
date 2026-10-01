@@ -1,0 +1,16 @@
+{
+  "stage": "PRE_EVALUATION_V2",
+  "status": "PASS",
+  "checks": {
+    "reference_length_181": true,
+    "pdb_chain_a_length_181": true,
+    "exact_sequence_identity_181_181": true,
+    "continuous_project_numbering_1_181": true
+  },
+  "reference_length": 181,
+  "pdb_chain_a_length": 181,
+  "sequence_identity": "181/181",
+  "continuous_project_numbering": true,
+  "fasta_sha256": "22fba9f5ac503af4100bc3a579f3a0fcb59890dedd526bd4a3f5cddb3ab17ce2",
+  "pdb_sha256": "9d722f2c1fdb78c6534cad517a66fe6f7cdd142903d6364e05957ca7ca42a224"
+}

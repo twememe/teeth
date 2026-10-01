@@ -1,0 +1,33 @@
+{
+  "reference": "A: existing formal frozen base, captured before reconstruction",
+  "tensor_sha256": "e5e09eaaac2360a2b6a440a671e90952b6cf363d3cc438d7b5436b368b83a90e",
+  "tensor_count": 568,
+  "tensor_bytes": 2602869476,
+  "shared_storage_groups": [],
+  "config_sha256": "12bf54503882a74663ef3116ebca883e3654e894617f1b91243ffc0a6432ccec",
+  "tokenizer_sha256": "af70dccd92257fc12b48ec61d7adefcd3c418c64a5e0709ccff85517e338e91f",
+  "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "legacy_file_identity": {
+    "config_sha256": "2bc9912ff72f97b524de06ed717ede24892abe4a98d580ff7821e652bf944c69",
+    "weights": [
+      {
+        "filename": "model.safetensors",
+        "bytes": 2602926260,
+        "sha256": "6996db5c5d08d98455e491dab3eaa4d82e299b27903341f83adac8ccae64fa43"
+      }
+    ]
+  },
+  "dependencies": {
+    "torch": "2.6.0+cu124",
+    "fair-esm": "2.0.0",
+    "transformers": "4.48.3",
+    "peft": "0.14.0",
+    "safetensors": "0.8.0",
+    "numpy": "1.26.4"
+  }
+}

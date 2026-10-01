@@ -1,0 +1,19 @@
+HTTP/1.1 206 Partial Content
+Content-Type: binary/octet-stream
+Content-Length: 1
+Connection: keep-alive
+Accept-Ranges: bytes
+Server: AmazonS3
+Last-Modified: Thu, 18 Aug 2022 13:26:44 GMT
+x-amz-version-id: 2G4typsUSwOKQLH35sqPMJ27ZLX1AEJG
+x-amz-server-side-encryption: AES256
+x-amz-storage-class: INTELLIGENT_TIERING
+Date: Fri, 21 Aug 2026 10:39:46 GMT
+ETag: "12a18098227c0ff911354647d25d494d-311"
+Content-Range: bytes 633397248-633397248/2604537549
+X-Cache: Hit from cloudfront
+Via: 1.1 ab23076896ec73a1a830c9cdc49fcac4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: FRA56-P4
+X-Amz-Cf-Id: DJODCtPn__ZHsZhbUSoh0YHCEg0IDQaGLo9aRsit0xz_RCHSZtTTPg==
+Age: 21869
+

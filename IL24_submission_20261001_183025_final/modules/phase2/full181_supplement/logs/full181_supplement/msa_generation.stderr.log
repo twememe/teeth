@@ -1,0 +1,11 @@
+  0%|          | 0/450 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/450 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/450 [elapsed: 00:01 remaining: ?]Sleeping for 10s. Reason: PENDING
+RUNNING:   0%|          | 0/450 [elapsed: 00:12 remaining: ?]RUNNING:   2%|¨‡         | 10/450 [elapsed: 00:12 remaining: 09:01]Sleeping for 6s. Reason: RUNNING
+RUNNING:   2%|¨‡         | 10/450 [elapsed: 00:19 remaining: 09:01]RUNNING:   4%|¨†         | 16/450 [elapsed: 00:19 remaining: 08:42]Sleeping for 7s. Reason: RUNNING
+COMPLETE:   4%|¨†         | 16/450 [elapsed: 00:27 remaining: 08:42]COMPLETE: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 450/450 [elapsed: 00:27 remaining: 00:00]COMPLETE: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 450/450 [elapsed: 00:29 remaining: 00:00]
+  0%|          | 0/450 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/450 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/450 [elapsed: 00:01 remaining: ?]Sleeping for 5s. Reason: PENDING
+RUNNING:   0%|          | 0/450 [elapsed: 00:07 remaining: ?]RUNNING:   1%|          | 5/450 [elapsed: 00:07 remaining: 10:45]Sleeping for 9s. Reason: RUNNING
+RUNNING:   1%|          | 5/450 [elapsed: 00:17 remaining: 10:45]RUNNING:   3%|¨†         | 14/450 [elapsed: 00:17 remaining: 08:47]Sleeping for 5s. Reason: RUNNING
+RUNNING:   3%|¨†         | 14/450 [elapsed: 00:23 remaining: 08:47]RUNNING:   4%|¨…         | 19/450 [elapsed: 00:23 remaining: 08:39]Sleeping for 7s. Reason: RUNNING
+RUNNING:   4%|¨…         | 19/450 [elapsed: 00:31 remaining: 08:39]RUNNING:   6%|¨„         | 26/450 [elapsed: 00:31 remaining: 08:22]Sleeping for 6s. Reason: RUNNING
+RUNNING:   6%|¨„         | 26/450 [elapsed: 00:38 remaining: 08:22]RUNNING:   7%|¨ƒ         | 32/450 [elapsed: 00:38 remaining: 08:13]Sleeping for 6s. Reason: RUNNING
+COMPLETE:   7%|¨ƒ         | 32/450 [elapsed: 00:45 remaining: 08:13]COMPLETE: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 450/450 [elapsed: 00:45 remaining: 00:00]COMPLETE: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 450/450 [elapsed: 00:48 remaining: 00:00]

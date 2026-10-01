@@ -1,0 +1,19 @@
+project: IL24_phase1b_restore_discotope
+amendment_date: "2026-08-22"
+reason: preregistered_discotope_branch_missing_due_to_external_dependency_failure
+user_authorized_extension: true
+historical_region_still_blinded: true
+phase1a_outputs_mutable: false
+new_analysis: restore_discotope_and_rerun_integration_and_candidates
+no_new_predictor_substitution: true
+amendment_type: post_freeze_user_authorized_restoration
+official_discotope_commit_preferred: 35d9f2e55f97eaba2a7acefbc394db58fb9670bc
+discotope_structure_mode: alphafold
+phase1b_environment: il24-dt3-phase1b
+primary_score: "((BepiPred_percentile + DiscoTope_percentile) / 2 + RSA_percentile + Conservation_percentile) / 3"
+sensitivity_only_score: "(BepiPred_percentile + DiscoTope_percentile + RSA_percentile + Conservation_percentile) / 4"
+window_lengths: [15, 20, 25]
+candidate_overlap_threshold: 0.5
+conservation_bootstrap_repetitions: 100
+stop_after: Phase_1B_preunblind
+step9_authorized: false

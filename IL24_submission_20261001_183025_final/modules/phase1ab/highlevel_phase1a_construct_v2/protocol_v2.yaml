@@ -1,0 +1,39 @@
+stage: PRE_EVALUATION_V2
+reference_length: 181
+numbering: project_1_181
+allowed_inputs:
+  - inputs/reference_181.fasta
+  - inputs/reference_structure_181.pdb
+  - inputs/uniprot_annotation.json
+forbidden_methods:
+  - global_pareto
+  - LengthRetentionScore
+  - variable_length_tail_ranking
+  - fallback_1
+  - fallback_2
+hydropathy:
+  scale: Kyte_Doolittle
+  windows: [7, 9, 11, 15, 21]
+  complete_symmetric_windows_required: true
+  primary_min_endpoint_formula: construct_start_plus_Wmax_minus_1
+  primary_max_endpoint_formula: sequence_length_minus_Wmax
+  peak_consensus_gte: 0.75
+  peak_support75_gte: 4
+  band_consensus_gte: 0.75
+  band_support75_gte: 3
+  local_peak_rule: at_least_neighbors_and_strictly_greater_than_one
+  near_equal_peak_tolerance: 0.01
+structure:
+  left_flank: 10_residues_plus_endpoint
+  right_flank: 10_residues
+  heavy_atom_cutoff_A: 5.0
+  exclude_sequence_separation_leq: 4
+  contact_density_denominator: all_cross_flank_residue_pairs_after_local_exclusion
+  density_high_threshold: candidate_endpoint_empirical_75th_percentile
+  deeply_buried_boundary_mean_RSA_lt: 0.10
+  low_structure_confidence_pLDDT_lt: 70
+  high_risk_requires_conditions: 2
+decision:
+  length_role: final_within_band_tiebreak_only
+  no_stable_band_status: NO_STABLE_C_TERMINAL_BOUNDARY
+  no_acceptable_endpoint_status: STRUCTURAL_CONFLICT

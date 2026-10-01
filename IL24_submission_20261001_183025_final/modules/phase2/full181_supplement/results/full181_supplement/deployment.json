@@ -1,0 +1,10 @@
+{
+  "audit_utc": "2026-09-21T11:33:00.300141+00:00",
+  "server": "172.16.149.161",
+  "login_user": "root",
+  "original_project": "/home/xinlab/home/ws/phase2",
+  "supplement_root": "/mnt/il24_full181_supplement_20260921",
+  "reason": "Original /home filesystem has only 770 MiB free; same server /mnt has 1.6 TiB free",
+  "new_original_project_entry": "/home/xinlab/home/ws/phase2/full181_supplement_work",
+  "policy": "Original data/results/cache are read-only inputs; no hashes; no old GPU tasks"
+}

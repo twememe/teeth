@@ -1,0 +1,74 @@
+[
+  {
+    "file": "bp3/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundled_exists": true,
+    "identical": true
+  },
+  {
+    "file": "bp3/bepipred3.py",
+    "sha256": "7690f2c3fcaec70444e3adac28389e64d47a6ebec6d2e2f828d2caac02be2f93",
+    "bundled_exists": true,
+    "identical": true
+  },
+  {
+    "file": "bp3/BP3Models/BP3C50IDFFNN/Fold1.pt",
+    "sha256": "eb0fdfc00995d7ae489b309d812cb37e9ff8b46255f47a34b7e3259cc5a0b1ad",
+    "bundled_exists": true,
+    "identical": true
+  },
+  {
+    "file": "bp3/BP3Models/BP3C50IDFFNN/Fold2.pt",
+    "sha256": "ae2038cfe8f87c88a49d988c85de1b779e294d296761b3a0e4a3ccebcd572c15",
+    "bundled_exists": true,
+    "identical": true
+  },
+  {
+    "file": "bp3/BP3Models/BP3C50IDFFNN/Fold3.pt",
+    "sha256": "81df1975bbb386cc7e75f363434820fa8f8fa95200381ef863d262a77a93c08b",
+    "bundled_exists": true,
+    "identical": true
+  },
+  {
+    "file": "bp3/BP3Models/BP3C50IDFFNN/Fold4.pt",
+    "sha256": "e452965155c1cfb62dc5ff73929e7c1c2c0c37748cdb95e3d0994e9be333ec31",
+    "bundled_exists": true,
+    "identical": true
+  },
+  {
+    "file": "bp3/BP3Models/BP3C50IDFFNN/Fold5.pt",
+    "sha256": "707393549c06a2afa517d68cc21a384ae363ebd76c5f7e6559a9367ca8de3922",
+    "bundled_exists": true,
+    "identical": true
+  },
+  {
+    "file": "bp3/BP3Models/BP3C50IDSeqLenFFNN/Fold1.pt",
+    "sha256": "b6d8691ee1d797ad49af185e970a8f5ef99157021e16a55b8da26a0f3fda0113",
+    "bundled_exists": true,
+    "identical": true
+  },
+  {
+    "file": "bp3/BP3Models/BP3C50IDSeqLenFFNN/Fold2.pt",
+    "sha256": "db3ef49584a7b46d6d3507809fb51468d9647e8f240a5b792b035169ed07228e",
+    "bundled_exists": true,
+    "identical": true
+  },
+  {
+    "file": "bp3/BP3Models/BP3C50IDSeqLenFFNN/Fold3.pt",
+    "sha256": "69148a4d967844e06c2a1e7f8e73b85c1234bd8fd56b525017ae2f8420f8ea19",
+    "bundled_exists": true,
+    "identical": true
+  },
+  {
+    "file": "bp3/BP3Models/BP3C50IDSeqLenFFNN/Fold4.pt",
+    "sha256": "915b79b37f43b6c4e512a5422e5ae9999faf402ab49d446e877a855b494cb06d",
+    "bundled_exists": true,
+    "identical": true
+  },
+  {
+    "file": "bp3/BP3Models/BP3C50IDSeqLenFFNN/Fold5.pt",
+    "sha256": "f1ffcae53652081079097dcf64debca84dc3ac2f62702ad1f35807234e978554",
+    "bundled_exists": true,
+    "identical": true
+  }
+]

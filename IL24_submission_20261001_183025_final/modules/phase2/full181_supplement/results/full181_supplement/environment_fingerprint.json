@@ -1,0 +1,33 @@
+{
+  "time_utc": "2026-09-21T11:35:41.800123+00:00",
+  "python": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+  "executable": "/home/xinlab/home/ws/phase2/venv/bin/python",
+  "checkpoint": {
+    "path": "/home/xinlab/home/ws/phase2/models/boltz/boltz1_conf.ckpt",
+    "exists": true,
+    "bytes": 3595352714,
+    "mtime_ns": 1788351323232112831,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  "ccd": {
+    "path": "/home/xinlab/home/ws/phase2/models/boltz/ccd.pkl",
+    "exists": true,
+    "bytes": 345859128,
+    "mtime_ns": 1788350215485178858,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  "boltz_executable": {
+    "path": "/home/xinlab/home/ws/phase2/venv/bin/boltz",
+    "exists": true,
+    "bytes": 234,
+    "mtime_ns": 1788349378286228759,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  "hash_status": "not_computed_user_instruction",
+  "boltz": "2.2.1",
+  "torch": "2.6.0+cu124",
+  "numpy": "1.26.4",
+  "biopython": "1.84",
+  "prodigy-prot": "2.4.0",
+  "pytorch-lightning": "2.5.0"
+}

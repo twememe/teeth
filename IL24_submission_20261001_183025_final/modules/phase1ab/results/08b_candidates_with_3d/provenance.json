@@ -1,0 +1,27 @@
+{
+  "LOO_settings": [
+    "Full",
+    "-Epitope",
+    "-Surface",
+    "-Conservation"
+  ],
+  "bootstrap_repetitions": 100,
+  "bootstrap_seed": 2406,
+  "clustering": "greedy score order; overlap coefficient > 0.5",
+  "historical_region_still_blinded": true,
+  "phase": "Phase 1B pre-unblind",
+  "phase1a_hashes_unchanged": true,
+  "primary_score": "(((B+D)/2)+R+C)/3",
+  "sensitivity_settings": [
+    "BepiPred-only",
+    "DiscoTope-only",
+    "4way-sensitivity"
+  ],
+  "step9_performed": false,
+  "top_family_count": 5,
+  "window_scales": [
+    15,
+    20,
+    25
+  ]
+}

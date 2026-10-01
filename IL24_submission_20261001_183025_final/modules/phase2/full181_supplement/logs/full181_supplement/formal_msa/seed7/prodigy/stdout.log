@@ -1,0 +1,14 @@
+[+] Executing 1 task(s) in total
+##########################################
+[+] Processing structure full_blind_msa_model_0_model0
+[+] No. of intermolecular contacts: 63
+[+] No. of charged-charged contacts: 5.0
+[+] No. of charged-polar contacts: 7.0
+[+] No. of charged-apolar contacts: 15.0
+[+] No. of polar-polar contacts: 6.0
+[+] No. of apolar-polar contacts: 14.0
+[+] No. of apolar-apolar contacts: 16.0
+[+] Percentage of apolar NIS residues: 32.64
+[+] Percentage of charged NIS residues: 23.61
+[++] Predicted binding affinity (kcal.mol-1):    -10.6
+[++] Predicted dissociation constant (M) at 25.0˚C:  1.8e-08

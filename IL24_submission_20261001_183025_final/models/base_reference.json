@@ -1,0 +1,5491 @@
+{
+  "reference": "A: existing formal frozen base, captured before reconstruction",
+  "tensor_sha256": "e5e09eaaac2360a2b6a440a671e90952b6cf363d3cc438d7b5436b368b83a90e",
+  "tensor_count": 568,
+  "tensor_bytes": 2602869476,
+  "tensors": [
+    {
+      "name": "contact_head.regression.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1
+      ],
+      "tensor_sha256": "d1c2986e2fda782703eb39b336402b05541d830dc1847dd07bf1009f1abf2c07",
+      "bytes": 4
+    },
+    {
+      "name": "contact_head.regression.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1,
+        660
+      ],
+      "tensor_sha256": "aae5b60a08ba6b06160562060145fb79ef65a804d4a4be2c05bbb1dad86634dd",
+      "bytes": 2640
+    },
+    {
+      "name": "embeddings.position_embeddings.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1026,
+        1280
+      ],
+      "tensor_sha256": "a337460d0e79856ed9ea1d78245a74bf344c5f82170b44d78c8fb3381dbfa474",
+      "bytes": 5253120
+    },
+    {
+      "name": "embeddings.position_ids",
+      "dtype": "torch.int64",
+      "shape": [
+        1,
+        1026
+      ],
+      "tensor_sha256": "83feaebcce7360fc37a88ff2740a6e275fb39b28f1341ec9bb1bdc0da2d6068f",
+      "bytes": 8208
+    },
+    {
+      "name": "embeddings.word_embeddings.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        33,
+        1280
+      ],
+      "tensor_sha256": "c6aa14605af7e60915ba90b6f9c48643c13c21e95984f05aca970dab24cfda90",
+      "bytes": 168960
+    },
+    {
+      "name": "encoder.emb_layer_norm_after.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "696c45dbbfe0bbf2dc7cf8c0fd1f0f972f5fb5b7bee466c3ec49f102d608fef1",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.emb_layer_norm_after.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "5a7ddc9a9bac23d9991e5052052e961e5ceb2603be4d4d5c48b68c2ba3b244a8",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.0.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "22b74794406aa52bb3e8c2db88e91323189237d3ce49ed90ac31241ba7b872f5",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.0.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "21848ac104319647ad8f5e5a303d5a7e18206a2cbdd22959060c53367aa283a3",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.0.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f2c01f26557b451fb5bdd990ec574bd9b02ca9e70ee9b27f97b137b16b789501",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.0.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "cdc1d699b9f2b99e31ee1e31dd13b4919ad659ce22668363ecb706c2424c23e7",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.0.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "9ac589dc57faee0a439357145a0e148e519ef8e13efda8776ecabe60f20d0e4e",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.0.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "b7bd6f390aca946249291c7ef9b24d7c7867f354bfb7c8b67fd58aa4f8554b49",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.0.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "7b25e5a69c1b78e38befa816ecd24521154f52c4974de644f3d0ff0e639db2e6",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.0.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "b2d6cc362c916dbb6a8012ba1edde96d51256ceddb3a45ac9ef4d8ff9b0b6506",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.0.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "46828c6b60997d8444abf63e65488eb0d7361ad28d2381f46467e58a8123f644",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.0.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "ca043f685ce4ad5fb214f2fa9bfffc9388c3d2b0f787576959bcb9d7a05dab72",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.0.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.0.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "4c43ac423bca2ef2077855c4a902caa0654b50bbda0b62ea7bb21eadcb0a9e3d",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.0.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "709be75ab92e3246ff055c4fc8c921dc26cdf4955bcbb50e278e141020ae56b6",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.0.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "dc2ec8489f7e892a74ee1c7cf3250aec9d62ddcb47392ff60e10f0767e605d25",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.0.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "3fec98f70b550eb424fc0415ccdffb3eb6859ebf074ffb47c73372c3e1a160ac",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.0.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "48b5f91b72fd24c36c2442686bf2a27ce826a43b09649c4bc98589977849706e",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.0.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "66214920702627bcd259f1c2c745678b5e94c58673406a36055ca0e26c0d7bf3",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.1.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "ddb09061c0ce91e17884c901391e7aa24b2f3802bcbbbb36090adaed256b94b1",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.1.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c1e1420bb9148451d64fd1ad17bbcd0134fe6f4caee29bb2c55c8d087a94bb8f",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.1.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "ac9b13c74fef4621fc81a33375519bb3df5f75251b83666e3eb517abbfe2e4a8",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.1.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f5870ca28a80e12d68e69af30ef1c037c37f66f3c09f846a053f204104f95419",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.1.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "1e4bc0b5b8806f62d08573da24620c47d62260aa77ca04466f63941df8112cd9",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.1.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "23fa10ff8d558947e6a239010651f3be68f2ad98576843ffc7d178adb0d3104b",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.1.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "4935ed6b96e24a0a50def1562fc505d5608f5a663f65917c6b6db7beff8e7a33",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.1.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "76013d008eca4181df2325d61d634814ad7332e1686c2ef348552598f8b90ccb",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.1.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "a0e68ce449488abc8fbf3e2af62464e10f2f9731d4e572dd4535ee0a55e223f6",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.1.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "449ccb6c4760f28cfd50f506a907d0f13040d72c2dcf627139a3d849a61f6f8e",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.1.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.1.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "0e308efdf1ecc23e0a013e6baaef8603b41ccbc825e43dc53f007e56947bf462",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.1.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "f2516740b530c3503adc3ecc87e2765072ec8c0c5a483932926e5470274a7d24",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.1.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "3e35ab0b350e8e28c0aee096e0e06d83aa2588da742b1bfc957de15417cddfce",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.1.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "2509448f720083325cb9580e997efbf6cddd0a5934a64165880ffa16aa345fcb",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.1.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f45f316ecc00b6145e83790953e85f9d48bef34a13f0d7fe3fc70e84f53cd77a",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.1.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "5a30078241baf6aa5b8cfc12a56e06fab7292d56cdad78b1d7d14f71516617d4",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.10.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "6f22756d47ff9435fd49cfad04e72b79fe5321590e074be659a7bd39b778d564",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.10.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "804405274273835fc8cb5ee290e8fa48445971970a17e84652bbfab74282766a",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.10.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "cb5aabdf94feac4a8a8302b8df34a97ea84c31db4fdea12c62bd6bb732937ebd",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.10.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "5b4aba924876f9fa742e429829548c01e705295972fb0f932ffba3e52b0a2e05",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.10.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "68adc517c357cc39ced0c8c25c9a363d6ad35f2b5e29847d4353cd917685e075",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.10.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "bff22c066b40421175d6403213865dca92712e3c84cb5000cbdda03815841cd1",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.10.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "91270f5bb6628bd3535c67175febc8580d9856c4c1b12bf1e436952c403c41e8",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.10.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "be4eb65ca1d0eb56531f233efc09ed56119c70308c8fb18929f77ed78f07ccd5",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.10.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "df22af261aef7133eef04493a46b5f311aa28d7c0fd5ec87da90c6e0c1b6a03d",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.10.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "60b61ac046a05e4789e1d12a3afcf6361958c029d8126ebd5085c78ab6bb15a8",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.10.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.10.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "a9a7dbbfb7417bf1e515e92065551eac3fe1480331051b9a024fd1b7b322ebc3",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.10.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "b1ef43efabdda5b79e87ab1d6fa1eae645edfd3bd8fe0db43ee0ac42e2b97a23",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.10.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "8f4db06b8f5bc7af749217350e407f09d2b1b41952de06275c3b64d4724fd0e6",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.10.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "9d92b11e5c57a084e74933057bf4c0de37ca5924a698b1deaa98be43d1331827",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.10.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "d510e0e480f29f73b696bbfa20a4cd1b70f011256d5c36eec41cf5a0258f5038",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.10.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "7a6f8a5b1623fe2b84be252a4c899f258fa4f78aaf89c9468cef2f5b7d070722",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.11.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "32fc284a49a019809085f76290627247e067616752bb891965adf913106bfb2a",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.11.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "b2643524feab1d0fd7678dd119c5428a6fd5b6ee95d00c2f1459d84924ca8cc8",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.11.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "35c3dea94987f46cac9ec0b2b4daa74a3cbb4a5f51afafb3254b8ab034a15a4e",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.11.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "3a6b80d7b315703a664ac0385d1a717b62119585d5ba306d4993b9a605eae147",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.11.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "b5d0f34199d51b2f489c0149104eebcd1fefbe31c8f9caa8290e62738751fc3d",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.11.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "484db7959db470a64b38a1daedb5defe84de6214e4335a60a9721ed7945df843",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.11.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "08a2e1c57ce4f1ce6e6e4dd0c3b30b78581d9c99dbd348597776fb5ef47b5117",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.11.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "070ce7f8c560963dfbb45f96958cc03e8df26184bc31510bed0a90f2bea6d14b",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.11.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f01f53a69cb272ffe43e97671652dcd906d2464c7f29c5ab62b3d30cf2fb8df0",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.11.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "3c3c496f07d8ec437acefaaffaa2549a19862a11db70696c606c9352a733a1e3",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.11.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.11.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "6b10e383663b9a62f40d5f3c3bef7033fb20518d284964a6469fb7d15da7ebb0",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.11.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "b9b67f1e270b021491b9b53ecf4b4d9bba78a43ae83a90d829c862ff7cb9d854",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.11.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "f28a977b4c70bf634f40d99a37f2d6c8a423f17cbff93490ba9235089f1ea200",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.11.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "3c9bc93aa68376b83c45e4070f8c215812afbb9c0c6f098c71a742f487b4d163",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.11.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "97fb299203ef7e39a1e3a944785166ff3089392d936e70904c0cd001ca71cb87",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.11.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "c7550cf1bc0f8a55f97d947aa02dc13a88cf0cf260406fc9659732c551be2137",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.12.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c24f53641be1b3ac01d1da1a5b343c1d4fafc95610e84fa0fcec81253c5bcf74",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.12.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "3ce83775915799ebd66ff21ea49f7bf0e4bbc6c34e322a6852aff830146f7f39",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.12.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "432cf559e0f3a07afefd8ba8fb24474bb865684ef8066e404990977b84101a00",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.12.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "b6443677be215c5fdd8683c65a8ea04018872c9a3ec7b754aae125449e216115",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.12.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "ae0501cccdb0ee6234ae77202efe70f10e97abff60ad8d56ad449af7ee64a6f1",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.12.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "855a17cd9bb55ba20e86e7377c7694d2252064082e9635abc71441def307d1ba",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.12.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "1887c54b0cf2b8d934a7306fd14da4541fff1bf72e2d7b1a2bc0f2a47e7832bc",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.12.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "de8c10d4ad5ab896816307e06cca086cf143a890b2004fbdaa4babc9eb97d533",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.12.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "bc3120e3c031131f7d867105dfea3259ed01241adf7884cee244c867d358ff80",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.12.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "9fd05409e4843ebff19d42a18ce7027fe1893c1140a043b0f4ef27577546c42d",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.12.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.12.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "a8d2bd1f0c8d6411d30fb04d3a381f1187032fef10ae8cd610a3ffdf4cd6fa32",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.12.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "1d5be344aa2e5759138e995dda16d88773d816fe92d9fdba7aba215efc160b53",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.12.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "6a902f57d663baa479f394d4b7738772df1645f45a58e6c933f223eb197b17fa",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.12.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "9e6026e2658bffa33cec0ea9c31404f5aa1459df69a810d21ddf49a36c24305d",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.12.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "4055175033c2cea59d4779e1c0ed652a468beff42b393fb29e90471c859d9c2b",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.12.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "cf04837b3257212f2be2afe50ef85d775f8ee57ef4992090cc4077a256381662",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.13.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "fbf8983e08cbe24c0e79e09db836217aa85f71dcb42770475223d2cd115866f1",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.13.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "ad55f12fe00ef3e6c2d4ea91f42065e6f6001b4534b2fb2a6e2d89dc69c25f4a",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.13.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "bcc4cbae9105e7630152cbb1e6655a1f9accbe701085507ea3185cf323155263",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.13.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "70b2c0b76d640c938d739876888f9b8c0e6c90a26f163231b69eb7e4681269c1",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.13.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f28e7cfe2663d54875eeec1fc419661f15334eba23f09613049a3d0043f2cbb2",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.13.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "cb5482a2ed0251ccfcc8fd8fced818e528c2cf96e7ed63b0472a50d1b2307b65",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.13.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "80e7415e9e46109f40c8da3b7686dca2fc1d008d1d799a0f262ad85915561ada",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.13.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "2eaa3234577315d3b90c2ead46d6fb2e7e4ead8e12c030aaaaf58f381ee56a67",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.13.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "40cd4cc50eac929b3f3db1574f927943f653087a13d0a26bd0fb6fa470df525b",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.13.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "1e49f851b656fa3011ba9ea3d4f8084760dd133411fa0eff25cd1365623fb6bf",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.13.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.13.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "fd71c8cd67022395634b89e573efc1bec284ff4a75aa4634222dfa4ab3fe3c59",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.13.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "4e4fbb85f4bae9e85cde2e4cff0efb31c4959eccb870fa02e4971e4c2fc95e7a",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.13.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "90b44c2cc78d1887c600c05d8d73d953e6789c7a287f94e5cca35806e95d3f33",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.13.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "d9766a91cbf8e268211f35be6df20ad922396e2608d0e8dee81e88fcf5f5c4f0",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.13.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "6d4df6c4827b7bcc26ce28b545ff4cf3f902012b7e401cf029918604decedf1d",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.13.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "5cda1719b2377738ee515bffe26541cdfd6181c222ff2321d98d874ab41b7cf6",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.14.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "2374f1e132c4c37b029750891fa59ae8f3dfc283ba4b5eda365dbfc8985fa67a",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.14.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "df131eeb512cdaf83f92121d54a1120792445241ccaf229cf66b37ccd77e31c9",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.14.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "151e2fba920833c957014eb1fa4f5c8ee407ae21e676b597e26a7c1b412cda7c",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.14.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "7ca99d24ac92754578bbc6b779f1990d1fee4b5f05369cf86fd68f6e99ba935a",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.14.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "fadefb96c6f99c7f4212aebcf8543ba5ff6fb5f353fe4a4656bc23fa04b68afa",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.14.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "4660eae0e14f37f9528beff333b0e521955535a1a94b08d33d71a111e40c6e23",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.14.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "75f8da0288f987dcc0f5bb6179df8123daef408de7505e2cd172e55588d06554",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.14.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "5df9cfed3388cc0a9853159d46ab3b4a50efb1c109d2e0624ecfc36cc2119930",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.14.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "6c0528ffbf99cb4dd5c791ca212f0b038962558d0c43d4e9c921fdf198994ac7",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.14.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "777000b93f669030995daf690bc98480854c06021777d29f55b83a42b928f397",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.14.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.14.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f82f3060d9b8b2ac0353a9351cc4b715e86b76355c532d73fa71fc4d3bbacfab",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.14.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "c335c33c8f207007ca36d1fad6dccecdc0db967573f950d0412d4cf45805e9cc",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.14.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "24e76a94147655d47ba7b320d84e41688667f9bb50410533d2199128e1ad5d23",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.14.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "5b8193b860c2dca74d2f5d82bbe37e9c66aa1ebc4ab4313044011c4ca2dc8628",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.14.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "0f1e2a29291504033018e698aa126db32a8dd369503d81f24b0048aeb0d554f1",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.14.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "fece07db85a711eba084c6da7f8d33b9963aff232c1dd8697a2516c941114c39",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.15.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "32b3e61f6a0070c098b9304e396b9e415afa5b8e031761bc0183d0887f7aa297",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.15.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "b24ca28df7b097f137d9370b0dcddd756d31d885735f66f31ea32a9058632427",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.15.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "1ee55ecdf3846239a803b373fe432c5432b4f9017e6418439df4cec424f14649",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.15.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "0ed297451d4d52137c5e6f0577cba9d947b7ed3236bff36759e63f7240adc748",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.15.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "35d4b1e18a0b36f5afb47de5b795a8a01d4e2350f80435614a4711246aca6381",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.15.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "0bc6592eb07bc3efe68242bf9aad95d9ef54bb9b8d0ae01d141559a7e3261b66",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.15.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "b2e05b90510db9819a0034189f3c17bd434e466adcbece390d2c01446afc1b11",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.15.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "95138ed8dab167ac8be31b777ad0da34429fc3741884daf36b0330bc40cb653b",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.15.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "2b50c59d7eb771b1c0067b5d0d376f15866819d2c313ef0f20818ea83abe7e4b",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.15.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "03f7ee86ff733fcab62a48f869c398f1dd11de79ba5ccc65ee34dc704387bbc8",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.15.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.15.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "57d3d96f57bf24a822f79cb2dae2272e16f91af24a8227e655b3585c54fb76c6",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.15.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "2e535db9f17772fa96146f7e98e6f185347acb5cd9ee9d04ab5ce96ce01e020d",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.15.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "abad226086dce1de368ced2bf615f7d5a2015303ea1b4f0ca982f0b1251438a3",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.15.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "2170325fb664f0777e2bc08d266a16238d19f9062cd3e694a249a76de70e9e04",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.15.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "e2e43184437fbad8ea1b015e64f3efa154e4e4b61ce6f16d9e2011d8e9cdaa2b",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.15.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "8df7bc787ef9e27eb94155cf72914307225e1e9a98c52b4e69e703261a8d6948",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.16.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "2a3a82a8d9b6ee3f0f9691c0239cb7cbfca5db1b50cbf68a6953a3b2e2da2dae",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.16.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f8a04f8b378a9416524a274321a327317a300a5db411839267e38801d7e7eaed",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.16.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "47dbad97fcb9750a4389df6e23d43fd4a0d4829a734a4d8e6f4a591bd84caf60",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.16.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "1132f9e4d52a0facdd36df56ff681873397a8b28154b3b63d2adda1de7a18d8a",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.16.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "176e0daef25f84e647711c7941fbd7ec192be38aa4793f9c4d8338ce68aec4f4",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.16.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "7d33de08f16e66171b7fcedd208b88ef1408d50863a984935447f4c2308e743e",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.16.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "48c883f95bf5290a5e641dfb152605a1136157f7f119ad34676f35a4c9710970",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.16.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "aa65bf3600d5bae13c6579d01235b8ba3894bcc5085a6fa6d85d59d603ae16a2",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.16.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "489b1bc8d762e935d2378a71a7541ba3a726a818075026f46ec77ab98c1d5edf",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.16.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "ba5d9ec41fe9e24584331b9f2d72b34de9a7b55c3ddabe632d16eb45b94685aa",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.16.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.16.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "e3d18ea31177518a5871329acb712ee9a8aa54f4954a1062ddfa5f17057fbfda",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.16.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "ad54f6bb148d4a1f713990bb35331d59570eed99f85dcbd578d082c92233a9ee",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.16.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "3898302069fe207f3fb9f8fe22c92b4fee70b00f38759a6621152bbe7dd03b90",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.16.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "31488194de6f1a913777b04937d382bb35c1263256cfb29b11a9b91c5884c5d6",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.16.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "346c0744a64fdec8aa8f4ea2f33e4e8406969766ac19e0e0a5f1b99601c4a574",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.16.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "7620f8df918c90da38ae5247443c9161c801605121f699119a84928f9631ca19",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.17.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "a3144bde7c1117f0020a5c531fa7f2465857a0b8b25294247822b7698629d610",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.17.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c526b7edd7e91c16ed3fc68151bfb6d324aa266c73e6e76718e37f84437b4940",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.17.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "cc58bc86e11979197d4f572c03a7fbf147fe18d14cc59c2f431b0715f981fc47",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.17.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "71d2d8ccdad2b47f02d912dfbcdeff828fd2d035086b1d0de463486ff92c38ec",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.17.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "90ae77b32ecb35ae8ab80723f5da552281177fd0230501a2da091d64d3982908",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.17.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "87c62baa31270ae6241818fb5ba3e1ace81175cb86c138d4aeccfda082dd6987",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.17.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "9685e5d41518926be5db44a39c341e383ab3b9ebcb47305b5303e4a5c6f583a9",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.17.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "ac7030c92b2aa65d83ea26c51452593e3451065bebc2187b6591c407c9782c13",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.17.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "a25a6529ace67c437c9dff85a9e7be4c53c86875f5c7814d2d37e4a3754ac081",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.17.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "cc9cadf54367e67dddbd2ddc82737fd776c0558dd34eddf1c74fc12237afc0c2",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.17.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.17.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "6b5704d583f62cb7426c1a74ffbc8f2ab86f53aee3180585e8ea4b505fcbcedf",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.17.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "4af38f18e1f03b6f78e28b3afc5a657d2dbdccca9559c5bde11130b8e78c1e23",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.17.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "531db04e109e560d1d4bf5a9d00e5a57f4198f808849e672aba149b3e69c825d",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.17.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "db5a5427eb6cba32ccabcd021bb0d5dbf93bd5197efbc75062550d83b12ddd8a",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.17.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "52712addad1fd91e20748aadb98acecc1a0fcaa51b184571034315694cbb0b20",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.17.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "e35d072893f64bfd2f57b922da2a10718e68c0f7dfae375a9137e6dc48851ffd",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.18.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "21fae1b401f74e971aa39ad0fd169635956454fcbbd8af9ba3de0ab8adccd2d0",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.18.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "50b9be3ab1723aeed6a1b0a265b4bffbfed62060dc0464e868046690433c2272",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.18.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f6ecfb262bf47241296a4455af8233e7466b7481313f7806dd78ef7621adaca4",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.18.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "0a3fac520f240941dc585b3ef80b9407203e6f75da0015202e5322f5d1b6e2a4",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.18.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "87361145b9c063e1d6c8374197e986291a0f81ea19dbb2b942e11eefdc2a70c1",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.18.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "f137915502af392cfd3f3b4000c45886ee33c05e7d65a35b9bd1bd748d221d4c",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.18.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "4b02e1c97d314ccf15821e803d0537963c877c351aad7c0bb40dbcc3cca15c71",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.18.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "ccf3023ee783ae45179087096ccbcc135ca80453fd8373bbe9163974d92b23c1",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.18.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "40ec89c74d30932a9591d1e886c105d6aa5263b7c63a18557ca829152e5bd29f",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.18.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "3d419b534d3fa909d90bd8c4a5cf27062252cf7511d1f69e2a4758291b1dad42",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.18.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.18.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f1df7717353eb00e592b7d5bae00d3dce91e9662d6f4162e5735770362742f35",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.18.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "8793e3ac8b24777b156eed44b6ca547ca64662f7fd3e8a13ef91965831c078c8",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.18.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "caf021f6b0b5e8efeb05e30761394dda9bd89ca12fc1d351cdd0d160f9d79616",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.18.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "21c80c127217e7dd073ed2e0ed8f1018d1fc769c2442ee3f9980ce18a24c06de",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.18.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "83a5ae333fdb4ef57208a0ba53bf77a35452fa3c587d386e855189b94fab3c09",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.18.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "9dd9dfc72face24da988c1d74840fa3ae0b2ee66e98eb9ab5a65c10773aa7b12",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.19.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "2d1c9e1924f0e05b27ac72a711a8c651cfbdfd777d584f6516aa5110a13fbef7",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.19.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "7f883fa87bd3199453cacae156fe9b915436f1256d28616831fe6821fd57e058",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.19.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "2a7ac055f3e6053e33ec4291af7f4c256cd19cdfd704e1bfbf741cb11f749aff",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.19.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "7c81341c03bdc787b8bafdf187b06f18aafc9da88ddb83a30eaa6aff05967b30",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.19.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "74d5a20740a5527d8f999177402b72cce888bcb365aba0c9e179122836e47c94",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.19.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "08df23413573ccb68658dad9758c61c2e9f8d220f5de9167a8c905f42da641c8",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.19.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "fc71e2b721b156fb45165561e39113e866accf6ceda97090c228aa1a285e9f50",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.19.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "5ad27eb865d7b7d03820f61d75be7a5a5802e65b47e04a49887efb5ec038c2ee",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.19.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "3347fa222e8e05c4cd9f8d54b0d93781123f2016d148f72df7290d2258529d8d",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.19.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "67c4f5fc424a75a373d5d6428e2123666a72c0feadc4609ee28ade5f796d77be",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.19.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.19.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "41364296f2ad558c788acf94c4d56040aa960e31d6a0f470aa2e9b34316b5ef3",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.19.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "eedc518c0c26e8b1878f4009a0821ced23e21608c4a4d20bd3f35747cf7c7e07",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.19.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "466f7a62b8f03b8331d9b924f179c656c00db9511aa634b0d45cb32af61fc53e",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.19.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "24c7e6556f57161f7f1637c7b1f95d56539d51f97e6f18c07db7775553c89cb4",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.19.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "12f842c612592d65af30da4a1321f06577e35e7ca74cdd034e80fb4a066c3db1",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.19.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "e89f874c433b96219b715f4c31b968bbc5e069442c03a24cfb5294e440ab9683",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.2.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "15990acbb3b965c06e9dd57f8610cbaf8abc8bdd375e4a611daf5feb25b9da37",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.2.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "79871985a34dd7cd34daa344f584222df1a1ecac555dc8d767aff49250e4bb2b",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.2.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "68d1abe670cdf3f6fc24524444aebbc1899f4b5e62eb9ec87e47d8d570265a7a",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.2.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "4f5abc597700a467c5bb4b875301fcf836433fab53311d818b68395801a6f99c",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.2.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "ba8f4116e802998e3883aecc096a6e0a2cdebc06f9c7a5917b6dc7466c1fd2b7",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.2.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "90a83ec6e15fc852cb746faf37a3bb5598bd76758c8789591f123fec51b60fa7",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.2.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "bb31657698c7e2905018eaed2434e935921d8394d43719cc8014e0735cd03023",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.2.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "f44de93d6ff814913c0f4db029c6fbd47c959d0d6373ebf7f1d988d8464dac5f",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.2.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "3ac0d28f112b9a7fad483503d104cec4d1bee6d29510665f91afb4f1a285b97d",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.2.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "aeeea6f8c5eb3d6d602f766a80bcabcceacad6211070af7d701d5dd9bc46f086",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.2.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.2.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "dc6b953406d56ae28551fb3e877a97bd326e6a2a540ec55a9e8d40b3cbf434cc",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.2.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "cbbcc2db6bc5d9873daaeffb7848fee98ebfd2f573eec0af3c50bbacca43fd68",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.2.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "3377196a50523409f1238a2aa929a4128400ef54cbf199035da0c89bd4174b88",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.2.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "121f2d885436b16a7c14e5b2ae64a75c2c4ab386a296c9bcdf565001b77e4d23",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.2.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "4d5de47da621b7160d4ab8514c531df04036c5ea946387696f30b5a1ea204cff",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.2.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "b227b8587e2cf617eb7de9ad4628d6504909a740cc39c809f158dc7dcb80d92a",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.20.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "17f618dce1f0035090dbf1906d5b3aab733f25dda59b1a8b38f53e1b21a4bb34",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.20.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "611566bfaa0bab4f034a7948697113685ce34459d0c6da0b5d2bc8bb259fe9f4",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.20.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "966513cd79157fd0bc5be61d987cb409f97012c7d6388a4af9c7e707dcdfbf60",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.20.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "7024437c9caaa09bbe2b722b0e3a47faf1cefbb4f96a74b5e581a56926baff28",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.20.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "aae5f2e653ed04fba5f03ab210bc74c0f555af7c52fb20ef1c2db4d7faaa5efd",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.20.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "4cbb551fc6f7bef0b3dbb844162689b1b12b35e9cd77aab9cdee1f5f698f7510",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.20.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "3c354bac39098873cfe34a3e0d1251a49995aa18cd23932ff85b856636b98c7b",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.20.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "77d9f2d0549c65120f7ccc705b7773f3b186d174bd4ec5401fefc0160d6bd8ec",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.20.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "37a037716537c570679716c9f036f85bbfee44928ebebd458597a05fb4b69e0b",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.20.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "078a06cb15281d2d75258510a299f74d9d668b50d998f53f93d7f2ae1f489d59",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.20.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.20.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "a5d521263cb72da14715233f425dc52d5c45687e8a2cf9997ab823ee494653b1",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.20.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "8f26110109f9d3d1b71c8fb026a23f99ac53d7200846fc1496d02afe4a4fdc5e",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.20.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "700faefe43ba06d9174b1b714cea5a3b96d7ecca5e99c169eea08ee31d25cafa",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.20.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "3f45811a3fee3a864b238b8cab2ba9708ce20afae66e0ff00d9d89049ef59632",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.20.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "a168b3334d630f006b38daeaa4e814b5e607bd3aa20579465583c076a666a3ed",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.20.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "7911d2e59ddc06d77ec46138e4576d425047dbc7e4a43ab1c5659042671c55f9",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.21.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "ac2fe8d2b9c354509ead6d829afd6b0d1698d4bb19f667ca3587f5564b49b839",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.21.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "2df264e3cb12f7006f1f2a88f87aecf2eb3bd6e5b525889a8f7a24c77e024097",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.21.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "dd738672d6c02750ece41ece0d210fb45cf5d057b9a47ddcab2ffb14fd273bde",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.21.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "8b8cc83700d465ab9f93a3c187b39919f4fd4f8afc95b90874358a93d5a76aee",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.21.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "aac019a25b711601842f2ac0d1664a2efed9a0e31e87147eb05e7047a310cd2c",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.21.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "c56f7f1fe2d56b77d9f0fab2d35c49481c39ae90118a905e1f795c1d57e70fe0",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.21.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "085e523382a1a29acc0f4c74b98b9b6b302ecce16806453f93600f0a9b42ce2d",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.21.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "d87bb93a4c7b6a288a49061fc0678a7e2a7dbe7060015a1b982f13034f5f9d3f",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.21.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "81f367269e81e564e7829af3bd0ef4fb8da5b8af91c919883b1b87d101808d4c",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.21.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "a43f84a99016ac15b9f9eeb9694ff2f0f6dc33d42d6d4dde003e81dd345401f2",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.21.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.21.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c6298ba8f9fd75b82fd64a89f240819757172f0898c982e192de3c07ea6bf026",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.21.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "43d36ea0f2c36b1b336d37f722ab05c02dfdc6146b279ffc021b4c70600801b9",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.21.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "f2bb376949b14a08130516ad7f186ae0b1f46dbd2ede7dbd3fe4afa5126274ff",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.21.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "d4dca04decafacaf9a08a5ca9bb43935eb590c1794581bdc693b82bcb56e1dc8",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.21.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "92513bb82033bddc17fecb28dbe712a1cce92e6870b743de7c770ce006368f34",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.21.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "6640aa0132b00ea925da0e99098e5a049492805ecba1335236ea115b9471367d",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.22.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "4759e507be21cc7ab188642b466a7a325be809f181e403e97d0127dfb5c49f02",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.22.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "6bac41d9e48cab8c07f77c64244bd43175fa1f7502a46bf65c76d3a3b627dc9f",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.22.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "263e9d971287bcd5f1c5a9f325338c518d50c45cc0259e8cc65ccac76b172dab",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.22.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "157aec82ad689c64918f30d9acc8b9092d493145f4be90902f15fcbf0a1a4b1d",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.22.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "b846dea652447277e2dd752f15443f9b2625d3cf0fae19fad5ddfad3526baf06",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.22.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "c1a724395d18399330d509a1ec0dc03d97e06d9969c8c0c131bc66ad2852c5ce",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.22.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f2654b95a712a0b9d9f1fa8bc35870192ebab3e7803b6a5cc0438f7bef8e53bb",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.22.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "782c217c7dc220e05259d304a3650cd94c40d88ed948c7199e27154f532aa527",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.22.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "7d7888fcd933dcd662ce6eb681c5129eea936816149a702b2c871090f4cdd908",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.22.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "1cb0d97d6c53d3459ff4ddcd9b0d7878d713b82eeead7e0f97d3e85fbe5fe225",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.22.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.22.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "5642e12d7541d0185cc16e6808ba6a9e37881c2811f6f2ea3c24deca8378a1fe",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.22.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "160c0c4767e20367dcf41b9db137e7354760887d893f910d24607162bd2f6fbf",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.22.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "31788d01b93a84d8d61fade9b3d8f1025f27c8992472e90618d8f8de4ec3802e",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.22.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "282aa7480d57f3c203f9a880f8c3205e59c509a4d8d0d17669dbe763ebd98fa0",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.22.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "211dcf405032817e60b0e8cd6e99d01da74ce88d81ec6953dc3756def732ce65",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.22.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "e99d017400a738a43b8fe04a58060d968b38c649b2a56b1bb223774859763320",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.23.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "e34c0b3478d40f85b83cb9ebede6d37d75eb46f178be16f38e850ef398b62d90",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.23.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "844c50e7efcaa03acb4cedfa1f8073385bb18ab551ebd3667c7b39c47438368a",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.23.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "08bba089832878fb00804eee3154a68bb5639f7252506d243a0b2589fe817a0b",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.23.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "a9ee8cf6776eee6b0d477fcf7fff833866fc4d4f414525121cc0db452cd77da2",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.23.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "0788f8cda5fa190b264ef7435b6e001d6b930466f451ef54b5cc534cbca5c69c",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.23.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "0c36918be2a5a61eb9230ce94ed86c5b5a412b11ebb6065e66d25a9f4b573476",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.23.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "a85726ae848e9a15f9a510a80521ba0d94325f0c69e2db6856b02a024f30a57c",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.23.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "f7e59152aee83a052a597a2caf8f05f79ba28ff108609e840e6a0a40cba17a0e",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.23.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "8be4b50e2ea788de1c826a956dbd342370cbc07d2854186147f78daaa59f1d09",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.23.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "7d09827f217efdae8b8005948cd48277990422987dbc2c43ef97038a561bf67c",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.23.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.23.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f1b80126b20dac7569f21b73ee2d8af605df01d5b020733f31ae5d65552a16b5",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.23.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "836fdc8e65d8418946325d4737c443a1a852977a01ef62bba608ebef73486e92",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.23.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "02a344d1f1bc4ffd8bb5968c8836a1bfc118003d280922d4767f2019346b39a5",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.23.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "2677e71570aef342fd2bdfb703870c7b34ba0cf381695de31f25b2418798aedf",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.23.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "260cb3a0e1138287233157a3e37dd5efb8b00b1cbfdf16050b0ec4dbc299ee42",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.23.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "5492f33ac296233ad7bf0bed6d95f4d30592a35368fbb53b89060977ae54aec5",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.24.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "0a71e4d2456f576b5c00b9556472cd6b26d645e415ab46ec41224f345d95c355",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.24.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "dee7397105dd3445cbe0c5d5ae01ade6549ad8a11f198bf13743693f8e4a8dab",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.24.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "60a93f670ff2897faae45ac803c80a937400f940450c54e266366da917f64e2a",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.24.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "58cc95d973b9cb8311dc05eca1e3e6590ed1ba5a545e262ea7068b0e3d7aa704",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.24.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "0d5fa1da3bed1a4f1a4b079c759e6e24451c19bc53043fcf55cbdc1027eebb67",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.24.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "4174b5acb58536a21a366fbfd2b71916dbdf665e8167f953f98540b3f902b06e",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.24.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c3d755f1f584ca6e03ec44d0f2d6a6ab110431c0f894504247e77d03b88de701",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.24.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "5219666e9e6beffe69c667273a03ce39fe5e9cb70a9441fa7f7c5f4d275fda5d",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.24.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "997cb4931db68fbc194a87e1f1134347886e79930f39e3aa20f940cc07c99524",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.24.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "6de429a343062f8b0a7a8fa9eba84dd9ac077c1003c0b0b1a9b5fdf7e4921879",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.24.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.24.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "128d3b60ab597a73588b2549a4181e673e06004cd8e88009e5a64b1332422681",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.24.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "60a0f86917739e8505f38852c332bf848bad03a87ee2b7ad06601a37ed81bd58",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.24.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "f90c7cb9d30b7b8e10234d206caf536e88f7e7748ba413d274af330f91ccc7e7",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.24.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "3a21849bab5acc627a28a0518c5e14c64215208532b6131a18bf90676d42ad40",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.24.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "56e9a69c78101265729ab9cb4fec5edc5a9423f8e147f9d793db8ca546081114",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.24.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "6b66f7e2b85d36704706426ea1b080567058de4856b5f2911f80ad1dfad18b7c",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.25.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "09b5f0295295f9b2c6087f628b9da9109beee27fee684824d598698c0057a5f1",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.25.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "1f81686f47ef38f9110eb8da1caec7e82dbc748b3e14bc7d22e6672ae2a7cd01",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.25.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "7c331373330ded9ee6041743aa656824c4824e3ff719e18eb486e5027245ddda",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.25.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "3f8932dc93723ead85ab4455e73876a3f5d694872f3a5677c2954ecce4795e21",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.25.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "db6e789e206146e17bd7ff319e6adecbf6da119249778d0ebf32db955750294d",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.25.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "3862eb09351d974ef553b8d8ae65c465d214268c412508ae39b14cecb346853f",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.25.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "1c92122f158f170b47987857ee8eef2156f8d98693c8589c205777ef541469b5",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.25.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "ab65d4795fee054bfd3e99a42ecc63790fdc811b1c377e48b1efaa38dde2df42",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.25.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "b9f67f5d2b6f68bae4de1993bb75a8cf0f06fcd629035a05880b0c53ce36794f",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.25.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "027e92bb0f65905cfba26bc2232b71c0a2f15e78ea586b6176bb018bf18d60ce",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.25.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.25.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "588742a5f63980e42deed08413726ca5b92a67b31e4dbf61f461249fca300d8f",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.25.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "6c6f67c5a3cf5bf3498749bc695b974d6f0e54f9be1d40b4c35c70706e5d4600",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.25.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "8d7f401d630844c8fbbb436f7910f60fdbdbad6064489ac46b128492b7ae04cf",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.25.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "e0d7d6c66f71b0cc6031ccda4c532a206eb0053f9e5ea120ddd6ccbfcdb188de",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.25.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c8f630659fb27b45bc3221bdbd0f490646e2c8c9446b0c3ec84964260dcca965",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.25.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "7b8f723ba4ac206b1f4d78cfbd83d1a3e5bcfe673440d30155f9276b791e20b7",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.26.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c3237bfd6228c5fc1a45eb86f48150d0ecd351dd6382bfceb1a8e2fab5b33a12",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.26.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c62241d450b1fdf73ee60fe4fc107593e23d2dbd057a38a0bb6f077961ad7f35",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.26.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f563d28810a356b396b4d4b48c8d2c02a8c520602d709c3fbb6bda5644d11008",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.26.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f960e28d0f568b210a9276bcf14a78ac341b9609e958c781416896855f989405",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.26.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c5f5674cd797ae327ad2f89a279dad82c7eece0b060894047830427ed938df47",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.26.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "2d8353045cef0bd796d69fbdcc858471e0234fd3b9210a3e9de41b7db4fdc9cd",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.26.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "4208e68ddcc7a5b2a9faf4c04f25d5471fdf9f6883bde6317cd39292e6409ed2",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.26.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "db31a13469baafdb5c80108c8b1640fa13aee8ce8e0722b014eab4125881c2a1",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.26.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "10b741982d1e24ed087dad7c094befea6ba96c09d93b42ccf7ba04e2fd168d55",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.26.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "4f7e7a6005c46728fcf4b5ce012ba91cbd157cf890d64a0d23556c2b48ded9fa",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.26.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.26.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "a17f2d534702c3e67cff1f265d1339e45bdc888460b04d92cd8ee49c84833b31",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.26.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "9b107d10edf75152a5b09c1c220d5601b87318e84c83c04d7ad345c7097f993b",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.26.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "b65518295cc2bbc1a59657d9641416c95e0d4e5dbfed9505d80c191e6bdea82e",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.26.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "3058bb3b100dea489d40cff73dfe4e2d6dbc06e5737f8998d0918bbce234b165",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.26.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "34623343497f76ef8b57c56ae67e33c223faebf0e19fc517a70ea6bf22e86afd",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.26.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "daa27b622a541fbb555b104545a3adac691e353b5faf38fe10f91da7e7d50a81",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.27.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f93b2752c3f22ef5fd364f666165b680a52f29c1abfe37cf707cccbf595db2a8",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.27.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "6afb4e03273f73d297f7e0380c5d40afe3af3c4ea4bd7c37bf59f74d82d6ee06",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.27.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "913c0fac6a583bf34ac29b7ab147486c5a21236110ea8b63a5b025f3cd28e29a",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.27.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "86eba108e77e881cac3b19d0397bbf31ced6dbad7da6e80a3765910863d5076e",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.27.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "0a69f9a15cbb4c0ecf3c1af44893269a822f971e97778ee66e5b5648718cd3fc",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.27.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "de8e21b3c93f8c3cdfaa1652c5a3f93b6343ceb8fbf23e162f44e310f38d1561",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.27.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "410d29bdcd8605102126a5de0326f020ee4cdfb673ae155eb440e0ca98517beb",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.27.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "c2d26a0d46dce6107cc402d66331d57ca0a5e721dff3c68e3da2d86fdef22899",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.27.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "abb3d0dcd17271510ae05370554e76b17231fe1915b0e5495352b8703c7a939a",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.27.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "57f82a93529119daa10697ee5143df9f5c7b65494e672fa40fc2d6ea69d3b489",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.27.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.27.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "86ba598a6e1f016ab0f78a5492fcdc6794427055b9a74d2d24516f24ceb544e7",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.27.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "ab320e520a372b1fe39315b53da21733dd53dafafacadf57a5ddd239e2b5b9d6",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.27.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "b8d8cbc0485bd309bc4ce82a77e3b922500cf644b6a6dd18f4a68c2af6d3f235",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.27.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "865b09b11cdeb76f6543394ad7b676db29b3dee0cbb159214cde49b2776d37bf",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.27.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "2374358ed3152460463f5c51a70c9b23aee65908855d798fa39682a328e85128",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.27.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "9ee8edf9ef7158fa2fe5a37ce2de62ad174827a717bd8f18abbdad8a5e36250b",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.28.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "be79e9988e1e302d64cf32f546aa9ee80b8b06b24315b25a481c126bc92bb1a5",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.28.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "4ae347f653c0014fcb878a3a385093caff0ca4cbeecf4a4b2f2ac5167cbb584e",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.28.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "9e6872cb6e141301a7d09c1a5773cc436593921f4c826778d878b7c2024b3f3a",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.28.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f471bb8ec42e0b8cef38e9055e855918531845a379734682f4f7b0fcce53eb44",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.28.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "b7d6c6ccee99aa277bca755c1c916a74af41585ddfa18f78c6bfd1a567e45997",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.28.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "cb698391d93f0b00cf53788844e97234186dccec5aa4f8505e6930f2ed9a6c75",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.28.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "6ccf5536356a360b2b2ad24de59c53eb45f81ddc0445be8d6b44aec9341c4fad",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.28.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "4c0a7d770b50d15895f813ee7b4ad6dae174ff00c17b7307ad1a5a19a7a33636",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.28.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "775651404178d23f7b873c242a27131a225e1421dcdbf0fb4bc2e250294f7337",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.28.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "c1acbdccbc17cb002ad343e3352af0bf070f7bafc075a2430ef4b4062f78c9d7",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.28.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.28.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "789c29baf75619ee60960c68f039a0cddc419c42accaea91b46f17abc5da5c13",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.28.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "04486e47abd310f111bd8ec6e7c950fe6431409e4c751109de5259d396887720",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.28.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "0ceabf1dcc3b9441b5a68088d55fa253ee74e3ac0f59041fd271ce113b74c33f",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.28.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "d991c48d4b31e7c1badcf2ca2a377311f98cc65fcfb98d9847888015f0b7c513",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.28.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "1bb3a3486d7dd381fab3ad09519f3cf452dd62b0d090c6067885b0daf39d59cf",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.28.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "e16439588c8d2cf88038f576da5b5ced706bd7463ddc208defe3fbe73c4a1814",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.29.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f46c924a79cedfd4a471abd1d4c69957bce3febbf5f80f52405464f266d05136",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.29.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c1d56b2f33484c6f492c61325eaf1ca9dbd49c681f4a06610e5ca9e7b8367f70",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.29.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "24ee713d8c63323d88745dc23b25557c882b5fa07aecfebfca5f2c9e686cbee1",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.29.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "9f4afaa3b663f3171e19415cef8631d62868a8323689862ee26fda06fe8d914e",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.29.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "24927b4fabce94819e7b938269196d8267b6ec082e93c3f21796cd27bf39c4aa",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.29.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "712d89116052efdfe084139e45dda0f66e002509715d641ffb63272c6cd75caa",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.29.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "d3356537bbd5b9b885378b7b313b4f9e598b160d1672bdd3a3dcbaaef2d08da2",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.29.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "be5e67931123f1eb33105d958bc060599bd2eff9e8f53bf8a5592813b5134bae",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.29.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c5a230fca6d237144f92413903b31e903c82b7afa270af186cd39478629c564b",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.29.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "debdede6b284d635c2a87cc9fea018d4312092646571daae6de3673114ebb994",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.29.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.29.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "3d7f6ed2989d9fd5aa002ac12f6c94b28083c51320ab41d32ddcccde237bbc0d",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.29.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "39dd50111d830bb6952ed71a9bb760f75a4df3898197de3bc5148d4852bd65f3",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.29.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "ffbc8a7c5fa5e9ff4d6b28d378a4103be799c4a503df0a1e1662472fa6f885ab",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.29.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "6ada239d9f7b607a357e2eb857c4c9da7b50900146fd40f2a733fb30c784e70a",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.29.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "545be7bca6ffe88ee6a2d6b6612889e97ee4b65db03b303559d590f4215d224d",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.29.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "46bdb6b30d4bfbf95872e98bd27f742fda5364aa87c3ad14939c31ffc0a2788e",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.3.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "6511a41c3ae5948f2dcc8d98c768f93b38bb3e40635c3dbec7ad498d3bbb421c",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.3.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "ddddbda76e8ee1df5b7e17f465a61a18980abb865b3a73088f8071fb042dc497",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.3.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "90008c28b4e24b29bc14eb87530e276dff421c985b9a96a1d634f69f715bad93",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.3.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "ad21276123b5438623a11fce2327be4f5fdc3749fb5628d02510987254e25806",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.3.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "ea5a4e7536cc02a2728bfcc897b2532f7e7f0f4bc7f19741f0122a7374e57d98",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.3.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "0c65eac13f4db0e07b3774391da84a9c768036f65a18bb0f9690b1ed46f29b6a",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.3.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f6e86e8b59391474a9856aa471cfcfd7afb1cbddbe6fd177654d38ef8ea838e4",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.3.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "02f2478cdd11ba6b6233df310b5765dd511ff160c776f6806c7adcfda9edafd9",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.3.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "b51ef4bbb3e40ca35645569826146f7305814045e785f2aee45b13f71a5bc35c",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.3.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "ed7ed12b2095a7c239d341b25d4de835cbcf886560d0ad812c7e231fa2679398",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.3.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.3.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "0697fd6f7ea070f62dd57a68fc582125bfb2044c53ee267714824347a8d657bb",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.3.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "8b73fcafda959ddf864391c5374f41b8af587394f83c74193380e5cf1716c9df",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.3.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "f563f474c66572da852429b2c49cbff1816f2b4590c6a9f778ca0d8bc22f89cb",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.3.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "5a4764047bf1acb3a09396312d6a8e55f7bd424e0584ae22349de41ae6b3fec4",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.3.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "38dd413917d183b3fefa79cba699d3f3e3ae190ac9be0582ecd30d678823eb57",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.3.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "9a5b412ec393ba82b988e41c906e85f91b9cac543a9fdb6cad407a88b72a0f15",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.30.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "5ee4f78b1555ea51fcf71a2af68efbf378ac8cabb9ba3c3c48b7c84a224fdfb3",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.30.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c79a55331beb6a2794936a9807e3cf7715cb82120487dfa1d4cc65325a91295d",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.30.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "69e153cb3f05ac6d1207b65b6abf9b7a2251b6e58feeedc202ffee3fa9c6794f",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.30.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "a084b03c389e83c89cd111f4e638ee2857d51839af8418b1a7fb5a8443b01250",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.30.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "b35b2ee1c7b6f939b898fd5a1f2c82c577be0d24607e832a86814c845d5a3706",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.30.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "8f17288a2434da987c71512ba9fa99901a35ff6f67ddefadfc039a589a9a5b94",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.30.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "4b8468aee1de3f65957b7017804ba909b43e0079aa62302f012556009ef456c2",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.30.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "dce450aca0a84cceb58c07aac106b7692e03af5a3959257167d0456f6e0da07b",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.30.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "2a33cab58da5fc29d7b99a5a99c339bc56007258abe0a67397f601bcf1602b03",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.30.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "e40603ebd9e0622a84f6bce49dbc909a7128af07e539046a433899b88d783ec6",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.30.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.30.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "739efbd413dd5567a91d2151f6f260dd97fad299fc7a1610efa250196d91ad8d",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.30.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "d55215388649b7b9b586aebe8ab468997f314fa36807a93ddd66d0bd180ad95e",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.30.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "1f85e594da25fa44a50e23a0732152bf8615661059190acf66ab71c405de0832",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.30.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "bce531c360a0e3a3be9795f69cbba9fe40b272730d127f8ed04bb3c1c234ca6a",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.30.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "07225d6421e2bf16bb3bcbd63dbc57ab0998af658af233c126890389b1c9946c",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.30.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "cc1fe65d5ce3934a007a31385797833e7713b91f85830f4dacc9504f7f6c8917",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.31.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "44b00cf629c5762e34932dc657d15d131f9e77afccc5b9ae35153551b4a32912",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.31.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "0012f8bb527669128dbc664d7cd272713056897f3e945a310f5406ca163b40f8",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.31.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "ff053d83917c602518434ca95c1fb8bc9b3e12c5328ea92b144469ea6a74f712",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.31.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "ca680cc5cac9e0bd5e8d15d6e85e305c4b2b36aed009b4e9faeb19ebdcc24263",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.31.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "b3fe629bab58e8d6432b58fc14d7725328d91d48aa78e004295f356b20d95d72",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.31.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "b772f2e13c523ad02a4aa9d334cd418a3a7de328d3f8d11188ef4f23bc2b622a",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.31.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "1de4961cd993aa80b4fc93c10cf91eebd5a72ab5abe4c86b9354122dd1d943f4",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.31.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "1347f34bbf027252a8267474a1d6dab02d74d42c45916e533da1d0aebccd9ecd",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.31.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "cb96b78c349de94a98f939f5fa18b414e3e05a8e28f1c5166c72602c417c69f3",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.31.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "582dff1580f45ed43d7d04004b201ae5794b273544f3d846747f02fdacc53041",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.31.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.31.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "ff3b512815b512f20ade591bfd1e3037b4900f821eee98b55a8988b0386ab629",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.31.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "4844f7f5c55b38b1f24aacfaccda77f3b0ff9cb6c0caec20c3ab1166d3c2df2b",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.31.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "42e6bbd4e2131714c1cf5961aab8350a4d0a1e65dbc56736288e03afbefa1963",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.31.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "d7683038cbaa8cdd5f182c520dd687b04ac92edf25f48f3c5e7aed7769d535a7",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.31.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "252ba7d0ae1b5cb2681f5ffdf59a796aeb264498c4becae05c649d206da39a5e",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.31.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "e71b217e56c29d20e97a3c0b6cd096351c2ca04026ef4c6658454afbe3c818af",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.32.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c4d2f39b5233361988412826ea835fbf3602e16e87ea8a8426e2464746e263ce",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.32.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "6bda4688c881d736c32fd098ef41e0a2ca564d14f35496d3540538f177c8c00f",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.32.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "70b56e51de2c459555ebe07e8b40ceda6dc1e0efa5b2c464225a1f1de5016e0d",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.32.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f7219404f3e40599284c2e9a89fa09890a402e4d6583d45ec4b45f3e9b485df8",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.32.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "051abe33c328231a98133ef2b711badacdcb4c383a34f1d8eb2e2e0965be05ae",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.32.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "91cce456e80f9d4d433b39536fb410c38bb96bd60c3899fa7ddcdd5d15917baa",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.32.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "a7900a61bd6f4b6efc16a3e9b6d098c6c4cf943ca7f3fcacdd74fb009e21bc96",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.32.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "96d58cbddd79ed4b49a4eaf415d60a55b49cdef012f36f58e7005d7180074601",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.32.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "ab81d1312a6b9d4ddae928272b6054bb1ac56a2a69ae6acfc7792d9bdf1fa2cd",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.32.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "bae88d2556dcb290819ead0d8428e9d224328309d6960c2ebae770d2110b5940",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.32.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.32.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "dbb8c57b080999f2e18d20b73c0ec1f6fae9e8c573b412d969cab09ad39e050b",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.32.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "149effd4a764cecff5ee6760dfa85f87a547c6b313db0bd5348847aba5871e1b",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.32.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "43f33d419dfcda569175ecfdc9d57d54ad55a284989e66be5c785c64c3ef3c3b",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.32.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "c556c83a0c09e706b02ffb632075e057aefb55346a6471043478cae2884720e1",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.32.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "95275ee7febc19ac166381392645c09c655d961a71f79f9760bdf0d10b85beec",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.32.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "5a99284a1f2a8fa36df83193477ffa97abb2243801b446a3b1a066f307565dd5",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.4.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "4305cc7b9c69127100b7233b85ca94dd6d1e2b7bef9f8a965c1955097144aaa8",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.4.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "8aba5fd52e29649d3551cd3f85f8a7c8ddbebba958780f64eecebb744308698e",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.4.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "1072199adc8eda4a005b486f64e4172b82018810755f2e12b954351a361d68c8",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.4.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "8298decad78338018ef6cd2eedab71486f71cfa4597b4a3ecf83284552db9054",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.4.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "b097dd0a361c86861f8deb6f0d32e174d1ba92b8572f1126318aa615906019bd",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.4.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "45ce75a83185691964e8c8d2d9dda69889928a0e6f7eaf7cef2f05a1c02c87f0",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.4.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "525b6ac3205946010829f10df6c3b4bfb4c12ee5c64f84f0847adcb47de08c48",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.4.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "6bb0d47dedf4f31bc0f580f7c7ac4412dd12584bcc316b6e058fb9c27eb86f3c",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.4.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "09c39f5d32c68a6adbb6f2e789772bfeccc090cf495e818cec50ddea11ac8656",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.4.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "4acf9ed3d46efe0e688985ae17ecc66407caeaf4555cb0380d3478abad75bc52",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.4.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.4.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "237e86c7b9ec8c5845f6980c25571b197c3437c1c338e6263aee9d602ec0bc4f",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.4.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "30926018042a41d7f348c2a2497cb634e6d2781d1f2e3ae50bd4ca515d20e34f",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.4.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "cc4b63d76bf9ea20c2905431894fefce2957e02c9edb9f4f861f2606d1a44276",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.4.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "2351f2975105bcba128576c273ee859fc787523b241fb3fd57b32e0862ba173a",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.4.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "93c522d8a050108d413fe079da580b2e69cda0d917b950696a0b57f732785e6c",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.4.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "a9e67891642ef44e352ca9152e7c6f9624bbe7949e1b0fedaf7367c6a73f720e",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.5.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "dcfb629853220c3901c04dbb538e4619e0cbf8e8f91a48caccd03978f82e2050",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.5.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "a2dfaa62eb9cbcb8f5d165ce240a57efd905b5495731ca21ef72d48e61ef24fb",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.5.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "6b1c40bd0b9d8499b4d7b227ca5220dac7c1fed42f60b86d6884409ea9ef191c",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.5.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "5347da59916a7274ff6188e5c13f663a75d15363b764877ca98fa3373b703349",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.5.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c3003534d07bac7f70e88369ca10de464f584bfc10889d34ad62ec88e4cb4a6e",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.5.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "a96688948351fee7be75a6cebb07f4e0905535449b3b80731e6c0c5f09325663",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.5.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "878a4530e8a1765d5386a46beddb2412bd693b51cca0659e46594721df5e9728",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.5.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "396b7b86074f8abc3dbff27fe8396f9a13fd11fb14b1fae3ab90080d1e7a82c6",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.5.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "075643f64f2c1952929afc44909384677689fb165fd643bd089ae3b977fdc233",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.5.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "0e21d644650b95bbd5063f4c6aa04a4d76b41bec7396bed5419398ab8c15fe31",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.5.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.5.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "fb464f40bc38685b531050e98bc9ad5c0343439cb1f0c9c6be779e3e7308d7ce",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.5.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "69568e3a391e72090051e315fafe10833c7f443ff4edcf7481d9b478b0498b7a",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.5.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "4c5c141a03e2b18969bcae77ae91d600c5b8039c080365a40e59863fe7577642",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.5.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "1afee2e54931fd9139990fa67f01d505198eeaf87cf3402e0565e3858357eaba",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.5.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "47621bbc65d1bec34245466a008f9fda1b6bf80368f4b83231a5e4b5a01afe5f",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.5.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "0fb0c97ea1b0f61816e72a43e89c52cdb18db4efb5478eadec24b36017dbc3fa",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.6.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c567147482ccfa9959f9a216df220ce2a545050acdeccde2073c8d7655b3b974",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.6.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "13749381dac71d75fb7df4c7afc334b6086418cabb31442bf55f6be374773259",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.6.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "5ed45d3b10ffb8d44563888b4921b55b963ea20304a9b6aff94d6bdfd8d41800",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.6.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "1e393d5ad2d153b01ae914025eb3f1e12c4c1adda1f2ef83cb31e41e4276b526",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.6.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "b4f1d9b08ebd0462abfb62f9c50dcc48ec60725a1f6f113ce0d52b23c4f91476",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.6.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "7aa72d2def01bc8431823acabe03e6791d9a41c4597ceaca1038ecab8df49368",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.6.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "2c157aeda9de695a4595188e6cf82babb2e5c98545d5c111c1bf6af6bf6a23d3",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.6.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "5838a738852321715fbc544ee3e8913b98f3170c1049ca6003776d58429df2d7",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.6.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "d851fa7205066373b7247dc3f3e9438c44e4eb6fd10a05f4a5d72650e4bd8cda",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.6.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "5e64fa38ecbd0a8d303e4ee5b697a538a674144d85f2cec58c9f34f33b8ace98",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.6.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.6.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "92f04fa4ea657dbb304580e17d1354dce1d64b3437751472dbb905f712f7ab4e",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.6.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "b7416d9acc5da0876e4411198b451893fe12ddfdbfe69907bec074a28c9cb8eb",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.6.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "5dd8ea344a96530044509bcedb279c9b904a6e63bed112ef5172fb1a1f1ef1c4",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.6.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "8d90f01f17014b0f780584815a62bb6fae8a3ac4d95069b69215e5e802ad7e44",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.6.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "d946731e4b929291e0635b97f71802cd758839e0434799afa8e6b4da579360fe",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.6.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "edf35ef39b1350cfcd4b73200557df3bfdb0427a977d8de714db98d7d8bae0b4",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.7.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "2c5c56b76c4cdc942271c06ea96f60b5cf5341fa6ebd691a4e4f75bffacfa37e",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.7.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "6ae174b33efbc6e7f9725e950323f3e67ce439c625a721cec6f05f1cdb5bfef0",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.7.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "f5f0e2249b095519354470fb05a775d904485f4430b75003beea24c836015a54",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.7.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "210e063cae586bef1114a338bd14e6af8d4e8d94555cb92b6d4480fcfb12e7f7",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.7.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "cee6926f816b47ec2875f4c6c8fb7eff29eb1169eddbc768a95345253bb9c389",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.7.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "6327abc15f6b9dc1fff084dbb71be32b74e24c5cba8c9c8878e8229a9ebe0d87",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.7.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "6993b959a3d325df73e0652ae7320cd67583e18d0985e0c0c318ca8120f934c7",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.7.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "390b6bee3d46d318de5897eea67af0a2029467ece8dce1e3fe333d576ba97fb9",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.7.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "65919686622c3eee2a1e9738f67954a61e6adf4190b5a8b3a9a539d6bc3e8ad2",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.7.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "5b458adbfd6d7cd64761be4d36654f66e6af9f7acc10920613d34873df227dc5",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.7.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.7.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "b43834665792d2c5f723271d953ddfffcdbde737006478a102d3af21eb9dda61",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.7.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "35f2a67bab2d0fdd8360b53c66e84183707e4f22886102f01bd80376866b158c",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.7.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "f019182a0cea10dd7ac0ec48652d0347bd37c69ca10862f10e8f41264ab80d3d",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.7.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "00fb56d735aed3f9e6f997d9951f8e41265070e858aa5c545fb61ddca8d2eed1",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.7.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "7bff5101db3ffa094955f188a9d4258525cd159dbea41ab96300f5f8ee6cafb3",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.7.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "60f1c3dee8183edf0d1e9c15ed473072048d78cf513aec73b7ae322835265451",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.8.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c26372688157418649ea13c47562e8d13f1fafb6a48afa544151e0832787f52b",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.8.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "61247ff72bafd214f93ccd8dd3d57491b879392de9db94c63a73403fdd7970d6",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.8.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "3fc57fdac5c60887ce6464c217b4ec940da2bd4d4ffdf7d1d2245f125ac33695",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.8.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "c76841ee35733f35c59576840b69b2b9f016d5ebc729c1a70e00dc56341bc26c",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.8.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "81f5394370d558ed4212fc688a7f3a4362a2566f6ff8ded7c0ba0eca68703b06",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.8.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "25f5344785ade562bd08a325455e240680704b30535a562887e2c4f2df056bb3",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.8.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "9080c56e1bcebbaef45abd3921167928d4b7f657198a096b6c5c8fb964a9ab45",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.8.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "48958ef9370e1e95a5172e14306e2e1799ea475c84173fc94f2d81a4b0ab30f4",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.8.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "da11d704eb75755b42c6fd19b6c159a4359296ec99b3e545d487cf619adb17f5",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.8.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "4ee6c115dc74cea60b6d00139e6f1776b3b8e8335b810c220d559d4c0d8ca3b2",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.8.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.8.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "fab8388426d5c7d7fcf7aadce483f4ba0733e42cc86a3fbd1adbe5b2059275c6",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.8.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "40cddb0d3a9b1ff8cd8a9972a149643e639fd74024f22a1742b0a107222ae41d",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.8.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "bb181673bd26193d79acc0be20eb4944d45c01a5b67008f66c12fc68494072b0",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.8.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "4ce763276a2ed832a6ec4c6c32870fc3e8ab6e9e11e52fb98dff997eec24ca4c",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.8.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "cbd31f7b1c5309e6241f4a43a15266b9cd97897ba9991e39b4f0e4eb10faf3d4",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.8.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "ff5de80200a868b76b8f234b8f96240d123257dd4fec692d33a7ad6d3c86877e",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.9.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "33167bc402f60e678f4c7fedf047ae13a3f67fadd2e4a57d27cbea237a4ebb99",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.9.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "08d004b3009b761e4a353e8655924e60e7de3090eb28af522202cb8b3b5b19e7",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.9.attention.LayerNorm.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "9f561891db7845a1173f606b48b8ba2a7f66c8bb8e9182685ac46b312ed7a5d1",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.9.attention.LayerNorm.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "9377a0675f0aa635c4b7d6e0d34a1ea6c890373f9816c87b6d62dd8cfe298737",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.9.attention.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "7c33390654146024c9596a99d56941f356603aad0dbd3e6b9b4b8e4f052ca734",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.9.attention.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "4855344395297178391aa56a2062f4edff10866ac8bf5403cd13e205e0f8c63f",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.9.attention.self.key.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "ad623d0162cffab943e6356677057f527d9182308f5aededc996508deb1720fa",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.9.attention.self.key.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "4ebb10523af202745767d01f83d6d7980e53313b1b8bce4a8d9d763a665ae3b9",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.9.attention.self.query.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "68c0abf44733fb11ddaf788878b567a9301aaeed390477efe87111e1264c95d3",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.9.attention.self.query.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "950d4317fa9aea1387d23f12f9cec2eeefc056a4e8787bc90f2bbd6fa18da98c",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.9.attention.self.rotary_embeddings.inv_freq",
+      "dtype": "torch.float32",
+      "shape": [
+        32
+      ],
+      "tensor_sha256": "fbd34497ae14419f5376f818eb15303dcc48b5496124bf8acddb564310260879",
+      "bytes": 128
+    },
+    {
+      "name": "encoder.layer.9.attention.self.value.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "df8be97a047365e3a4845d06701a24076dfe0cd1b6717f4ec18a1e8ebf1ec0c2",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.9.attention.self.value.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        1280
+      ],
+      "tensor_sha256": "bfa24cba8d925fcc62c6514b0469b0f90a155188a0c0c78d2b12c232a718105c",
+      "bytes": 6553600
+    },
+    {
+      "name": "encoder.layer.9.intermediate.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        5120
+      ],
+      "tensor_sha256": "98056ca5562a3308ef9b266d27845cff378ca97233fa1c17e36ec4791b789603",
+      "bytes": 20480
+    },
+    {
+      "name": "encoder.layer.9.intermediate.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        5120,
+        1280
+      ],
+      "tensor_sha256": "dbbaa9e97f2d388387e4d54f45d363bd16f10a301925d3e38f0956999ca98b34",
+      "bytes": 26214400
+    },
+    {
+      "name": "encoder.layer.9.output.dense.bias",
+      "dtype": "torch.float32",
+      "shape": [
+        1280
+      ],
+      "tensor_sha256": "595624adcbc298e0c36e06573ca2be6e0e584af05166208eacb6dd0529ab003f",
+      "bytes": 5120
+    },
+    {
+      "name": "encoder.layer.9.output.dense.weight",
+      "dtype": "torch.float32",
+      "shape": [
+        1280,
+        5120
+      ],
+      "tensor_sha256": "dae5e241de70a55ade24dfc7f1b8d6b7f5b4339f61ce458a9037d291e1f9c51c",
+      "bytes": 26214400
+    }
+  ],
+  "shared_storage_groups": [],
+  "config": {
+    "return_dict": true,
+    "output_hidden_states": false,
+    "output_attentions": false,
+    "torchscript": false,
+    "torch_dtype": "float32",
+    "use_bfloat16": false,
+    "tf_legacy_loss": false,
+    "pruned_heads": {},
+    "tie_word_embeddings": true,
+    "chunk_size_feed_forward": 0,
+    "is_encoder_decoder": false,
+    "is_decoder": false,
+    "cross_attention_hidden_size": null,
+    "add_cross_attention": false,
+    "tie_encoder_decoder": false,
+    "max_length": 20,
+    "min_length": 0,
+    "do_sample": false,
+    "early_stopping": false,
+    "num_beams": 1,
+    "num_beam_groups": 1,
+    "diversity_penalty": 0.0,
+    "temperature": 1.0,
+    "top_k": 50,
+    "top_p": 1.0,
+    "typical_p": 1.0,
+    "repetition_penalty": 1.0,
+    "length_penalty": 1.0,
+    "no_repeat_ngram_size": 0,
+    "encoder_no_repeat_ngram_size": 0,
+    "bad_words_ids": null,
+    "num_return_sequences": 1,
+    "output_scores": false,
+    "return_dict_in_generate": false,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "remove_invalid_values": false,
+    "exponential_decay_length_penalty": null,
+    "suppress_tokens": null,
+    "begin_suppress_tokens": null,
+    "architectures": [
+      "EsmModel"
+    ],
+    "finetuning_task": null,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "tokenizer_class": null,
+    "prefix": null,
+    "bos_token_id": null,
+    "pad_token_id": 1,
+    "eos_token_id": null,
+    "sep_token_id": null,
+    "decoder_start_token_id": null,
+    "task_specific_params": null,
+    "problem_type": null,
+    "_attn_implementation_autoset": true,
+    "transformers_version": "4.48.3",
+    "mask_token_id": 32,
+    "model_type": "esm",
+    "vocab_size": 33,
+    "hidden_size": 1280,
+    "num_hidden_layers": 33,
+    "num_attention_heads": 20,
+    "intermediate_size": 5120,
+    "hidden_dropout_prob": 0.0,
+    "attention_probs_dropout_prob": 0.0,
+    "max_position_embeddings": 1026,
+    "initializer_range": 0.02,
+    "layer_norm_eps": 1e-05,
+    "position_embedding_type": "rotary",
+    "use_cache": true,
+    "emb_layer_norm_before": false,
+    "token_dropout": true,
+    "is_folding_model": false,
+    "esmfold_config": null,
+    "vocab_list": null
+  },
+  "config_sha256": "12bf54503882a74663ef3116ebca883e3654e894617f1b91243ffc0a6432ccec",
+  "tokenizer": {
+    "vocab": {
+      "<cls>": 0,
+      "<pad>": 1,
+      "<eos>": 2,
+      "<unk>": 3,
+      "L": 4,
+      "A": 5,
+      "G": 6,
+      "V": 7,
+      "S": 8,
+      "E": 9,
+      "R": 10,
+      "T": 11,
+      "I": 12,
+      "D": 13,
+      "P": 14,
+      "K": 15,
+      "Q": 16,
+      "N": 17,
+      "F": 18,
+      "Y": 19,
+      "M": 20,
+      "H": 21,
+      "W": 22,
+      "C": 23,
+      "X": 24,
+      "B": 25,
+      "U": 26,
+      "Z": 27,
+      "O": 28,
+      ".": 29,
+      "-": 30,
+      "<null_1>": 31,
+      "<mask>": 32
+    },
+    "special_tokens_map": {
+      "eos_token": "<eos>",
+      "unk_token": "<unk>",
+      "pad_token": "<pad>",
+      "cls_token": "<cls>",
+      "mask_token": "<mask>"
+    },
+    "all_special_ids": [
+      2,
+      3,
+      1,
+      0,
+      32
+    ],
+    "model_max_length": 1000000000000000019884624838656,
+    "padding_side": "right",
+    "truncation_side": "right",
+    "model_input_names": [
+      "input_ids",
+      "attention_mask"
+    ]
+  },
+  "tokenizer_sha256": "af70dccd92257fc12b48ec61d7adefcd3c418c64a5e0709ccff85517e338e91f",
+  "loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "legacy_file_identity": {
+    "config_sha256": "2bc9912ff72f97b524de06ed717ede24892abe4a98d580ff7821e652bf944c69",
+    "weights": [
+      {
+        "filename": "model.safetensors",
+        "bytes": 2602926260,
+        "sha256": "6996db5c5d08d98455e491dab3eaa4d82e299b27903341f83adac8ccae64fa43"
+      }
+    ]
+  },
+  "dependencies": {
+    "torch": "2.6.0+cu124",
+    "fair-esm": "2.0.0",
+    "transformers": "4.48.3",
+    "peft": "0.14.0",
+    "safetensors": "0.8.0",
+    "numpy": "1.26.4"
+  }
+}

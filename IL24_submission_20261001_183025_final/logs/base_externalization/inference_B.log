@@ -1,0 +1,4 @@
+COMMAND ["/mnt/ws/teeth/inovate/.venv/bin/python", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/run.py", "--module", "esm2", "--model-dir", "/mnt/ws/teeth/releases/_base_externalization_20261001/prepared_B", "--output", "/mnt/ws/teeth/releases/_base_externalization_20261001/inference_B"]
++ /mnt/ws/teeth/inovate/.venv/bin/python /mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/inovate/scripts/train.py --mode evaluate --config /mnt/ws/teeth/releases/_base_externalization_20261001/inference_B/run_config.json --checkpoint /mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/inovate/output/esm2_650m_lora_best.pt --split validation --max-seconds 600
+2026-10-01T08:28:02.142299+00:00 rank=0 Start mode=evaluate world=1 deadline=2026-10-01T08:38:02.088498+00:00
+2026-10-01T08:28:09.635953+00:00 rank=0 Finished mode=evaluate elapsed_seconds=7.5

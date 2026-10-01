@@ -1,0 +1,63 @@
+{
+  "audited_date": "2026-09-21",
+  "local_project_root": "D:\\IL-24(teeth）\\phase2_release",
+  "remote_ssh_alias": "gpu-server",
+  "remote_hostname": "xinlab-Super-Server",
+  "remote_address": "172.16.149.161",
+  "remote_account": "root",
+  "historical_project_path": "/home/xinlab/home/ws/phase2",
+  "historical_path_verified_accessible": true,
+  "original_environment": "Original Python 3.10.12 / Boltz 2.2.1 / torch 2.6.0+cu124 / PRODIGY 2.4.0 reused; no replacement",
+  "checkpoint": {
+    "path": "/home/xinlab/home/ws/phase2/models/boltz/boltz1_conf.ckpt",
+    "exists": true,
+    "bytes": 3595352714,
+    "mtime_ns": 1788351323232112831,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  "ccd": {
+    "path": "/home/xinlab/home/ws/phase2/models/boltz/ccd.pkl",
+    "exists": true,
+    "bytes": 345859128,
+    "mtime_ns": 1788350215485178858,
+    "fingerprint_method": "path_size_mtime_no_hash"
+  },
+  "execution_root": "/mnt/il24_full181_supplement_20260921",
+  "consolidated_server_root": "/mnt/pxh/teeth",
+  "formal_prediction_status": "complete",
+  "planned_count": 30,
+  "started_count": 30,
+  "completed_count": 30,
+  "failed_model_runs": 0,
+  "blocked_task_count": 0,
+  "gpu_at_initial_audit": [
+    {
+      "index": 0,
+      "name": "NVIDIA RTX A6000",
+      "memory_total_MiB": 49140,
+      "memory_used_MiB": 15,
+      "utilization_percent": 0
+    },
+    {
+      "index": 1,
+      "name": "NVIDIA RTX A6000",
+      "memory_total_MiB": 49140,
+      "memory_used_MiB": 15,
+      "utilization_percent": 0
+    }
+  ],
+  "disk_at_initial_audit": {
+    "/home": {
+      "available_human": "770M",
+      "use_percent": "100%"
+    },
+    "/mnt": {
+      "available_human": "1.6T",
+      "use_percent": "56%"
+    },
+    "/mnt/pxh_writable_by_current_account": false
+  },
+  "storage_resolution": "Used isolated /mnt filesystem because /home had only 770 MiB available; user later requested /mnt/pxh/teeth consolidation",
+  "historical_block_record": "resource_audit_pre_root.json",
+  "hash_policy": "No hashes calculated per direct user instruction"
+}

@@ -1,0 +1,8 @@
+{
+  "esm2_t33_650M_UR50D.pt": {
+    "torch.float32": 570
+  },
+  "esm2_t33_650M_UR50D-contact-regression.pt": {
+    "torch.float32": 2
+  }
+}

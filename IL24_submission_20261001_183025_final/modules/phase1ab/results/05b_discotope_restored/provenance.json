@@ -1,0 +1,96 @@
+{
+  "actual_python": "3.14.7",
+  "b1_outcome": "network-resumed; then biotraj source build failed because gcc was absent",
+  "b2_correction": "Conda gcc_linux-64/gxx_linux-64 16.1.0; official requirements unchanged",
+  "discotope_available": true,
+  "environment": "il24-dt3-phase1b",
+  "generated_at": "2026-08-22T12:34:43+08:00",
+  "historical_experimental_regions_accessed": false,
+  "inference": {
+    "actual_device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "cpu_only": false,
+    "cuda_oom": false,
+    "gpu_usage": {
+      "observed_memory_used_min_mib": 1587,
+      "observed_memory_used_peak_mib": 3954,
+      "observed_peak_delta_mib": 2367,
+      "samples": 56
+    },
+    "official_threshold": 0.9,
+    "official_threshold_score_field": "calibrated_score",
+    "structure_type": "alphafold",
+    "wall_seconds": 55.83
+  },
+  "inputs": {
+    "official_raw_csv": {
+      "path": "results/05b_discotope_restored/raw/AF-Q925S4-F1-model_v6/AF-Q925S4-F1-model_v6_A_discotope3.csv",
+      "sha256": "e8657916bcf49b9fe3ecbbc9df2945903d9557af045ab2aab3cea916f43d6632"
+    },
+    "pdb": {
+      "path": "inputs/AF-Q925S4-F1-model_v6.pdb",
+      "sha256": "9d722f2c1fdb78c6534cad517a66fe6f7cdd142903d6364e05957ca7ca42a224"
+    },
+    "reference": {
+      "path": "inputs/reference_181.fasta",
+      "sha256": "f101675afa95fe2214066e1b2d22f68fd2d86cc183eb4e967a039ae08cbb4fab"
+    }
+  },
+  "install_strategy": "B2_AFTER_EXPLICIT_GCC_COMPATIBILITY_CORRECTION",
+  "mapping": {
+    "calibrated_score_preserved": true,
+    "chain": "A",
+    "official_columns": [
+      "pdb",
+      "chain",
+      "res_id",
+      "residue",
+      "DiscoTope-3.0_score",
+      "calibrated_score",
+      "epitope",
+      "rsa",
+      "pLDDTs",
+      "length",
+      "alphafold_struc_flag"
+    ],
+    "phase1b_output_field": "DiscoTope_raw",
+    "primary_discotope_continuous_field": "DiscoTope-3.0_score",
+    "project_numbering": "1-181",
+    "row_count": 181,
+    "sequence_exact_match": true
+  },
+  "model_assets": {
+    "esm_if1": {
+      "bytes": 1700450121,
+      "parameter_count": 141662150,
+      "sha256": "be4ba36edec22a9bfaa4946ff6b2815f1f19d8a3d7e0eada8b796d5a0eae9fd4",
+      "url": "https://dl.fbaipublicfiles.com/fair-esm/models/esm_if1_gvp4_t16_142M_UR50.pt"
+    },
+    "gam_models_loaded": 2,
+    "xgboost_models_loaded": 100
+  },
+  "official_commit": "35d9f2e55f97eaba2a7acefbc394db58fb9670bc",
+  "official_repository": "https://github.com/DTU/DiscoTope-3.0",
+  "official_version": "DiscoTope-3.0 1.0",
+  "outputs": {
+    "discotope_profile.png": "b9b5cf28fee8bdcd02e67653656affe97b82855f20ecf119f3c393cbb4e1a6cf",
+    "discotope_residue_scores.csv": "d3c4e006bf830e9976b8c984cfaf046667d4140f7b5d8a665e5dc3de0dc5cf26",
+    "provenance.json_pre_self_hash": "98dfb6ed84096e73fb074157868a8a13a2bc72e3a2fb4b31bc77e029087df325",
+    "step05b_report.md": "5393448cd12e16fa89528c339cee916c3de148e8d07234b459fd09c1052cdb78"
+  },
+  "package_versions": {
+    "biopython": "1.86",
+    "biotite": "1.6.0",
+    "biotraj": "1.2.2",
+    "joblib": "1.5.3",
+    "numpy": "2.4.3",
+    "pandas": "3.0.1",
+    "pygam": "0.12.0",
+    "scikit_learn": "1.7.2",
+    "torch": "2.10.0",
+    "torch_cuda": "12.8",
+    "torch_geometric": "2.7.0",
+    "xgboost": "3.1.2"
+  },
+  "phase": "Phase 1B post-freeze authorized restoration",
+  "readme_python": "3.14"
+}

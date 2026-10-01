@@ -1,0 +1,2 @@
+COMMAND ["python3", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/phase2/scripts/make_phase2_visualizations.py", "--mechanism", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/results/phase2/mechanism", "--out", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/results/phase2/figures"]
+Wrote 4 SVG figures

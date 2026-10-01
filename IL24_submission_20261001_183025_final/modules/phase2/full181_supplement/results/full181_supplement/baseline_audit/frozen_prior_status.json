@@ -1,0 +1,9 @@
+{
+  "source_path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/inputs/phase1_prior_deduplicated.csv",
+  "exists": true,
+  "size_bytes": 1177,
+  "mtime_ns": 1789990451331958853,
+  "status": "available",
+  "n_residues": 62,
+  "note": "Read only the frozen CSV; never reconstruct it from source-code ranges or Full181 outputs. No hashes computed."
+}

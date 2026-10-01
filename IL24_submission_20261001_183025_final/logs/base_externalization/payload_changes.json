@@ -1,0 +1,46 @@
+{
+  "unchanged_preexisting_files": 3452,
+  "changed_existing_files": [
+    "README.md",
+    "configs/esm2_inference.json",
+    "configs/esm2_train.json",
+    "docs/FULL_RUN.md",
+    "docs/MODEL_CARD.md",
+    "docs/RELEASE_NOTES.md",
+    "docs/REPRODUCIBILITY.md",
+    "docs/THIRD_PARTY.md",
+    "envs/README.md",
+    "logs/source/release_code_changes.json",
+    "models/README.md",
+    "models/esm2_assets.json",
+    "modules/inovate/scripts/train.py",
+    "modules/inovate/training_config.yaml",
+    "run.py"
+  ],
+  "externalized_files": [
+    "models/esm2_650m_hf/config.json",
+    "models/esm2_650m_hf/model.safetensors",
+    "models/esm2_650m_hf/special_tokens_map.json",
+    "models/esm2_650m_hf/tokenizer_config.json",
+    "models/esm2_650m_hf/vocab.txt"
+  ],
+  "project_checkpoints_preserved": [
+    {
+      "path": "modules/inovate/output/esm2_650m_frozen_best.pt",
+      "bytes": 9022,
+      "sha256": "96f464f20930d9558e24dfd4a88c7d7a9db6b36fa3cfb76bbd7d8de1a4ca2940"
+    },
+    {
+      "path": "modules/inovate/output/esm2_650m_lora_best.pt",
+      "bytes": 2655466,
+      "sha256": "8610aba1f16f28c0393a1614a40bcd489d2933945a6848d3d105a5c9f6bd2a04"
+    },
+    {
+      "path": "modules/inovate/output/recovery_20260922_0520/esm2_650m_lora_latest.pt",
+      "bytes": 2654262,
+      "sha256": "547046198775b2880214af4f47a7ee0fc49b6cac809a1ab0a6382bb898689dd3"
+    }
+  ],
+  "previous_zip_bytes": 1955621073,
+  "final_base_only_externalized": true
+}

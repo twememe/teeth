@@ -1,0 +1,5 @@
+NCCL version 2.21.5+cuda12.4
+{"rank": 1, "batch": 0, "n": 16, "max_tokens": 126, "loss": 0.6766467094421387, "seconds": 0.7423996925354004, "allocated_gib": 7.236520767211914}
+{"rank": 0, "batch": 0, "n": 16, "max_tokens": 121, "loss": 0.755035936832428, "seconds": 0.7449057102203369, "allocated_gib": 7.071890830993652}
+{"rank": 1, "batch": 1, "n": 16, "max_tokens": 1006, "loss": 0.7513372898101807, "seconds": 1.517021894454956, "allocated_gib": 31.79611873626709}
+{"rank": 0, "batch": 1, "n": 16, "max_tokens": 472, "loss": 0.733047366142273, "seconds": 1.5294549465179443, "allocated_gib": 16.857447147369385}

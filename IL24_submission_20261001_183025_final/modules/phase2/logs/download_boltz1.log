@@ -1,0 +1,14 @@
+--2026-09-02 19:45:55--  https://model-gateway.boltz.bio/boltz1_conf.ckpt
+正在解析主机 model-gateway.boltz.bio (model-gateway.boltz.bio)... 34.213.189.139, 52.33.86.107, 54.244.195.224
+正在连接 model-gateway.boltz.bio (model-gateway.boltz.bio)|34.213.189.139|:443... 已连接。
+警告: 无法验证 model-gateway.boltz.bio 的由 ‘O=Default Company Ltd,L=Default City,C=XX’ 颁发的证书:
+  出现了自己签名的证书。
+    警告: 证书通用名 ‘’ 与所要求的主机名 ‘model-gateway.boltz.bio’ 不符。
+已发出 HTTP 请求，正在等待回应... 200 OK
+长度： 156 [text/html]
+正在保存至: ‘models/boltz/boltz1_conf.ckpt’
+
+     0K                                                       100% 27.5M=0s
+
+2026-09-02 19:45:55 (27.5 MB/s) - 已保存 ‘models/boltz/boltz1_conf.ckpt’ [156/156])
+

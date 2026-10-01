@@ -1,0 +1,56 @@
+[
+  {
+    "target": "native",
+    "chain": "A",
+    "sequence_length": 155,
+    "msa_depth": 1643,
+    "boltz_cli_max_msa_seqs": 8192,
+    "path": "data/msa/native/A.csv",
+    "sha256": "5f8cf88b3801904b46ec9bbb2bc55c1625c5a34a2fbc1f6641d24662a0f78545"
+  },
+  {
+    "target": "native",
+    "chain": "H",
+    "sequence_length": 119,
+    "msa_depth": 10953,
+    "boltz_cli_max_msa_seqs": 8192,
+    "path": "data/msa/native/H.csv",
+    "sha256": "3c4d879a435ff864451ac6e7808860813bd28e7a1c964ce92f48926822745b7b"
+  },
+  {
+    "target": "native",
+    "chain": "L",
+    "sequence_length": 106,
+    "msa_depth": 11310,
+    "boltz_cli_max_msa_seqs": 8192,
+    "path": "data/msa/native/L.csv",
+    "sha256": "a7f7d82b00654f80347b0928b65b7aee0595ea942331a57e995108fef99e5591"
+  },
+  {
+    "target": "immunogen",
+    "chain": "A",
+    "sequence_length": 134,
+    "msa_depth": 1475,
+    "boltz_cli_max_msa_seqs": 8192,
+    "path": "data/msa/immunogen/A.csv",
+    "sha256": "e4ef1f2138b64d82ee7ef91a2f2c247febae1557112cb92aa517ad440a19814f"
+  },
+  {
+    "target": "immunogen",
+    "chain": "H",
+    "sequence_length": 119,
+    "msa_depth": 10952,
+    "boltz_cli_max_msa_seqs": 8192,
+    "path": "data/msa/immunogen/H.csv",
+    "sha256": "e8012830b642a8282c593d11731421da1a3e8d51234494c9f8e5c339c4dfa51b"
+  },
+  {
+    "target": "immunogen",
+    "chain": "L",
+    "sequence_length": 106,
+    "msa_depth": 11310,
+    "boltz_cli_max_msa_seqs": 8192,
+    "path": "data/msa/immunogen/L.csv",
+    "sha256": "9d0a99343198294f9d45fc5830c947cff0c962880be26e4cb08ce747ff8e6ab0"
+  }
+]

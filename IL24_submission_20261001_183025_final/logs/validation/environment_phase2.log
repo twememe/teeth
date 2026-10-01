@@ -1,0 +1,44 @@
+COMMAND ["/mnt/ws/teeth/phase2/venv/bin/python", "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/tools/check_environment.py", "--module", "phase2"]
+{
+  "module": "phase2",
+  "python": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+  "imports": {
+    "numpy": {
+      "version": "1.26.4",
+      "file": "/mnt/ws/teeth/phase2/venv/lib/python3.10/site-packages/numpy/__init__.py"
+    },
+    "pandas": {
+      "version": "2.3.2",
+      "file": "/mnt/ws/teeth/phase2/venv/lib/python3.10/site-packages/pandas/__init__.py"
+    },
+    "scipy": {
+      "version": "1.13.1",
+      "file": "/mnt/ws/teeth/phase2/venv/lib/python3.10/site-packages/scipy/__init__.py"
+    },
+    "Bio": {
+      "version": "1.84",
+      "file": "/mnt/ws/teeth/phase2/venv/lib/python3.10/site-packages/Bio/__init__.py"
+    },
+    "torch": {
+      "version": "2.6.0+cu124",
+      "file": "/mnt/ws/teeth/phase2/venv/lib/python3.10/site-packages/torch/__init__.py"
+    },
+    "ImmuneBuilder": {
+      "version": "see distribution metadata",
+      "file": "/mnt/ws/teeth/phase2/venv/lib/python3.10/site-packages/ImmuneBuilder/__init__.py"
+    },
+    "prodigy_prot": {
+      "version": "see distribution metadata",
+      "file": "/mnt/ws/teeth/phase2/venv/lib/python3.10/site-packages/prodigy_prot/__init__.py"
+    },
+    "boltz": {
+      "version": "2.2.1",
+      "file": "/mnt/ws/teeth/releases/IL24_submission_20260930_223945/modules/phase2/vendor/boltz/src/boltz/__init__.py"
+    }
+  },
+  "torch_cuda": "12.4",
+  "cuda_available": true,
+  "gpu": "NVIDIA RTX A6000"
+}
+ENVIRONMENT_IMPORT_CHECK_PASSED

@@ -1,0 +1,175 @@
+{
+  "construct": "Full181",
+  "condition": "empty",
+  "seed": 15,
+  "source_path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/empty/seed15",
+  "status": "complete",
+  "started_utc": "2026-09-21T11:56:19.800845+00:00",
+  "gpu": 0,
+  "provenance": {
+    "command": [
+      "/home/xinlab/home/ws/phase2/venv/bin/boltz",
+      "predict",
+      "/mnt/il24_full181_supplement_20260921/results/full181_supplement/inputs/full_blind.yaml",
+      "--model",
+      "boltz1",
+      "--checkpoint",
+      "/home/xinlab/home/ws/phase2/models/boltz/boltz1_conf.ckpt",
+      "--cache",
+      "/home/xinlab/home/ws/phase2/models/boltz",
+      "--out_dir",
+      "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/empty/seed15",
+      "--accelerator",
+      "gpu",
+      "--devices",
+      "1",
+      "--diffusion_samples",
+      "1",
+      "--recycling_steps",
+      "3",
+      "--sampling_steps",
+      "200",
+      "--no_kernels",
+      "--num_workers",
+      "0",
+      "--output_format",
+      "pdb",
+      "--write_full_pae",
+      "--seed",
+      "15"
+    ],
+    "input_text": "version: 1\nsequences:\n  - protein:\n      id: A\n      sequence: MSWGLQILPCLSLILLLWNQVPGLEGQEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL\n      msa: empty\n  - protein:\n      id: H\n      sequence: EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS\n      msa: empty\n  - protein:\n      id: L\n      sequence: DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK\n      msa: empty\n",
+    "input_file": {
+      "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/inputs/full_blind.yaml",
+      "exists": true,
+      "bytes": 619,
+      "mtime_ns": 1789990451259959701,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    },
+    "boltz_executable": {
+      "path": "/home/xinlab/home/ws/phase2/venv/bin/boltz",
+      "exists": true,
+      "bytes": 234,
+      "mtime_ns": 1788349378286228759,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    },
+    "cache_path": "/home/xinlab/home/ws/phase2/models/boltz",
+    "sequences": {
+      "A": "MSWGLQILPCLSLILLLWNQVPGLEGQEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+      "H": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+      "L": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK"
+    },
+    "checkpoint": {
+      "path": "/home/xinlab/home/ws/phase2/models/boltz/boltz1_conf.ckpt",
+      "exists": true,
+      "bytes": 3595352714,
+      "mtime_ns": 1788351323232112831,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    },
+    "ccd": {
+      "path": "/home/xinlab/home/ws/phase2/models/boltz/ccd.pkl",
+      "exists": true,
+      "bytes": 345859128,
+      "mtime_ns": 1788350215485178858,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    },
+    "msa": [],
+    "msa_replay": null,
+    "environment": {
+      "boltz": "2.2.1",
+      "torch": "2.6.0+cu124",
+      "python": "3.10.12 (main, May 27 2025, 17:12:29) [GCC 11.4.0]",
+      "executable": "/home/xinlab/home/ws/phase2/venv/bin/python"
+    }
+  },
+  "exit_code": 0,
+  "pdb_path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/empty/seed15/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb",
+  "confidence_path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/empty/seed15/boltz_results_full_blind/predictions/full_blind/confidence_full_blind_model_0.json",
+  "pae_path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/empty/seed15/boltz_results_full_blind/predictions/full_blind/pae_full_blind_model_0.npz",
+  "chain_lengths": {
+    "A": 181,
+    "H": 119,
+    "L": 106
+  },
+  "validation": "passed",
+  "validated_utc": "2026-09-21T11:57:50.294976+00:00",
+  "sequence_validation": {
+    "A": {
+      "label": "Full181",
+      "expected_length": 181,
+      "observed_length": 181,
+      "observed_sequence": "MSWGLQILPCLSLILLLWNQVPGLEGQEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+      "complete_sequence_match": true,
+      "missing_local_positions": [],
+      "has_insertion_codes": false,
+      "local_numbering_contiguous": true,
+      "mapping_basis": "exact_sequence"
+    },
+    "H": {
+      "label": "H",
+      "expected_length": 119,
+      "observed_length": 119,
+      "observed_sequence": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+      "complete_sequence_match": true,
+      "missing_local_positions": [],
+      "has_insertion_codes": false,
+      "local_numbering_contiguous": true,
+      "mapping_basis": "exact_sequence"
+    },
+    "L": {
+      "label": "L",
+      "expected_length": 106,
+      "observed_length": 106,
+      "observed_sequence": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK",
+      "complete_sequence_match": true,
+      "missing_local_positions": [],
+      "has_insertion_codes": false,
+      "local_numbering_contiguous": true,
+      "mapping_basis": "exact_sequence"
+    }
+  },
+  "pae_validation": {
+    "shape": [
+      406,
+      406
+    ],
+    "dtype": "float32",
+    "finite": true,
+    "minimum": 0.2513033151626587,
+    "maximum": 31.37864875793457,
+    "units": "angstrom"
+  },
+  "confidence_json_scale": "0-1",
+  "pdb_plddt_scale": "0-100 per frozen Boltz PDB writer",
+  "pdb_plddt_observed_range": [
+    26.29,
+    98.29
+  ],
+  "artifact_fingerprints": [
+    {
+      "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/empty/seed15/boltz_results_full_blind/predictions/full_blind/full_blind_model_0.pdb",
+      "exists": true,
+      "bytes": 261953,
+      "mtime_ns": 1789991860491197968,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    },
+    {
+      "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/empty/seed15/boltz_results_full_blind/predictions/full_blind/confidence_full_blind_model_0.json",
+      "exists": true,
+      "bytes": 903,
+      "mtime_ns": 1789991860491197968,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    },
+    {
+      "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/empty/seed15/boltz_results_full_blind/predictions/full_blind/pae_full_blind_model_0.npz",
+      "exists": true,
+      "bytes": 580135,
+      "mtime_ns": 1789991860521197912,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    }
+  ],
+  "prediction_status": "complete",
+  "failure_reason": "",
+  "ended_utc": "2026-09-21T11:57:50.295821+00:00",
+  "wall_seconds": 90.49289039103314
+}

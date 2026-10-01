@@ -1,0 +1,109 @@
+{
+  "seed": 42,
+  "python": "3.10.12",
+  "pandas": "2.3.2",
+  "raw_counts": {
+    "abbench": 215699,
+    "abagym": 36541,
+    "il6": 1636
+  },
+  "total_raw": 253876,
+  "candidate_counts": {
+    "abbench": 215699,
+    "abagym": 36173,
+    "il6": 1636
+  },
+  "rejections": {
+    "abagym:sequence_length_above_1022": 338,
+    "abagym:threshold_tie_0.5": 30,
+    "abbench:training_median_tie": 1
+  },
+  "abbench_training_median": 7.828436341973866,
+  "abbench_training_median_fit_rows": 170295,
+  "threshold_fit_before_tie_exclusion": true,
+  "requested_counts": {
+    "train": 200000,
+    "validation": 20000
+  },
+  "split_counts": {
+    "train": 199999,
+    "validation": 20000,
+    "test": 33508
+  },
+  "unique_model_sequences": 178850,
+  "conflicting_label_sequence_groups": 62233,
+  "split_unique_sequences": {
+    "train": 141146,
+    "validation": 14109,
+    "test": 23595
+  },
+  "source_split_label_counts": {
+    "train": {
+      "abbench|0": 85147,
+      "abbench|1": 85147,
+      "abagym|0": 20926,
+      "abagym|1": 7469,
+      "il6|1": 655,
+      "il6|0": 655
+    },
+    "validation": {
+      "abbench|1": 8388,
+      "abbench|0": 8432,
+      "abagym|0": 2220,
+      "il6|1": 81,
+      "abagym|1": 797,
+      "il6|0": 82
+    },
+    "test": {
+      "abbench|0": 14421,
+      "abbench|1": 14163,
+      "abagym|0": 3397,
+      "abagym|1": 1364,
+      "il6|1": 82,
+      "il6|0": 81
+    }
+  },
+  "partner_split_counts": {
+    "train": {
+      "abbench|antibody": 170294,
+      "abagym|antigen": 26507,
+      "abagym|antibody": 1888,
+      "il6|antibody": 1310
+    },
+    "validation": {
+      "abbench|antibody": 16820,
+      "abagym|antigen": 2823,
+      "il6|antibody": 163,
+      "abagym|antibody": 194
+    },
+    "test": {
+      "abbench|antibody": 28584,
+      "abagym|antigen": 4428,
+      "abagym|antibody": 333,
+      "il6|antibody": 163
+    }
+  },
+  "official_il6_split_changes": 0,
+  "max_model_length": 1004,
+  "checks": {
+    "identical_sequence_splits_disjoint": true,
+    "canonical_AA_only": true,
+    "labels_binary": true,
+    "all_model_lengths_at_most_1022": true
+  },
+  "split_sha256": {
+    "train": "ba09e4b491349a9d4c9ff54757644f5a9b9f8a52716537b6bf2a79733e83de3e",
+    "validation": "2b2347b980e1ddc7176b50c2e4ffd2a930b25e7b841964c945a13763cdc51ec6",
+    "test": "6dbfa829ed5b807cbaa8d98cd54ac083eff4d4bf9a0b2e962578d340b63ade14"
+  },
+  "manifest": "data/download_manifest.json",
+  "limitations": [
+    "Pooled labels are heterogeneous; high numeric DMS score can represent immune escape, not antibody affinity improvement.",
+    "AbBiBench mutation annotations are absent from source; mutation stays empty. Source sequences are already measured variants.",
+    "AbBiBench H and L are concatenated without linker; this introduces an artificial chain boundary.",
+    "AbAgym model input is the longest verified representative mutated PDB chain with observed ATOM residues only, not a complete antibody-antigen complex. Unresolved residues are absent. All equivalent chains mutation sites must verify.",
+    "Exact duplicate sequences are grouped across all sources; sequence identity/antigen/family-disjoint generalization is not assessed. Conflicting assays/labels are retained for feasibility and reported.",
+    "Original IL6 split assignments are retained, with test-over-validation-over-train priority if an identical sequence has conflicting official assignments.",
+    "No oversampling or fabricated records. Split targets apply to eligible rows before AbBiBench median ties; deficits are reported."
+  ]
+}

@@ -1,0 +1,117 @@
+accession,species,taxid,reviewed,length,mammalian_order,gene_name,protein_name,annotation_score,source_url,selection_status,selection_reason
+Q13007,Homo sapiens,9606,True,206,Primates,IL24,Interleukin-24,5.0,https://rest.uniprot.org/uniprotkb/Q13007,included,order_round_robin_quality_representative
+Q9JI24,Rattus norvegicus,10116,True,183,Rodentia,Il24,Interleukin-24,5.0,https://rest.uniprot.org/uniprotkb/Q9JI24,included,order_round_robin_quality_representative
+Q925S4,Mus musculus,10090,True,220,Rodentia,Il24,Interleukin-24,5.0,https://rest.uniprot.org/uniprotkb/Q925S4,included,order_round_robin_quality_representative
+Q9WVP8,Rattus norvegicus,10116,False,183,Rodentia,,Interleukin-24,2.0,https://rest.uniprot.org/uniprotkb/Q9WVP8,excluded,same_taxid_lower_priority_than_Q9JI24
+G3SKD9,Gorilla gorilla gorilla,9595,False,202,Primates,IL24,Interleukin-24,2.0,https://rest.uniprot.org/uniprotkb/G3SKD9,included,order_round_robin_quality_representative
+H2Q108,Pan troglodytes,9598,False,207,Primates,IL24,Interleukin-24,2.0,https://rest.uniprot.org/uniprotkb/H2Q108,excluded,eligible_not_selected_target_25
+A0A2K6PT46,Rhinopithecus roxellana,61622,False,207,Primates,IL24,Interleukin-24,2.0,https://rest.uniprot.org/uniprotkb/A0A2K6PT46,included,order_round_robin_quality_representative
+A0A6P5QL08,Mus caroli,10089,False,181,Rodentia,Il24,Interleukin-24,2.0,https://rest.uniprot.org/uniprotkb/A0A6P5QL08,included,order_round_robin_quality_representative
+F6YRZ5,Callithrix jacchus,9483,False,205,Primates,,Interleukin-24,2.0,https://rest.uniprot.org/uniprotkb/F6YRZ5,excluded,eligible_not_selected_target_25
+A0A2K5QSY6,Cebus imitator,2715852,False,206,Primates,IL24,Interleukin-24,2.0,https://rest.uniprot.org/uniprotkb/A0A2K5QSY6,included,order_round_robin_quality_representative
+A0A2R9BHI7,Pan paniscus,9597,False,206,Primates,,Interleukin-24,2.0,https://rest.uniprot.org/uniprotkb/A0A2R9BHI7,excluded,eligible_not_selected_target_25
+A0A6J3IS67,Sapajus apella,9515,False,257,Primates,IL24,Interleukin-24,2.0,https://rest.uniprot.org/uniprotkb/A0A6J3IS67,excluded,eligible_not_selected_target_25
+G1QJB7,Nomascus leucogenys,61853,False,207,Primates,IL24,Interleukin-24,2.0,https://rest.uniprot.org/uniprotkb/G1QJB7,excluded,eligible_not_selected_target_25
+E7ETP6,Homo sapiens,9606,False,60,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/E7ETP6,excluded,explicit_fragment;length_below_140
+E7ER64,Homo sapiens,9606,False,51,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/E7ER64,excluded,length_below_140
+F1MME8,Bos taurus,9913,False,190,Artiodactyla,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/F1MME8,included,order_round_robin_quality_representative
+A0A087WPT5,Mus musculus,10090,False,77,Rodentia,Il24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A087WPT5,excluded,explicit_fragment;length_below_140
+A0A087WRY6,Mus musculus,10090,False,119,Rodentia,Il24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A087WRY6,excluded,length_below_140
+A0A8I6GM58,Rattus norvegicus,10116,False,172,Rodentia,Il24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8I6GM58,excluded,same_taxid_lower_priority_than_Q9JI24
+A0A2I3LE04,Papio anubis,9555,False,154,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2I3LE04,excluded,eligible_not_selected_target_25
+A0A2K5C7Y3,Aotus nancymaae,37293,False,63,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K5C7Y3,excluded,length_below_140
+A0A2K5IP10,Colobus angolensis palliatus,336983,False,207,Primates,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K5IP10,excluded,eligible_not_selected_target_25
+A0A2K5P2R8,Cercocebus atys,9531,False,154,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K5P2R8,excluded,same_taxid_lower_priority_than_A0A2K5P2T7
+A0A2K5XQ22,Mandrillus leucophaeus,9568,False,62,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K5XQ22,excluded,length_below_140
+A0A2K6F588,Propithecus coquereli,379532,False,161,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K6F588,excluded,eligible_not_selected_target_25
+A0A2K6KH42,Rhinopithecus bieti,61621,False,207,Primates,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K6KH42,excluded,eligible_not_selected_target_25
+A0A2R9B9T4,Pan paniscus,9597,False,51,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2R9B9T4,excluded,length_below_140
+A0A2Y9DIL8,Trichechus manatus latirostris,127582,False,223,Sirenia,IL24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A2Y9DIL8,included,order_round_robin_quality_representative
+A0A6P5D0P2,Bos indicus,9915,False,182,Artiodactyla,IL24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A6P5D0P2,included,order_round_robin_quality_representative
+A0A7J8CR02,Molossus molossus,27622,False,208,Chiroptera,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A7J8CR02,excluded,same_taxid_lower_priority_than_A0A7J8CR82
+A0A8C6FI12,Moschus moschiferus,68415,False,189,Artiodactyla,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C6FI12,included,order_round_robin_quality_representative
+A0A8D2DXX3,Sciurus vulgaris,55149,False,141,Rodentia,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A8D2DXX3,excluded,eligible_not_selected_target_25
+A0A8D2HWD5,Urocitellus parryii,9999,False,182,Rodentia,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8D2HWD5,excluded,eligible_not_selected_target_25
+A0AA41MZI1,Sciurus carolinensis,30640,False,201,Rodentia,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0AA41MZI1,excluded,noncanonical_amino_acid
+F1SEZ0,Sus scrofa,9823,False,179,Artiodactyla,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/F1SEZ0,excluded,eligible_not_selected_target_25
+G1PXI9,Myotis lucifugus,59463,False,206,Chiroptera,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/G1PXI9,included,order_round_robin_quality_representative
+G3X1M9,Sarcophilus harrisii,9305,False,207,Dasyuromorphia,IL24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/G3X1M9,included,order_round_robin_quality_representative
+A0A212CR57,Cervus elaphus hippelaphus,46360,False,128,Artiodactyla,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A212CR57,excluded,length_below_140
+A0A2J8V6U8,Pongo abelii,9601,False,63,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2J8V6U8,excluded,length_below_140
+A0A2K5IND1,Colobus angolensis palliatus,336983,False,154,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K5IND1,excluded,same_taxid_lower_priority_than_A0A2K5IP10
+A0A2K5P2Z7,Cercocebus atys,9531,False,63,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K5P2Z7,excluded,length_below_140
+A0A2K5QT00,Cebus imitator,2715852,False,153,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K5QT00,excluded,same_taxid_lower_priority_than_A0A2K5QSY6
+A0A2K6B726,Macaca nemestrina,9545,False,63,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K6B726,excluded,length_below_140
+A0A2K6PT57,Rhinopithecus roxellana,61622,False,154,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K6PT57,excluded,same_taxid_lower_priority_than_A0A2K6PT46
+A0A5N3V971,Muntiacus muntjak,9888,False,201,Artiodactyla,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A5N3V971,excluded,eligible_not_selected_target_25
+A0A667IT57,Lynx canadensis,61383,False,139,Carnivora,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A667IT57,excluded,length_below_140
+A0A7J8BEB7,Rousettus aegyptiacus,9407,False,179,Chiroptera,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A7J8BEB7,excluded,eligible_not_selected_target_25
+A0A7J8CR82,Molossus molossus,27622,False,207,Chiroptera,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A7J8CR82,included,order_round_robin_quality_representative
+A0A7J8CRB0,Molossus molossus,27622,False,155,Chiroptera,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A7J8CRB0,excluded,same_taxid_lower_priority_than_A0A7J8CR82
+A0A8C2W6C7,Chinchilla lanigera,34839,False,189,Rodentia,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C2W6C7,included,order_round_robin_quality_representative
+A0A8C8U7J8,Peromyscus maniculatus bairdii,230844,False,219,Rodentia,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C8U7J8,excluded,eligible_not_selected_target_25
+A0A8C9P5P5,Spermophilus dauricus,99837,False,190,Rodentia,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C9P5P5,excluded,same_taxid_lower_priority_than_A0A8C9UJS4
+A0A8C9UJS4,Spermophilus dauricus,99837,False,200,Rodentia,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C9UJS4,excluded,eligible_not_selected_target_25
+A0ACM7G4J4,Callorhinus ursinus,34884,False,183,Carnivora,IL24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0ACM7G4J4,included,order_round_robin_quality_representative
+Q3HTU5,Canis lupus familiaris,9615,False,128,Carnivora,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/Q3HTU5,excluded,explicit_fragment;length_below_140
+S7Q887,Myotis brandtii,109478,False,109,Chiroptera,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/S7Q887,excluded,length_below_140
+A0A1S3FA46,Dipodomys ordii,10020,False,183,Rodentia,Il24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A1S3FA46,excluded,eligible_not_selected_target_25
+A0A2I3SK12,Pan troglodytes,9598,False,154,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2I3SK12,excluded,same_taxid_lower_priority_than_H2Q108
+A0A2I3TVY6,Pan troglodytes,9598,False,63,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2I3TVY6,excluded,length_below_140
+A0A2K5IND9,Colobus angolensis palliatus,336983,False,63,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K5IND9,excluded,length_below_140
+A0A2K5UB53,Macaca fascicularis,9541,False,207,Primates,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K5UB53,excluded,eligible_not_selected_target_25
+A0A2K6KH41,Rhinopithecus bieti,61621,False,63,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K6KH41,excluded,length_below_140
+A0A8C3VMJ9,Catagonus wagneri,51154,False,197,Artiodactyla,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C3VMJ9,included,order_round_robin_quality_representative
+A0A8C6EJ42,Microcebus murinus,30608,False,158,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C6EJ42,excluded,eligible_not_selected_target_25
+A0A8C9IMI5,Piliocolobus tephrosceles,591936,False,63,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C9IMI5,excluded,length_below_140
+A0A8C9IQ48,Piliocolobus tephrosceles,591936,False,154,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C9IQ48,excluded,eligible_not_selected_target_25
+A0A8C9PX51,Spermophilus dauricus,99837,False,210,Rodentia,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C9PX51,excluded,same_taxid_lower_priority_than_A0A8C9UJS4
+A0A8D2F302,Theropithecus gelada,9565,False,154,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8D2F302,excluded,eligible_not_selected_target_25
+A0ACF6FWZ3,Sigmodon hispidus,42415,False,258,Rodentia,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0ACF6FWZ3,excluded,eligible_not_selected_target_25
+G3TAL5,Loxodonta africana,9785,False,183,Proboscidea,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/G3TAL5,included,order_round_robin_quality_representative
+I3M7Y2,Ictidomys tridecemlineatus,43179,False,182,Rodentia,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/I3M7Y2,excluded,eligible_not_selected_target_25
+L5JVE0,Pteropus alecto,9402,False,184,Chiroptera,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/L5JVE0,excluded,eligible_not_selected_target_25
+A0A091CNQ7,Fukomys damarensis,885580,False,178,Rodentia,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A091CNQ7,excluded,eligible_not_selected_target_25
+A0A287D857,Ictidomys tridecemlineatus,43179,False,220,Rodentia,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A287D857,excluded,same_taxid_lower_priority_than_I3M7Y2
+A0A2I2YHC8,Gorilla gorilla gorilla,9595,False,62,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2I2YHC8,excluded,length_below_140
+A0A2I3GEQ0,Nomascus leucogenys,61853,False,154,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2I3GEQ0,excluded,same_taxid_lower_priority_than_G1QJB7
+A0A2I3HEY9,Nomascus leucogenys,61853,False,63,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2I3HEY9,excluded,length_below_140
+A0A2I3NI86,Papio anubis,9555,False,63,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2I3NI86,excluded,length_below_140
+A0A2J8V6T7,Pongo abelii,9601,False,154,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2J8V6T7,excluded,eligible_not_selected_target_25
+A0A2K5P2T7,Cercocebus atys,9531,False,207,Primates,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K5P2T7,excluded,eligible_not_selected_target_25
+A0A2K5XPZ1,Mandrillus leucophaeus,9568,False,153,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K5XPZ1,excluded,eligible_not_selected_target_25
+A0A2K6B717,Macaca nemestrina,9545,False,154,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K6B717,excluded,eligible_not_selected_target_25
+A0A2K6KH44,Rhinopithecus bieti,61621,False,154,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K6KH44,excluded,same_taxid_lower_priority_than_A0A2K6KH42
+A0A2K6UBC8,Saimiri boliviensis boliviensis,39432,False,63,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K6UBC8,excluded,length_below_140
+A0A671G4Q9,Rhinolophus ferrumequinum,59479,False,181,Chiroptera,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A671G4Q9,excluded,same_taxid_lower_priority_than_A0A671FWG8
+A0A6B0RYB9,Bos mutus,72004,False,161,Artiodactyla,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A6B0RYB9,excluded,eligible_not_selected_target_25
+A0A8C5YU34,Marmota marmota marmota,9994,False,182,Rodentia,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C5YU34,excluded,eligible_not_selected_target_25
+A0A8C9CJG0,Phocoena sinus,42100,False,220,Artiodactyla,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C9CJG0,included,order_round_robin_quality_representative
+A0A8C9Q1I7,Spermophilus dauricus,99837,False,189,Rodentia,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C9Q1I7,excluded,same_taxid_lower_priority_than_A0A8C9UJS4
+A0A8I3MIM1,Canis lupus familiaris,9615,False,140,Carnivora,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8I3MIM1,included,order_round_robin_quality_representative
+A0A9J7G3P9,Cricetulus griseus,10029,False,240,Rodentia,Il24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A9J7G3P9,excluded,eligible_not_selected_target_25
+F6YSX6,Callithrix jacchus,9483,False,152,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/F6YSX6,excluded,same_taxid_lower_priority_than_F6YRZ5
+H0VDX9,Cavia porcellus,10141,False,216,Rodentia,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/H0VDX9,excluded,eligible_not_selected_target_25
+L9JBS6,Tupaia chinensis,246437,False,560,Scandentia,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/L9JBS6,excluded,length_above_280
+A0A2K5C800,Aotus nancymaae,37293,False,152,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K5C800,excluded,eligible_not_selected_target_25
+A0A2K5UB58,Macaca fascicularis,9541,False,154,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K5UB58,excluded,same_taxid_lower_priority_than_A0A2K5UB53
+A0A2K5UB64,Macaca fascicularis,9541,False,63,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K5UB64,excluded,length_below_140
+A0A2K6PT53,Rhinopithecus roxellana,61622,False,63,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K6PT53,excluded,length_below_140
+A0A2K6UBB8,Saimiri boliviensis boliviensis,39432,False,152,Primates,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A2K6UBB8,excluded,eligible_not_selected_target_25
+A0A5E4AH93,Marmota monax,9995,False,196,Rodentia,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A5E4AH93,excluded,eligible_not_selected_target_25
+A0A5N4CIF6,Camelus dromedarius,9838,False,268,Artiodactyla,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A5N4CIF6,excluded,eligible_not_selected_target_25
+A0A671FWG8,Rhinolophus ferrumequinum,59479,False,203,Chiroptera,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A671FWG8,included,order_round_robin_quality_representative
+A0A6P5LQX5,Phascolarctos cinereus,38626,False,180,Diprotodontia,IL24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A6P5LQX5,included,order_round_robin_quality_representative
+A0A6P6C2L7,Pteropus vampyrus,132908,False,183,Chiroptera,IL24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A6P6C2L7,included,order_round_robin_quality_representative
+A0A8B7AVS2,Orycteropus afer afer,1230840,False,183,Tubulidentata,IL24,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A8B7AVS2,included,order_round_robin_quality_representative
+A0A8C9M8J4,Panthera tigris altaica,74533,False,155,Carnivora,,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8C9M8J4,included,order_round_robin_quality_representative
+A0A8D2F3C3,Theropithecus gelada,9565,False,63,Primates,IL24,Interleukin 24,1.0,https://rest.uniprot.org/uniprotkb/A0A8D2F3C3,excluded,length_below_140
+A0AB34HYP5,Eschrichtius robustus,9764,False,162,Artiodactyla,,Interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0AB34HYP5,excluded,eligible_not_selected_target_25
+A0A6J3R1H0,Tursiops truncatus,9739,False,162,Artiodactyla,IL24,Interleukin-24 isoform X3,1.0,https://rest.uniprot.org/uniprotkb/A0A6J3R1H0,excluded,isoform_name
+A0AAX6RNN8,Heterocephalus glaber,10181,False,183,Rodentia,Il24,Interleukin-24 isoform X2,1.0,https://rest.uniprot.org/uniprotkb/A0AAX6RNN8,excluded,isoform_name
+A0ABD2DVW0,Daubentonia madagascariensis,31869,False,48,Primates,,Interleukin-24 isoform 5,1.0,https://rest.uniprot.org/uniprotkb/A0ABD2DVW0,excluded,isoform_name;explicit_fragment;length_below_140
+A0A8B7QAM1,Hipposideros armiger,186990,False,167,Chiroptera,IL24,Interleukin-24 isoform X1,1.0,https://rest.uniprot.org/uniprotkb/A0A8B7QAM1,excluded,isoform_name
+A0AAX6RN72,Heterocephalus glaber,10181,False,204,Rodentia,Il24,Interleukin-24 isoform X1,1.0,https://rest.uniprot.org/uniprotkb/A0AAX6RN72,excluded,isoform_name
+A0ABD2DVQ0,Daubentonia madagascariensis,31869,False,139,Primates,,Interleukin-24 isoform 4,1.0,https://rest.uniprot.org/uniprotkb/A0ABD2DVQ0,excluded,isoform_name;explicit_fragment;length_below_140
+A0ABM0KL59,Microtus ochrogaster,79684,False,221,Rodentia,Il24,LOW QUALITY PROTEIN: interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0ABM0KL59,excluded,explicit_low_quality_name;noncanonical_amino_acid
+A0A7E6CVU2,Phyllostomus discolor,89673,False,172,Chiroptera,IL24,LOW QUALITY PROTEIN: interleukin-24,1.0,https://rest.uniprot.org/uniprotkb/A0A7E6CVU2,excluded,explicit_low_quality_name

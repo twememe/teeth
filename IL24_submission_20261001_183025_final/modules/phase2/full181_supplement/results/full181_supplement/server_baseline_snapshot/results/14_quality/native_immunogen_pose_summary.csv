@@ -1,0 +1,13 @@
+condition,metric,n_pairs,mean,sd,median,min,max,representative_pair
+formal,shared_antigen_backbone_rmsd_A,225,11.7351,2.2876,12.2958,5.6628,15.2156,13.4877
+formal,antibody_pose_ca_rmsd_A,225,42.3043,12.0031,42.2425,16.1427,66.531,55.9038
+formal,antibody_centroid_shift_A,225,37.1267,11.726,37.8273,8.3995,60.5891,48.3392
+formal,antibody_internal_ca_rmsd_A,225,0.5698,0.128,0.549,0.3297,0.905,0.7754
+formal_msa,shared_antigen_backbone_rmsd_A,225,3.3626,1.1566,3.4994,1.7082,5.5039,
+formal_msa,antibody_pose_ca_rmsd_A,225,33.8139,25.6554,30.6593,1.9596,64.9142,
+formal_msa,antibody_centroid_shift_A,225,29.329,24.2857,13.532,1.1508,59.184,
+formal_msa,antibody_internal_ca_rmsd_A,225,0.5775,0.1236,0.5664,0.2716,0.975,
+msa_sensitivity,shared_antigen_backbone_rmsd_A,9,1.9503,0.2401,1.967,1.6255,2.2911,
+msa_sensitivity,antibody_pose_ca_rmsd_A,9,28.9849,23.3252,16.9065,8.332,63.1489,
+msa_sensitivity,antibody_centroid_shift_A,9,24.2181,22.4881,11.1844,6.0632,56.5144,
+msa_sensitivity,antibody_internal_ca_rmsd_A,9,0.4403,0.0853,0.4061,0.3193,0.5871,

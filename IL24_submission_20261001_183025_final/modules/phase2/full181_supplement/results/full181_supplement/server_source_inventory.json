@@ -1,0 +1,2714 @@
+[
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/MODEL_CARD.md",
+    "archive_path": "MODEL_CARD.md",
+    "bytes": 1495,
+    "mtime_ns": 1789128234812805290
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/REPRODUCIBILITY.md",
+    "archive_path": "REPRODUCIBILITY.md",
+    "bytes": 1440,
+    "mtime_ns": 1789128235519805248
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/IL24_full_1_181.fasta",
+    "archive_path": "data/IL24_full_1_181.fasta",
+    "bytes": 223,
+    "mtime_ns": 1787905773490888600
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/IL24_immunogen_27_160.fasta",
+    "archive_path": "data/IL24_immunogen_27_160.fasta",
+    "bytes": 182,
+    "mtime_ns": 1787905773493888400
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/IL24_native_27_181.fasta",
+    "archive_path": "data/IL24_native_27_181.fasta",
+    "bytes": 200,
+    "mtime_ns": 1787905773491888500
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/README.md",
+    "archive_path": "data/README.md",
+    "bytes": 657,
+    "mtime_ns": 1788955775728084653
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/VH_VL.fasta",
+    "archive_path": "data/VH_VL.fasta",
+    "bytes": 315,
+    "mtime_ns": 1787733304000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/VH_VL_clean.fasta",
+    "archive_path": "data/VH_VL_clean.fasta",
+    "bytes": 317,
+    "mtime_ns": 1787905773493888400
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/antibody_imgt_numbering.csv",
+    "archive_path": "data/antibody_imgt_numbering.csv",
+    "bytes": 6025,
+    "mtime_ns": 1787906045252140300
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/antibody_numbering.csv",
+    "archive_path": "data/antibody_numbering.csv",
+    "bytes": 607,
+    "mtime_ns": 1787733308000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/cdr_annotation.csv",
+    "archive_path": "data/cdr_annotation.csv",
+    "bytes": 791,
+    "mtime_ns": 1787906045082762700
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/external_materials/6DF3.fasta",
+    "archive_path": "data/external_materials/6DF3.fasta",
+    "bytes": 778,
+    "mtime_ns": 1788664436244449840
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/external_materials/ELISA_competition_data.csv",
+    "archive_path": "data/external_materials/ELISA_competition_data.csv",
+    "bytes": 179,
+    "mtime_ns": 1788664436371449833
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/external_materials/README.md",
+    "archive_path": "data/external_materials/README.md",
+    "bytes": 1992,
+    "mtime_ns": 1788664439565449643
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/il24_numbering_map.csv",
+    "archive_path": "data/il24_numbering_map.csv",
+    "bytes": 4578,
+    "mtime_ns": 1787905773496886500
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/msa/immunogen/A.csv",
+    "archive_path": "data/msa/immunogen/A.csv",
+    "bytes": 205825,
+    "mtime_ns": 1788357492603394500
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/msa/immunogen/H.csv",
+    "archive_path": "data/msa/immunogen/H.csv",
+    "bytes": 1376493,
+    "mtime_ns": 1788357492649881000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/msa/immunogen/L.csv",
+    "archive_path": "data/msa/immunogen/L.csv",
+    "bytes": 1305903,
+    "mtime_ns": 1788357492680912500
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/msa/immunogen/colabfold_raw/paired_pairgreedy-env/pair.sh",
+    "archive_path": "data/msa/immunogen/colabfold_raw/paired_pairgreedy-env/pair.sh",
+    "bytes": 4883,
+    "mtime_ns": 1788355828000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/msa/immunogen/colabfold_raw/unpaired_env/msa.sh",
+    "archive_path": "data/msa/immunogen/colabfold_raw/unpaired_env/msa.sh",
+    "bytes": 6616,
+    "mtime_ns": 1788355856000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/msa/msa_manifest.json",
+    "archive_path": "data/msa/msa_manifest.json",
+    "bytes": 1617,
+    "mtime_ns": 1788357492693433000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/msa/native/A.csv",
+    "archive_path": "data/msa/native/A.csv",
+    "bytes": 264086,
+    "mtime_ns": 1788357492494129700
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/msa/native/H.csv",
+    "archive_path": "data/msa/native/H.csv",
+    "bytes": 1376619,
+    "mtime_ns": 1788357492528126700
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/msa/native/L.csv",
+    "archive_path": "data/msa/native/L.csv",
+    "bytes": 1305903,
+    "mtime_ns": 1788357492561125800
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/msa/native/colabfold_raw/paired_pairgreedy-env/pair.sh",
+    "archive_path": "data/msa/native/colabfold_raw/paired_pairgreedy-env/pair.sh",
+    "bytes": 4883,
+    "mtime_ns": 1788355761000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/msa/native/colabfold_raw/unpaired_env/msa.sh",
+    "archive_path": "data/msa/native/colabfold_raw/unpaired_env/msa.sh",
+    "bytes": 6616,
+    "mtime_ns": 1788355796000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/phase2_input_manifest_sha256.csv",
+    "archive_path": "data/phase2_input_manifest_sha256.csv",
+    "bytes": 714,
+    "mtime_ns": 1787905773547748300
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/data/\u0446\u041a\u0427\u0444\u255c\u0423\u0444\u2510\u0431\u0446\u0411\u043f\u0448\u043f\u2524\u0446\u0428\u041e.md",
+    "archive_path": "data/\u0446\u041a\u0427\u0444\u255c\u0423\u0444\u2510\u0431\u0446\u0411\u043f\u0448\u043f\u2524\u0446\u0428\u041e.md",
+    "bytes": 1689,
+    "mtime_ns": 1787733318000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_immunogen_blind_seed1.log",
+    "archive_path": "logs/boltz_formal_immunogen_blind_seed1.log",
+    "bytes": 2456,
+    "mtime_ns": 1788353220395999752
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_immunogen_blind_seed10.log",
+    "archive_path": "logs/boltz_formal_immunogen_blind_seed10.log",
+    "bytes": 2457,
+    "mtime_ns": 1788353804550964933
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_immunogen_blind_seed11.log",
+    "archive_path": "logs/boltz_formal_immunogen_blind_seed11.log",
+    "bytes": 2457,
+    "mtime_ns": 1788353868923961096
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_immunogen_blind_seed12.log",
+    "archive_path": "logs/boltz_formal_immunogen_blind_seed12.log",
+    "bytes": 2457,
+    "mtime_ns": 1788353933614957241
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_immunogen_blind_seed13.log",
+    "archive_path": "logs/boltz_formal_immunogen_blind_seed13.log",
+    "bytes": 2457,
+    "mtime_ns": 1788353998246953388
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_immunogen_blind_seed14.log",
+    "archive_path": "logs/boltz_formal_immunogen_blind_seed14.log",
+    "bytes": 2457,
+    "mtime_ns": 1788354063505949498
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_immunogen_blind_seed15.log",
+    "archive_path": "logs/boltz_formal_immunogen_blind_seed15.log",
+    "bytes": 2457,
+    "mtime_ns": 1788354127971945656
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_immunogen_blind_seed2.log",
+    "archive_path": "logs/boltz_formal_immunogen_blind_seed2.log",
+    "bytes": 2456,
+    "mtime_ns": 1788353286607995805
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_immunogen_blind_seed3.log",
+    "archive_path": "logs/boltz_formal_immunogen_blind_seed3.log",
+    "bytes": 2456,
+    "mtime_ns": 1788353350947991970
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_immunogen_blind_seed4.log",
+    "archive_path": "logs/boltz_formal_immunogen_blind_seed4.log",
+    "bytes": 2456,
+    "mtime_ns": 1788353415551988119
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_immunogen_blind_seed5.log",
+    "archive_path": "logs/boltz_formal_immunogen_blind_seed5.log",
+    "bytes": 2456,
+    "mtime_ns": 1788353480283984261
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_immunogen_blind_seed6.log",
+    "archive_path": "logs/boltz_formal_immunogen_blind_seed6.log",
+    "bytes": 2456,
+    "mtime_ns": 1788353545446980377
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_immunogen_blind_seed7.log",
+    "archive_path": "logs/boltz_formal_immunogen_blind_seed7.log",
+    "bytes": 2456,
+    "mtime_ns": 1788353609801976541
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_immunogen_blind_seed8.log",
+    "archive_path": "logs/boltz_formal_immunogen_blind_seed8.log",
+    "bytes": 2456,
+    "mtime_ns": 1788353674455972688
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_immunogen_blind_seed9.log",
+    "archive_path": "logs/boltz_formal_immunogen_blind_seed9.log",
+    "bytes": 2456,
+    "mtime_ns": 1788353739452968813
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_immunogen_blind_seed1.log",
+    "archive_path": "logs/boltz_formal_msa_immunogen_blind_seed1.log",
+    "bytes": 2043,
+    "mtime_ns": 1788359749000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_immunogen_blind_seed10.log",
+    "archive_path": "logs/boltz_formal_msa_immunogen_blind_seed10.log",
+    "bytes": 2044,
+    "mtime_ns": 1788360425000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_immunogen_blind_seed11.log",
+    "archive_path": "logs/boltz_formal_msa_immunogen_blind_seed11.log",
+    "bytes": 2044,
+    "mtime_ns": 1788360503000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_immunogen_blind_seed12.log",
+    "archive_path": "logs/boltz_formal_msa_immunogen_blind_seed12.log",
+    "bytes": 2044,
+    "mtime_ns": 1788360580000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_immunogen_blind_seed13.log",
+    "archive_path": "logs/boltz_formal_msa_immunogen_blind_seed13.log",
+    "bytes": 2044,
+    "mtime_ns": 1788360657000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_immunogen_blind_seed14.log",
+    "archive_path": "logs/boltz_formal_msa_immunogen_blind_seed14.log",
+    "bytes": 2044,
+    "mtime_ns": 1788360735000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_immunogen_blind_seed15.log",
+    "archive_path": "logs/boltz_formal_msa_immunogen_blind_seed15.log",
+    "bytes": 2044,
+    "mtime_ns": 1788360818000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_immunogen_blind_seed2.log",
+    "archive_path": "logs/boltz_formal_msa_immunogen_blind_seed2.log",
+    "bytes": 2043,
+    "mtime_ns": 1788359823000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_immunogen_blind_seed3.log",
+    "archive_path": "logs/boltz_formal_msa_immunogen_blind_seed3.log",
+    "bytes": 2043,
+    "mtime_ns": 1788359899000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_immunogen_blind_seed4.log",
+    "archive_path": "logs/boltz_formal_msa_immunogen_blind_seed4.log",
+    "bytes": 2043,
+    "mtime_ns": 1788359974000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_immunogen_blind_seed5.log",
+    "archive_path": "logs/boltz_formal_msa_immunogen_blind_seed5.log",
+    "bytes": 2043,
+    "mtime_ns": 1788360048000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_immunogen_blind_seed6.log",
+    "archive_path": "logs/boltz_formal_msa_immunogen_blind_seed6.log",
+    "bytes": 2043,
+    "mtime_ns": 1788360123000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_immunogen_blind_seed7.log",
+    "archive_path": "logs/boltz_formal_msa_immunogen_blind_seed7.log",
+    "bytes": 2043,
+    "mtime_ns": 1788360198000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_immunogen_blind_seed8.log",
+    "archive_path": "logs/boltz_formal_msa_immunogen_blind_seed8.log",
+    "bytes": 2043,
+    "mtime_ns": 1788360272000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_immunogen_blind_seed9.log",
+    "archive_path": "logs/boltz_formal_msa_immunogen_blind_seed9.log",
+    "bytes": 2043,
+    "mtime_ns": 1788360347000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_native_blind_seed1.log",
+    "archive_path": "logs/boltz_formal_msa_native_blind_seed1.log",
+    "bytes": 2043,
+    "mtime_ns": 1788358573000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_native_blind_seed10.log",
+    "archive_path": "logs/boltz_formal_msa_native_blind_seed10.log",
+    "bytes": 2044,
+    "mtime_ns": 1788359279000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_native_blind_seed11.log",
+    "archive_path": "logs/boltz_formal_msa_native_blind_seed11.log",
+    "bytes": 2044,
+    "mtime_ns": 1788359358000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_native_blind_seed12.log",
+    "archive_path": "logs/boltz_formal_msa_native_blind_seed12.log",
+    "bytes": 2044,
+    "mtime_ns": 1788359436000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_native_blind_seed13.log",
+    "archive_path": "logs/boltz_formal_msa_native_blind_seed13.log",
+    "bytes": 2044,
+    "mtime_ns": 1788359516000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_native_blind_seed14.log",
+    "archive_path": "logs/boltz_formal_msa_native_blind_seed14.log",
+    "bytes": 2044,
+    "mtime_ns": 1788359595000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_native_blind_seed15.log",
+    "archive_path": "logs/boltz_formal_msa_native_blind_seed15.log",
+    "bytes": 2044,
+    "mtime_ns": 1788359674000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_native_blind_seed2.log",
+    "archive_path": "logs/boltz_formal_msa_native_blind_seed2.log",
+    "bytes": 2043,
+    "mtime_ns": 1788358651000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_native_blind_seed3.log",
+    "archive_path": "logs/boltz_formal_msa_native_blind_seed3.log",
+    "bytes": 2043,
+    "mtime_ns": 1788358729000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_native_blind_seed4.log",
+    "archive_path": "logs/boltz_formal_msa_native_blind_seed4.log",
+    "bytes": 2043,
+    "mtime_ns": 1788358808000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_native_blind_seed5.log",
+    "archive_path": "logs/boltz_formal_msa_native_blind_seed5.log",
+    "bytes": 2043,
+    "mtime_ns": 1788358886000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_native_blind_seed6.log",
+    "archive_path": "logs/boltz_formal_msa_native_blind_seed6.log",
+    "bytes": 2043,
+    "mtime_ns": 1788358965000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_native_blind_seed7.log",
+    "archive_path": "logs/boltz_formal_msa_native_blind_seed7.log",
+    "bytes": 2043,
+    "mtime_ns": 1788359043000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_native_blind_seed8.log",
+    "archive_path": "logs/boltz_formal_msa_native_blind_seed8.log",
+    "bytes": 2043,
+    "mtime_ns": 1788359122000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_msa_native_blind_seed9.log",
+    "archive_path": "logs/boltz_formal_msa_native_blind_seed9.log",
+    "bytes": 2043,
+    "mtime_ns": 1788359201000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_native_blind_seed1.log",
+    "archive_path": "logs/boltz_formal_native_blind_seed1.log",
+    "bytes": 2129,
+    "mtime_ns": 1788352131559064651
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_native_blind_seed10.log",
+    "archive_path": "logs/boltz_formal_native_blind_seed10.log",
+    "bytes": 2130,
+    "mtime_ns": 1788352785216025690
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_native_blind_seed11.log",
+    "archive_path": "logs/boltz_formal_native_blind_seed11.log",
+    "bytes": 2130,
+    "mtime_ns": 1788352835804022675
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_native_blind_seed12.log",
+    "archive_path": "logs/boltz_formal_native_blind_seed12.log",
+    "bytes": 2130,
+    "mtime_ns": 1788352905986018492
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_native_blind_seed13.log",
+    "archive_path": "logs/boltz_formal_native_blind_seed13.log",
+    "bytes": 2130,
+    "mtime_ns": 1788353018677011775
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_native_blind_seed14.log",
+    "archive_path": "logs/boltz_formal_native_blind_seed14.log",
+    "bytes": 2457,
+    "mtime_ns": 1788353087244007688
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_native_blind_seed15.log",
+    "archive_path": "logs/boltz_formal_native_blind_seed15.log",
+    "bytes": 2457,
+    "mtime_ns": 1788353155515003619
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_native_blind_seed2.log",
+    "archive_path": "logs/boltz_formal_native_blind_seed2.log",
+    "bytes": 2129,
+    "mtime_ns": 1788352201123060505
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_native_blind_seed3.log",
+    "archive_path": "logs/boltz_formal_native_blind_seed3.log",
+    "bytes": 2129,
+    "mtime_ns": 1788352271139056332
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_native_blind_seed4.log",
+    "archive_path": "logs/boltz_formal_native_blind_seed4.log",
+    "bytes": 2129,
+    "mtime_ns": 1788352341197052156
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_native_blind_seed5.log",
+    "archive_path": "logs/boltz_formal_native_blind_seed5.log",
+    "bytes": 2129,
+    "mtime_ns": 1788352410950047998
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_native_blind_seed6.log",
+    "archive_path": "logs/boltz_formal_native_blind_seed6.log",
+    "bytes": 2129,
+    "mtime_ns": 1788352480750043838
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_native_blind_seed7.log",
+    "archive_path": "logs/boltz_formal_native_blind_seed7.log",
+    "bytes": 2129,
+    "mtime_ns": 1788352550635039673
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_native_blind_seed8.log",
+    "archive_path": "logs/boltz_formal_native_blind_seed8.log",
+    "bytes": 2129,
+    "mtime_ns": 1788352620588035503
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/logs/boltz_formal_native_blind_seed9.log",
+    "archive_path": "logs/boltz_formal_native_blind_seed9.log",
+    "bytes": 2129,
+    "mtime_ns": 1788352690749031321
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed1/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed1/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "bytes": 903,
+    "mtime_ns": 1788353219000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed1/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed1/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788353219000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed1/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed1/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "bytes": 457528,
+    "mtime_ns": 1788353219000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed1/boltz_results_immunogen_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed1/boltz_results_immunogen_blind/processed/manifest.json",
+    "bytes": 777,
+    "mtime_ns": 1788353164000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed1/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed1/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "bytes": 762,
+    "mtime_ns": 1788353164000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed10/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed10/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "bytes": 898,
+    "mtime_ns": 1788353803000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed10/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed10/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788353803000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed10/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed10/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "bytes": 455973,
+    "mtime_ns": 1788353803000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed10/boltz_results_immunogen_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed10/boltz_results_immunogen_blind/processed/manifest.json",
+    "bytes": 777,
+    "mtime_ns": 1788353748000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed10/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed10/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "bytes": 762,
+    "mtime_ns": 1788353748000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed11/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed11/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "bytes": 902,
+    "mtime_ns": 1788353868000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed11/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed11/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788353868000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed11/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed11/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "bytes": 456845,
+    "mtime_ns": 1788353868000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed11/boltz_results_immunogen_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed11/boltz_results_immunogen_blind/processed/manifest.json",
+    "bytes": 777,
+    "mtime_ns": 1788353813000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed11/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed11/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "bytes": 762,
+    "mtime_ns": 1788353813000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed12/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed12/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "bytes": 899,
+    "mtime_ns": 1788353932000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed12/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed12/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788353932000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed12/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed12/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "bytes": 457250,
+    "mtime_ns": 1788353932000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed12/boltz_results_immunogen_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed12/boltz_results_immunogen_blind/processed/manifest.json",
+    "bytes": 777,
+    "mtime_ns": 1788353877000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed12/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed12/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "bytes": 762,
+    "mtime_ns": 1788353877000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed13/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed13/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "bytes": 903,
+    "mtime_ns": 1788353997000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed13/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed13/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788353997000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed13/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed13/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "bytes": 456967,
+    "mtime_ns": 1788353997000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed13/boltz_results_immunogen_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed13/boltz_results_immunogen_blind/processed/manifest.json",
+    "bytes": 777,
+    "mtime_ns": 1788353942000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed13/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed13/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "bytes": 762,
+    "mtime_ns": 1788353942000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed14/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed14/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "bytes": 901,
+    "mtime_ns": 1788354062000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed14/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed14/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788354062000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed14/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed14/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "bytes": 455839,
+    "mtime_ns": 1788354062000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed14/boltz_results_immunogen_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed14/boltz_results_immunogen_blind/processed/manifest.json",
+    "bytes": 777,
+    "mtime_ns": 1788354007000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed14/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed14/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "bytes": 762,
+    "mtime_ns": 1788354007000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed15/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed15/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "bytes": 901,
+    "mtime_ns": 1788354127000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed15/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed15/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788354127000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed15/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed15/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "bytes": 455704,
+    "mtime_ns": 1788354127000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed15/boltz_results_immunogen_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed15/boltz_results_immunogen_blind/processed/manifest.json",
+    "bytes": 777,
+    "mtime_ns": 1788354072000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed15/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed15/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "bytes": 762,
+    "mtime_ns": 1788354072000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed2/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed2/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "bytes": 902,
+    "mtime_ns": 1788353285000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed2/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed2/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788353285000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed2/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed2/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "bytes": 455711,
+    "mtime_ns": 1788353285000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed2/boltz_results_immunogen_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed2/boltz_results_immunogen_blind/processed/manifest.json",
+    "bytes": 777,
+    "mtime_ns": 1788353229000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed2/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed2/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "bytes": 762,
+    "mtime_ns": 1788353229000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed3/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed3/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "bytes": 897,
+    "mtime_ns": 1788353350000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed3/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed3/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788353350000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed3/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed3/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "bytes": 456532,
+    "mtime_ns": 1788353350000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed3/boltz_results_immunogen_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed3/boltz_results_immunogen_blind/processed/manifest.json",
+    "bytes": 777,
+    "mtime_ns": 1788353295000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed3/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed3/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "bytes": 762,
+    "mtime_ns": 1788353295000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed4/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed4/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "bytes": 900,
+    "mtime_ns": 1788353414000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed4/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed4/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788353414000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed4/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed4/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "bytes": 455657,
+    "mtime_ns": 1788353414000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed4/boltz_results_immunogen_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed4/boltz_results_immunogen_blind/processed/manifest.json",
+    "bytes": 777,
+    "mtime_ns": 1788353359000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed4/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed4/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "bytes": 762,
+    "mtime_ns": 1788353359000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed5/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed5/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "bytes": 902,
+    "mtime_ns": 1788353479000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed5/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed5/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788353479000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed5/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed5/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "bytes": 455787,
+    "mtime_ns": 1788353479000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed5/boltz_results_immunogen_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed5/boltz_results_immunogen_blind/processed/manifest.json",
+    "bytes": 777,
+    "mtime_ns": 1788353424000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed5/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed5/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "bytes": 762,
+    "mtime_ns": 1788353424000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed6/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed6/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "bytes": 899,
+    "mtime_ns": 1788353544000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed6/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed6/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788353544000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed6/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed6/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "bytes": 456168,
+    "mtime_ns": 1788353544000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed6/boltz_results_immunogen_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed6/boltz_results_immunogen_blind/processed/manifest.json",
+    "bytes": 777,
+    "mtime_ns": 1788353488000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed6/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed6/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "bytes": 762,
+    "mtime_ns": 1788353488000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed7/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed7/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "bytes": 902,
+    "mtime_ns": 1788353609000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed7/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed7/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788353609000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed7/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed7/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "bytes": 456126,
+    "mtime_ns": 1788353609000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed7/boltz_results_immunogen_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed7/boltz_results_immunogen_blind/processed/manifest.json",
+    "bytes": 777,
+    "mtime_ns": 1788353554000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed7/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed7/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "bytes": 762,
+    "mtime_ns": 1788353554000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed8/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed8/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "bytes": 901,
+    "mtime_ns": 1788353673000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed8/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed8/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788353673000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed8/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed8/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "bytes": 455832,
+    "mtime_ns": 1788353673000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed8/boltz_results_immunogen_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed8/boltz_results_immunogen_blind/processed/manifest.json",
+    "bytes": 777,
+    "mtime_ns": 1788353618000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed8/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed8/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "bytes": 762,
+    "mtime_ns": 1788353618000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed9/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed9/boltz_results_immunogen_blind/predictions/immunogen_blind/confidence_immunogen_blind_model_0.json",
+    "bytes": 901,
+    "mtime_ns": 1788353738000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed9/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed9/boltz_results_immunogen_blind/predictions/immunogen_blind/immunogen_blind_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788353738000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed9/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed9/boltz_results_immunogen_blind/predictions/immunogen_blind/pae_immunogen_blind_model_0.npz",
+    "bytes": 456554,
+    "mtime_ns": 1788353738000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed9/boltz_results_immunogen_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed9/boltz_results_immunogen_blind/processed/manifest.json",
+    "bytes": 777,
+    "mtime_ns": 1788353683000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/immunogen_blind_seed9/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/immunogen_blind_seed9/boltz_results_immunogen_blind/processed/records/immunogen_blind.json",
+    "bytes": 762,
+    "mtime_ns": 1788353683000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed1/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed1/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "bytes": 901,
+    "mtime_ns": 1788352129000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed1/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed1/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788352129000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed1/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed1/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "bytes": 510572,
+    "mtime_ns": 1788352129000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed1/boltz_results_native_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed1/boltz_results_native_blind/processed/manifest.json",
+    "bytes": 774,
+    "mtime_ns": 1788352070000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed1/boltz_results_native_blind/processed/records/native_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed1/boltz_results_native_blind/processed/records/native_blind.json",
+    "bytes": 759,
+    "mtime_ns": 1788352070000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed10/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed10/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "bytes": 903,
+    "mtime_ns": 1788352758000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed10/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed10/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788352758000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed10/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed10/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "bytes": 509993,
+    "mtime_ns": 1788352758000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed10/boltz_results_native_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed10/boltz_results_native_blind/processed/manifest.json",
+    "bytes": 774,
+    "mtime_ns": 1788352753000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed10/boltz_results_native_blind/processed/records/native_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed10/boltz_results_native_blind/processed/records/native_blind.json",
+    "bytes": 759,
+    "mtime_ns": 1788352699000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed11/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed11/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "bytes": 902,
+    "mtime_ns": 1788352833000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed11/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed11/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788352833000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed11/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed11/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "bytes": 510474,
+    "mtime_ns": 1788352833000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed11/boltz_results_native_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed11/boltz_results_native_blind/processed/manifest.json",
+    "bytes": 774,
+    "mtime_ns": 1788352772000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed11/boltz_results_native_blind/processed/records/native_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed11/boltz_results_native_blind/processed/records/native_blind.json",
+    "bytes": 759,
+    "mtime_ns": 1788352772000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed12/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed12/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "bytes": 901,
+    "mtime_ns": 1788352903000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed12/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed12/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788352903000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed12/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed12/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "bytes": 511905,
+    "mtime_ns": 1788352903000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed12/boltz_results_native_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed12/boltz_results_native_blind/processed/manifest.json",
+    "bytes": 774,
+    "mtime_ns": 1788352844000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed12/boltz_results_native_blind/processed/records/native_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed12/boltz_results_native_blind/processed/records/native_blind.json",
+    "bytes": 759,
+    "mtime_ns": 1788352844000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed13/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed13/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "bytes": 897,
+    "mtime_ns": 1788353017000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed13/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed13/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788353017000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed13/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed13/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "bytes": 510649,
+    "mtime_ns": 1788353017000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed13/boltz_results_native_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed13/boltz_results_native_blind/processed/manifest.json",
+    "bytes": 774,
+    "mtime_ns": 1788352958000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed13/boltz_results_native_blind/processed/records/native_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed13/boltz_results_native_blind/processed/records/native_blind.json",
+    "bytes": 759,
+    "mtime_ns": 1788352914000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed14/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed14/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "bytes": 901,
+    "mtime_ns": 1788353086000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed14/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed14/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788353086000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed14/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed14/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "bytes": 513484,
+    "mtime_ns": 1788353086000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed14/boltz_results_native_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed14/boltz_results_native_blind/processed/manifest.json",
+    "bytes": 774,
+    "mtime_ns": 1788353027000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed14/boltz_results_native_blind/processed/records/native_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed14/boltz_results_native_blind/processed/records/native_blind.json",
+    "bytes": 759,
+    "mtime_ns": 1788353027000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed15/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed15/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "bytes": 902,
+    "mtime_ns": 1788353154000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed15/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed15/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788353154000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed15/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed15/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "bytes": 510370,
+    "mtime_ns": 1788353154000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed15/boltz_results_native_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed15/boltz_results_native_blind/processed/manifest.json",
+    "bytes": 774,
+    "mtime_ns": 1788353096000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed15/boltz_results_native_blind/processed/records/native_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed15/boltz_results_native_blind/processed/records/native_blind.json",
+    "bytes": 759,
+    "mtime_ns": 1788353096000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed2/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed2/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "bytes": 903,
+    "mtime_ns": 1788352198000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed2/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed2/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788352198000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed2/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed2/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "bytes": 510278,
+    "mtime_ns": 1788352198000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed2/boltz_results_native_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed2/boltz_results_native_blind/processed/manifest.json",
+    "bytes": 774,
+    "mtime_ns": 1788352140000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed2/boltz_results_native_blind/processed/records/native_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed2/boltz_results_native_blind/processed/records/native_blind.json",
+    "bytes": 759,
+    "mtime_ns": 1788352140000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed3/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed3/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "bytes": 903,
+    "mtime_ns": 1788352268000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed3/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed3/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788352268000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed3/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed3/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "bytes": 511586,
+    "mtime_ns": 1788352268000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed3/boltz_results_native_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed3/boltz_results_native_blind/processed/manifest.json",
+    "bytes": 774,
+    "mtime_ns": 1788352210000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed3/boltz_results_native_blind/processed/records/native_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed3/boltz_results_native_blind/processed/records/native_blind.json",
+    "bytes": 759,
+    "mtime_ns": 1788352210000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed4/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed4/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "bytes": 901,
+    "mtime_ns": 1788352339000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed4/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed4/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788352339000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed4/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed4/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "bytes": 509865,
+    "mtime_ns": 1788352339000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed4/boltz_results_native_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed4/boltz_results_native_blind/processed/manifest.json",
+    "bytes": 774,
+    "mtime_ns": 1788352279000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed4/boltz_results_native_blind/processed/records/native_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed4/boltz_results_native_blind/processed/records/native_blind.json",
+    "bytes": 759,
+    "mtime_ns": 1788352279000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed5/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed5/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "bytes": 894,
+    "mtime_ns": 1788352408000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed5/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed5/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788352408000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed5/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed5/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "bytes": 510572,
+    "mtime_ns": 1788352408000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed5/boltz_results_native_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed5/boltz_results_native_blind/processed/manifest.json",
+    "bytes": 774,
+    "mtime_ns": 1788352349000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed5/boltz_results_native_blind/processed/records/native_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed5/boltz_results_native_blind/processed/records/native_blind.json",
+    "bytes": 759,
+    "mtime_ns": 1788352349000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed6/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed6/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "bytes": 902,
+    "mtime_ns": 1788352478000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed6/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed6/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788352478000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed6/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed6/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "bytes": 510034,
+    "mtime_ns": 1788352478000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed6/boltz_results_native_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed6/boltz_results_native_blind/processed/manifest.json",
+    "bytes": 774,
+    "mtime_ns": 1788352419000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed6/boltz_results_native_blind/processed/records/native_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed6/boltz_results_native_blind/processed/records/native_blind.json",
+    "bytes": 759,
+    "mtime_ns": 1788352419000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed7/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed7/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "bytes": 902,
+    "mtime_ns": 1788352548000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed7/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed7/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788352548000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed7/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed7/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "bytes": 511276,
+    "mtime_ns": 1788352548000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed7/boltz_results_native_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed7/boltz_results_native_blind/processed/manifest.json",
+    "bytes": 774,
+    "mtime_ns": 1788352489000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed7/boltz_results_native_blind/processed/records/native_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed7/boltz_results_native_blind/processed/records/native_blind.json",
+    "bytes": 759,
+    "mtime_ns": 1788352489000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed8/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed8/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "bytes": 898,
+    "mtime_ns": 1788352618000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed8/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed8/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788352618000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed8/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed8/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "bytes": 510449,
+    "mtime_ns": 1788352618000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed8/boltz_results_native_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed8/boltz_results_native_blind/processed/manifest.json",
+    "bytes": 774,
+    "mtime_ns": 1788352559000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed8/boltz_results_native_blind/processed/records/native_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed8/boltz_results_native_blind/processed/records/native_blind.json",
+    "bytes": 759,
+    "mtime_ns": 1788352559000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed9/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed9/boltz_results_native_blind/predictions/native_blind/confidence_native_blind_model_0.json",
+    "bytes": 900,
+    "mtime_ns": 1788352688000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed9/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed9/boltz_results_native_blind/predictions/native_blind/native_blind_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788352688000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed9/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed9/boltz_results_native_blind/predictions/native_blind/pae_native_blind_model_0.npz",
+    "bytes": 510365,
+    "mtime_ns": 1788352688000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed9/boltz_results_native_blind/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed9/boltz_results_native_blind/processed/manifest.json",
+    "bytes": 774,
+    "mtime_ns": 1788352629000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal/native_blind_seed9/boltz_results_native_blind/processed/records/native_blind.json",
+    "archive_path": "results/12_complex_prediction/formal/native_blind_seed9/boltz_results_native_blind/processed/records/native_blind.json",
+    "bytes": 759,
+    "mtime_ns": 1788352629000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed1/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed1/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "bytes": 899,
+    "mtime_ns": 1788359748000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed1/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed1/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788359748000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed1/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed1/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "bytes": 459595,
+    "mtime_ns": 1788359748000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed1/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed1/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "bytes": 844,
+    "mtime_ns": 1788359684000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed1/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed1/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "bytes": 829,
+    "mtime_ns": 1788359684000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed10/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed10/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "bytes": 901,
+    "mtime_ns": 1788360424000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed10/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed10/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788360424000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed10/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed10/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "bytes": 457476,
+    "mtime_ns": 1788360424000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed10/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed10/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "bytes": 844,
+    "mtime_ns": 1788360358000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed10/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed10/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "bytes": 829,
+    "mtime_ns": 1788360358000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed11/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed11/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "bytes": 899,
+    "mtime_ns": 1788360502000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed11/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed11/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788360502000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed11/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed11/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "bytes": 459239,
+    "mtime_ns": 1788360502000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed11/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed11/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "bytes": 844,
+    "mtime_ns": 1788360436000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed11/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed11/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "bytes": 829,
+    "mtime_ns": 1788360436000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed12/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed12/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "bytes": 900,
+    "mtime_ns": 1788360579000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed12/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed12/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788360579000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed12/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed12/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "bytes": 458550,
+    "mtime_ns": 1788360579000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed12/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed12/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "bytes": 844,
+    "mtime_ns": 1788360513000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed12/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed12/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "bytes": 829,
+    "mtime_ns": 1788360513000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed13/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed13/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "bytes": 900,
+    "mtime_ns": 1788360656000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed13/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed13/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788360656000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed13/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed13/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "bytes": 460002,
+    "mtime_ns": 1788360656000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed13/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed13/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "bytes": 844,
+    "mtime_ns": 1788360590000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed13/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed13/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "bytes": 829,
+    "mtime_ns": 1788360590000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed14/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed14/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "bytes": 900,
+    "mtime_ns": 1788360734000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed14/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed14/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788360734000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed14/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed14/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "bytes": 457684,
+    "mtime_ns": 1788360734000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed14/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed14/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "bytes": 844,
+    "mtime_ns": 1788360668000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed14/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed14/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "bytes": 829,
+    "mtime_ns": 1788360668000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed15/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed15/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "bytes": 899,
+    "mtime_ns": 1788360817000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed15/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed15/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788360817000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed15/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed15/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "bytes": 458964,
+    "mtime_ns": 1788360817000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed15/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed15/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "bytes": 844,
+    "mtime_ns": 1788360747000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed15/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed15/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "bytes": 829,
+    "mtime_ns": 1788360747000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed2/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed2/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "bytes": 895,
+    "mtime_ns": 1788359822000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed2/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed2/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788359822000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed2/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed2/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "bytes": 457756,
+    "mtime_ns": 1788359822000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed2/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed2/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "bytes": 844,
+    "mtime_ns": 1788359759000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed2/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed2/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "bytes": 829,
+    "mtime_ns": 1788359759000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed3/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed3/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "bytes": 902,
+    "mtime_ns": 1788359898000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed3/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed3/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788359898000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed3/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed3/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "bytes": 460098,
+    "mtime_ns": 1788359898000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed3/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed3/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "bytes": 844,
+    "mtime_ns": 1788359833000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed3/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed3/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "bytes": 829,
+    "mtime_ns": 1788359833000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed4/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed4/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "bytes": 899,
+    "mtime_ns": 1788359972000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed4/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed4/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788359972000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed4/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed4/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "bytes": 459002,
+    "mtime_ns": 1788359973000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed4/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed4/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "bytes": 844,
+    "mtime_ns": 1788359908000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed4/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed4/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "bytes": 829,
+    "mtime_ns": 1788359908000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed5/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed5/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "bytes": 901,
+    "mtime_ns": 1788360047000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed5/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed5/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788360047000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed5/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed5/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "bytes": 459212,
+    "mtime_ns": 1788360047000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed5/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed5/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "bytes": 844,
+    "mtime_ns": 1788359983000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed5/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed5/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "bytes": 829,
+    "mtime_ns": 1788359983000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed6/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed6/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "bytes": 901,
+    "mtime_ns": 1788360121000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed6/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed6/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788360121000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed6/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed6/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "bytes": 459232,
+    "mtime_ns": 1788360121000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed6/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed6/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "bytes": 844,
+    "mtime_ns": 1788360058000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed6/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed6/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "bytes": 829,
+    "mtime_ns": 1788360058000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed7/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed7/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "bytes": 901,
+    "mtime_ns": 1788360197000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed7/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed7/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788360197000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed7/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed7/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "bytes": 458986,
+    "mtime_ns": 1788360197000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed7/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed7/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "bytes": 844,
+    "mtime_ns": 1788360133000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed7/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed7/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "bytes": 829,
+    "mtime_ns": 1788360133000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed8/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed8/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "bytes": 900,
+    "mtime_ns": 1788360271000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed8/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed8/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788360271000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed8/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed8/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "bytes": 460985,
+    "mtime_ns": 1788360271000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed8/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed8/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "bytes": 844,
+    "mtime_ns": 1788360207000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed8/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed8/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "bytes": 829,
+    "mtime_ns": 1788360207000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed9/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed9/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/confidence_immunogen_blind_msa_model_0.json",
+    "bytes": 898,
+    "mtime_ns": 1788360346000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed9/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed9/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/immunogen_blind_msa_model_0.pdb",
+    "bytes": 231011,
+    "mtime_ns": 1788360346000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed9/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed9/boltz_results_immunogen_blind_msa/predictions/immunogen_blind_msa/pae_immunogen_blind_msa_model_0.npz",
+    "bytes": 457085,
+    "mtime_ns": 1788360346000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed9/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed9/boltz_results_immunogen_blind_msa/processed/manifest.json",
+    "bytes": 844,
+    "mtime_ns": 1788360282000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/immunogen_blind_seed9/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/immunogen_blind_seed9/boltz_results_immunogen_blind_msa/processed/records/immunogen_blind_msa.json",
+    "bytes": 829,
+    "mtime_ns": 1788360282000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed1/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed1/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "bytes": 898,
+    "mtime_ns": 1788358571000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed1/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed1/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788358571000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed1/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed1/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "bytes": 514564,
+    "mtime_ns": 1788358572000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed1/boltz_results_native_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed1/boltz_results_native_blind_msa/processed/manifest.json",
+    "bytes": 832,
+    "mtime_ns": 1788358504000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed1/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed1/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "bytes": 817,
+    "mtime_ns": 1788358504000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed10/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed10/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "bytes": 898,
+    "mtime_ns": 1788359278000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed10/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed10/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788359278000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed10/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed10/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "bytes": 515875,
+    "mtime_ns": 1788359278000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed10/boltz_results_native_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed10/boltz_results_native_blind_msa/processed/manifest.json",
+    "bytes": 832,
+    "mtime_ns": 1788359210000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed10/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed10/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "bytes": 817,
+    "mtime_ns": 1788359210000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed11/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed11/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "bytes": 899,
+    "mtime_ns": 1788359357000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed11/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed11/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788359357000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed11/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed11/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "bytes": 516043,
+    "mtime_ns": 1788359357000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed11/boltz_results_native_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed11/boltz_results_native_blind_msa/processed/manifest.json",
+    "bytes": 832,
+    "mtime_ns": 1788359289000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed11/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed11/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "bytes": 817,
+    "mtime_ns": 1788359289000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed12/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed12/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "bytes": 897,
+    "mtime_ns": 1788359435000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed12/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed12/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788359435000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed12/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed12/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "bytes": 516103,
+    "mtime_ns": 1788359435000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed12/boltz_results_native_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed12/boltz_results_native_blind_msa/processed/manifest.json",
+    "bytes": 832,
+    "mtime_ns": 1788359367000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed12/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed12/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "bytes": 817,
+    "mtime_ns": 1788359367000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed13/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed13/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "bytes": 894,
+    "mtime_ns": 1788359515000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed13/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed13/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788359515000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed13/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed13/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "bytes": 516098,
+    "mtime_ns": 1788359515000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed13/boltz_results_native_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed13/boltz_results_native_blind_msa/processed/manifest.json",
+    "bytes": 832,
+    "mtime_ns": 1788359446000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed13/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed13/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "bytes": 817,
+    "mtime_ns": 1788359446000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed14/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed14/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "bytes": 899,
+    "mtime_ns": 1788359594000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed14/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed14/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788359594000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed14/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed14/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "bytes": 516134,
+    "mtime_ns": 1788359594000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed14/boltz_results_native_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed14/boltz_results_native_blind_msa/processed/manifest.json",
+    "bytes": 832,
+    "mtime_ns": 1788359526000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed14/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed14/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "bytes": 817,
+    "mtime_ns": 1788359526000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed15/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed15/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "bytes": 900,
+    "mtime_ns": 1788359673000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed15/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed15/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788359673000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed15/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed15/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "bytes": 515697,
+    "mtime_ns": 1788359673000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed15/boltz_results_native_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed15/boltz_results_native_blind_msa/processed/manifest.json",
+    "bytes": 832,
+    "mtime_ns": 1788359605000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed15/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed15/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "bytes": 817,
+    "mtime_ns": 1788359605000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed2/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed2/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "bytes": 896,
+    "mtime_ns": 1788358650000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed2/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed2/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788358650000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed2/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed2/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "bytes": 515695,
+    "mtime_ns": 1788358650000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed2/boltz_results_native_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed2/boltz_results_native_blind_msa/processed/manifest.json",
+    "bytes": 832,
+    "mtime_ns": 1788358582000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed2/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed2/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "bytes": 817,
+    "mtime_ns": 1788358582000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed3/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed3/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "bytes": 900,
+    "mtime_ns": 1788358728000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed3/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed3/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788358728000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed3/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed3/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "bytes": 516283,
+    "mtime_ns": 1788358728000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed3/boltz_results_native_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed3/boltz_results_native_blind_msa/processed/manifest.json",
+    "bytes": 832,
+    "mtime_ns": 1788358660000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed3/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed3/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "bytes": 817,
+    "mtime_ns": 1788358660000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed4/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed4/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "bytes": 899,
+    "mtime_ns": 1788358807000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed4/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed4/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788358807000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed4/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed4/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "bytes": 516668,
+    "mtime_ns": 1788358807000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed4/boltz_results_native_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed4/boltz_results_native_blind_msa/processed/manifest.json",
+    "bytes": 832,
+    "mtime_ns": 1788358739000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed4/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed4/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "bytes": 817,
+    "mtime_ns": 1788358739000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed5/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed5/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "bytes": 901,
+    "mtime_ns": 1788358885000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed5/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed5/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788358885000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed5/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed5/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "bytes": 515586,
+    "mtime_ns": 1788358885000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed5/boltz_results_native_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed5/boltz_results_native_blind_msa/processed/manifest.json",
+    "bytes": 832,
+    "mtime_ns": 1788358818000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed5/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed5/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "bytes": 817,
+    "mtime_ns": 1788358818000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed6/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed6/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "bytes": 897,
+    "mtime_ns": 1788358964000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed6/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed6/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788358964000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed6/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed6/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "bytes": 515994,
+    "mtime_ns": 1788358964000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed6/boltz_results_native_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed6/boltz_results_native_blind_msa/processed/manifest.json",
+    "bytes": 832,
+    "mtime_ns": 1788358896000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed6/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed6/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "bytes": 817,
+    "mtime_ns": 1788358896000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed7/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed7/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "bytes": 900,
+    "mtime_ns": 1788359042000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed7/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed7/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788359042000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed7/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed7/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "bytes": 516281,
+    "mtime_ns": 1788359042000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed7/boltz_results_native_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed7/boltz_results_native_blind_msa/processed/manifest.json",
+    "bytes": 832,
+    "mtime_ns": 1788358974000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed7/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed7/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "bytes": 817,
+    "mtime_ns": 1788358974000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed8/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed8/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "bytes": 901,
+    "mtime_ns": 1788359121000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed8/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed8/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788359121000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed8/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed8/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "bytes": 515746,
+    "mtime_ns": 1788359121000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed8/boltz_results_native_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed8/boltz_results_native_blind_msa/processed/manifest.json",
+    "bytes": 832,
+    "mtime_ns": 1788359053000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed8/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed8/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "bytes": 817,
+    "mtime_ns": 1788359053000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed9/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed9/boltz_results_native_blind_msa/predictions/native_blind_msa/confidence_native_blind_msa_model_0.json",
+    "bytes": 902,
+    "mtime_ns": 1788359200000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed9/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed9/boltz_results_native_blind_msa/predictions/native_blind_msa/native_blind_msa_model_0.pdb",
+    "bytes": 245591,
+    "mtime_ns": 1788359200000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed9/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed9/boltz_results_native_blind_msa/predictions/native_blind_msa/pae_native_blind_msa_model_0.npz",
+    "bytes": 515715,
+    "mtime_ns": 1788359200000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed9/boltz_results_native_blind_msa/processed/manifest.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed9/boltz_results_native_blind_msa/processed/manifest.json",
+    "bytes": 832,
+    "mtime_ns": 1788359132000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/formal_msa/native_blind_seed9/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "archive_path": "results/12_complex_prediction/formal_msa/native_blind_seed9/boltz_results_native_blind_msa/processed/records/native_blind_msa.json",
+    "bytes": 817,
+    "mtime_ns": 1788359132000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/12_complex_prediction/phase1_prior_deduplicated.csv",
+    "archive_path": "results/12_complex_prediction/phase1_prior_deduplicated.csv",
+    "bytes": 1177,
+    "mtime_ns": 1787907705678097000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/13_interface_analysis/formal/complex_model_summary.csv",
+    "archive_path": "results/13_interface_analysis/formal/complex_model_summary.csv",
+    "bytes": 7225,
+    "mtime_ns": 1788354223000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/13_interface_analysis/formal/interface_contacts.csv",
+    "archive_path": "results/13_interface_analysis/formal/interface_contacts.csv",
+    "bytes": 135565,
+    "mtime_ns": 1788354223000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/13_interface_analysis/formal_msa/complex_model_summary.csv",
+    "archive_path": "results/13_interface_analysis/formal_msa/complex_model_summary.csv",
+    "bytes": 6444,
+    "mtime_ns": 1788360956000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/13_interface_analysis/formal_msa/interface_contacts.csv",
+    "archive_path": "results/13_interface_analysis/formal_msa/interface_contacts.csv",
+    "bytes": 101439,
+    "mtime_ns": 1788360956000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/formal_msa_comparison.csv",
+    "archive_path": "results/14_quality/formal_msa_comparison.csv",
+    "bytes": 1450,
+    "mtime_ns": 1788954428422164959
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/glyco_sensitivity_paired.csv",
+    "archive_path": "results/14_quality/glyco_sensitivity_paired.csv",
+    "bytes": 1635,
+    "mtime_ns": 1788361475000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/glyco_sensitivity_summary.csv",
+    "archive_path": "results/14_quality/glyco_sensitivity_summary.csv",
+    "bytes": 795,
+    "mtime_ns": 1788361475000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/model_ranking.csv",
+    "archive_path": "results/14_quality/model_ranking.csv",
+    "bytes": 3588,
+    "mtime_ns": 1788354736000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/model_ranking_formal_msa.csv",
+    "archive_path": "results/14_quality/model_ranking_formal_msa.csv",
+    "bytes": 4190,
+    "mtime_ns": 1788954428244164969
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/msa_sensitivity_summary.csv",
+    "archive_path": "results/14_quality/msa_sensitivity_summary.csv",
+    "bytes": 1259,
+    "mtime_ns": 1788356860236219000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/native_immunogen_pose_comparison.csv",
+    "archive_path": "results/14_quality/native_immunogen_pose_comparison.csv",
+    "bytes": 25182,
+    "mtime_ns": 1788361041170606400
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/native_immunogen_pose_summary.csv",
+    "archive_path": "results/14_quality/native_immunogen_pose_summary.csv",
+    "bytes": 1060,
+    "mtime_ns": 1788361041171599400
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/relaxed/immunogen_blind_blind_representative_seed1_relaxation.json",
+    "archive_path": "results/14_quality/relaxed/immunogen_blind_blind_representative_seed1_relaxation.json",
+    "bytes": 543,
+    "mtime_ns": 1788361466000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/relaxed/immunogen_blind_msa_consensus_representative_seed7_relaxation.json",
+    "archive_path": "results/14_quality/relaxed/immunogen_blind_msa_consensus_representative_seed7_relaxation.json",
+    "bytes": 562,
+    "mtime_ns": 1788362042000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/relaxed/native_blind_blind_representative_seed14_relaxation.json",
+    "archive_path": "results/14_quality/relaxed/native_blind_blind_representative_seed14_relaxation.json",
+    "bytes": 538,
+    "mtime_ns": 1788360725000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/relaxed/native_blind_msa_consensus_representative_seed9_relaxation.json",
+    "archive_path": "results/14_quality/relaxed/native_blind_msa_consensus_representative_seed9_relaxation.json",
+    "bytes": 555,
+    "mtime_ns": 1788361621000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/relaxed/native_blind_phase1_informed_representative_seed3_relaxation.json",
+    "archive_path": "results/14_quality/relaxed/native_blind_phase1_informed_representative_seed3_relaxation.json",
+    "bytes": 555,
+    "mtime_ns": 1788361209000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/relaxed_geometry_qc.csv",
+    "archive_path": "results/14_quality/relaxed_geometry_qc.csv",
+    "bytes": 1022,
+    "mtime_ns": 1788362037071657400
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/structural_geometry_qc.csv",
+    "archive_path": "results/14_quality/structural_geometry_qc.csv",
+    "bytes": 2673,
+    "mtime_ns": 1788361045267167600
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/14_quality/structural_sensitivity_report.md",
+    "archive_path": "results/14_quality/structural_sensitivity_report.md",
+    "bytes": 3990,
+    "mtime_ns": 1788362197336673000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/15_affinity/prodigy_formal.csv",
+    "archive_path": "results/15_affinity/prodigy_formal.csv",
+    "bytes": 2445,
+    "mtime_ns": 1788354623000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/15_affinity/prodigy_formal_msa.csv",
+    "archive_path": "results/15_affinity/prodigy_formal_msa.csv",
+    "bytes": 2425,
+    "mtime_ns": 1788360975000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/17_delivery/Phase2_summary.md",
+    "archive_path": "results/17_delivery/Phase2_summary.md",
+    "bytes": 5320,
+    "mtime_ns": 1788954428475164956
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/17_delivery/README_reproduce.md",
+    "archive_path": "results/17_delivery/README_reproduce.md",
+    "bytes": 3093,
+    "mtime_ns": 1788362160673405200
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/17_delivery/environment_final.json",
+    "archive_path": "results/17_delivery/environment_final.json",
+    "bytes": 195,
+    "mtime_ns": 1788354870000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/17_delivery/final_artifact_manifest_sha256.csv",
+    "archive_path": "results/17_delivery/final_artifact_manifest_sha256.csv",
+    "bytes": 201092,
+    "mtime_ns": 1788362323218754300
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/17_delivery/pip_freeze_final.txt",
+    "archive_path": "results/17_delivery/pip_freeze_final.txt",
+    "bytes": 11199,
+    "mtime_ns": 1788354870000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/results/17_delivery/route_ensemble_summary.csv",
+    "archive_path": "results/17_delivery/route_ensemble_summary.csv",
+    "bytes": 1524,
+    "mtime_ns": 1788954428474164956
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/analyze_boltz_complexes.py",
+    "archive_path": "scripts/analyze_boltz_complexes.py",
+    "bytes": 3598,
+    "mtime_ns": 1788361264983801600
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/analyze_pose_glyco_geometry.py",
+    "archive_path": "scripts/analyze_pose_glyco_geometry.py",
+    "bytes": 10856,
+    "mtime_ns": 1788358941910756000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/assess_relaxed_geometry.py",
+    "archive_path": "scripts/assess_relaxed_geometry.py",
+    "bytes": 3380,
+    "mtime_ns": 1788361599195810800
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/build_final_delivery.py",
+    "archive_path": "scripts/build_final_delivery.py",
+    "bytes": 3913,
+    "mtime_ns": 1788362274244128500
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/capture_final_environment.py",
+    "archive_path": "scripts/capture_final_environment.py",
+    "bytes": 1191,
+    "mtime_ns": 1788354868000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/generate_af3_input.py",
+    "archive_path": "scripts/generate_af3_input.py",
+    "bytes": 2545,
+    "mtime_ns": 1787907540181171000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/generate_boltz_inputs.py",
+    "archive_path": "scripts/generate_boltz_inputs.py",
+    "bytes": 2384,
+    "mtime_ns": 1788358773971272700
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/generate_colabfold_msa.py",
+    "archive_path": "scripts/generate_colabfold_msa.py",
+    "bytes": 3982,
+    "mtime_ns": 1788357474183977100
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/make_phase2_visualizations.py",
+    "archive_path": "scripts/make_phase2_visualizations.py",
+    "bytes": 5560,
+    "mtime_ns": 1789708997084308807
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/prepare_phase2_inputs.py",
+    "archive_path": "scripts/prepare_phase2_inputs.py",
+    "bytes": 6239,
+    "mtime_ns": 1787905748422232200
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/rank_formal_models.py",
+    "archive_path": "scripts/rank_formal_models.py",
+    "bytes": 1963,
+    "mtime_ns": 1788354735000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/rank_formal_msa_models.py",
+    "archive_path": "scripts/rank_formal_msa_models.py",
+    "bytes": 2796,
+    "mtime_ns": 1788361107213109000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/relax_representative_structures.py",
+    "archive_path": "scripts/relax_representative_structures.py",
+    "bytes": 3737,
+    "mtime_ns": 1788360251195632000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/run_boltz_formal.sh",
+    "archive_path": "scripts/run_boltz_formal.sh",
+    "bytes": 860,
+    "mtime_ns": 1788352947000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/run_boltz_formal_msa.sh",
+    "archive_path": "scripts/run_boltz_formal_msa.sh",
+    "bytes": 1285,
+    "mtime_ns": 1788358424579925800
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/run_boltz_glyco_sensitivity.sh",
+    "archive_path": "scripts/run_boltz_glyco_sensitivity.sh",
+    "bytes": 1231,
+    "mtime_ns": 1788358773974846000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/run_boltz_msa_sensitivity.sh",
+    "archive_path": "scripts/run_boltz_msa_sensitivity.sh",
+    "bytes": 1170,
+    "mtime_ns": 1788356287209907500
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/run_boltz_pilots.sh",
+    "archive_path": "scripts/run_boltz_pilots.sh",
+    "bytes": 829,
+    "mtime_ns": 1788351552000000000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/run_imgt_numbering.py",
+    "archive_path": "scripts/run_imgt_numbering.py",
+    "bytes": 4538,
+    "mtime_ns": 1787905975985027300
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/run_phase2_external_analysis.py",
+    "archive_path": "scripts/run_phase2_external_analysis.py",
+    "bytes": 3955,
+    "mtime_ns": 1788954484933161590
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/run_pipeline.py",
+    "archive_path": "scripts/run_pipeline.py",
+    "bytes": 5641,
+    "mtime_ns": 1787734455573177000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/run_prodigy_formal.py",
+    "archive_path": "scripts/run_prodigy_formal.py",
+    "bytes": 1321,
+    "mtime_ns": 1788358941909763300
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/run_relax_empty_msa_representatives.sh",
+    "archive_path": "scripts/run_relax_empty_msa_representatives.sh",
+    "bytes": 789,
+    "mtime_ns": 1788360251196635200
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/run_relax_msa_representatives.sh",
+    "archive_path": "scripts/run_relax_msa_representatives.sh",
+    "bytes": 744,
+    "mtime_ns": 1788361298149479000
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/step10_numbering.py",
+    "archive_path": "scripts/step10_numbering.py",
+    "bytes": 8468,
+    "mtime_ns": 1787734440692930500
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/step11_antibody_structure.py",
+    "archive_path": "scripts/step11_antibody_structure.py",
+    "bytes": 10223,
+    "mtime_ns": 1787909089283332600
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/step12_complex_prediction.py",
+    "archive_path": "scripts/step12_complex_prediction.py",
+    "bytes": 18495,
+    "mtime_ns": 1787734123413071200
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/step13_contact_mapping.py",
+    "archive_path": "scripts/step13_contact_mapping.py",
+    "bytes": 18237,
+    "mtime_ns": 1787734201314333400
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/step14_quality_assessment.py",
+    "archive_path": "scripts/step14_quality_assessment.py",
+    "bytes": 21963,
+    "mtime_ns": 1787734276702766400
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/step15_affinity_estimation.py",
+    "archive_path": "scripts/step15_affinity_estimation.py",
+    "bytes": 17149,
+    "mtime_ns": 1787734354632165700
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/step16_competition_analysis.py",
+    "archive_path": "scripts/step16_competition_analysis.py",
+    "bytes": 15381,
+    "mtime_ns": 1787734402848919200
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/summarize_formal_msa.py",
+    "archive_path": "scripts/summarize_formal_msa.py",
+    "bytes": 2824,
+    "mtime_ns": 1788358941911750800
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/summarize_glyco_sensitivity.py",
+    "archive_path": "scripts/summarize_glyco_sensitivity.py",
+    "bytes": 3664,
+    "mtime_ns": 1788361264984801500
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/summarize_msa_sensitivity.py",
+    "archive_path": "scripts/summarize_msa_sensitivity.py",
+    "bytes": 3730,
+    "mtime_ns": 1788356692535369600
+  },
+  {
+    "source_path": "/home/xinlab/home/ws/phase2/scripts/summarize_phase2.py",
+    "archive_path": "scripts/summarize_phase2.py",
+    "bytes": 8859,
+    "mtime_ns": 1788361765340568000
+  }
+]

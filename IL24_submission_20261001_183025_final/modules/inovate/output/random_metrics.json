@@ -1,0 +1,89 @@
+{
+  "overall": {
+    "n": 20000,
+    "positive_fraction": 0.4633,
+    "mcc": -0.0033540315163079733,
+    "f1": 0.4806498344370861,
+    "spearman_probability_label": -0.006402301789296079,
+    "threshold": 0.5
+  },
+  "by_source": {
+    "abagym": {
+      "n": 3017,
+      "positive_fraction": 0.26416970500497183,
+      "mcc": -0.04761964541339289,
+      "f1": 0.3168921868179834,
+      "spearman_probability_label": -0.036551194113929965,
+      "threshold": 0.5
+    },
+    "abbench": {
+      "n": 16820,
+      "positive_fraction": 0.498692033293698,
+      "mcc": 0.0014537040824910636,
+      "f1": 0.5026060175313907,
+      "spearman_probability_label": -0.0036139564466976548,
+      "threshold": 0.5
+    },
+    "il6": {
+      "n": 163,
+      "positive_fraction": 0.49693251533742333,
+      "mcc": 0.07958347953968861,
+      "f1": 0.5098039215686274,
+      "spearman_probability_label": 0.03390042231014062,
+      "threshold": 0.5
+    }
+  },
+  "by_source_partner": {
+    "abagym/antibody": {
+      "n": 194,
+      "positive_fraction": 0.6855670103092784,
+      "mcc": 0.03330661651697305,
+      "f1": 0.591304347826087,
+      "spearman_probability_label": 0.06571847205412495,
+      "threshold": 0.5
+    },
+    "abagym/antigen": {
+      "n": 2823,
+      "positive_fraction": 0.23521076868579524,
+      "mcc": -0.05611065839626818,
+      "f1": 0.28626880155264434,
+      "spearman_probability_label": -0.04410022013661046,
+      "threshold": 0.5
+    },
+    "abbench/antibody": {
+      "n": 16820,
+      "positive_fraction": 0.498692033293698,
+      "mcc": 0.0014537040824910636,
+      "f1": 0.5026060175313907,
+      "spearman_probability_label": -0.0036139564466976548,
+      "threshold": 0.5
+    },
+    "il6/antibody": {
+      "n": 163,
+      "positive_fraction": 0.49693251533742333,
+      "mcc": 0.07958347953968861,
+      "f1": 0.5098039215686274,
+      "spearman_probability_label": 0.03390042231014062,
+      "threshold": 0.5
+    }
+  },
+  "within_source_raw_score_spearman": {
+    "abagym": {
+      "n": 3017,
+      "spearman": -0.008316797658509333,
+      "interpretation": "Numerical raw-score direction; heterogeneous assays may differ."
+    },
+    "abbench": {
+      "n": 16820,
+      "spearman": -0.004374674614689153,
+      "interpretation": "Numerical raw-score direction; heterogeneous assays may differ."
+    },
+    "il6": {
+      "n": 163,
+      "spearman": 0.03390042231014063,
+      "interpretation": "Numerical raw-score direction; heterogeneous assays may differ."
+    }
+  },
+  "seed": 42,
+  "method": "Independent uniform [0,1) probabilities, threshold 0.5; measured on identical validation rows."
+}

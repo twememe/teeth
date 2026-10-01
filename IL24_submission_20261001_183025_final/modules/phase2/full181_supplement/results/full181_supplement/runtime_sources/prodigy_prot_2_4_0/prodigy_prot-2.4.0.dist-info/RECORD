@@ -1,0 +1,15 @@
+prodigy_prot/__init__.py,sha256=mDTyspHukTFHZ9ss72gw_WpDflh2VxS_cboYwbQmmgg,98
+prodigy_prot/cli.py,sha256=slyfHGiAxWsKEeHG3idCwJu6cQzrye7AXs4LR0DU-oA,5874
+prodigy_prot/data/naccess.config,sha256=1Bi_MdDVF56EC58DlQOlto2mHdux8np7NDgB5nzvITA,2772
+prodigy_prot/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prodigy_prot/modules/aa_properties.py,sha256=AKiixibbtpCrdhnMt47JOut5Y3SYae8g_NGwckU4hN4,2386
+prodigy_prot/modules/freesasa_tools.py,sha256=VBNOKxDenBkbuk7Tx9W6-9j_i1d5bxRnW7oaloIN6kI,2094
+prodigy_prot/modules/models.py,sha256=rHepA4SIFbMC17YwA_r_GCldCkD2oU3EstXN1G-RuIg,836
+prodigy_prot/modules/parsers.py,sha256=QT-2oOjBojekKDeNdEr4mfAAcEPD4p9XPZUgU302Ffc,6091
+prodigy_prot/modules/prodigy.py,sha256=GY8mNbwu1HeXVh0-5oVJLCbTcCgx8TiXeF2vUnr3uG4,9491
+prodigy_prot/modules/utils.py,sha256=tipnPvvhhsxOOfIYGuWPdEIRJXQoXLIeV2BP9V4Ovb4,530
+prodigy_prot-2.4.0.dist-info/METADATA,sha256=W1O3uhnhVHv0feSQMMQhGHZd-gRtSYCVVgv11c4iDXE,8300
+prodigy_prot-2.4.0.dist-info/WHEEL,sha256=tkmg4JIqwd9H8mL30xA7crRmoStyCtGp0VWshokd1Jc,105
+prodigy_prot-2.4.0.dist-info/entry_points.txt,sha256=Ykcig3AmqLF2U9DU3OrQgCNPQxPE9ZRzLKK_m8YZIZ0,50
+prodigy_prot-2.4.0.dist-info/licenses/LICENSE,sha256=xWpVo3MLyrP3bfS6DlCJEMGwB_HYM1yLZYkal7jrcww,10797
+prodigy_prot-2.4.0.dist-info/RECORD,,

@@ -1,0 +1,29 @@
+{
+  "retrieval_date": "2026-08-21",
+  "provider": "UniProt REST API",
+  "provider_base_url": "https://rest.uniprot.org",
+  "uniprot_release": "2026_02",
+  "uniprot_release_date": "2026-06-10",
+  "query": "(protein_name:\"interleukin-24\") AND (taxonomy_id:40674)",
+  "query_rationale": "IL-24 protein-name matches restricted to Mammalia; selection is independent of epitope/candidate outputs.",
+  "search_url": "https://rest.uniprot.org/uniprotkb/search?query=%28protein_name%3A%22interleukin-24%22%29%20AND%20%28taxonomy_id%3A40674%29&size=500",
+  "record_count": 116,
+  "unique_taxid_count": 74,
+  "raw_files": [
+    {
+      "path": "results/06_conservation/raw/uniprot_il24_mammalia.json",
+      "format": "json",
+      "sha256": "e890dd7a08c08f52950b5ef1a9dd24d09f97716941cee80e3c44b5854a812af8"
+    },
+    {
+      "path": "results/06_conservation/raw/uniprot_il24_mammalia.tsv",
+      "format": "tsv",
+      "sha256": "bdb7460c51ae1cac7a035b7f97641c3660251af3ca21ca0181ad144bda2ce8b0"
+    },
+    {
+      "path": "results/06_conservation/raw/uniprot_il24_mammalia.fasta",
+      "format": "fasta",
+      "sha256": "be7f9510683db33c5de2abb311e18b81e318f854dee8f5a47fe7e1f244dba5e1"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "audited_at": "2026-09-22T08:46:37.107899+08:00",
+  "status": "passed",
+  "same_validation_rows_and_labels": true,
+  "per_source_and_partner_metrics_recomputed": true,
+  "metrics": {
+    "random": {
+      "n": 20000,
+      "mcc": -0.0033540315163079733,
+      "f1": 0.4806498344370861,
+      "spearman_probability_label": -0.006402301789296078
+    },
+    "frozen": {
+      "n": 20000,
+      "mcc": 0.3858637125275409,
+      "f1": 0.7100100603621731,
+      "spearman_probability_label": 0.48500308529104635,
+      "checkpoint_sha256": "96f464f20930d9558e24dfd4a88c7d7a9db6b36fa3cfb76bbd7d8de1a4ca2940"
+    },
+    "lora": {
+      "n": 20000,
+      "mcc": 0.49908265893815706,
+      "f1": 0.7543091899615969,
+      "spearman_probability_label": 0.5971478136869867,
+      "checkpoint_sha256": "8610aba1f16f28c0393a1614a40bcd489d2933945a6848d3d105a5c9f6bd2a04"
+    }
+  },
+  "best_checkpoint_epoch": 3,
+  "best_checkpoint_step": 14000,
+  "trainable_tensor_count": 66,
+  "trainable_parameter_count": 656641,
+  "lora_mcc_delta": 0.11321894641061614,
+  "checkpoint_files_and_deliverable_hashes_match": true,
+  "test_set_used_for_selection": false,
+  "training_repair_count": 1,
+  "final_verified_at": "2026-09-22T08:50:38.294077+08:00",
+  "loss_curve_visual_review": "passed: measured loss, marked recovery, moving mean and common-validation MCC; no clipping or overlapping legend",
+  "actual_epochs_completed": 4,
+  "global_steps": 24996,
+  "early_stopped": true,
+  "within_original_budget": true,
+  "elapsed_hours_to_pipeline_completion": 7.911716878414154
+}

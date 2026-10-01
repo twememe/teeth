@@ -1,0 +1,17 @@
+construct,condition,seed,source_path,bytes,mtime_ns,hash_status
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\data\IL24_full_1_181.fasta,223,1789131585000000000,not_computed_user_instruction
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\data\IL24_native_27_181.fasta,200,1789131585000000000,not_computed_user_instruction
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\data\IL24_immunogen_27_160.fasta,182,1789131585000000000,not_computed_user_instruction
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\data\VH_VL_clean.fasta,317,1789131585000000000,not_computed_user_instruction
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\data\antibody_imgt_numbering.csv,6025,1789131585000000000,not_computed_user_instruction
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\data\cdr_annotation.csv,791,1789131585000000000,not_computed_user_instruction
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\data\il24_numbering_map.csv,4578,1789131585000000000,not_computed_user_instruction
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\results\full181_supplement\inputs\full_blind.yaml,619,1789992494304091900,not_computed_user_instruction
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\results\full181_supplement\inputs\full_blind_msa.yaml,712,1789992494305086100,not_computed_user_instruction
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\results\full181_supplement\inputs\phase1_prior_deduplicated.csv,1177,1789992494306087600,not_computed_user_instruction
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\results\full181_supplement\inputs\sequences.json,447,1789992494305086100,not_computed_user_instruction
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\results\full181_supplement\inputs\user_full181_upload.fasta,206,1789992494305086100,not_computed_user_instruction
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\results\full181_supplement\inputs\user_supplement_prompt.md,16225,1789992494307088800,not_computed_user_instruction
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\results\full181_supplement\msa\A.csv,296817,1789992494309092000,not_computed_user_instruction
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\results\full181_supplement\msa\H.csv,1376619,1789992494325086500,not_computed_user_instruction
+input_contract,input_contract,NA,D:\IL-24(teeth）\phase2_release\results\full181_supplement\msa\L.csv,1305903,1789992494317091600,not_computed_user_instruction

@@ -1,0 +1,8 @@
+{
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-60-generic-x86_64-with-glibc2.35",
+  "torch": "2.6.0+cu124",
+  "cuda_runtime": "12.4",
+  "cuda_available": true,
+  "gpu": "NVIDIA RTX A6000"
+}

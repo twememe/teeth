@@ -1,0 +1,7 @@
+{
+  "all_unchanged": true,
+  "entries": 68,
+  "manifest": "logs/phase1_preunblind_freeze_sha256.csv",
+  "manifest_sha256": "23c0330bf6bba11f55727689cfe27fbcdb3a4b125829314aa046614166490a5a",
+  "mismatches": []
+}

@@ -1,0 +1,9 @@
+{
+  "audited_utc": "2026-09-21T12:03:02.158648+00:00",
+  "expected_tasks": 30,
+  "validated_tasks": 30,
+  "failed_or_missing": [],
+  "hashes_computed": false,
+  "inference_performed": false,
+  "method": "existing artifact/sequence/parameter validation plus exact stored MSA array comparison"
+}

@@ -1,0 +1,16 @@
+[2026-08-22 12:27:47,510] Predicting B-cell epitope propensity on input PDBs using Discotope-3.0
+[2026-08-22 12:27:47,579] Single-chain mode set, will predict PDBs as single chains
+[2026-08-22 12:27:47,589] Single PDB file input (AF-Q925S4-F1-model_v6), extracting single chains to /tmp/tmptuaf46jj
+[2026-08-22 12:27:47,630] Found 1 extracted single chains in /tmp/tmptuaf46jj
+[2026-08-22 12:27:47,630] Pre-processing PDBs using ESM-IF1
+[2026-08-22 12:27:47,631] Read 1 PDBs from /tmp/tmptuaf46jj
+[2026-08-22 12:28:25,956] 1 / 1: Embedding AF-Q925S4-F1-model_v6_A
+[2026-08-22 12:28:27,236] Processing 1 / 1: PDB AF-Q925S4-F1-model_v6_A
+[2026-08-22 12:28:27,844] Loading 100 / 100 XGBoost models from /mnt/d/IL-24(teeth）/work/agent_a_environment/repos/DiscoTope-3.0-35d9f2e/models
+[2026-08-22 12:28:32,897] Loading GAM model from /mnt/d/IL-24(teeth）/work/agent_a_environment/repos/DiscoTope-3.0-35d9f2e/models/gam_len_to_mean.pkl
+[2026-08-22 12:28:32,942] Loading GAM model from /mnt/d/IL-24(teeth）/work/agent_a_environment/repos/DiscoTope-3.0-35d9f2e/models/gam_surface_to_std.pkl
+[2026-08-22 12:28:32,951] Predicting PDBs with DiscoTope-3.0
+[2026-08-22 12:28:32,951] Predicting PDBs ...
+[2026-08-22 12:28:33,059] Saving predictions for AF-Q925S4-F1-model_v6_A.pdb to /mnt/d/IL-24(teeth）/results/05b_discotope_restored/raw/AF-Q925S4-F1-model_v6/AF-Q925S4-F1-model_v6_A_discotope3.csv
+[2026-08-22 12:28:33,129] Predicted 1 / 1 PDB chains extracted from 1 input PDBs, saved to /mnt/d/IL-24(teeth）/results/05b_discotope_restored/raw/AF-Q925S4-F1-model_v6
+[2026-08-22 12:28:33,164] Done!

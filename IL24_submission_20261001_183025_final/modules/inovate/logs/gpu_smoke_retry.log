@@ -1,0 +1,23 @@
+CONVERSION_MAX_ABS_ERROR 0.0
+SMOKE_STEP 0 LOSS 0.6927549839019775
+SMOKE_STEP 1 LOSS 0.6916519403457642
+SMOKE_STEP 2 LOSS 0.6903690099716187
+{
+  "status": "passed",
+  "backbone": "ESM-2 650M",
+  "backend": "PEFT + Transformers",
+  "gpu": "NVIDIA RTX A6000 GPU1",
+  "real_forward_backward_steps": 3,
+  "losses": [
+    0.6927549839019775,
+    0.6916519403457642,
+    0.6903690099716187
+  ],
+  "seconds": 10.943305015563965,
+  "trainable_parameters": 656641,
+  "max_gpu_allocated_gib": 5.01450252532959,
+  "native_conversion_max_abs_error": 0.0,
+  "adapter_gradients_verified": true,
+  "checkpoint_reload_verified": true,
+  "not_performance_evaluation": true
+}

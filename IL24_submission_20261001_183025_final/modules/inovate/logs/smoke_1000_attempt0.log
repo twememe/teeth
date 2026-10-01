@@ -1,0 +1,20 @@
+2026-09-21T17:17:01.686327+00:00 rank=0 Start mode=smoke world=2 deadline=2026-09-21T17:46:23.490247+00:00
+2026-09-21T17:17:04.024365+00:00 rank=1 Start mode=smoke world=2 deadline=2026-09-21T17:46:23.490247+00:00
+2026-09-21T17:20:35.043725+00:00 rank=1 extract train batch=1/32 local_rows=16
+2026-09-21T17:20:35.044536+00:00 rank=0 extract train batch=1/32 local_rows=16
+2026-09-21T17:20:37.710105+00:00 rank=1 extract train batch=21/32 local_rows=336
+2026-09-21T17:20:40.166879+00:00 rank=0 extract train batch=21/32 local_rows=336
+NCCL version 2.21.5+cuda12.4
+2026-09-21T17:20:46.125417+00:00 rank=1 extract validation batch=1/7 local_rows=16
+2026-09-21T17:20:46.201488+00:00 rank=0 extract validation batch=1/7 local_rows=16
+2026-09-21T17:20:57.503770+00:00 rank=0 baseline epoch=1 loss=0.688838 validation={'n': 200, 'positive_fraction': 0.41, 'mcc': 0.20638866520378152, 'f1': 0.5465116279069767, 'spearman_probability_label': 0.19492426711103442, 'threshold': 0.5}
+2026-09-21T17:21:03.226900+00:00 rank=0 LoRA trainable parameters=656641 training={'warm_start': 'Frozen-baseline trained linear head; LoRA adapters start from PEFT default initialization.', 'baseline_checkpoint': '/mnt/pxh/teeth/inovate/output/smoke_esm2_650m_frozen_best.pt', 'baseline_checkpoint_sha256': '5f1880360933c33bcc0562ae54930f939ff939037135e5fbaac1abaa2e187742', 'optimizer': 'AdamW', 'learning_rate': 0.0001, 'global_batch_size': 32, 'gradient_accumulation_steps': 1, 'per_device_batch_size': 16, 'world_size': 2, 'precision': 'fp32 parameters, bf16 autocast on CUDA', 'drop_last': True, 'initial_seed': 42}
+2026-09-21T17:21:03.227824+00:00 rank=1 LoRA trainable parameters=656641 training={'warm_start': 'Frozen-baseline trained linear head; LoRA adapters start from PEFT default initialization.', 'baseline_checkpoint': '/mnt/pxh/teeth/inovate/output/smoke_esm2_650m_frozen_best.pt', 'baseline_checkpoint_sha256': '5f1880360933c33bcc0562ae54930f939ff939037135e5fbaac1abaa2e187742', 'optimizer': 'AdamW', 'learning_rate': 0.0001, 'global_batch_size': 32, 'gradient_accumulation_steps': 1, 'per_device_batch_size': 16, 'world_size': 2, 'precision': 'fp32 parameters, bf16 autocast on CUDA', 'drop_last': True, 'initial_seed': 42}
+2026-09-21T17:21:24.911160+00:00 rank=1 lora epoch=1/1 batch=20/31 step=20 loss=0.687643 grad_norm=1.9891
+2026-09-21T17:21:24.913008+00:00 rank=0 lora epoch=1/1 batch=20/31 step=20 loss=0.718732 grad_norm=1.9891
+2026-09-21T17:21:38.590147+00:00 rank=0 lora epoch=1 completed=True loss=0.6868064067056102 validation={'n': 200, 'positive_fraction': 0.41, 'mcc': 0.0, 'f1': 0.0, 'spearman_probability_label': 0.1984560558644403, 'threshold': 0.5}
+2026-09-21T17:21:38.590555+00:00 rank=1 lora epoch=1 completed=True loss=0.6868064067056102 validation={'n': 200, 'positive_fraction': 0.41, 'mcc': 0.0, 'f1': 0.0, 'spearman_probability_label': 0.1984560558644403, 'threshold': 0.5}
+2026-09-21T17:21:38.590704+00:00 rank=1 LoRA ended: completed_epochs=1 steps=31 selected_checkpoint=True
+2026-09-21T17:21:38.638422+00:00 rank=0 LoRA ended: completed_epochs=1 steps=31 selected_checkpoint=True
+2026-09-21T17:21:38.641985+00:00 rank=0 Finished mode=smoke elapsed_seconds=277.8
+2026-09-21T17:21:38.641993+00:00 rank=1 Finished mode=smoke elapsed_seconds=277.8

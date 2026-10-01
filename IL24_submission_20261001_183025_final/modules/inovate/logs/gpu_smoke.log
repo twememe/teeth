@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/mnt/pxh/teeth/inovate/scripts/convert_and_smoke.py", line 91, in <module>
+    try:main()
+  File "/mnt/pxh/teeth/inovate/scripts/convert_and_smoke.py", line 39, in main
+    assert not missing,missing
+AssertionError: {'embeddings.position_embeddings.weight'}
+
+Traceback (most recent call last):
+  File "/mnt/pxh/teeth/inovate/scripts/convert_and_smoke.py", line 91, in <module>
+    try:main()
+  File "/mnt/pxh/teeth/inovate/scripts/convert_and_smoke.py", line 39, in main
+    assert not missing,missing
+AssertionError: {'embeddings.position_embeddings.weight'}

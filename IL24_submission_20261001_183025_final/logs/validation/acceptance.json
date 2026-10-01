@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "zip_path": "/mnt/ws/teeth/releases/IL24_submission_20260930_223945.zip",
+  "extracted_root": "/mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/IL24_submission_20260930_223945",
+  "manifest_files": 3464,
+  "crc": "passed",
+  "sha256_before_and_after_runs": "passed",
+  "commands": [
+    {
+      "module": "export",
+      "command": [
+        "python3",
+        "/mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/IL24_submission_20260930_223945/run.py",
+        "--module",
+        "export",
+        "--output",
+        "/mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/generated_export"
+      ],
+      "exit_code": 0,
+      "seconds": 0.08,
+      "reference_files_exact_match": [
+        "results.csv"
+      ],
+      "structure_files_exact_match": 10
+    },
+    {
+      "module": "phase1",
+      "command": [
+        "/mnt/ws/teeth/inovate/.venv/bin/python",
+        "/mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/IL24_submission_20260930_223945/run.py",
+        "--module",
+        "phase1",
+        "--output",
+        "/mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/generated_phase1"
+      ],
+      "exit_code": 0,
+      "seconds": 2.478,
+      "reference_files_exact_match": [
+        "candidate_regions.csv",
+        "candidate_stability.csv",
+        "window_15.csv",
+        "window_20.csv",
+        "window_25.csv",
+        "integration/residue_feature_table_3d.csv"
+      ]
+    },
+    {
+      "module": "phase2",
+      "command": [
+        "/mnt/ws/teeth/inovate/.venv/bin/python",
+        "/mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/IL24_submission_20260930_223945/run.py",
+        "--module",
+        "phase2",
+        "--output",
+        "/mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/generated_phase2"
+      ],
+      "exit_code": 0,
+      "seconds": 8.656,
+      "reference_files_exact_match": [
+        "contacts/complex_model_summary.csv",
+        "contacts/interface_contacts.csv",
+        "mechanism/6DF3_model_overlap.csv",
+        "mechanism/6DF3_receptor_contacts.json",
+        "mechanism/T198_project_mapping.json",
+        "mechanism/external_structure_analysis.md",
+        "figures/04_6df3_receptor_overlap.svg"
+      ]
+    },
+    {
+      "module": "esm2",
+      "command": [
+        "/mnt/ws/teeth/inovate/.venv/bin/python",
+        "/mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/IL24_submission_20260930_223945/run.py",
+        "--module",
+        "esm2",
+        "--output",
+        "/mnt/ws/teeth/releases/_validation_work_20260930_223945/extracted_first/generated_esm2"
+      ],
+      "exit_code": 0,
+      "seconds": 11.369,
+      "reference_files_exact_match": [
+        "lora_validation_predictions.csv"
+      ],
+      "loaded_final_base_adapter_head_and_real_sequences": true
+    }
+  ],
+  "new_environment_installation": false,
+  "full_training_and_full_structure_predictions": "not_rerun",
+  "project_source_from_original_directory": false,
+  "third_party_runtime_reused": true,
+  "model_numeric_comparison": "exact CSV bytes for same 8 sequences, bf16, software, hardware and batch shape"
+}

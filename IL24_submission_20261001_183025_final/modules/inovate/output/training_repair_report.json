@@ -1,0 +1,31 @@
+{
+  "prepared_at": "2026-09-22T05:29:07.703260+08:00",
+  "status": "repaired_run_completed",
+  "failure_at": "2026-09-22T05:06:34+08:00",
+  "failure_global_step": 10000,
+  "root_cause": "Validation inference_mode left cached ESM rotary tensors unusable for a subsequent same-length backward pass.",
+  "fix": "Use torch.no_grad for evaluate_model.",
+  "repair_number": 1,
+  "original_failure_archive": "output/recovery_20260922_0520",
+  "regression_tests": "logs/rotary_cache_regression_red.log; logs/training_repair_tests.log (22 passed)",
+  "real_gpu_validation": "output/repair_gpu_probe.json",
+  "optimizer_state_restored": false,
+  "rng_state_restored": false,
+  "data_batches_replayed": false,
+  "training_cutoff_at": "2026-09-22T12:37:56.557353+08:00",
+  "hard_deadline_at": "2026-09-22T13:37:56.557353+08:00",
+  "files": {
+    "scripts/train.py": "28fc775da3636425a073e0392759abcf0f537ade368e6ebba7f03faed87a6d69",
+    "scripts/run_pipeline.py": "5e755357526f38b35ddbf1371bf45b67353a54b780039c0786d6bdd9229a8e3d",
+    "scripts/report.py": "b57894e4f3d4b35d211e712347bc3601a38d12b01621467ffe641bbeaa1fbf30",
+    "training_config.yaml": "793b9488b710cf999921ed89ff714b264cea7e6760cce1c45d5f8251d7f8e8bb"
+  },
+  "production_verified_at": "2026-09-22T05:33:22.132190+08:00",
+  "production_step_at_least": 10060,
+  "controller_pid": 2197470,
+  "child_pid": 2197471,
+  "full_production_validation_after_repair_step": 12000,
+  "post_validation_training_step_verified": 12420,
+  "final_global_steps": 24996,
+  "completed_epochs": 4
+}

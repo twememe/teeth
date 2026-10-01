@@ -1,0 +1,54 @@
+{
+  "time_utc": "2026-09-21T12:27:27.220251+00:00",
+  "task_count": 30,
+  "unique_task_count": 30,
+  "completed_models": 30,
+  "completed_contact_analyses": 30,
+  "numeric_prodigy_observations": 30,
+  "prodigy_no_interface_observations": 0,
+  "local_original_raw_file_counts": {
+    "pdb": 30,
+    "confidence": 30,
+    "pae": 30
+  },
+  "blocked_tasks": 0,
+  "old_files_metadata_checked": 96,
+  "old_files_metadata_changed": [],
+  "old_file_content_hash_verified": false,
+  "hash_note": "No hash computed; unchanged metadata is not a cryptographic content guarantee",
+  "formal_msa_status": "complete",
+  "formal_msa_query_checks": {
+    "A": true,
+    "H": true,
+    "L": true
+  },
+  "mapping_test_log": "D:\\IL-24(teeth）\\phase2_release\\results\\full181_supplement\\sequence_audit\\mapping_tests.log",
+  "full_prediction_acceptance": "passed_30_formal_predictions",
+  "full_downstream_acceptance": "passed",
+  "server_artifact_validation": {
+    "audited_utc": "2026-09-21T12:03:02.158648+00:00",
+    "expected_tasks": 30,
+    "validated_tasks": 30,
+    "failed_or_missing": [],
+    "hashes_computed": false,
+    "inference_performed": false,
+    "method": "existing artifact/sequence/parameter validation plus exact stored MSA array comparison"
+  },
+  "server_baseline_metadata_verification": {
+    "audited_utc": "2026-09-21T12:03:02.219470+00:00",
+    "checked_files": 1166,
+    "changed_files": [],
+    "hash_verified": false,
+    "method": "path/size/mtime; not cryptographic equality"
+  },
+  "local_transfer_validation": {
+    "validated_utc": "2026-09-21T12:08:19.479256+00:00",
+    "accepted_local_models": 30,
+    "artifact_mappings": 90,
+    "original_run_states_modified": false,
+    "remote_weight_checks_replaced_by_local_guess": false,
+    "remote_validation_source": "D:\\IL-24(teeth）\\phase2_release\\results\\full181_supplement\\server_artifact_validation.json",
+    "checks": "exact sequences; finite PDB/confidence/406x406 PAE; source path/size; exact command; confidence-summary linkage",
+    "hashes_computed": false
+  }
+}

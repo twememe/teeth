@@ -1,0 +1,14 @@
+test_ambiguous_missing_residue_is_rejected (__main__.MappingContractTests.test_ambiguous_missing_residue_is_rejected) ... ok
+test_full181_landmarks_preserve_terminal_leucine (__main__.MappingContractTests.test_full181_landmarks_preserve_terminal_leucine) ... ok
+test_legacy_constructs_keep_their_verified_offset (__main__.MappingContractTests.test_legacy_constructs_keep_their_verified_offset) ... ok
+test_legacy_structures_map_with_original_antibody_sequences (__main__.MappingContractTests.test_legacy_structures_map_with_original_antibody_sequences) ... ok
+test_nvs_sequon_is_74_in_full_and_48_in_legacy_constructs (__main__.MappingContractTests.test_nvs_sequon_is_74_in_full_and_48_in_legacy_constructs) ... ok
+test_pdb_renumbering_and_insertion_labels_use_sequence_positions (__main__.MappingContractTests.test_pdb_renumbering_and_insertion_labels_use_sequence_positions) ... ok
+test_sequence_substitution_reports_affected_position (__main__.MappingContractTests.test_sequence_substitution_reports_affected_position) ... ok
+test_truncated_full_sequence_cannot_be_silently_accepted (__main__.MappingContractTests.test_truncated_full_sequence_cannot_be_silently_accepted) ... ok
+test_uniquely_missing_residue_maps_explicitly_and_blocks_complete_acceptance (__main__.MappingContractTests.test_uniquely_missing_residue_maps_explicitly_and_blocks_complete_acceptance) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.041s
+
+OK

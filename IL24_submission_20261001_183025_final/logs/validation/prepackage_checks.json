@@ -1,0 +1,123 @@
+{
+  "commands": [
+    {
+      "name": "export_help",
+      "exit_code": 0,
+      "seconds": 0.049
+    },
+    {
+      "name": "esm2_train_help",
+      "exit_code": 0,
+      "seconds": 2.384
+    },
+    {
+      "name": "esm2_report_help",
+      "exit_code": 0,
+      "seconds": 0.035
+    },
+    {
+      "name": "environment_export",
+      "exit_code": 0,
+      "seconds": 0.053
+    },
+    {
+      "name": "environment_postprocess",
+      "exit_code": 0,
+      "seconds": 0.439
+    },
+    {
+      "name": "environment_esm2",
+      "exit_code": 0,
+      "seconds": 3.915
+    },
+    {
+      "name": "environment_phase2",
+      "exit_code": 0,
+      "seconds": 2.574
+    },
+    {
+      "name": "boltz_help",
+      "exit_code": 0,
+      "seconds": 9.376
+    },
+    {
+      "name": "full181_help",
+      "exit_code": 0,
+      "seconds": 0.071
+    },
+    {
+      "name": "sixdf3_refresh",
+      "exit_code": 0,
+      "seconds": 6.657
+    },
+    {
+      "name": "phase2_summary",
+      "exit_code": 0,
+      "seconds": 0.033
+    },
+    {
+      "name": "phase2_figures",
+      "exit_code": 0,
+      "seconds": 0.04
+    },
+    {
+      "name": "prodigy_real_structure",
+      "exit_code": 0,
+      "seconds": 0.564
+    },
+    {
+      "name": "final_export",
+      "exit_code": 0,
+      "seconds": 0.08
+    }
+  ],
+  "checks": [
+    {
+      "name": "phase1_frozen_ranking",
+      "rows": 5,
+      "fields": 28,
+      "status": "passed",
+      "atol": 1e-12
+    },
+    {
+      "name": "phase1_frozen_features",
+      "rows": 181,
+      "fields": 18,
+      "status": "passed",
+      "atol": 1e-12
+    },
+    {
+      "name": "formal_msa_contacts",
+      "rows": 1899,
+      "fields": 12,
+      "status": "passed",
+      "atol": 1e-12
+    },
+    {
+      "name": "formal_msa_summary",
+      "rows": 30,
+      "fields": 13,
+      "status": "passed",
+      "atol": 1e-12
+    },
+    {
+      "name": "corrected_6df3_reference",
+      "rows": 5,
+      "fields": 8,
+      "status": "passed",
+      "atol": 1e-12
+    },
+    {
+      "name": "export_original_identity_metrics_order_and_structures",
+      "rows": 10,
+      "status": "passed"
+    },
+    {
+      "name": "prodigy_same_pose_same_condition",
+      "route": "native_blind",
+      "seed": "4",
+      "status": "passed"
+    }
+  ],
+  "scope": "release directory before ZIP; final independent extraction still required"
+}

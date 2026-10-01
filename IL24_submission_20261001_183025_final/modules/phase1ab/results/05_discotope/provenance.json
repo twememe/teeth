@@ -1,0 +1,14 @@
+{
+  "discotope_available": false,
+  "status": "MISSING_EXTERNAL_DEPENDENCY_FAILURE",
+  "official_repository": "https://github.com/Magnushhoie/DiscoTope-3.0",
+  "official_commit": "35d9f2e55f97eaba2a7acefbc394db58fb9670bc",
+  "formal_installation_attempts": 2,
+  "third_attempt_performed": false,
+  "substitute_model_used": false,
+  "pseudo_3d_score_constructed": false,
+  "logs": [
+    "logs/install_dt3_attempt1.log",
+    "logs/install_dt3_attempt2.log"
+  ]
+}

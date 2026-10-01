@@ -1,0 +1,38 @@
+[
+  {
+    "file": "AbAgym_README.md",
+    "url": "https://raw.githubusercontent.com/3BioCompBio/AbAgym/87af82ad68bb90921e15fb8b79c7bcb1d05b23d3/README.md",
+    "sha256": "003e64a74651a0a00daf373140317e30d77e9ea9a54c8ee913d8dd99150d739a",
+    "date": "2026-10-01"
+  },
+  {
+    "file": "BepiPred_CLI_README.md",
+    "url": "https://raw.githubusercontent.com/UberClifford/BepiPred-3.0/98bedf2471e04766c981585180c20da7961c6804/README.md",
+    "sha256": "11f17aa3e8c050095522db490ee41bdc3192bf8b78a9c6b69dba78c3fc80fa03",
+    "date": "2026-10-01"
+  },
+  {
+    "file": "bp3_pypi.json",
+    "url": "https://pypi.org/pypi/bp3/0.0.12.7/json",
+    "sha256": "32713877633628fe967aa07ac2c31fc48d0e1b80a15ede8649c9cbcfe324c554",
+    "date": "2026-10-01"
+  },
+  {
+    "file": "AbAgym_tree.json",
+    "url": "https://api.github.com/repos/3BioCompBio/AbAgym/git/trees/87af82ad68bb90921e15fb8b79c7bcb1d05b23d3?recursive=1",
+    "sha256": "d610da2d4536c5025ed3e973c3e420baaf66a6efbad3d0c6e201199435410726",
+    "date": "2026-10-01"
+  },
+  {
+    "file": "BepiPred_Predictor_README.md",
+    "url": "https://raw.githubusercontent.com/UberClifford/BepiPred3.0-Predictor/main/README.md",
+    "sha256": "11f17aa3e8c050095522db490ee41bdc3192bf8b78a9c6b69dba78c3fc80fa03",
+    "date": "2026-10-01"
+  },
+  {
+    "file": "bp3-0.0.12.7-py2.py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/5e/e8/af169b6530555848e7b30a43921ce010eb3db15329234005e02d17105dbc/bp3-0.0.12.7-py2.py3-none-any.whl",
+    "sha256": "6735063426e09db34136f008c7eb76ae243ff1cdc2a63cd984cea6d8e12e880d",
+    "date": "2026-10-01"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "file": "modules/phase1ab/scripts/phase1b_discotope_outputs.py",
+    "original_sha256": "9189fef1fca8041c440f3a39c7ac497afaaa955a44fe45584c800d25a379edce",
+    "release_sha256": "c6a9827d9b99d23f87779db7bc5bba66b5c5e02ec9306628a24ae2c33435df4e"
+  },
+  {
+    "file": "modules/phase1ab/highlevel_phase1a_construct_v2/scripts/structural_boundary.py",
+    "original_sha256": "0ba426af0d92e0a65393fdefcc50a8ee913d423eed1e6a700987e65df87fafbb",
+    "release_sha256": "3e7dee0cf544e4914311236e6bae1df79086397812bef254b5ed6a076bd9725a"
+  },
+  {
+    "file": "modules/phase2/predict.py",
+    "original_sha256": "c8585aab16047509bbec88194d4c3c87b3f4de26a64995ea00cf982c4ce6ef69",
+    "release_sha256": "1af6d033043313bb39c0bf69225a152a89470c6ebfb405995096a9ddc1aadaf6"
+  },
+  {
+    "file": "modules/phase2/scripts/make_phase2_visualizations.py",
+    "original_sha256": "e190d557f23b8754b323d63c176553d1026dd176c75a0a68f97cbaa42fbe54b7",
+    "release_sha256": "2f026fb69afa180bd52c67ef8adc64b72879c5978892bd18954a4a39f9d63459"
+  },
+  {
+    "file": "modules/phase2/scripts/step11_antibody_structure.py",
+    "original_sha256": "f5c683ce7a7f5f317416738cf9b27961c290b98e97828a03a6e23fdd73e593ad",
+    "release_sha256": "19f7f1d3d3c16e94f2d902c5f7ef1c27b38b506eee6926e0cfde8bd7c71db05d"
+  },
+  {
+    "file": "modules/phase2/scripts/summarize_phase2.py",
+    "original_sha256": "c603b953f1bf79e4d5cc8a349f996621e20193e3df544f9b1111f0b74679ede1",
+    "release_sha256": "e47ca706c5e130370bffabdb6beb2c123a68474ce6c7d16d4c43b9490ed3c5d9"
+  },
+  {
+    "file": "modules/phase2/scripts/run_phase2_external_analysis.py",
+    "original_sha256": "98910e8dbda041711aae65986d00f64bb2315c41c3dc983cb68dafa3bd8cb460",
+    "release_sha256": "5571242de178696be6949b423353ee85c077352db1e1fa39a0752eda06eb7af3"
+  },
+  {
+    "file": "modules/phase2/scripts/run_prodigy_formal.py",
+    "original_sha256": "34a505e1fe36e98c533d29a937d77788b8b68ed4ac6d4e86b917dda27d85ae75",
+    "release_sha256": "13f9f6d030d853f28eceeaa898184e6ad9e5440dbd474a9f6cec28b7c2d0314d"
+  },
+  {
+    "file": "modules/phase2/scripts/analyze_boltz_complexes.py",
+    "original_sha256": "8a57a39f765c8b0939fe74fb82abe6dd0a0012586bf826874a22156b4e1b73e7",
+    "release_sha256": "c53dcb160c8cde78ae875a9641f824b80dabeb7e034ce494995b1181fda1de73"
+  },
+  {
+    "file": "modules/inovate/scripts/download_data.py",
+    "original_sha256": "4eee362c16866d17b11a6696f4dd16a7b88ed50d00d7651cc74cb9cb79b4c2a8",
+    "release_sha256": "c57d1898faec91d2e5ae052528e7dd45384fa61a665a8dc59095c00c6c7b5c77"
+  },
+  {
+    "file": "modules/inovate/scripts/train.py",
+    "original_sha256": "0f7183c5f53bca7041751a252383dbcf1daa08da0b2f7d7a0ddb8d3240c64308",
+    "release_sha256": "b2c229336edf3ca638fa34b83afa3b3ee5304956c918b6e7f3ae1171aaebe319"
+  },
+  {
+    "file": "modules/inovate/scripts/report.py",
+    "original_sha256": "37db4cb71240873522b8d59b22e6b41d838f2e7924750014d1ecd9774afad1d9",
+    "release_sha256": "df5861f5ea7280ec27663fdd157507ba728cffa1b800ed9b9c582db35fba49d0"
+  },
+  {
+    "file": "modules/inovate/scripts/convert_and_smoke.py",
+    "original_sha256": "1455300a69d1323c6308159404069630710656bc2d317b9c62e13662f12b60cb",
+    "release_sha256": "0dee14f1e5eead75c872b0fd5dfc3f9e2defd56d24d8dcb758fb0cf0f03bbaaa"
+  }
+]

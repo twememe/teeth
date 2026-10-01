@@ -1,0 +1,94 @@
+{
+  "overall": {
+    "n": 20000,
+    "positive_fraction": 0.4633,
+    "mcc": 0.3858637125275409,
+    "f1": 0.7100100603621731,
+    "spearman_probability_label": 0.4850030852910464,
+    "threshold": 0.5
+  },
+  "by_source": {
+    "abagym": {
+      "n": 3017,
+      "positive_fraction": 0.26416970500497183,
+      "mcc": 0.0,
+      "f1": 0.0,
+      "spearman_probability_label": 0.24516524730192704,
+      "threshold": 0.5
+    },
+    "abbench": {
+      "n": 16820,
+      "positive_fraction": 0.498692033293698,
+      "mcc": 0.40620685242330523,
+      "f1": 0.7353057199211045,
+      "spearman_probability_label": 0.5098674119896542,
+      "threshold": 0.5
+    },
+    "il6": {
+      "n": 163,
+      "positive_fraction": 0.49693251533742333,
+      "mcc": 0.0,
+      "f1": 0.6639344262295082,
+      "spearman_probability_label": 0.10666821116427425,
+      "threshold": 0.5
+    }
+  },
+  "by_source_partner": {
+    "abagym/antibody": {
+      "n": 194,
+      "positive_fraction": 0.6855670103092784,
+      "mcc": 0.0,
+      "f1": 0.0,
+      "spearman_probability_label": 0.010116534207033121,
+      "threshold": 0.5
+    },
+    "abagym/antigen": {
+      "n": 2823,
+      "positive_fraction": 0.23521076868579524,
+      "mcc": 0.0,
+      "f1": 0.0,
+      "spearman_probability_label": 0.17591336821200967,
+      "threshold": 0.5
+    },
+    "abbench/antibody": {
+      "n": 16820,
+      "positive_fraction": 0.498692033293698,
+      "mcc": 0.40620685242330523,
+      "f1": 0.7353057199211045,
+      "spearman_probability_label": 0.5098674119896542,
+      "threshold": 0.5
+    },
+    "il6/antibody": {
+      "n": 163,
+      "positive_fraction": 0.49693251533742333,
+      "mcc": 0.0,
+      "f1": 0.6639344262295082,
+      "spearman_probability_label": 0.10666821116427425,
+      "threshold": 0.5
+    }
+  },
+  "within_source_raw_score_spearman": {
+    "abagym": {
+      "n": 3017,
+      "spearman": 0.4655972336733678,
+      "interpretation": "Numerical raw-score direction; heterogeneous assays may differ."
+    },
+    "abbench": {
+      "n": 16820,
+      "spearman": 0.5371884467512377,
+      "interpretation": "Numerical raw-score direction; heterogeneous assays may differ."
+    },
+    "il6": {
+      "n": 163,
+      "spearman": 0.10666821116427425,
+      "interpretation": "Numerical raw-score direction; heterogeneous assays may differ."
+    }
+  },
+  "checkpoint": "/mnt/pxh/teeth/inovate/output/esm2_650m_frozen_best.pt",
+  "split": "validation",
+  "checkpoint_sha256": "96f464f20930d9558e24dfd4a88c7d7a9db6b36fa3cfb76bbd7d8de1a4ca2940",
+  "data": {
+    "path": "/mnt/pxh/teeth/inovate/data/validation.csv",
+    "sha256": "2b2347b980e1ddc7176b50c2e4ffd2a930b25e7b841964c945a13763cdc51ec6"
+  }
+}

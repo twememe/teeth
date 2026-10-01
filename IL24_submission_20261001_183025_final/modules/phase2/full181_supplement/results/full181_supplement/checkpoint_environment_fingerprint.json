@@ -1,0 +1,29 @@
+{
+  "time_utc": "2026-09-21T09:34:17.754666+00:00",
+  "original_gpu_environment_status": "inaccessible_not_replaced",
+  "original_environment_record": "D:\\IL-24(teeth\uff09\\phase2_release\\docs\\environment_final.json",
+  "original_package_record": "D:\\IL-24(teeth\uff09\\phase2_release\\docs\\pip_freeze_final.txt",
+  "resource_access_evidence": "D:\\IL-24(teeth\uff09\\phase2_release\\results\\full181_supplement\\resource_audit.json",
+  "boltz_source": {
+    "version": "2.2.1",
+    "role": "MSA_client_and_static_CLI_review_only",
+    "installed_for_prediction": false,
+    "wheel": "D:\\IL-24(teeth\uff09\\phase2_release\\results\\full181_supplement\\runtime_sources\\boltz-2.2.1-py3-none-any.whl",
+    "source_url": "https://github.com/jwohlwend/boltz/tree/v2.2.1"
+  },
+  "prodigy_source": {
+    "version": "2.4.0",
+    "role": "static_temperature_and_selection_review_only",
+    "installed_for_scoring": false,
+    "wheel": "D:\\IL-24(teeth\uff09\\phase2_release\\results\\full181_supplement\\runtime_sources\\prodigy_prot-2.4.0-py2.py3-none-any.whl",
+    "default_temperature_C": 25.0,
+    "default_distance_cutoff_A": 5.5,
+    "selection": [
+      "A",
+      "H,L"
+    ]
+  },
+  "hash_status": "not_computed_user_instruction",
+  "live_original_boltz_cli_check": "blocked_original_environment_access",
+  "formal_prediction_execution": "not_started"
+}

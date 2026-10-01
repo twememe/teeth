@@ -1,0 +1,39 @@
+{
+  "construct": "Full181",
+  "condition": "formal_msa",
+  "seed": 3,
+  "source_path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/formal_msa/seed3/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb",
+  "command": [
+    "/home/xinlab/home/ws/phase2/venv/bin/prodigy",
+    "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/formal_msa/seed3/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb",
+    "--selection",
+    "A",
+    "H,L",
+    "--temperature",
+    "25"
+  ],
+  "version": "2.4.0",
+  "artifact_fingerprints": [
+    {
+      "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/formal_msa/seed3/boltz_results_full_blind_msa/predictions/full_blind_msa/full_blind_msa_model_0.pdb",
+      "exists": true,
+      "bytes": 261953,
+      "mtime_ns": 1789990851083541708,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    },
+    {
+      "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/formal_msa/seed3/boltz_results_full_blind_msa/predictions/full_blind_msa/confidence_full_blind_msa_model_0.json",
+      "exists": true,
+      "bytes": 903,
+      "mtime_ns": 1789990851084541697,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    },
+    {
+      "path": "/mnt/il24_full181_supplement_20260921/results/full181_supplement/raw/formal_msa/seed3/boltz_results_full_blind_msa/predictions/full_blind_msa/pae_full_blind_msa_model_0.npz",
+      "exists": true,
+      "bytes": 585311,
+      "mtime_ns": 1789990851113541393,
+      "fingerprint_method": "path_size_mtime_no_hash"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "construct": "Full181",
+  "condition": "formal_msa",
+  "seed": "all_1_15",
+  "source_path": "D:\\IL-24(teeth）\\phase2_release\\results\\full181_supplement\\runtime_sources\\boltz_2_2_1\\boltz\\data\\msa\\mmseqs2.py",
+  "sequences": {
+    "A": "MSWGLQILPCLSLILLLWNQVPGLEGQEFRSGSCQVTGVVLPELWEAFWTVKNTVQTQDDITSIRLLKPQVLRNVSGAESCYLAHSLLKFYLNTVFKNYHSKIAKFKVLRSFSTLANNFIVIMSQLQPSKDNSMLPISESAHQRFLLFRRAFKQLDTEVALVKAFGEVDILLTWMQKFYHL",
+    "H": "EVQLQQSGPELVKPGTSVKVSCKASGYSFTDYNIYWVKQSHGKSLEWIGIDPYNDDTSYNQKFKGKATLTVDKSSSTAFMHLNSLTSEDSAVYYCTRWEITDPWYFDVWGAGTTVTVSS",
+    "L": "DIVMTQSHKFMSISVGDRASIMCKASQDVGTAVSWYQQKPGQSPKALTYWASRRHTGVPDRFTGSGSGTDFTLIIGNVQEDLAAYFCQQYSSYPYTFGGGTKLEIK"
+  },
+  "pairing_scope": "single_Full181_A_H_L_batch",
+  "start_utc": "2026-09-21T08:53:17.257405+00:00",
+  "boltz_source_version": "2.2.1",
+  "host_url": "https://api.colabfold.com",
+  "use_env": true,
+  "use_pairing": [
+    true,
+    false
+  ],
+  "pairing_strategy": "greedy"
+}

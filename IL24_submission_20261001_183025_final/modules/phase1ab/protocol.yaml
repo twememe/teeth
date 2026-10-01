@@ -1,0 +1,55 @@
+project: IL24_phase1_preunblind
+frozen_at: "2026-08-21T00:00:00+08:00"
+reference_length: 181
+numbering: project_1_181
+reference_sequence_sha256: 3642351ae1bb5ca0788598425de59f455672266ed7f434d21ae1bfe654992374
+historical_region_allowed: false
+stop_after_step: 8
+training_allowed: false
+primary_sequence_model: BepiPred-3.0
+primary_sequence_model_mode: vt_pred
+primary_structure_epitope_model: DiscoTope-3.0
+structure_type: alphafold
+surface_method: FreeSASA
+secondary_structure_method: DSSP
+alignment_method: MAFFT
+conservation_method: normalized_Shannon_entropy
+conservation_bootstrap_replicates: 100
+window_lengths:
+  - 15
+  - 20
+  - 25
+primary_consensus: evidence_group_equal_weight
+evidence_groups:
+  epitope:
+    members:
+      - BepiPred_percentile
+      - DiscoTope_percentile
+    aggregation: median
+    weight: 0.3333333333333333
+  surface:
+    members:
+      - RSA_percentile
+    aggregation: identity
+    weight: 0.3333333333333333
+  conservation:
+    members:
+      - Conservation_percentile
+    aggregation: identity
+    weight: 0.3333333333333333
+plddt_role: uncertainty_annotation_only
+low_structure_confidence_threshold: 70
+candidate_overlap_threshold: 0.5
+candidate_count: 5
+forbidden_core_methods:
+  - standalone_ESM_embedding
+  - NetSurfP
+  - AlphaFold_rerun
+  - RFdiffusion
+  - ProteinMPNN
+  - antibody_generator
+  - docking
+  - FoldX
+  - Rosetta
+  - molecular_dynamics
+

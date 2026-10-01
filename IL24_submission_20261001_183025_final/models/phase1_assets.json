@@ -1,0 +1,24 @@
+[
+  {
+    "group": "phase1",
+    "asset": "esm2_t33_650M_UR50D-contact-regression.pt",
+    "bytes": 3687,
+    "sha256": "8ffe6edbd4173dc8d45c2cd5cb27d43aad77ec26b4c768200c58ae1f96693575",
+    "url": "https://dl.fbaipublicfiles.com/fair-esm/regression/esm2_t33_650M_UR50D-contact-regression.pt"
+  },
+  {
+    "group": "phase1",
+    "asset": "esm2_t33_650M_UR50D.pt",
+    "bytes": 2604537549,
+    "sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+    "url": "https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t33_650M_UR50D.pt"
+  },
+  {
+    "group": "phase1",
+    "asset": "esm_if1_gvp4_t16_142M_UR50.pt",
+    "bytes": 1700450121,
+    "sha256": "be4ba36edec22a9bfaa4946ff6b2815f1f19d8a3d7e0eada8b796d5a0eae9fd4",
+    "url": "https://dl.fbaipublicfiles.com/fair-esm/models/esm_if1_gvp4_t16_142M_UR50.pt",
+    "identity_source": "original formal inference provenance; not downloaded this release"
+  }
+]

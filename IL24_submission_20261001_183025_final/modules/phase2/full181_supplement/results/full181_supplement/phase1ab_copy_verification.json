@@ -1,0 +1,15 @@
+{
+  "source_archive": "/mnt/pxh/teeth/phase1ab_transfer_20260921.tar.gz",
+  "destination": "/mnt/pxh/teeth/phase1ab",
+  "archive_bytes": 3075735497,
+  "exit_code": 0,
+  "completed_utc": "2026-09-21T12:20:27.583689+00:00",
+  "phase1_computations_started": 0,
+  "hashes_computed": false,
+  "status": "complete",
+  "regular_files": 24358,
+  "symlinks": 2427,
+  "regular_bytes": 7153573140,
+  "phase2_included": false,
+  "source_inventory_count_and_bytes_match": true
+}

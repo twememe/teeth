@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "model_name": "esm2_t33_650M_UR50D",
+  "classification": {
+    "official_base": "frozen, not merged with adapters",
+    "converted_base": "same frozen float32 backbone in project EsmModel format",
+    "project_weights": "existing unmodified checkpoint state_dict: 64 LoRA tensors plus 2 linear-head tensors",
+    "merged_full_checkpoint": "not used by the formal loading chain"
+  },
+  "official_repository": "https://github.com/facebookresearch/esm",
+  "loader_repository_revision": "0b59d87ebef95948c735b1f7aad463dc6dfa991b",
+  "loader_release": "fair-esm 2.0.0 / v2.0.0",
+  "revision_note": "The Meta binary distribution has S3 object versions, not Git model revisions. Full object versions and SHA256 pin the source content. Loader commit is separate. These are release reproduction pins checked against A, not a guessed historical Git revision.",
+  "source_files": [
+    {
+      "filename": "esm2_t33_650M_UR50D.pt",
+      "url": "https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t33_650M_UR50D.pt?versionId=2G4typsUSwOKQLH35sqPMJ27ZLX1AEJG",
+      "official_url": "https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t33_650M_UR50D.pt",
+      "revision": "2G4typsUSwOKQLH35sqPMJ27ZLX1AEJG",
+      "revision_type": "S3 object version ID reported by official distribution",
+      "bytes": 2604537549,
+      "sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c"
+    },
+    {
+      "filename": "esm2_t33_650M_UR50D-contact-regression.pt",
+      "url": "https://dl.fbaipublicfiles.com/fair-esm/regression/esm2_t33_650M_UR50D-contact-regression.pt?versionId=cEcpCgy3_xlt3NCWsoXOzeIrh7.EDOBu",
+      "official_url": "https://dl.fbaipublicfiles.com/fair-esm/regression/esm2_t33_650M_UR50D-contact-regression.pt",
+      "revision": "cEcpCgy3_xlt3NCWsoXOzeIrh7.EDOBu",
+      "revision_type": "S3 object version ID reported by official distribution",
+      "bytes": 3687,
+      "sha256": "8ffe6edbd4173dc8d45c2cd5cb27d43aad77ec26b4c768200c58ae1f96693575"
+    }
+  ],
+  "reference": {
+    "file": "models/base_reference.json",
+    "file_sha256": "27c06dd6030f3664e1858cc19e1ff1bf34a5557b87990f304d96c96ee1011897",
+    "tensor_sha256": "e5e09eaaac2360a2b6a440a671e90952b6cf363d3cc438d7b5436b368b83a90e",
+    "config_sha256": "12bf54503882a74663ef3116ebca883e3654e894617f1b91243ffc0a6432ccec",
+    "tokenizer_sha256": "af70dccd92257fc12b48ec61d7adefcd3c418c64a5e0709ccff85517e338e91f",
+    "tensor_count": 568,
+    "created_from": "Original formal converted base, loaded independently before rebuilding B; source file SHA in base_reference.json"
+  },
+  "fingerprint_rule": {
+    "version": "IL24-ESM2-TENSORS-v1",
+    "scope": "All EsmModel state_dict entries plus registered named buffers, including nonpersistent position IDs; no omitted runtime parameters",
+    "ordering": "Unicode ascending full key name",
+    "header": "UTF-8 JSON: name,dtype,shape; sorted keys, separators comma/colon, ensure_ascii=True",
+    "framing": "SHA256 begins bytes IL24-ESM2-TENSORS-v1 followed by NUL. Per tensor: 8-byte big-endian header length, header, 8-byte big-endian byte length, C-contiguous original-dtype CPU bytes in little endian. No dtype casts.",
+    "shared_parameters": "Every named alias is included separately; actual A has no shared-storage groups; verify alias groups too",
+    "configuration": "Canonical loaded config.to_dict excluding only _name_or_path; tokenizer vocab/special tokens/IDs/length/padding/truncation/input names; SHA256 canonical JSON"
+  },
+  "conversion": {
+    "entry": "tools/prepare_base.py",
+    "source_entry": "modules/inovate/scripts/convert_and_smoke.py (conversion section only; no smoke training)",
+    "historical_script_sha256": "1455300a69d1323c6308159404069630710656bc2d317b9c62e13662f12b60cb",
+    "prepare_script_sha256": "b29f25b8e685f2254ba065b14a74c13c9e58ba1caf76afcc8c27686577a14597",
+    "dependencies": {
+      "torch": "2.6.0+cu124",
+      "fair-esm": "2.0.0",
+      "transformers": "4.48.3",
+      "safetensors": "0.8.0",
+      "numpy": "1.26.4"
+    },
+    "operations": [
+      "Original native-to-EsmModel parameter-name mapping",
+      "Float32 retained; no quantization or precision reduction",
+      "Contact regression loaded from separate official file",
+      "Original unused absolute-position table initialized to zeros for rotary mode",
+      "Official masked-LM head excluded because the actual EsmModel classifier never loads/uses it; all EsmModel tensors checked strictly",
+      "Frozen historical config and tokenizer files copied; official alphabet verified"
+    ],
+    "verified_raw_official_tensor_dtypes": {
+      "esm2_t33_650M_UR50D.pt": {
+        "torch.float32": 570
+      },
+      "esm2_t33_650M_UR50D-contact-regression.pt": {
+        "torch.float32": 2
+      }
+    }
+  },
+  "configuration_files": [
+    {
+      "filename": "config.json",
+      "sha256": "2bc9912ff72f97b524de06ed717ede24892abe4a98d580ff7821e652bf944c69"
+    },
+    {
+      "filename": "special_tokens_map.json",
+      "sha256": "3aedcd4211c0d43aec4e607ff60a63255f3174ead795e997350f09a5f8cd9ee1"
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "sha256": "0318865d1afb7f445e54e14627aa897982d106af25a00ddf5cf8a8288951ada9"
+    },
+    {
+      "filename": "vocab.txt",
+      "sha256": "0b82cc0a7c7cf9e567b1e5892d793285b9fbae822c964ca48696f7db44598e03"
+    }
+  ],
+  "runtime": {
+    "entry": "run.py --module esm2",
+    "base_loader": "transformers.EsmModel.from_pretrained(add_pooling_layer=False,local_files_only=True)",
+    "base_storage_dtype": "float32",
+    "evaluation": "model.eval(), torch.no_grad(), CUDA bfloat16 autocast, SDPA original project implementation",
+    "seed": 42,
+    "threshold": 0.5,
+    "configuration": "configs/esm2_inference.json",
+    "default_prepared_directory": "external_models/esm2_650m_hf",
+    "project_checkpoint": "modules/inovate/output/esm2_650m_lora_best.pt",
+    "project_checkpoint_sha256": "8610aba1f16f28c0393a1614a40bcd489d2933945a6848d3d105a5c9f6bd2a04",
+    "tokenizer_loader": "transformers.AutoTokenizer.from_pretrained(local_files_only=True), required EsmTokenizer class"
+  },
+  "resources": {
+    "download_bytes": 2604541236,
+    "converted_bytes_approx": 2602926260,
+    "recommended_free_disk_bytes": 6000000000,
+    "recommended_host_ram_bytes": 16000000000,
+    "conversion_gpu_required": false
+  },
+  "verification_policy": "Downloaded official files compare with source SHA256. Converted models compare with independent frozen A tensor/config/tokenizer fingerprints. Serialized converted file SHA is informational, never compared to official source SHA. Expected fingerprints are never generated from the candidate by prepare_base.py.",
+  "equivalence_record": "logs/base_externalization/equivalence.json"
+}

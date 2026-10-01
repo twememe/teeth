@@ -1,0 +1,27 @@
+{
+  "software": "DeepSig",
+  "version": "0.9",
+  "source": "BolognaBiocomp official PyPI package and GitHub model/tool files",
+  "environment": "/home/administrator/.conda/envs/il24-deepsig38",
+  "python": "3.8.20",
+  "tensorflow": "2.2.0",
+  "keras": "2.4.3",
+  "biopython": "1.78",
+  "numpy": "1.18.5",
+  "protobuf": "3.20.3",
+  "organism": "euk",
+  "binary_path": "/home/administrator/.conda/envs/il24-deepsig38/bin/deepsig",
+  "model_dir": "/home/administrator/tools/deepsig-model-root",
+  "model_inventory": {
+    "dnn_euk": 40,
+    "crf_euk": 20,
+    "biocrf_static": true
+  },
+  "input": "inputs/reference_181.fasta",
+  "input_sha256": "22fba9f5ac503af4100bc3a579f3a0fcb59890dedd526bd4a3f5cddb3ab17ce2",
+  "raw_output": "results/01_n_terminal/deepsig_raw/deepsig_il24.gff3",
+  "raw_output_sha256": "feedd7d730282fd22743fb99c716a19c33183b50860c7176d73919c2c5824da3",
+  "return_code": 0,
+  "runtime_seconds": 15.417,
+  "prediction_output_verified": true
+}

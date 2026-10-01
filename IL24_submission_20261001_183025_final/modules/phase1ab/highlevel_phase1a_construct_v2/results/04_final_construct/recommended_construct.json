@@ -1,0 +1,27 @@
+{
+  "status": "RECOMMENDED",
+  "start": 27,
+  "primary_hydrophobic_boundary_band": [
+    154,
+    160
+  ],
+  "primary_peak_endpoint": 158,
+  "primary_peak_consensus": 0.9912280701754386,
+  "primary_band_mean_consensus": 0.9047619047619048,
+  "acceptable_endpoints": [
+    154,
+    155,
+    156,
+    160
+  ],
+  "recommended_end": 160,
+  "recommended_construct": "27-160",
+  "construct_length_aa": 134,
+  "decision_rule": "rightmost structurally acceptable endpoint inside the primary hydropathy band",
+  "length_role": "final within-band tie-break only",
+  "legacy_global_selector_used": false,
+  "phase1b_modified": false,
+  "n_terminal_evidence": "STRONGLY_CONCORDANT",
+  "endpoint_160_acceptable_fraction": 1.0,
+  "structural_sensitivity": "ROBUST"
+}

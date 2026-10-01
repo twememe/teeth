@@ -1,0 +1,5 @@
+"model","bytes","atoms","H_CA","L_CA","mean_CA_Bfactor","min_CA_Bfactor","max_CA_Bfactor","has_END"
+"rank0_unrefined.pdb","142721","1762","119","106","0","0","0","False"
+"rank1_unrefined.pdb","142721","1762","119","106","0","0","0","False"
+"rank2_unrefined.pdb","142721","1762","119","106","0","0","0","False"
+"rank3_unrefined.pdb","141101","1742","119","106","0","0","0","False"

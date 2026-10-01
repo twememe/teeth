@@ -1,0 +1,12 @@
+{
+  "source": "results/14_quality/representatives/native_blind_phase1_informed_representative_seed3.pdb",
+  "destination": "results/14_quality/relaxed/native_blind_phase1_informed_representative_seed3_relaxed.pdb",
+  "restrained_backbone_atoms": 1520,
+  "initial_potential_energy_kj_mol": 907078426.7152714,
+  "final_potential_energy_kj_mol": -42329.25666626848,
+  "platform": "CPU",
+  "forcefield": "amber14-all.xml + implicit/gbn2.xml",
+  "backbone_restraint_k_kj_mol_nm2": 1000.0,
+  "minimization_tolerance_kj_mol_nm": 100.0,
+  "max_iterations": 100
+}

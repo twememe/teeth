@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-09-21T12:34:41.226397+00:00",
+  "root": "/mnt/pxh/teeth",
+  "phase1ab": "/mnt/pxh/teeth/phase1ab",
+  "phase2": "/mnt/pxh/teeth/phase2",
+  "full181_workspace": "/mnt/pxh/teeth/phase2/full181_supplement",
+  "full181_models": 30,
+  "old_models_recomputed_on_GPU": 0,
+  "package_bytes": 75468393,
+  "package_files_size_verified": 1365,
+  "phase1_source_entries_verified": 26785,
+  "phase1_discrepancies": [],
+  "package_discrepancies": [],
+  "hashes_computed": false,
+  "original_execution_provenance_preserved": true,
+  "transfer_note": "Initial SFTP package transfer stalled and partial file was retained; fresh SCP stream completed the unchanged archive in 13 seconds."
+}

@@ -1,0 +1,15 @@
+{
+  "chain_A_present": true,
+  "model_count": 1,
+  "chains": [
+    "A"
+  ],
+  "residue_count": 181,
+  "numbering_continuous_1_181": true,
+  "sequence_length": 181,
+  "reference_length": 181,
+  "sequence_exact_match": true,
+  "missing_residues": [],
+  "missing_backbone_atoms": {},
+  "all_gates_pass": true
+}

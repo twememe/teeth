@@ -1,0 +1,48 @@
+{
+  "actual_epochs_started": 4,
+  "completed_epochs": 4,
+  "global_steps": 24996,
+  "early_stopped": true,
+  "deadline_reached": false,
+  "best_mcc": 0.49908265893815706,
+  "best_checkpoint_exists": true,
+  "status": "complete",
+  "latest_checkpoint": "/mnt/pxh/teeth/inovate/output/esm2_650m_lora_latest.pt",
+  "selected_checkpoint": "/mnt/pxh/teeth/inovate/output/esm2_650m_lora_best.pt",
+  "training": {
+    "warm_start": "Continued LoRA and head weights from the archived checkpoint; original run started from the frozen baseline head.",
+    "baseline_checkpoint": "/mnt/pxh/teeth/inovate/output/esm2_650m_frozen_best.pt",
+    "baseline_checkpoint_sha256": "96f464f20930d9558e24dfd4a88c7d7a9db6b36fa3cfb76bbd7d8de1a4ca2940",
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "global_batch_size": 32,
+    "gradient_accumulation_steps": 1,
+    "per_device_batch_size": 16,
+    "world_size": 2,
+    "precision": "fp32 parameters, bf16 autocast on CUDA",
+    "drop_last": true,
+    "initial_seed": 42,
+    "recovery": {
+      "reason": "Rotary inference-cache failure repaired by no_grad validation",
+      "checkpoint": "/mnt/pxh/teeth/inovate/output/recovery_20260922_0520/esm2_650m_lora_latest.pt",
+      "checkpoint_sha256": "547046198775b2880214af4f47a7ee0fc49b6cac809a1ab0a6382bb898689dd3",
+      "from_global_step": 10000,
+      "prior_epochs_completed": 1,
+      "skipped_batches_in_resumed_epoch": 3751,
+      "optimizer_state_restored": false,
+      "rng_state_restored": false,
+      "note": "Original checkpoint contained adapter/head weights but no optimizer or RNG state. AdamW and RNG restart; deterministic batch order resumes after consumed batches. Resumed-epoch loss averages only post-recovery batches."
+    },
+    "data_identity": {
+      "train": {
+        "path": "/mnt/pxh/teeth/inovate/data/train.csv",
+        "sha256": "ba09e4b491349a9d4c9ff54757644f5a9b9f8a52716537b6bf2a79733e83de3e"
+      },
+      "validation": {
+        "path": "/mnt/pxh/teeth/inovate/data/validation.csv",
+        "sha256": "2b2347b980e1ddc7176b50c2e4ffd2a930b25e7b841964c945a13763cdc51ec6"
+      }
+    }
+  },
+  "dropped_rows_per_epoch": 31
+}

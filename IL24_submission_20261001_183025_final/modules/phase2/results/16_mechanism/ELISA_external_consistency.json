@@ -1,0 +1,54 @@
+{
+  "source": "data/external_materials/ELISA_competition_data.csv",
+  "rows": [
+    {
+      "抗体浓度 (μg/mL)": "0",
+      "1A6-13-8 抑制率 (%)": "0",
+      "同亚型 IgG 抑制率 (%)": "0",
+      "antibody_minus_IgG_pct": 0.0
+    },
+    {
+      "抗体浓度 (μg/mL)": "0.03125",
+      "1A6-13-8 抑制率 (%)": "5.5",
+      "同亚型 IgG 抑制率 (%)": "3.5",
+      "antibody_minus_IgG_pct": 2.0
+    },
+    {
+      "抗体浓度 (μg/mL)": "0.0625",
+      "1A6-13-8 抑制率 (%)": "14",
+      "同亚型 IgG 抑制率 (%)": "4",
+      "antibody_minus_IgG_pct": 10.0
+    },
+    {
+      "抗体浓度 (μg/mL)": "0.125",
+      "1A6-13-8 抑制率 (%)": "30.5",
+      "同亚型 IgG 抑制率 (%)": "4.5",
+      "antibody_minus_IgG_pct": 26.0
+    },
+    {
+      "抗体浓度 (μg/mL)": "0.25",
+      "1A6-13-8 抑制率 (%)": "52.5",
+      "同亚型 IgG 抑制率 (%)": "5",
+      "antibody_minus_IgG_pct": 47.5
+    },
+    {
+      "抗体浓度 (μg/mL)": "0.5",
+      "1A6-13-8 抑制率 (%)": "71",
+      "同亚型 IgG 抑制率 (%)": "5.5",
+      "antibody_minus_IgG_pct": 65.5
+    },
+    {
+      "抗体浓度 (μg/mL)": "1",
+      "1A6-13-8 抑制率 (%)": "82.5",
+      "同亚型 IgG 抑制率 (%)": "6.5",
+      "antibody_minus_IgG_pct": 76.0
+    },
+    {
+      "抗体浓度 (μg/mL)": "2",
+      "1A6-13-8 抑制率 (%)": "89.4",
+      "同亚型 IgG 抑制率 (%)": "7.5",
+      "antibody_minus_IgG_pct": 81.9
+    }
+  ],
+  "interpretation": "concentration-dependent inhibition with low isotype control; assay metadata incomplete"
+}

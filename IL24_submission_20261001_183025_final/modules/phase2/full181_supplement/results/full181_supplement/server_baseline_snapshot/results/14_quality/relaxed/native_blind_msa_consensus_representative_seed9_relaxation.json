@@ -1,0 +1,12 @@
+{
+  "source": "results/14_quality/representatives_msa/native_blind_msa_consensus_representative_seed9.pdb",
+  "destination": "results/14_quality/relaxed/native_blind_msa_consensus_representative_seed9_relaxed.pdb",
+  "restrained_backbone_atoms": 1520,
+  "initial_potential_energy_kj_mol": 9397995.93655432,
+  "final_potential_energy_kj_mol": -46902.993623638235,
+  "platform": "CPU",
+  "forcefield": "amber14-all.xml + implicit/gbn2.xml",
+  "backbone_restraint_k_kj_mol_nm2": 1000.0,
+  "minimization_tolerance_kj_mol_nm": 100.0,
+  "max_iterations": 100
+}

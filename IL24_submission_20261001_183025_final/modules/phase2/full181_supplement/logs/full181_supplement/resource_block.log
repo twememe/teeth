@@ -1,0 +1,18 @@
+2026-09-21 resource audit observations (recorded from actual SSH output)
+SSH: existing gpu-server alias, pxh@172.16.149.161; hostname xinlab-Super-Server.
+Historical phase2 location is recorded in local docs/pip_freeze_final.txt:
+/home/xinlab/home/ws/phase2
+
+Actual stat/ls output:
+drwx------ 12 ws ws 4096 9月 16 22:17 /home/xinlab/home/ws
+ls: 无法访问 '/home/xinlab/home/ws/phase2': 权限不够
+ls: 无法访问 '/home/xinlab/home/ws/phase2/venv': 权限不够
+ls: 无法访问 '/home/xinlab/home/ws/phase2/models/boltz': 权限不够
+ls: 无法访问 '/home/xinlab/home/ws/phase2/models/boltz/boltz1_conf.ckpt': 权限不够
+Command exit code: 1.
+ACL: user::rwx, group::---, other::---; owner/group ws.
+
+The path is historically identified but its current child contents are unknown.
+No inference, checkpoint loading, alternate model, sudo, account switch, chmod,
+or permission workaround was performed. All 30 formal tasks are blocked, not
+failed model runs. GPU idle status does not resolve the resource-access block.

@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "@vocab": "https://mlcommons.org/croissant/context/v0.9.json"
+  },
+  "@type": "https://schema.org/Dataset",
+  "https://schema.org/name": "Antibody_Binding_Benchmark_Dataset",
+  "https://schema.org/description": "A benchmark dataset of antibody variants with experimental binding affinity values, structural complex files, and chain-level metadata in JSON format (metadata.json).",
+  "https://schema.org/license": "https://creativecommons.org/licenses/by/4.0/",
+  "https://schema.org/version": "1.0",
+  "https://schema.org/citation": "Benchmark for Antibody Binding Affinity Maturation and Design. Xinyan Zhao, Yi-Ching Tang, Akshita Singh, Victor J Cantu, KwanHo An, Junseok Lee, Adam E Stogsdill, Ashwin Kumar Ramesh, Zhiqiang An, Xiaoqian Jiang, Yejin Kim",
+  "data": [
+    {
+      "name": "binding_affinity_data",
+      "file": "binding_affinity/",
+      "fileSet": true,
+      "source": {
+        "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/tree/main/binding_affinity"
+      },
+      "features": [
+        {
+          "name": "mut_heavy_chain_seq",
+          "type": "string",
+          "description": "Amino acid sequence of the antibody heavy chain variant."
+        },
+        {
+          "name": "binding_score",
+          "type": "float",
+          "description": "Measured binding affinity values, either -log(Kd) or log enrichment."
+        }
+      ],
+      "recordSet": {
+        "name": "binding_affinity_records",
+        "description": "Each record corresponds to a mutated heavy chain sequence with its measured binding score.",
+        "record": {
+          "mut_heavy_chain_seq": "{{ mut_heavy_chain_seq }}",
+          "binding_score": "{{ binding_score }}"
+        }
+      }
+    },
+    {
+      "name": "complex_structures",
+      "file": "complex_structure/",
+      "fileSet": true,
+      "fileType": "pdb",
+      "source": {
+        "url": "https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset/tree/main/complex_structure"
+      },
+      "features": [
+        {
+          "name": "structure_file",
+          "type": "file",
+          "description": "3D structure file in PDB format for antibody-antigen complexes."
+        }
+      ],
+      "recordSet": {
+        "name": "complex_structure_records",
+        "description": "Each record corresponds to one structure file of an antibody-antigen complex.",
+        "record": {
+          "structure_file": "{{ structure_file }}"
+        }
+      }
+    }
+  ]
+}
